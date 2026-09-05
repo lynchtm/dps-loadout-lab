@@ -18,8 +18,10 @@ keys and profile data are retained so the rename does not discard development se
   pinned data already bundled. Runtime data now comes exclusively from classpath resources.
 * Updated public metadata and documentation, including RuneLite configuration synchronization
   behavior and the distinction between supported calculations and complete current Wiki parity.
+* Replaced the legacy comparison dialog's `printStackTrace` with an SLF4J warning after
+  the remote Hub scanner requested logger-based error reporting.
 
-## Validation
+## Initial preflight validation
 
 * Java 11 build: 449 tests, 448 passed, one optional external fuzz test skipped.
   Three inherited Mockito integration classes remain excluded, as documented in README.
@@ -31,8 +33,10 @@ keys and profile data are retained so the rename does not discard development se
   reserved `net.runelite` namespace; LICENSE and NOTICE match their source files.
 * Inspected the rendered 225-pixel sidebar after the rename; the title fits.
 
-These are local preflight checks, not a claim that the complete remote packaging workflow
-or maintainer review has passed. The submitted PR's checks remain authoritative.
+The remote build subsequently passed on [submission PR #16107](https://github.com/runelite/plugin-hub/pull/16107).
+The separate Hub scanner requested the logging fix above. Each update is tested and
+exported from a clean workspace commit; the PR's current checks remain authoritative.
+Maintainer review is still required.
 
 ## Behavior and review scope
 

@@ -9,6 +9,8 @@ import com.dpscalc.state.PlayerState;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.FontManager;
 import net.runelite.client.ui.components.IconTextField;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -27,6 +29,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class DpsComparisonDialog extends JDialog {
+    private static final Logger log = LoggerFactory.getLogger(DpsComparisonDialog.class);
 
     private final DpsCalcPlugin plugin;
     private final DpsCalcPanel panel;
@@ -547,7 +550,7 @@ public class DpsComparisonDialog extends JDialog {
                         }
                     }
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    log.warn("Unable to calculate loadout comparison", e);
                 }
             }
 
