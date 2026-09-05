@@ -1,0 +1,589 @@
+{
+  "2h Sword": [
+    {
+      "name": "Chop",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Slash",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Smash",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "Banner": [
+    {
+      "name": "Lunge",
+      "type": "stab",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Swipe",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Block",
+      "type": "stab",
+      "stance": "Defensive"
+    }
+  ],
+  "Bladed Staff": [
+    {
+      "name": "Jab",
+      "type": "stab",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Swipe",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Fend",
+      "type": "crush",
+      "stance": "Defensive"
+    },
+    {
+      "name": "Spell",
+      "type": "magic",
+      "stance": "Defensive Autocast"
+    },
+    {
+      "name": "Spell",
+      "type": "magic",
+      "stance": "Autocast"
+    }
+  ],
+  "Bow": [
+    {
+      "name": "Accurate",
+      "type": "ranged",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Rapid",
+      "type": "ranged",
+      "stance": "Rapid"
+    },
+    {
+      "name": "Longrange",
+      "type": "ranged",
+      "stance": "Longrange"
+    }
+  ],
+  "Crossbow": [
+    {
+      "name": "Accurate",
+      "type": "ranged",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Rapid",
+      "type": "ranged",
+      "stance": "Rapid"
+    },
+    {
+      "name": "Longrange",
+      "type": "ranged",
+      "stance": "Longrange"
+    }
+  ],
+  "Thrown": [
+    {
+      "name": "Accurate",
+      "type": "ranged",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Rapid",
+      "type": "ranged",
+      "stance": "Rapid"
+    },
+    {
+      "name": "Longrange",
+      "type": "ranged",
+      "stance": "Longrange"
+    }
+  ],
+  "Gun": [
+    {
+      "name": "Kick",
+      "type": "crush",
+      "stance": "Aggressive"
+    }
+  ],
+  "Bulwark": [
+    {
+      "name": "Pummel",
+      "type": "crush",
+      "stance": "Accurate"
+    }
+  ],
+  "Multi-Melee": [
+    {
+      "name": "Poke",
+      "type": "stab",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Slash",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "Partisan": [
+    {
+      "name": "Stab",
+      "type": "stab",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Lunge",
+      "type": "stab",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "stab",
+      "stance": "Defensive"
+    }
+  ],
+  "Pickaxe": [
+    {
+      "name": "Spike",
+      "type": "stab",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Impale",
+      "type": "stab",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Smash",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "stab",
+      "stance": "Defensive"
+    }
+  ],
+  "Polearm": [
+    {
+      "name": "Jab",
+      "type": "stab",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Swipe",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Fend",
+      "type": "stab",
+      "stance": "Defensive"
+    }
+  ],
+  "Powered Staff": [
+    {
+      "name": "Accurate",
+      "type": "magic",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Accurate",
+      "type": "magic",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Longrange",
+      "type": "magic",
+      "stance": "Longrange"
+    }
+  ],
+  "Powered Wand": [
+    {
+      "name": "Accurate",
+      "type": "magic",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Accurate",
+      "type": "magic",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Longrange",
+      "type": "magic",
+      "stance": "Longrange"
+    }
+  ],
+  "Salamander": [
+    {
+      "name": "Scorch",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Flare",
+      "type": "ranged",
+      "stance": "Rapid"
+    },
+    {
+      "name": "Blaze",
+      "type": "magic",
+      "stance": "Defensive"
+    }
+  ],
+  "Chinchompas": [
+    {
+      "name": "Short fuse",
+      "type": "ranged",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Medium fuse",
+      "type": "ranged",
+      "stance": "Rapid"
+    },
+    {
+      "name": "Long fuse",
+      "type": "ranged",
+      "stance": "Longrange"
+    }
+  ],
+  "Claw": [
+    {
+      "name": "Chop",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Slash",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Lunge",
+      "type": "stab",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "Bludgeon": [
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Pummel",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Smash",
+      "type": "crush",
+      "stance": "Aggressive"
+    }
+  ],
+  "Blunt": [
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Pummel",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "crush",
+      "stance": "Defensive"
+    }
+  ],
+  "Polestaff": [
+    {
+      "name": "Bash",
+      "type": "crush",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "crush",
+      "stance": "Defensive"
+    }
+  ],
+  "Spiked": [
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Pummel",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Spike",
+      "type": "stab",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Block",
+      "type": "crush",
+      "stance": "Defensive"
+    }
+  ],
+  "Staff": [
+    {
+      "name": "Bash",
+      "type": "crush",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Focus",
+      "type": "crush",
+      "stance": "Defensive"
+    },
+    {
+      "name": "Spell",
+      "type": "magic",
+      "stance": "Defensive Autocast"
+    },
+    {
+      "name": "Spell",
+      "type": "magic",
+      "stance": "Autocast"
+    }
+  ],
+  "Axe": [
+    {
+      "name": "Chop",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Hack",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Smash",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "": [
+    {
+      "name": "Punch",
+      "type": "crush",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Kick",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "crush",
+      "stance": "Defensive"
+    }
+  ],
+  "Unarmed": [
+    {
+      "name": "Punch",
+      "type": "crush",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Kick",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "crush",
+      "stance": "Defensive"
+    }
+  ],
+  "Scythe": [
+    {
+      "name": "Reap",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Chop",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Jab",
+      "type": "crush",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "Slash Sword": [
+    {
+      "name": "Chop",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Slash",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Lunge",
+      "type": "stab",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "Spear": [
+    {
+      "name": "Lunge",
+      "type": "stab",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Swipe",
+      "type": "slash",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Pound",
+      "type": "crush",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Block",
+      "type": "stab",
+      "stance": "Defensive"
+    }
+  ],
+  "Stab Sword": [
+    {
+      "name": "Stab",
+      "type": "stab",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Lunge",
+      "type": "stab",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Slash",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "stab",
+      "stance": "Defensive"
+    }
+  ],
+  "Whip": [
+    {
+      "name": "Flick",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Lash",
+      "type": "slash",
+      "stance": "Controlled"
+    },
+    {
+      "name": "Deflect",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ],
+  "Flail": [
+    {
+      "name": "Chop",
+      "type": "slash",
+      "stance": "Accurate"
+    },
+    {
+      "name": "Slash",
+      "type": "slash",
+      "stance": "Aggressive"
+    },
+    {
+      "name": "Block",
+      "type": "slash",
+      "stance": "Defensive"
+    }
+  ]
+}
