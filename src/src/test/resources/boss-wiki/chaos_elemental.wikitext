@@ -1,0 +1,283 @@
+{{External|rs}}
+[[File:Fighting Chaos Elemental.png|thumb|300px|A group of players take on the Chaos Elemental.]]
+Fighting the [[Chaos Elemental]] is a matter of countering its unequip attack by [[Inventory blocking food|keeping your inventory full]] and avoiding [[Player killing|player killers]]. As it attacks with random damage types, you will always be taking damage unless you are [[flinching]] or using the safe spot. Therefore, it is critical to maximise the amount of healing you bring while minimising your risk. [[Dragonhide]] armour is effective. '''Always check your [[Items Kept on Death]] before fighting this boss, and never bring anything you are not willing to lose.'''
+
+==Transportation==
+{{Map|3261,3927|r=23|mtype=square|caption=Chaos Elemental's location.|width=250|height=250|align=right}}
+* If you have completed the hard [[Wilderness Diary]], you can redirect a [[Wilderness Obelisk]] from your [[Player-owned house|house]] or outside the [[Ferox Enclave]] to Level 50 and run west. This is generally the best option, as it does not require any items and is the shortest.
+* Teleporting to the [[Fountain of Rune]] via [[wilderness sword 4]]; requires completion of the [[elite Wilderness Diary]].
+* Using an [[Annakarl Teleport]] or [[Annakarl teleport (tablet)|tablet]] (requires completion of [[Desert Treasure I]]), then running north-west to a gate in the fence, and north-east from there.
+* From [[Edgeville]] bank: bring a [[knife]] or slash weapon, run south and pull the lever, run north, cut the [[web]], then run east past the [[Resource Area]] and [[Scorpion Pit]].
+* From [[Mage Arena]] bank: bring a knife or slash weapon, pull the lever and cut the two webs, then continue east.
+
+==Attacks==
+The Chaos Elemental's primary attack, Discord, is a projectile attack that resembles series of three different colours fired at the target. This attack can deal either [[Magic]], [[Ranged]], or [[Melee]] damage — it is impossible to distinguish what damage is dealt. The projectiles hit into the 20s, but it is still suggested that players utilise [[Protect from Magic]] to reduce the chance of being hit, as the projectile deals magic damage most frequently.
+
+It also has two special attacks. The first one, Confusion, teleports players a short space or several spaces away from it. The second attack, Madness, unequips up to four items that players are wielding, forcing them to take time to re-equip their [[armour]] and [[weapons]] before continuing the battle. Like most monsters, its attacks will continue to follow the player until impact and can travel through walls. The weapon of the player is always prioritised, so when this attack is successful, the player will always have to re-equip their weapon.
+
+{| class="wikitable"
+|-
+! Discord !! Confusion !! Madness
+|-
+| [[File:Chaos Elemental primary attack.png|center|100px]]|| [[File:Chaos Elemental teleporting attack.png|center|100px]]|| [[File:Chaos Elemental disarming attack.png|center|50px]]
+|-
+| [[File:Chaos Elemental - Discord.ogg]]|| [[File:Chaos Elemental - Confusion.ogg]]|| [[File:Chaos Elemental - Madness.ogg]]
+|-
+|Deals [[Melee]], [[Ranged]] or [[Magic]] damage||Teleports the target somewhere nearby||Unequips up to four worn items
+|}
+
+===Countering Madness===
+Bringing [[Inventory blocking food|food that leaves an item behind]], such as [[Guthix rest]], [[curry]], and [[summer pie]]s, will force the Chaos Elemental to never use its Madness attack, as it cannot unequip the player's items if there is no room in the inventory to do so. Players who have completed [[Alfred Grimhand's Barcrawl]] should also disable vial smashing via the [[barbarian guard]] or through the game settings as well, so that finishing a potion will leave the vial behind.
+
+This does, however, give the Chaos Elemental a chance to use its Discord and Confusion attacks in turn, so you could leave just a single empty spot in your inventory for the Chaos Elemental to unequip one of your items instead of up to four. With enough practice this can save some supplies in the long run, since its Madness attack does not deal any damage and replaces the potentially high-hitting Discord attack.
+
+Another strategy to prevent this attack from being launched is to bring a sack (or basket) of potatoes, cabbages, onions, etc. Whenever you need to eat, simply empty the sack or basket after each bite. With practice this can be done quite quickly without interrupting your attacks. Additionally, if you leave an open inventory slot and wait for its Madness attack to be launched, you can empty the sack before the attack lands to fill the empty inventory slot and negate the effect, guaranteeing a zero damage attack.
+
+==Solo Flinching Method==
+[[File:Chaos Elemental safespot.png|thumb|The dead trees at the south-western tip of Rogues' Castle can be used to flinch the Chaos Elemental.]]
+[[File:Chaos Elemental safespots.png|thumb|Stand on the tile marked 1 as the Chaos Elemental spawns, then immediately run to the tile marked 2. It will be able to attack only once before becoming trapped by the safespot.]]
+
+The safest method for soloing the Chaos Elemental is [[flinching]] it with melee. After attracting its attention, the player should run behind a tree to prevent it from attacking. Once its [[Hitpoints]] bar disappears, the player can attack it once before immediately returning behind the tree. This process can be repeated until the Chaos Elemental is defeated.
+
+Any [[melee weapon]] can be used, although weapons with high offensive bonuses are preferable because attack speed does not affect flinching. A full set of [[Verac's equipment]] provides fast kills, but one piece may be lost if the player is [[Smite|smited]] by [[player killer]]s.
+
+A lower-risk setup can use up to three valuable items, such as a [[godsword]], a [[dragon warhammer]] with a [[defender]], or [[Dharok's greataxe]]. Any remaining protected item slots can be used for equipment that increases offensive bonuses. Cheap prayer-boosting equipment, such as [[monk's robes]], can be worn while using offensive prayers and [[Preserve]].
+
+Players not using the flinching method can instead wear a [[Karil's leathertop]], [[Verac's helm]], and [[Verac's plateskirt]], alongside a [[crystal shield]] or [[dragonfire shield]]. A [[rune crossbow]] or [[Armadyl crossbow]] with [[diamond bolts (e)]] can be used to attack from a distance. This setup is effective even below 100 [[Combat level|combat]], but risks several valuable items. Due to the likelihood of encountering player killers, lower-cost alternatives are recommended.
+
+==Solo Safe Spot Method==
+[[File:Chaos elemental safe spot setup locations.png|thumb|Mark the tiles on the left first and then the right second. They should all be on the same north/south line. The image on the right is not oriented north.]]
+
+You can also set up a safe spot where you can freely attack the Chaos Elemental without it being able to attack you back. To use this method efficiently, you will need to mark a column of tiles running north to south, near the [[Wilderness Resource Area]]. 
+
+The northernmost tile to mark lines up with the north-easternmost Yew tree (left image). Staying on this line, run all the way south to the Wilderness fence and mark this southernmost tile (right image). This tile line is the farthest west the Chaos Elemental can attack. 
+
+Now, with the Chaos Elemental near its spawn by the Rogue’s Castle, aggro it and then run straight south to the Wilderness fence. (There is a 2x2 tree near its spawn you can hide behind to avoid a few hits as you lure it south). With the Chaos Elemental still trying to attack you, run west along the Wilderness fence—staying as close to the fence as possible—until you reach your marked tile. Wait here until the Chaos Elemental catches up to you. As soon as you see the Elemental, run directly north. Once you get to your two northernmost tiles, stop and wait for the Chaos Elemental to catch up to you again. [[File:Chaos elemental safe spot complete.png|thumb|alt=An example of how it will look when using this safespotting method. Note the marked tile is on the same north/south line as our other marked tiles|An example of how it will look when using this safespotting method. The player can attack the Chaos Elemental, but the Chaos Elemental will not fight back. The marked tiles are on the same north/south line as the previously marked tiles.]]When you can see the Chaos Elemental, run directly towards it. You can do this by attacking it. As you get close to melee range, step one tile to the west and attack the Chaos Elemental from its western side. If you have done this correctly, the Chaos Elemental will be floating on your tile line (which, again, is as far as it can roam or attack) and the player will be one tile west of that line. At this point, you can freely attack the Chaos Elemental and it will never attack you back as long as you do not cross back over the tile line.    
+
+It is important to note that the red teleportation attack when running from the southern to northern tiles can teleport you west of the attackable line. If this happens and you're not able to re-aggro the Chaos Elemental before it starts resetting, you may have to wait for the Chaos Elemental to return to the spawn area and restart the lure entirely.
+
+This method can be very useful for lower-leveled or lower-geared accounts (such as irons). It can take some practice and trial and error to set up, but once the lure is complete you can finish the kill almost entirely AFK and much faster than flinching every hit with a tree.
+
+You should plan to bring food with you, as you will be attacked by the Chaos Elemental on average 10 times during the setup. Even low healing food, such as Tuna, may be sufficient.
+
+If you have access to stamina potions or energy potions, they can be useful if you have to restart your lure, as this method does require a lot of run energy.
+
+==Team==
+Players fighting with [[Melee]] should take armour with high [[Ranged]] and Melee [[Defence]], such as [[Dragon equipment|Dragon]] or [[Barrows equipment]], and use [[Protect from Magic]]. As there's a strong chance to encounter [[player killers]], it would be better to stick to lower-cost gear to alleviate the risk.
+
+==Suggested skills==
+<poem>
+*{{SCP|Attack|80+}}
+*{{SCP|Strength|80+}}
+*{{SCP|Defence|70+}}
+*{{SCP|Ranged|75+}}
+*{{SCP|Prayer|37+}} (70 Recommended)
+</poem>
+
+==Equipment==
+<tabber>
+Ranged =
+
+Only bring the 3 or 4 valuable items from this setup into the wilderness unless you are experienced enough to easily escape. The risk of getting killed by pkers is high and there is always the possibility of getting [[smited]]. Activate [[Protect from Magic]] and [[Protect Item]] if high risk, or just use the [[safespot]]. Don't linger in the same world for too long as there's a high chance to encounter [[player killers]].
+
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}}
+|head2 = {{plink|Blessed coif|pic=Armadyl coif}}
+|head3 = {{plink|Karil's coif}}
+|head4 = {{plink|Archer helm}}
+|head5 = {{plink|Snakeskin bandana}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of glory}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Crystal body}}{{efn|name=crystal|If using [[Bow of Faerdhinen]]. Ensure all crystal components are protected items}}
+|body3 = {{plink|Blessed body|pic=Ancient d'hide body}}
+|body4 = {{plink|Black d'hide body}}
+|body5 = {{plink|Red d'hide body}}
+|legs1 = {{plink|Blessed chaps|pic=Ancient chaps}}
+|legs2 = {{plink|Crystal legs}}{{efn|name=crystal}}
+|legs3 = {{plink|Black d'hide chaps}}
+|cape1 = {{plink|Dizana's quiver}}{{efn|name=risk|If risked, lock with a [[trouver parchment]]}}
+|cape2 = {{plink|Ava's assembler}}
+|cape3 = {{plink|Ava's accumulator}} / {{plink|Ardougne cloak 4}} if using [[Webweaver bow|Webweaver]]/[[Craw's bow]]
+|cape4 = {{plink|Ranging cape(t)}}
+|cape5 = {{plink|Vestment cloak|pic=Saradomin cloak}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands3 = {{plink|Black d'hide vambraces}}
+|weapon1 = {{plink|Webweaver bow}} / {{plink|Craw's bow}}{{efn|Craw's bow is very slightly better in performance compared to the twisted bow, but due to it consuming ether, it is significantly more expensive and risky to use. However, it is also significantly cheaper to obtain than the twisted bow.}}
+|weapon2 = {{plink|Twisted bow}}
+|weapon3 = {{plink|Bow of Faerdhinen}}{{efn|name=crystal}}
+|weapon4 = {{plink|Toxic blowpipe}}
+|weapon5 = {{plink|Armadyl crossbow}}
+|shield1 = None if using a two-handed weapon
+|shield2 = {{plink|Book of Law}}
+|shield3 = {{plink|Unholy book}}
+|shield4 = {{plink|Black d'hide shield}}
+|shield5 = {{plink|Book of Balance}}
+|ammo1 = {{plink|Rada's blessing 4}}{{efn|name=blessing|If using [[Webweaver bow|Webweaver]]/[[Craw's bow]], [[Toxic blowpipe]] or [[Bow of Faerdhinen]]}}
+|ammo2 = {{plink|Rada's blessing 3}}{{efn|name=blessing}}
+|ammo3 = {{plink|Dragon arrow}} / {{plink|Amethyst arrow}}
+|ammo4 = {{plink|Diamond bolts (e)}}
+|ammo5 = {{plink|Broad bolts}}
+|feet1 = {{plink|Mixed hide boots}}
+|feet2 = {{plink|Snakeskin boots}}
+|feet3 = {{plink|Fremennik sea boots 4}}
+|ring1 = {{plink|Ring of suffering (i)}} (unless safespotting)
+|ring2 = {{plink|Ring of shadows}}
+|ring3 = {{plink|Ring of wealth (i)}} / {{plink|Explorer's ring 4}}
+}}
+{{Inventory|align=right
+|1= Divine ranging potion(4)
+|2= Blighted super restore(4)
+|3= Blighted super restore(4)
+|4= Blighted super restore(4)
+|5= Looting bag
+|6= Anti-venom
+|7= Summer pie
+|8= Summer pie
+|9= Summer pie
+|10= Summer pie
+|11= Summer pie
+|12= Summer pie
+|13= Summer pie
+|14= Summer pie
+|15= Summer pie
+|16= Summer pie
+|17= Summer pie
+|18= Summer pie
+|19= Summer pie
+|20= Summer pie
+|21= Summer pie
+|22= Summer pie
+|23= Summer pie
+|24= Summer pie
+|25= Summer pie
+|26= Summer pie
+|27= Summer pie
+|28= Summer pie
+}}
+{{notelist}}
+
+==Inventory==
+*1 [[Divine ranging potion]]
+*3-5 [[Blighted super restore]]s
+*[[Looting bag]] (optional)
+*[[Summer pie]]s or [[curry]] as food so your items do not get unequipped
+**Alternatively, [[Armadyl brew]]s can be used in place of both food and the ranging potion, as they are cheap, heal more than any hard food per inventory slot, and boost your Ranged level. They also do not cause any attack delay.
+**However, keep in mind that you may wish to bring more blighted super restores, as the brews drain your Defence and Magic levels. You must also remember to toggle off automatically smashing vials as so to not leave empty spaces in the inventory.
+*[[Anti-venom]] or [[Antidote++]] to remove venom from pkers
+*Optionally, you can bring a [[Ring of wealth (i)]] switch for a doubled chance at a [[Clue scroll (elite)]].
+
+|-|
+
+Melee=
+
+Only bring the 3 or 4 valuable items from this setup into the wilderness unless you are experienced enough to easily escape. The risk of getting killed by pkers is high and there is always the possibility of getting [[smited]]. Activate [[Protect from Magic]] and [[Protect Item]] if high risk, or just use the [[safespot]]. Don't linger in the same world for too long as there's a high chance to encounter [[player killers]].
+
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}}
+|head2 = {{plink|Helm of Neitiznot}}
+|head3 = {{plink|Verac's helm}}{{efn|name=Verac's|If using full [[Verac the Defiled's equipment|Verac's set]]}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|neck5 = {{plink|Amulet of power}} / {{plink|Amulet of strength}}
+|cape1 = {{plink|Infernal cape}}{{efn|name=risk|If risked, lock with a [[trouver parchment]]}}
+|cape2 = {{plink|Mythical cape}} / {{plink|Fire cape}}{{efn|name=risk|If risked, lock with a [[trouver parchment]]}}
+|cape3 = {{plink|Ardougne cloak 4}}
+|cape4 = {{plink|Cape of Accomplishment (t)|pic=Strength cape(t)}}
+|cape5 = {{plink|Vestment cloak|pic=Saradomin cloak}}
+|body1 = {{plink|Black d'hide body}}
+|body2 = {{plink|Proselyte hauberk}}
+|body3 = {{plink|Verac's brassard}}{{efn|name=Verac's}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Rune gloves}}
+|hands3 = {{plink|Combat bracelet}}
+|legs1 = {{plink|Black d'hide chaps}}
+|legs2 = {{plink|Proselyte cuisse}}
+|legs3 = {{plink|Verac's plateskirt}}{{efn|name=Verac's}}
+|weapon1 = {{plink|Ursine chainmace}} / {{plink|Viggora's chainmace}}
+|weapon2 = {{plink|Osmumten's fang}}
+|weapon3 = {{plink|Noxious halberd}}
+|weapon4 = {{plink|Abyssal tentacle}} / {{plink|Abyssal whip}}
+|weapon5 = {{plink|Verac's flail}}{{efn|name=Verac's}}
+|shield1 = {{plink|Avernic defender}}{{efn|name=risk|If risked, lock with a [[trouver parchment]]}}
+|shield2 = {{plink|Dragon defender}}{{efn|name=risk|If risked, lock with a [[trouver parchment]]}}
+|shield3 = {{plink|Dragonfire shield}}
+|shield4 = {{plink|Rune defender}}{{efn|name=risk|If risked, lock with a [[trouver parchment]]}}
+|shield5 = {{plink|Unholy book}}
+|special1 = {{plink|Ursine chainmace}}
+|special2 = {{plink|Voidwaker}}
+|special3 = {{plink|Dragon claws}}
+|special4 = {{plink|Dragon dagger(p)|txt = Dragon dagger (p++)}}
+|special5 = {{plink|Crystal halberd}}
+|feet1 = {{plink|Dragon boots}}
+|feet2 = {{plink|Rune boots}}
+|feet3 = {{plink|Climbing boots}}
+|ring1 = {{plink|Ultor ring}} / {{plink|Ring of suffering (i)}} (unless safespotting)
+|ring2 = {{plink|Berserker ring (i)}}
+|ring3 = {{plink|Ring of shadows}}
+|ring4 = {{plink|Explorer's ring|pic = Explorer's ring 4}} / {{plink|Ring of recoil}}
+|ring5 = {{plink|Ring of wealth (i)}}
+}}
+{{notelist}}
+{{Inventory|align=right
+|1= Divine super combat potion(4)
+|2= Blighted super restore(4)
+|3= Blighted super restore(4)
+|4= Blighted super restore(4)
+|5= Voidwaker
+|6= Looting bag
+|7= Anti-venom(4)
+|8= Summer pie
+|9= Summer pie
+|10= Summer pie
+|11= Summer pie
+|12= Summer pie
+|13= Summer pie
+|14= Summer pie
+|15= Summer pie
+|16= Summer pie
+|17= Summer pie
+|18= Summer pie
+|19= Summer pie
+|20= Summer pie
+|21= Summer pie
+|22= Summer pie
+|23= Summer pie
+|24= Summer pie
+|25= Summer pie
+|26= Summer pie
+|27= Summer pie
+|28= Summer pie
+}}
+
+==Inventory==
+*Special attack weapon like [[Voidwaker]]
+*1 [[Divine super combat potion]] or [[Super set]]
+*2-3 [[Blighted super restore]]s
+*[[Looting bag]] (optional)
+*[[Anti-venom]] or [[Antidote++]] to remove venom from pkers
+*[[Summer pie]]s or [[curry]] as food so your items do not get unequipped
+
+</tabber>
+
+==Avoiding and escaping player killers==
+Due to the Chaos Elemental's location in [[Multicombat area|multi-combat]] deep [[Wilderness]], you will likely encounter [[player killers]] in both teams and as individuals. The nearby [[Rogues' Castle]] is useful for attackers to hop worlds (sometimes using low-level scouts) and spot potential victims, as the projectiles are visible beyond normal viewing range. It may be effective to [[World switching|switch worlds]] between kills to potentially avoid PKers, although Chaos Elemental's short respawn time of 8.4s leaves little room for switching worlds.
+
+If you are spotted and/or attacked, quickly select and pursue an escape option:
+
+* A [[Wilderness Obelisk]] (Level 50) lies on the south-east side of the [[Rogues' Castle]]. By default the obelisks' destination is random, but it is likely you will be teleported to relative safety such as single-way combat or a lower Wilderness level. Completing the hard [[Wilderness Diary]] allows you to select a destination (the level 13 obelisk being the safest, as it is close to the [[Ferox Enclave]]). '''Warning: You cannot use obelisks while under the effect of [[Tele Block]].'''
+*The [[Rogues' Castle]] has many doorways and staircases that can be used to confuse and shake loose of an attacker. Moving unpredictably and closing doors behind you can buy you time to log out. This is less effective when being chased by a team.
+*The [[Resource Area]] to the west requires {{Coins|7500}} to enter, or less depending on completion of the [[Wilderness Diary]] ({{Coins|6000}} for medium, {{Coins|3750}} for hard, or {{Coins|0}} for elite). If your attacker(s) did not bring coins and lacks the elite diary perk, you can escape them here.
+*The [[Magic axe hut]] to the north-west requires a [[Lockpick]] and {{SCP|Thieving|23}} to enter. Although there are aggressive [[Magic axe|magic axes]] contained within which prevent you from logging out, it is in single-way combat. It is very likely that either you or your attacker will be attacked by an axe, which may allow you to [[Logout_button#X-logging|X-log]]. There are also two entrances/exits, which can help you create space.
+*The [[Deserted_Keep#Teleport_lever|Deserted Keep]] to the west has a teleport lever which can take you to [[Ardougne]] (or [[Edgeville]], if the easy [[Wilderness Diary]] is completed). A [[web]] blocks the entrance, so bring a [[knife]] or slash weapon to open it. '''Warning: You cannot use the lever while under the effect of [[Tele Block]].'''
+
+If it isn't likely that you will survive, prioritise keeping your [[prayer points]] so that you can keep [[Protect Item]] active. If you run out of prayer restoration, it may be advisable to accept your fate rather than continue eating food, as taking damage allows your attackers to potentially [[smite]] you for your fourth valuable item. Consider bringing a [[Falador shield]] for a last-resort prayer restoration option, as it is free to reobtain. The [[Demonic Ruins]] to the south also passively restore 1 prayer point every 3 seconds, which may provide a slim chance of reactivating Protect Item.
+
+[[Category:Strategies]]
+[[Category:Wilderness]]

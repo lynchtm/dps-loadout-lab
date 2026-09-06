@@ -1,0 +1,581 @@
+{{External|rs}}
+[[File:Fighting K'ril Tsutsaroth.png|thumb|A group of players fighting K'ril Tsutsaroth and his bodyguards.]]
+This is a guide on killing [[K'ril Tsutsaroth]]. K'ril Tsutsaroth is commonly killed for his drops which include the [[Zamorakian spear]], [[Staff of the Dead|staff of the dead]] and the [[Zamorak hilt]]. He can be fought with any of the three [[Combat style|combat styles]] and either solo or in a team.
+
+The Zamorakian encampment, including K'ril Tsutsaroth's chamber, appears shadowy and dark; the farther down players venture, the darker it becomes, becoming near pitch dark when outside the door leading to his chamber and inside itself. This is purely a visual change and has no actual gameplay effects. The shadow effect can be removed by consuming a [[Saradomin's light]].
+
+==Requirements==
+*Completion of [[Death Plateau]] and the start of [[Troll Stronghold]] to the point where you defeat [[Dad]]
+*Alternatively, [[Ghommal's hilt]] can be used to teleport to [[Trollheim]] without requiring either quest
+*One [[rope]] is required to access the [[God Wars Dungeon]] for the ''first'' time.
+*70 [[Hitpoints]] (boostable) are required to access Zamorak's Fortress.
+
+==Mechanics==
+===Attack Styles===
+K'ril attacks with both Magic and Melee:
+
+*K'ril swipes at his target with his scimitars for his melee attack, dealing up to 46 damage. The attack also has a chance of inflicting [[poison]], even through [[Protect from Melee]], with damage starting at 16. He has a 2/3 chance of performing a melee attack.
+*K'ril raises both of his scimitars in the air before slamming them down as his magic attack, emitting a magical shock wave at his target. This attack deals a minimum of 10 damage and a maximum of 30 damage if it hits. He has a 1/3 chance of performing this attack.
+*Both attacks are single-target.
+
+===Prayer Smash===
+K'ril has a 1/9 chance of using this attack instead of a melee hit if his target is using [[Protect from Melee]]. He will yell {{Overhead|YARRRRRRR!}} when using his prayer smash, '''always''' dealing 35-49 damage and draining his target's current prayer points by half, rounded down. Using a [[Spectral spirit shield]] halves the prayer drain to 1/4.
+To fully avoid this attack, the tank should use [[Protect from Magic]] and maximize Melee defence; this also prevents damage being taken from the Magic-using [[Balfrug Kreeyath]]. This strategy will result in a much longer trip with your team.
+
+===Bodyguards===
+K'ril is protected by three demons:
+
+*[[Balfrug Kreeyath]], the magic bodyguard; a [[black demon]] that launches fire spells at his target, dealing up to 16 damage.
+*[[Tstanon Karlak]], the melee bodyguard; a [[greater demon]] that uses melee, clawing his target, dealing up to 15 damage.
+*[[Zakl'n Gritch]], the ranged bodyguard; a [[lesser demon]] that throws snowballs at his target, dealing up to 21 damage.
+
+The bodyguards will focus on a random player in the room when K'ril is killed, regardless of whoever deals the killing blow.
+
+==Strategy==
+===General strategy===
+K'ril attacks with both melee and magic, but his magic attack can only be used against players in melee range. As such, if using melee, it is recommended for solo players (or in groups, the tank) to wear armour with high magic defence and use [[Protect from Melee]] during the kill. While this approach does leave players susceptible to his occasional prayer smash attack, it is still generally more efficient than doing the opposite.
+
+After K'ril has been killed, the minions each focus on a random player. Because of this, players should adjust their prayers accordingly and focus on killing minions which are focusing on the same player. As K'ril and his minions drop ashes, bones to peaches cannot be used, and players should manage their hitpoints adequately. In group encounters, using Guthan's is recommended; in solo encounters, [[Blood Barrage]] is more effective. When casting Blood Barrage, make sure to stack [[Tstanon Karlak|Tstanon]] on [[Zakl'n Gritch|Zakl'n]] so both demons can be hit by the spell. Bringing water runes (or a [[Kodai wand]]) is optional for [[Ice Barrage]], but can freeze [[Tstanon Karlak|Tstanon]] in place so the player doesn't have to flick between ranged and melee prayers as frequently.
+
+Because bones to peaches cannot be used, it is worthwhile to bring runes for [[Boost Potion Share]] and [[Stat Restore Pot Share]] to extend trips when going in a team. If not using Lunar spells, players can use [[Ward of Arceuus|Ward of Arceuus]] to reduce damage taken, and [[Death Charge]] to boost special attack energy. In a team it is helpful (but not required) for one or more players to be on task.
+
+=== Solo ===
+A popular strategy for soloing K'ril is using a [[scorching bow]] with a [[lightbearer]]. The player can use the bow's [[Special attacks|special attack]] to bind K'ril in place and avoid all damage from him. This allows for long trips of up to 20-40 kills.
+
+Players should pray [[Protect from Missiles]] to avoid damage from Zakl'n Gritch, and start each kill in the room's north-west corner (as this is far from where Tstanon Karlak spawns). One special attack from the bow will have the bind last for six attacks in total, so use it again on the seventh attack to reapply the bind, and move counterclockwise around the room to kite him and Tstanon Karlak. With good stats and gear, players should never run out of special attack energy, especially when on-task. Once K'ril is dead, kill Balfrug Kreeyath and then stack the other two minions to heal from [[Blood Barrage]].
+
+For those without access to a lightbearer, [[Death Charge|death charge]] can also allow for enough special attack energy replenishment for a long trip. As this requires the [[Arceuus spellbook]], blood barrage will not be available and alternative healing sources such as [[Guthan the Infested's equipment|Guthans]] or more brews will be needed,  resulting in shorter trips.
+
+Another strategy is to use the [[Tumeken's shadow]] in conjunction with the 5:0 method. Tumeken's shadow with max mage gear deals significantly higher DPS than other solo methods, but requires significantly more concentration, being tick perfect, and high click precision. Players can expect upwards of 30 kills per hour using this method, and if done correctly, can expect trips to last indefinitely if using a private instance to keep supply drops from despawning.
+
+===Tank===
+For tanks, [[K'ril Tsutsaroth]] can be extremely dangerous when using Protect from Melee, as there is a very slim chance to take incredibly high damage should K'ril's prayer slam and both Balfrug and Zakl'n hit on the same or near ticks. For this reason, the tank should  bring typical tank setup as with Graardor. 
+
+Another alternative is to focus solely on melee and ranged defence, using Protect from Magic to cover the magic weakness, as K'ril will not be able to use his prayer slam, Balfrug becomes completely harmless while Tstanon and Zakl'n will have trouble hitting the player. This in turn means K'ril's melee attacks are the only thing to watch out for as a tank.
+
+This defensive setup is particularly favourable using a full set of [[justiciar armour]] with [[echo boots]] or [[guardian boots]]; while the player will miss out on a slayer helm's bonuses if on a task, justiciar provides the best melee defence, which can be combined with an [[elysian spirit shield]] or [[dragonfire shield]] for very high defensive bonuses, complementing the set's passive damage reduction bonus, with the former adding onto it. The glove and amulet slots aren't as of much concern for a defensive setup, and should be focused on improving the player's accuracy.
+
+Similar to tanking General Graardor, the player should hit K'ril Tsutsaroth twice for every hit he inflicts on them to avoid as much damage as possible. This means that a player using [[Melee]] will be hit every 8 [[game tick]]s, while a player using [[Ranged]] with an [[Armadyl crossbow]] will be hit every 10 game ticks. In a solo scenario, using [[Melee]] practically is the only viable option due to the high damage-per-second of the [[arclight]] compared to the Armadyl crossbow, however in a team, [[Ranged]] can also be used in combination with Armadyl armour for greater magic defence. Generally soloing K'ril Tsutsaroth is only viable on a Slayer task, and the same strategy should be used for soloing Graardor, see [[General Graardor/Strategies|here]]. Finally the tank may use the [[Lunar spell]] [[Vengeance]] to occasionally reflect high amounts of damage back onto K'ril Tsutsaroth. Further details on each tanking strategy are given in the equipment tabs.
+
+===Attacker===
+At the beginning of the fight, the attackers should all stand in one of the corners near the altar, as this both is the furthest away you can get from [[K'ril Tsutsaroth]]'s spawn and allows prayer restoration in the last few seconds before the boss respawns. Attackers should only attack K'ril Tsutsaroth once the tank has hit him, this is especially important when the tank is using ranged as it takes a little more time for a ranged attack to hit K'ril Tsutsaroth compared to a melee attack. As K'ril Tsutsaroth's attacks only hit the tank, the attackers should pray against whichever minion does the most damage to their respective combat style, and wear armour to tank damage against the other combat styles. This effectively means that attackers take relatively small amounts of damage during kills, especially if their [[Defence]] is high. Players using [[Melee]] should use [[Protect from Magic]], players using [[Ranged]] should use [[Protect from Missiles]]. It is important to note that should K'ril Tsutsaroth focus on you, the armour you are wearing is generally quite bad at tanking him and you will take excessive amounts of damage. Should this happen, players using [[Melee]] should use [[Protect from Magic]], players using [[Ranged]] should use [[Protect from Melee]]. All attackers should also bring an antidote++, both for this eventuality and to share with the tank should they run out of antidotes.
+
+==Suggested skills==
+Tank:
+*{{SCP|Hitpoints|90+}}
+*{{SCP|Defence|90+}}
+*{{SCP|Magic|85+}}
+*{{SCP|Attack|85+}} and {{SCP|Strength|85+}} or {{SCP|Ranged|85+}}
+*{{SCP|Prayer|70+}}
+
+Attacker:
+*{{SCP|Hitpoints|80+}}
+*{{SCP|Defence|80+}}
+*{{SCP|Magic|75+}}
+*{{SCP|Attack|85+}} and {{SCP|Strength|85+}} or {{SCP|Ranged|85+}}
+*{{SCP|Prayer|70+}}
+
+==Killcount==
+The 40 (35/30/25/15) [[Zamorak|Zamorakian]] followers [[kill count]] (reduced kill count requirement with the hard/elite/master/grandmaster combat achievements respectively) is quite easy to achieve although it will take longer than [[Bandos]]. There are several tips to get a quick kill count: 
+
+*Main room: The place north and east of the rope has Zamorakian followers fighting both Bandosians in the north and Saradominists in the east. There are two [[imp]]s which can be quickly killed, and other followers such as [[bloodveld]]s, [[gorak]]s, [[Werewolf|werewolves]] and [[icefiend]]s battling [[spiritual warrior]]s and [[spiritual mage]]s.
+*Zamorak's Fortress: There are four imp spawns which can be quickly killed for kill count. Switching back and forth between two worlds while killing the imps with ranged attacks is the fastest way to gain kill count.
+
+==Equipment==
+<tabber>
+Ranged = The scorching bow's special attack is highly recommended as using it on K'ril Tsutsaroth allows players to avoid most damage, extending trip length, along with the bow also providing the highest Ranged DPS.
+
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}} (task only)
+|head2 = {{plink|Masori mask (f)}}
+|head3 = {{plink|Armadyl helmet}}
+|head4 = {{plink|Crystal helm}}{{efn|With [[Bow of Faerdhinen]] and full [[crystal armour]]|name=bowfa}}
+|head5 = {{plink|Void ranger helm}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}}
+|cape3 = {{plink|Max cape}}
+|cape4 = {{plink|Ava's accumulator}}
+|cape5 = {{plink|Ranging cape}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Armadyl chestplate}}
+|body3 = {{plink|Crystal body}}{{efn|name=bowfa}}
+|body4 = {{plink|Karil's leathertop}}/{{plink|Hueycoatl hide body}} 
+|body5 = {{plink|Eclipse moon chestplate}}/{{plink|Elite void top}}
+|body6 = {{plink|Blessed body|pic=Zamorak d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Armadyl chainskirt}}
+|legs3 = {{plink|Crystal legs}}{{efn|name=bowfa}}
+|legs4 = {{plink|Karil's leatherskirt}}/{{plink|Hueycoatl hide chaps}}
+|legs5 = {{plink|Eclipse moon tassets}}/{{plink|Elite void robe}}
+|legs6 = {{plink|Blessed chaps|pic=Zamorak chaps}}
+|weapon1 = {{plink|Scorching bow}}
+|weapon2 = {{plink|Twisted bow}}
+|weapon3 = {{plink|Bow of Faerdhinen}}{{efn|name=bowfa}}
+|ammo1 = {{plink|Seeking dragon arrow}}
+|ammo2 = {{plink|Dragon arrow}}
+|ammo3 = {{plink|Amethyst arrow}}
+|ammo4 = {{plink|Unholy blessing}} (Quiver or Crystal set)
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Zamorak bracers}} /<br/> {{plink|Black spiky vambraces}}
+|hands4 = {{plink|Void knight gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Pegasian boots}}
+|feet3 = {{plink|Echo boots}}
+|feet4 = {{plink|Ranger boots}}
+|feet5 = {{plink|Blessed boots|pic=Zamorak d'hide boots}}
+|ring1 = {{plink|Lightbearer}}
+|ring2 = {{plink|Venator ring}}
+|ring3 = {{plink|Archers ring (i)}}
+|ring4 = {{plink|Ring of suffering (ri)}}
+|special1 = {{plink|Scorching bow}}
+|special2 = {{plink|Toxic blowpipe}}
+|hidecol5 = yes
+}}
+{{Notelist}}
+==Inventory==
+{{Inventory|align=right
+|1=Blood ancient sceptre
+|2=Elidinis' ward (f)
+|3=Armadyl brew(4)
+|4=Armadyl brew(4)
+|5=Virtus robe top
+|6=Confliction gauntlets
+|7=Armadyl brew(4)
+|8=Armadyl brew(4)
+|9=Super restore(4)
+|10=Super restore(4)
+|11=Super restore(4)
+|12=Super restore(4)
+|13=Super restore(4)
+|14=Super restore(4)
+|15=Super restore(4)
+|16=Super restore(4)
+|17=Super restore(4)
+|18=Super restore(4)
+|19=Super restore(4)
+|20=Super restore(4)
+|21=Marlin
+|22=Marlin
+|23=Saturated heart
+|24=Extended stamina potion(4)
+|25=Extended anti-venom+(4)
+|26=Divine rune pouch
+|27=Ghommal's hilt 1
+|28=Teleport to house (tablet)
+}}
+{{rune pouch|align=right
+|1=Blood rune
+|2=Soul rune
+|3=Death rune
+}}
+*A mage switch and [[rune pouch]] with runes to cast [[Blood barrage]], if using the Ancient Spellbook.
+*A [[toxic blowpipe]] for special attacks (with no Scorching bow)
+*3-4 [[Armadyl brew]], [[Bastion potion]]s or [[Ranging potion]]s
+*9-10 [[Super restore]]s or [[Prayer potion]]s
+*1 [[Extended anti-venom+]] or [[Antidote++(4)]]
+*[[Guthan's equipment]] for healing (teams only)
+*A [[Construct. cape|Construction cape]] or [[Teleport to House|house tab]] for escaping
+*Some food: [[Marlin]]s, [[Manta ray]]s or [[Saradomin brew]]s
+*A Zamorak item if not equipped
+*[[Ghommal's hilt 1]] or better for teleporting there
+*[[Explorer's ring 4]] (For high alchemy)
+{{Clear}}
+|-|
+
+Solo Melee = The player focuses on Magic defence while using [[Protect from Melee]] to defend themselves against K'ril's powerful melee attacks. This will leave them vulnerable to his prayer smash attack however, so they should keep their health high to avoid being comboed out by the resulting damage from this attack and from minions.
+{{Recommended equipment
+|style = Solo Melee
+|head1 = {{plink|Slayer helmet (i)}} (task only) /<br/>{{plink|Torva full helm}}
+|head2 = {{plink|Neitiznot faceguard}}
+|head3 = {{plink|Serpentine helm}}
+|head4 = {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Amulet of blood fury}}
+|neck2 = {{plink|Amulet of rancour}}
+|neck3 = {{plink|Amulet of torture}}
+|neck4 = {{plink|Amulet of fury}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Blood moon chestplate}} ><br/> {{plink|Karil's leathertop}}
+|body3 = {{plink|Crystal body}} /<br/>{{plink|Blessed body|pic=Saradomin d'hide body}}
+|body4 = {{plink|Elite void top}}
+|body5 = {{plink|Black d'hide body}} /<br/> {{plink|Mixed hide top}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Crystal legs}} / {{plink|Blood moon tassets}}
+|legs3 = {{plink|Karil's leatherskirt}} /<br/>{{plink|Elite void robe}}
+|legs4 = {{plink|Blessed chaps|pic=Saradomin chaps}}
+|legs5 = {{plink|Black d'hide chaps}} /<br/> {{plink|Mixed hide legs}}
+|weapon1 = {{plink|Emberlight}}
+|weapon2 = {{plink|Osmumten's fang}}
+|weapon3 = {{plink|Arclight}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Unholy blessing}}
+|shield1 = {{plink|Avernic defender}}
+|shield2 = {{plink|Spectral spirit shield}} /<br/>{{plink|Elysian spirit shield}}
+|shield3 = {{plink|Dragon defender}}
+|shield4 = {{plink|Dragonfire shield}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Ferocious gloves}}
+|hands3 = {{plink|Rune gloves}}
+|hands4 = {{plink|Regen bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Echo boots}}/<br/>{{plink|Guardian boots}}
+|feet4 = {{plink|Dragon boots}}
+|ring1 = {{plink|Lightbearer}}
+|ring2 = {{plink|Bellator ring}}
+|ring3 = {{plink|Ultor ring}} /<br/>{{plink|Ring of suffering (ri)|pic=Ring of suffering (i)}}
+|ring4 = {{plink|Berserker ring (i)}}
+|ring5 = {{plink|Brimstone ring}}
+|special1 = {{plink|Saradomin godsword}}
+|special2 = {{plink|Voidwaker}}
+|special3 = {{plink|Dragon claws}}
+|special4 = {{plink|Ancient godsword}}
+|special5 = {{plink|Elder maul}} / {{plink|Emberlight}} / {{plink|Arclight}}
+}}
+==Inventory==
+{{Inventory|align=right
+|1=Saradomin godsword
+|2=Divine rune pouch
+|3=Saturated heart
+|4=Divine super combat potion(4)
+|5=Divine super combat potion(4)
+|6=Sanfew serum(4)
+|7=Sanfew serum(4)
+|8=Sanfew serum(4)
+|9=Sanfew serum(4)
+|10=Sanfew serum(4)
+|11=Sanfew serum(4)
+|12=Sanfew serum(4)
+|13=Sanfew serum(4)
+|14=Anglerfish
+|15=Anglerfish
+|16=Anglerfish
+|17=Anglerfish
+|18=Anglerfish
+|19=Anglerfish
+|20=Anglerfish
+|21=Anglerfish
+|22=Anglerfish
+|23=Anglerfish
+|24=Anglerfish
+|25=Anglerfish
+|26=Anglerfish
+|27=Anglerfish
+|28=Teleport to house (tablet)
+}}
+{{rune pouch|align=right
+|1=Blood rune
+|2=Soul rune
+|3=Death rune
+}}
+*2-3 [[Super combat potion]]s
+*7-8 [[Super restore]]s or [[Sanfew serum]]s
+*1 [[Antidote++]] (If using Super Restores and not using a [[Serpentine helm]])
+*14 [[Anglerfish]]
+*[[Rune pouch]] with runes to cast [[Blood Barrage]] for healing
+*A [[Construct. cape|Construction cape]] or [[Teleport to House|house tab]] for escaping
+*A [[Saturated heart|saturated]] or [[imbued heart]] to boost the player's Magic level to increase their Magic defence (Optional)
+*[[Explorer's ring 4]] (For high alch if not bringing runes)
+|-|
+
+Melee Tank = By focusing on melee defence, players can use [[Protect from Magic]] to protect themselves from K'ril's magical attacks and his prayer smash. However, his melee attacks are significantly more accurate compared to his magic attack and have a higher max hit. K'ril's melee attack is slash-based, so high slash defence is recommended. Because of this it is not recommended to use this setup without Justiciar armour. The given inventory setup assumes a team of 3 players
+{{Recommended equipment
+|style = Melee Tank
+|rows = 6
+|head1 = {{plink|Slayer helmet (i)}} (task only) /<br/>{{plink|Torva full helm}}
+|head2 = {{plink|Justiciar faceguard}} (If using full set)
+|head3 = {{plink|Serpentine helm}}
+|head4 = {{plink|Neitiznot faceguard}}
+|head5 = {{plink|Guthan's helm}}
+|neck1 = {{plink|Amulet of blood fury}}
+|neck2 = {{plink|Amulet of rancour}}
+|neck3 = {{plink|Amulet of torture}}
+|neck4 = {{plink|Amulet of fury}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|body1 = {{plink|Justiciar chestguard}}
+|body2 = {{plink|Guthan's platebody}}
+|body3 = {{plink|Torva platebody}}
+|body4 = {{plink|Bandos chestplate}}
+|legs1 = {{plink|Justiciar legguards}}
+|legs2 = {{plink|Verac's plateskirt}}
+|legs3 = {{plink|Torva platelegs}}
+|legs4 = {{plink|Bandos tassets}}
+|weapon1 = {{plink|Emberlight}} 
+|weapon2 = {{plink|Arclight}} 
+|weapon3 = {{plink|Zamorakian hasta}}
+|weapon4 = {{plink|Ghrazi rapier}}
+|weapon5 = {{plink|Scythe of Vitur}}
+|weapon6 = {{plink|Abyssal tentacle}}
+|shield1 = {{plink|Elysian spirit shield}}
+|shield2 = {{plink|Dragonfire shield}}
+|shield3 = {{plink|Spectral spirit shield}}
+|shield4 = {{plink|Crystal shield}}
+|shield5 = {{plink|Avernic defender}}
+|ammo1 = {{plink|Unholy blessing}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Ferocious gloves}}
+|hands3 = {{plink|Rune gloves}}
+|hands4 = {{plink|Regen bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Echo boots}}/<br/>{{plink|Guardian boots}}
+|feet4 = {{plink|Dragon boots}}
+|ring1 = {{plink|Ring of suffering (ri)|pic=Ring of suffering (i)}}
+|ring2 = {{plink|Bellator ring}}
+|ring3 = {{plink|Ultor ring}}
+|ring4 = {{plink|Berserker ring (i)}}
+|ring5 = {{plink|Brimstone ring}}
+|special1 = {{plink|Voidwaker}}
+|special2 = {{plink|Saradomin godsword}}
+|special3 = {{plink|Dragon claws}}
+|special4 = {{plink|Emberlight}}
+|special5 = {{plink|Arclight}}
+}}
+==Inventory==
+{{Inventory|align=right
+|1=Elder maul
+|2=Divine rune pouch
+|3=Extended anti-venom+(4)
+|4=Sanfew serum(4)
+|5=Sanfew serum(4)
+|6=Sanfew serum(4)
+|7=Sanfew serum(4)
+|8=Sanfew serum(4)
+|9=Super combat potion(4)
+|10=Super combat potion(4)
+|11=Super combat potion(4)
+|12=Super combat potion(4)
+|13=Super restore(4)
+|14=Super restore(4)
+|15=Super restore(4)
+|16=Saradomin brew(4)
+|17=Saradomin brew(4)
+|18=Saradomin brew(4)
+|19=Saradomin brew(4)
+|20=Saradomin brew(4)
+|21=Marlin
+|22=Marlin
+|23=Marlin
+|24=Teleport to house (tablet)
+|25=Guthan's warspear
+|26=Guthan's helm
+|27=Guthan's platebody
+|28=Guthan's chainskirt
+}}
+{{rune pouch|align=right
+|1=Blood rune
+|2=Soul rune
+|3=Death rune
+}}
+*Special attack weapon (if not Arclight)
+*3-4 [[Super combat potion]]s
+*7-8 [[Super restore]]s or [[Sanfew serum]]s
+*1 [[Extended anti-venom+]] or [[Antidote++]]
+*4-5 [[Saradomin brew]]s
+*[[Rune pouch]] with runes to cast [[Vengeance]] or [[Potion share]]
+*[[Guthan's equipment]] for healing
+*A [[Construct. cape|Construction cape]] or [[Teleport to House|house tab]] for escaping
+*Some food: [[Marlin]], [[Manta ray]]s, [[Shark]]s or [[Saradomin brew]]s
+*[[Explorer's ring 4]] (For high alch if not bringing runes)
+{{Clear}}
+|-|
+
+Melee = As a melee attacker, you should maximise your damage per second while keeping your ranged and melee defences high. Fortunately melee gear has high ranged and melee defences, hence you can simply use your max DPS gear. It might be worthwhile to bring an extra antidote++ for the tank should they run out, as they have quite limited inventory space.
+
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}} (task only) /<br/>{{plink|Torva full helm}}
+|head2 = {{plink|Neitiznot faceguard}}
+|head3 = {{plink|Serpentine helm}}
+|head4 = {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of blood fury}}
+|neck4 = {{plink|Amulet of fury}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|cape3 = {{plink|Max cape}} or {{plink|Hitpoints cape}}
+|cape4 = {{plink|Cape of Accomplishment (t)|pic=Strength cape(t)}}
+|body1 = {{plink|Torva platebody}}
+|body2 = {{plink|Bandos chestplate}}<br/>{{plink|Fighter torso}}
+|body3 = {{plink|Guthan's platebody}}
+|body4 = {{plink|Karil's leathertop}}
+|body5 = {{plink|Blessed body|pic=Saradomin d'hide body}}
+|legs1 = {{plink|Torva platelegs}}
+|legs2 = {{plink|Bandos tassets}}
+|legs3 = {{plink|Verac's plateskirt}}<br/>{{plink|Guthan's chainskirt}}
+|legs4 = {{plink|Obsidian platelegs}}
+|weapon1 = {{plink|Emberlight}}
+|weapon2 = {{plink|Arclight}}
+|weapon3 = {{plink|Osmumten's fang}}
+|weapon4 = {{plink|Ghrazi rapier}}
+|weapon5 = {{plink|Abyssal tentacle}}
+|shield1 = {{plink|Avernic defender}}
+|shield2 = {{plink|Dragon defender}}
+|shield3 = {{plink|Rune defender}}
+|shield4 = {{plink|Dragonfire shield}}
+|shield5 = {{plink|Elysian spirit shield}}
+|ammo1 = {{plink|Unholy blessing}}
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Rune gloves}}
+|hands4 = {{plink|Regen bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Dragon boots}}
+|feet4 = {{plink|Guardian boots}}
+|feet5 = {{plink|Rune boots}}
+|ring1 = {{plink|Bellator ring}}
+|ring2 = {{plink|Ultor ring}}
+|ring3 = {{plink|Berserker ring (i)}}
+|ring4 = {{plink|Brimstone ring}}
+|special1 = {{plink|Voidwaker}}
+|special2 = {{plink|Dragon claws}}
+|special3 = {{plink|Elder maul}}
+|special4 = {{plink|Emberlight}} / {{plink|Arclight}}
+|special5 = {{plink|Bandos godsword}}
+}}
+==Inventory==
+{{Inventory|align=right
+|1=Elder maul
+|2=Divine rune pouch
+|3=Extended anti-venom+(4)
+|4=Super combat potion(4)
+|5=Super combat potion(4)
+|6=Super combat potion(4)
+|7=Super combat potion(4)
+|8=Super restore(4)
+|9=Super restore(4)
+|10=Super restore(4)
+|11=Super restore(4)
+|12=Super restore(4)
+|13=Super restore(4)
+|14=Super restore(4)
+|15=Super restore(4)
+|16=Super restore(4)
+|17=Super restore(4)
+|18=Saradomin brew(4)
+|19=Saradomin brew(4)
+|20=Saradomin brew(4)
+|21=Marlin
+|22=Marlin
+|23=Marlin
+|24=Teleport to house (tablet)
+|25=Guthan's warspear
+|26=Guthan's helm
+|27=Guthan's platebody
+|28=Guthan's chainskirt
+}}
+{{rune pouch|align=right
+|1=Blood rune
+|2=Soul rune
+|3=Death rune
+}}
+*Special attack weapon (if not Arclight)
+*4-5 [[Super combat potion]]s
+*9-10 [[Super restore]]s or [[Prayer potion]]s
+*[[Rune pouch]] with runes to cast [[Potion share]]
+*1 [[Extended anti-venom+]] or [[Antidote++(4)]]
+*[[Guthan's equipment]] for healing
+*A [[Construct. cape|Construction cape]] or [[Teleport to House|house tab]] for escaping
+*Some food: [[Marlin]], [[Manta ray]]s, [[Shark]]s or [[Saradomin brew]]s
+*[[Explorer's ring 4]] (For high alch if not bringing runes)
+{{Clear}}
+|-|
+
+Magic = [[Tumeken's shadow]] provides the highest DPS against K'ril. Mage is not recommended with any weapon weaker than a [[Tumeken's shadow]]. Using the 5:0 method to avoid all damage from K'ril is highly recommended due to magic armour's low defences, while praying [[Protect from Range]] to protect against the range minion. Blood Barrage is used to heal off the melee and range minions in between kills.
+
+A [[Purging staff]] can be used, but requires the player to bring a way to heal themselves between kills, such as [[Sanguinesti staff]].
+
+{{Recommended equipment
+|style = Magic
+|head1 = {{plink|Slayer helmet (i)}} (task only)
+|head2 = {{plink|Ancestral hat}}
+|head3 = {{plink|Virtus mask}}
+|neck1 = {{plink|Occult necklace}}
+|cape1 = {{plink|Imbued Zamorak cape}}
+|cape2 = {{plink|Max cape}}
+|body1 = {{plink|Ancestral robe top}}
+|body2 = {{plink|Virtus robe top}}
+|body3 = {{plink|Ahrim's robetop}} /<br>{{plink|Bloodbark body}}
+|legs1 = {{plink|Ancestral robe bottom}}
+|legs2 = {{plink|Virtus robe bottom}}
+|legs3 = {{plink|Ahrim's robeskirt}} /<br>{{plink|Bloodbark legs}}
+|weapon1 = {{plink|Tumeken's shadow}}
+|weapon2 = {{plink|Purging staff}}
+|shield1 = {{plink|Elidinis' ward (f)}}
+|shield2 = {{plink|Arcane spirit shield}} /<br>{{plink|Elidinis' ward}}
+|shield3 = {{plink|Ancient wyvern shield}} /<br>{{plink|Malediction ward}} /<br>{{plink|Mage's book}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Unholy blessing}}
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|hands3 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Eternal boots}}
+|feet3 = {{plink|Infinity boots}} /<br>{{plink|Aranea boots}} /<br>{{plink|Bloodbark boots}}
+|ring1 = {{plink|Magus ring}}
+|ring2 = {{plink|Ring of suffering (ri)}}
+|ring3 = {{plink|Seers ring (i)}}
+|special1 = {{plink|Eldritch Nightmare staff}}
+}}
+==Inventory==
+{{Inventory|align=right
+|1=Eldritch Nightmare staff
+|2=Elidinis' ward (f)
+|3=Saturated heart
+|4=Extended stamina potion(4)
+|5=Sanfew serum(4)
+|6=Sanfew serum(4)
+|7=Sanfew serum(4)
+|8=Sanfew serum(4)
+|9=Sanfew serum(4)
+|10=Sanfew serum(4)
+|11=Sanfew serum(4)
+|12=Sanfew serum(4)
+|13=Anglerfish
+|14=Anglerfish
+|15=Sanfew serum(4)
+|16=Sanfew serum(4)
+|17=Anglerfish
+|18=Anglerfish
+|19=Anglerfish
+|20=Anglerfish
+|21=Anglerfish
+|22=Anglerfish
+|23=Anglerfish
+|24=Anglerfish
+|25=Anglerfish
+|26=Explorer's ring 4
+|27=Divine rune pouch
+|28=Teleport to house (tablet)
+}}
+{{rune pouch|align=right
+|1=Blood rune
+|2=Soul rune
+|3=Death rune
+|4=Water rune
+}}
+*Staff to autocast [[Ancient magicks]] against the minions like [[Eldritch Nightmare staff]], [[Kodai wand]], or [[Blood ancient sceptre]]
+*[[Saturated heart]] to boost magic level
+*[[Sanfew serum]]s, or [[Super restores]] and [[Antidote++]]
+*[[Extended stamina potion]]s or [[Stamina potion]]s (it is unlikely that you will need any run energy restoration if you have a high enough agility level)
+*[[Anglerfish]] or other high healing food (the better you get at performing the 5:0 method, the less food you will need to bring) 
+*[[Rune pouch]] with runes to cast [[Blood Barrage]] for healing and [[Ice Barrage]] to freeze Tstanon Karlak
+*A [[Construction cape]] or [[Teleport to House|house tab]] for escaping
+*[[Explorer's ring 4]] (for high alch and energy recharges)
+<references group="a"/>
+
+</tabber> 
+[[Category:Strategies]]

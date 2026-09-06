@@ -1,0 +1,248 @@
+[[Artio]] is a level 320 bear that can be found inside [[Hunter's End]]. She is killed for the valuable [[Voidwaker hilt]], though she can also drop the [[claws of Callisto]], [[tyrannical ring]], [[Callisto cub]], the [[dragon 2h sword]] and [[dragon pickaxe]]. The hard [[Wilderness Diary|Wilderness diary]] is required to fight Artio.
+
+'''{{Colour|red|Warning}}:''' Artio resides in a [[singles-plus]] area and in mid-level [[Wilderness]]. You may be attacked at any time during the kill. '''Do not''' bring any items that you are not willing to lose. 
+
+==Suggested skills==
+*{{SCP|Combat|90}} (95+ recommended)
+*{{SCP|Hitpoints|60}} (90+ recommended)
+*{{SCP|Defence|70}} (for [[Rigour]]/[[Augury]])
+*{{SCP|Prayer|44}} (77+ recommended for [[Augury]])
+*{{SCP|Ranged|75}} (90+ recommended)
+*{{SCP|Magic|92}} (94+ recommended for [[Ice Barrage]])
+
+==Transportation==
+{{Map|3116,3677,desc:Entrance to Hunter's end|mtype=pin|align=right|caption=Entrance to Hunter's end}}
+*Teleport to [[Ferox Enclave]] with a [[ring of dueling]] and run north.
+*Teleport to [[Carrallanger]] with 84 magic or a teletab and run west.
+*Teleport to [[Corporeal Beast]] with a games necklace and run west. (BEWARE: The area directly outside the Corporeal beast cave is [[Multicombat area|multicombat]])
+
+==Attacks==
+*Melee: Artio swipes at the player. This has AoE capabilities and can be used diagonally across a target. This deals up to 35 damage, with a minimum of 15; using [[Protect from Melee]] reduces the damage by ~50%.
+*Ranged: Artio launches crescent-shaped projectiles at everyone in the den dealing up to 17 damage if she cannot attack with melee.
+*Knockback: Artio will launch a white orb-like projectile at a targeted player, which will send them flying backwards and inflict damage if [[Protect from Magic]] is not activated when the attack visually hits the player.
+** The knockback attack is a single-target attack with splash AOE. This means that it will only target one player, but the spell will affect all players within a 3x3 square of the targeted player when it hits.
+** The damage the player will take from this attack when it hits them off prayer depends on how far the player can be knocked back before they hit an object (the walls of the arena or any bear traps on the floor). The attack will attempt to knock the player back 3 tiles. If the player can be knocked back the full 3 tiles without hitting an object, they will take 5 damage. This scales up by 15 damage for each tile of knockback that cannot be completed, so the player will take 20 damage if they were 2 tiles away from an object they were pushed into, and 35 damage if they were 1 tile away. If the player is directly next to an object that the attack pushes them into, they will take 50 damage.
+*Bear Traps: At 66% health, Artio will deploy red, ghostly-like bear traps around the arena. Getting caught in a trap will deal up to 15 damage and briefly bind the player. The traps will be redeployed again at ~33% health and appear afterwards with every attack she makes.
+
+==Strategy==
+Artio will spawn to the south of the den, right in front of the exit. If you wish to avoid [[player killer]]s, it is recommended to place a secondary account waiting outside the entrance to scout potential threats. All players who enter the den will spawn to the north, similar to Callisto's lair. 
+
+Artio uses highly damaging melee attacks and is weakest to magic and ranged attacks. Ice spells will land often even with minimal magic gear, binding her temporarily. If she cannot attack with melee, she will begin using a much weaker ranged attack until she can reach her target. Artio will occasionally launch a white orb at her target, which should be protected against by switching on Protect from Magic or risk taking up to 50 damage from the attack.
+
+Upon reaching 66% and 33% of her health, Artio will roar, launching bear traps all across the arena. Stepping on one will deal up to 15 damage and bind the player for a few seconds. The traps will linger around for a short duration before expiring, but will immediately be replaced with a fresh set of traps. While roaring, she will also glow red, breaking free of binds in the process and requiring a player to refreeze her.
+
+==Setups==
+'''Note''': As Artio is in the Wilderness in an area that is active with PKers, ensure valuables are kept protected, and check items screens for kept on death equipment—you may lose untradeables here if [[trouver parchment]] is not used on them. The best way is to not take anything into the Wilderness you are not willing to lose. The [[Skull_(status)#Skull prevention|PK skull prevention]] option is highly recommended for added security.
+
+Artio can deal incredibly high melee damage through prayer, so melee combat is not advised. She is not immune to magic damage, so [[Stun (status)#Spells|binding]] her in place is strongly recommended. [[Ice spells]], such as [[Ice Barrage]] or [[Ice Blitz]], are commonly used. They are also guaranteed to hit Artio while she is not frozen, if the player has 0 or higher magic accuracy bonus. Players can use either ranged or magic after freezing the boss. One method involves using [[Protect from Melee]] and healing with [[Bloodbark armour]] and [[Blood Barrage]].  Players with high Magic and Defence levels will find they are able to heal more with Blood Barrage than Artio can damage them with melee, making this a very low-effort method, only requiring occasional eating and prayer restoration.
+<tabber>
+Ranged=
+[[Webweaver]] is the strongest weapon against Artio. Ideally you want to maximize range damage, while keeping your magic attack bonus at 0 or higher to allow for guaranteed freezes on Artio. Gear like [[bloodbark boots]], [[barrows gloves]], [[imbued god capes]], [[god books]] and [[ring of shadows]] are good to keep your magic bonus high enough, without sacrificing much range dps or incurring high risk. Defence bonus -- particularly magic defence -- is also beneficial for tanking [[PKers]].
+
+===Equipment===
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}}{{efn|name=slay|If on task}}
+|head2 = {{plink|Crystal helm}}{{efn|name=CArmour|With bow of Faerdhinen. Takes priority over other high-value items on death.}}
+|head3 = {{plink|Karil's coif}}
+|head4 = {{plink|Archer helm}}
+|head5 = {{plink|Bloodbark helm}} / {{plink|Farseer helm}} / {{plink|Mitre|pic=Ancient mitre}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|neck5 = {{plink|Amulet of power}}
+|cape1 = {{plink|Ava's assembler}}
+|cape2 = {{plink|Ava's accumulator}} > {{plinkp|Ava's attractor}}
+|cape3 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}
+|cape4 = {{plink|Ardougne cloak 4}}
+|cape5 = {{plink|God capes|pic=Saradomin cape}} 
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Masori body}}
+|body3 = {{plink|Crystal body}}{{efn|name=CArmour}}
+|body4 = {{plink|Black d'hide body}}
+|body5 = {{plink|Mixed hide top}}
+|legs1 = {{plink|Black d'hide chaps}}
+|legs2 = {{plink|Crystal legs}}{{efn|name=CArmour}}
+|legs3 = {{plink|Red d'hide chaps}}
+|weapon1 = {{plink|Webweaver bow}} > {{plink|Craw's bow}}
+|weapon2 = {{plink|Bow of Faerdhinen}}{{efn|name=Crystal|With or without crystal armour.}}
+|weapon3 = {{plink|Eclipse atlatl}}{{efn|With strength bonus gear and [[atlatl dart]]s}} / </br>{{plink|Dragon crossbow}}{{efn|name=ruby|With [[ruby dragon bolts (e)]] + [[dragon bolts]]}}
+|weapon4 = {{plink|Hunters' sunlight crossbow}}{{efn|name=antler|With [[moonlight antler bolts]]}}
+|weapon5 = {{plink|Magic shortbow (i)}}
+|shield1 = {{plink|Twisted buckler}}
+|shield2 = {{plink|Dragonfire ward}} / {{plink|Odium ward}} 
+|shield3 = {{plink|Book of Law}}
+|shield4 = {{plink|Unholy book}} 
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Rune gloves}}
+|hands3 = {{plink|Black d'hide vambraces}}
+|hands4 = {{plink|Red d'hide vambraces}}
+|feet1 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet2 = {{plink|Mixed hide boots}}
+|feet3 = {{plink|Bloodbark boots}}
+|feet4 = {{plink|Mystic boots}}
+|feet5 = {{plink|Snakeskin boots}}
+|ring1 = {{plink|Ring of shadows}}
+|ring2 = {{plink|Beacon ring}} / {{plink|Lunar ring}}
+|ring3 = {{plink|Explorer's ring|pic=Explorer's ring 4}}
+|ring4 = {{plink|Ring of wealth (i)}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}
+|ammo3 = {{plink|Atlatl dart}} / {{plink|Ruby dragon bolts (e)}} + {{plink|dragon bolts}}
+|ammo4 =  {{plink|moonlight antler bolts}}
+|ammo5 =  {{plink|Amethyst arrow}} / {{plink|Rune arrow}} 
+|special1 = {{plink|Zaryte crossbow}}
+}}
+'''Note''': Ensure items are protected. Do not take anything into the Wilderness you are not willing to lose. The [[Skull_(status)#Skull prevention|PK skull prevention]] option is highly recommended for added security.
+{{notelist}}
+
+===Inventory===
+
+If the player is 93 or higher hitpoints, [[blighted anglerfish]] are superior, cheaper, and have higher utility than the alternative manta rays. Therefore they should be used for higher levelled players. The player can also switch out a protected item for [[Dinh's bulwark]] if looking for added survivability.
+
+{{Inventory|align=right
+|1= Royal seed pod
+|2= Divine ranging potion(4)
+|3= Blighted super restore(4)
+|4= Blighted super restore(4)
+|5= Blighted ancient ice sack
+|6= Blighted super restore(4)
+|7= Blighted super restore(4)
+|8= Blighted super restore(4)
+|9= Looting bag
+|10= Blighted karambwan
+|11= Blighted manta ray
+|12= Blighted karambwan
+|13= Blighted manta ray
+|14= Blighted karambwan
+|15= Blighted manta ray
+|16= Blighted karambwan
+|17= Blighted manta ray
+|18= Blighted karambwan
+|19= Stamina potion(4)
+|20= Saradomin brew(4)
+|21= Blighted manta ray
+|22= Blighted karambwan
+|23= Anti-venom+(4)
+|24= Saradomin brew(4)
+|25= Blighted manta ray
+|26= Blighted karambwan
+|27= Phoenix necklace
+|28= Saradomin brew(4)
+}}
+*[[Looting bag]]
+*[[Stamina potion]] (for running)
+*[[Divine ranging potion]]
+*[[Anti-venom+]] in case of venom from PKers
+*Some [[blighted super restore]]s
+*Some [[blighted ancient ice sack]]s or [[blighted entangle sack]]s to freeze Artio.
+*A [[royal seed pod]] to teleport at level 30 [[Wilderness]] (if you choose not to wear [[amulet of glory]])
+*Rest of inventory spaces to be filled with food (you may want to leave 2-3 slots empty for picking up items)
+|-|
+Magic=
+
+Artio is significantly vulnerable to Magic. However, compared to Ranged, a Magic setup typically results in lesser defences which leaves the player more vulnerable to PKers.
+
+It can be difficult to survive PKers if using magic equipment. Therefore, swapping out a protected item for [[Dinh's bulwark]] can aid in survivability; the player can simply switch to Dinh's if under attack. Bringing [[black dragonhide armour|black d'hide]] to switch to is also wise. Players using [[Tumeken's shadow]] can get away with wearing defensive ranged items like [[Masori_armour#Fortified_2|fortified masori]] or [[Armadyl armour|Armadyl]], if they have a high magic accuracy bonus (+100, or higher).
+
+===Equipment===
+{{Recommended equipment
+|style = Magic
+|head1 = {{plink|Slayer helmet (i)}}{{efn|Only when on slayer task.}}
+|head2 = {{plink|Ahrim's hood}}
+|head3 = {{plink|Bloodbark helm}}
+|head4 = {{plink|Mitre|pic=Zamorak mitre}}
+|neck1 = {{plink|Occult necklace}}
+|neck2 = {{plink|Amulet of glory}}
+|neck3 = {{plink|Amulet of power}}
+|neck4 = {{plink|Amulet of magic}}
+|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}
+|cape2 = {{plink|God capes|pic=Saradomin cape}}
+|cape3 = {{plink|Ardougne cloak 4}}
+|cape4 = {{plink|Vestment cloak|pic=Guthix cloak}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}
+|body1 = {{plink|Ancestral robe top}}
+|body2 = {{plink|Virtus robe top}}
+|body3 = {{plink|Bloodbark body}}
+|body4 = {{plink|Mystic robe top}}
+|legs1 = {{plink|Ancestral robe bottom}}
+|legs2 = {{plink|Virtus robe bottom}}
+|legs3 = {{plink|Bloodbark legs}}
+|legs4 = {{plink|Mystic robe bottom}}
+|feet1 = {{plink|Bloodbark boots}}
+|feet2 = {{plink|Mystic boots}}
+|feet3 = {{plink|Ghostly boots}}
+|feet4 = {{plink|Splitbark boots}}
+|feet5 = {{plink|Moonclan boots}}
+|shield1 = {{plink|Elidinis' ward (f)}}
+|shield2 = {{plink|Book of Darkness}}
+|shield3 = {{plink|Unholy book}}
+|shield4 = {{plink|Elidinis' ward}}
+|weapon1 = {{plink|Accursed sceptre}} > {{plink|Thammaron's sceptre}}
+|weapon2 = {{plink|Eye of Ayak}}
+|weapon3 = {{plink|Tumeken's shadow}}
+|weapon4 = {{plink|Sanguinesti staff}} > {{plink|Trident of the Swamp}}
+|weapon5 = {{plink|Trident of the Seas}} > {{plink|Warped sceptre}} 
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|hands3 = {{plink|Barrows gloves}}
+|hands4 = {{plink|Rune gloves}}
+|hands5 = {{plink|Combat bracelet}}
+|ring1 = {{plink|Ring of shadows}} / {{plink|Ring of shadows (uncharged)|txt=(uncharged)}}
+|ring2 = {{plink|Explorer's ring 4}}
+|ring3 = {{plink|Beacon ring}} / {{plink|Lunar ring}}
+|ring4 = {{plink|Ring of wealth (i)}}
+}}
+'''Note''': Ensure items are protected. Do not take anything into the Wilderness you are not willing to lose. The [[Skull_(status)#Skull prevention|PK skull prevention]] option is highly recommended for added security.
+{{notelist}}
+
+===Inventory===
+
+If the player is 93 or higher hitpoints, [[blighted anglerfish]] are superior, cheaper, and have higher utility than the alternative manta rays. Therefore they should be used for higher levelled players. The player can also switch out a protected item for [[Dinh's bulwark]] if looking for added survivability.
+
+{{Inventory|align=right
+|1= Royal seed pod
+|2= Forgotten brew(4)
+|3= Blighted super restore(4)
+|4= Blighted super restore(4)
+|5= Blighted ancient ice sack
+|6= Blighted super restore(4)
+|7= Blighted super restore(4)
+|8= Blighted super restore(4)
+|9= Looting bag
+|10= Blighted karambwan
+|11= Blighted manta ray
+|12= Blighted karambwan
+|13= Blighted manta ray
+|14= Blighted karambwan
+|15= Blighted manta ray
+|16= Blighted karambwan
+|17= Blighted manta ray
+|18= Blighted karambwan
+|19= Stamina potion(4)
+|20= Saradomin brew(4)
+|21= Blighted manta ray
+|22= Blighted karambwan
+|23= Extended anti-venom+(1)
+|24= Saradomin brew(4)
+|25= Black d'hide body
+|26= Black d'hide chaps
+|27= Phoenix necklace
+|28= Saradomin brew(4)
+}}
+*[[Looting bag]]
+*[[Stamina potion]] (for running)
+*[[Forgotten brew]]
+*[[Anti-venom+]] in case of venom from PKers
+*Some [[blighted super restore]]s
+*Some [[blighted ancient ice sack]]s or [[blighted entangle sack]]s to freeze Artio
+*A [[royal seed pod]] to teleport at level 30 [[Wilderness]] (regardless whether you bring an [[amulet of glory]] or not)
+*[[Black d'hide body]] and [[black d'hide chaps|chaps]] (if not already wearing Ranged body and legs) if wanting to try escape PKers
+*Rest of inventory spaces to be filled with food (you may want to leave 2-3 slots empty for picking up items)
+|-|
+</tabber>
+
+[[Category:Wilderness]]
+[[Category:Strategies]]

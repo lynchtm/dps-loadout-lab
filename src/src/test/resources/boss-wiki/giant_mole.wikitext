@@ -1,0 +1,538 @@
+{{External|rs=Giant mole/Strategies}}
+{{Map|mapID=13|group=Moley|align=right|height=485|zoom=2|x=1760|y=5185
+|mtype:dot,fill:#8bb1f9,1739:5220,1775:5232,1737:5208,1778:5207,1753:5197,1778:5187,1741:5177,1758:5179,1746:5170,1775:5173,1778:5164,1760:5163,1753:5150
+|mtype:dot,fill:#ff0000,1752:5236
+|mtype:dot,fill:#f0ff00,1761:5188
+|caption=
+{{Legend|#f0ff00|caption=Giant Mole spawn}}
+{{Legend|#8bb1f9|caption=Burrow locations}}
+{{Legend|#ff0000|caption=Entrance}}
+}}
+The '''Giant Mole''' is a simple low-level [[boss]] that can be found under [[Falador]]. It is killed for its [[mole claw]], [[mole skin]], [[immaculate mole skin]], and [[Baby Mole]] drops.
+
+==Suggested skills==
+*{{SCP|Attack|60+}}
+*{{SCP|Strength|60+}}
+*{{SCP|Defence|60+}} 
+*{{SCP|Hitpoints|60+}}
+*{{SCP|Ranged|60+}} (If using ranged)
+*{{SCP|Magic|60+}} (If using magic)
+*{{SCP|Prayer|43+}} for [[Protect from Melee]] (44+ [[Eagle Eye]], 70+ [[Piety]], 74+ [[Rigour]])
+
+==Transportation==
+{{Map|2984,3387|2987,3387|2999,3375|2996,3377|3005,3376|2989,3378|plane=0|mapID=0|mtype=dot|align=right|caption=The location of the [[Mole hill|mole hills]] in [[Falador Park]].}}
+The [[Giant Mole]] is located in the [[Mole Hole]] under [[Falador]]. The entrance point is located at [[Falador Park]], where there are [[Mole hill|mole hills]] scattered on the west side. The closest teleport is the [[Falador Park]] option(3) on the [[Ring of wealth|ring of wealth]]. Players must bring a [[spade]] to dig underground and a [[light source]] of some type is required or they will be constantly bitten by bugs. A [[Fire of Eternal Light]] can be lit inside the cave after completing the [[Making Friends with My Arm]] quest which provides permanent light inside the cave.
+
+In the north-west of Falador park is a mole hill with a spade. This allows access to a private instance of the mole hill for 25000 gp.  Players who have completed the Hard tier Combat Achievements will receive a reduced price of 12,500 GP. Also, the price is halved for Ironman accounts, reducing the cost to either 12,500 GP or 6,250 GP for those who have completed the Hard Combat Achievements.
+
+==Attacks and abilities==
+*[[Melee]] attack: The [[Giant Mole|mole]] swipes a claw at its target, dealing up to 21 damage.
+*Burrow: When the mole's health is between 5-50%, there is a 25% chance for any incoming attack to cause it to burrow away into another location.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1139454530406559744|date=14 June 2019|archiveurl=https://reldo.runescape.wiki/i/107093|archivedate=18 June 2019|quote=1/4 when its health is between 5% and 50%.}} There is also a chance that the dirt she digs while burrowing to escape can extinguish the player's [[light source]] (shown with dirt splatters on the player's screen), though covered light sources will be unaffected by this. Note that splashed magic attacks cannot trigger her to dig, making weapons such as the [[Tumeken's shadow|Tumeken's Shadow]] particularly good for fighting the mole.
+
+==Guide==
+[[File:Giant Mole Cannon Location.png|thumb|Cannon double hit spot when using the western safespot at the centre of the cave.]]
+Combat with the [[Giant Mole|mole]] is straightforward, as it doesn't have any unique attacks or abilities that can endanger the player.
+
+For low levelled players, the mole can be [[safespotted]] with many of the cavern walls. [[Maging]] with earth spells is highly recommended when safespotting. The mole has 50% elemental weakness to earth spells, and splashes cannot trigger the mole to dig. Players [[meleeing]] it  should activate [[Protect from Melee]] and use [[stab]] weapons, as it has lower stab defence compared to [[slash]] and [[crush]].
+
+For high levelled players, the mole can be killed quickly with [[Dharok the Wretched's equipment]], as it is easily possible to kill her within 2-3 hits depending on the player's strength boosting equipment. Simply lower your health to 1 with the [[Locator orb]] or [[Dwarven rock cake]], activate [[Protect from Melee]] and flick [[Piety]].
+
+When the mole reaches half health and lower, there is a chance that it will dig away to another location in the lair. Without the [[Falador shield 3]] or [[Falador shield 4|4]], it can be a tedious task, as players may have to navigate through the whole lair to find the mole. The mole also loses [[aggression]] towards the primary target when burrowing away. [[Thrall]]s can be used as a makeshift substitute for the Falador shield, as they will begin to path towards the mole's new location after she digs in order to attack her, but as thrall's max hit is 3 and they can make the giant mole dig, this is not recommended.
+
+Completion of the hard [[Falador diaries]] is highly recommended, as players with the shield can locate the mole whenever it digs away. It also notes the 100% drop of [[mole skin]] and [[Mole claw|claws]], prolonging trips.
+
+Poison is a fantastic tool against the Mole, since she will not burrow from poison damage, significantly shortening kill times. For [[ironmen]] (who may not have access to [[Poison(++)]] potions due to the high Herblore requirement), a great alternative is completing the [[Tai Bwo Wannai Trio]] quest and speaking to [[Tamayu]], who will reward the player with a [[rune spear (kp)]]. This karambwan-poison-coated weapon has the same poison strength as Poison(++).
+
+==Equipment==
+<tabber>
+Ranged =
+Currently, the [[Twisted bow]] is one of the most effective ways of killing the Giant Mole. It offers some of the highest damage of any setup. A dwarf multicannon can also be brought to speed up kills.
+
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}}{{Refn|When assigned as a slayer task|name=Slayer}} /</br>{{plink|Masori mask (f)}}
+|head2 = {{plink|Void ranger helm}}
+|head3 = {{plink|Crystal helm}}
+|head4 = {{plink|Robin hood hat}}
+|head5 = {{plink|Blessed coif|pic=Ancient coif}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Bonecrusher necklace}}
+|neck4 = {{plink|Amulet of fury}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}} (Best [[Ava's device]])
+|cape3 = {{plink|Max cape}} / {{plink|Ranging cape(t)}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Elite void top}}
+|body3 = {{plink|Crystal body}}
+|body4 = {{plink|Blessed body|pic=Ancient d'hide body}}
+|body5 = {{plink|Black d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Elite void robe}}
+|legs3 = {{plink|Crystal legs}}
+|legs4 = {{plink|Blessed chaps|pic=Ancient chaps}}
+|legs5 = {{plink|Black d'hide chaps}}
+|weapon1 = {{plink|Twisted bow}}
+|weapon2 = {{plink|Bow of Faerdhinen}}{{Refn|name=bowfa|Only with [[Crystal armour]]}}
+|weapon3 = {{plink|Crystal bow}}{{Refn|name=cbow|Without [[Crystal armour]], may be worse than lower ranked options}}
+|weapon4= {{plink|Zaryte crossbow}}
+|weapon5= {{plink|Armadyl crossbow}}
+|ammo1 = {{plink|Dragon arrow}}
+|ammo2 = {{plink|Amethyst arrow}}
+|ammo3 = {{plink|Rune arrow}}
+|ammo4 = {{plink|Diamond dragon bolts (e)}} & {{plink|Ruby dragon bolts (e)}}
+|ammo5 = {{plink|Diamond bolts (e)}} & {{plink|Ruby bolts (e)}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Void knight gloves}}
+|hands3 = {{plink|Barrows gloves}}
+|hands4 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands5 = {{plink|Black d'hide vambraces}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Pegasian boots}}
+|feet3 = {{plink|Ranger boots}} /</br>{{plink|Devout boots}}
+|feet4 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet5 = {{plink|Aranea boots}}
+|ring1 = {{plink|Venator ring}}
+|ring2 = {{plink|Lightbearer}}
+|ring3 = {{plink|Ring of the gods (i)}} /</br>{{plink|Archers ring (i)}}
+|ring4 = {{plink|Ring of shadows}} /</br>{{plink|Brimstone ring}}
+|ring5 = {{plink|Ring of endurance}}
+|special1 = {{plink|Zaryte crossbow}}
+}}
+{{Reflist}}
+
+{{Inventory|align=right
+|1=Steel cannonball
+|2=Divine ranging potion(4)
+|3=Divine ranging potion(4)
+|4=Divine ranging potion(4)
+|5=Stamina potion(4)
+|6=Stamina potion(4)
+|7=Stamina potion(4)
+|8=Stamina potion(4)
+|9=Prayer potion(4)
+|10=Prayer potion(4)
+|11=Prayer potion(4)
+|12=Prayer potion(4)
+|13=Prayer potion(4)
+|14=Prayer potion(4)
+|15=Prayer potion(4)
+|16=Prayer potion(4)
+|17=Prayer potion(4)
+|18=Prayer potion(4)
+|19=Prayer potion(4)
+|20=Spade
+|21=Cannon barrels
+|22=Cannon base
+|23=Cannon furnace
+|24=Cannon stand
+|25=Falador shield 4
+|26=Rune pouch
+|27=Ring of wealth
+|28=Bullseye lantern
+}}
+{{Rune pouch|align=right
+|1=Nature rune\1000
+|2=Fire rune\5000
+|3=
+}}
+
+==Inventory==
+*[[Spade]]
+*A good [[light source]] such as a lit [[bullseye lantern]], Kandarin headgear, or [[Firemaking cape]]. Not needed if [[Fire of Eternal Light]] is built at the entrance.
+*3 [[Divine ranging potion]]s
+*11-14 [[prayer potion]]s
+*3-4 [[stamina potion]]s
+*[[Falador shield 3]] or [[Falador shield 4|4]]
+*[[Ring of wealth]] with charges for teleporting to [[Falador Park]]
+*[[Rune pouch]] filled with nature and fire runes
+*[[Dwarf multicannon]] and [[steel cannonball]]s to speed up kills (optional)
+
+|-|
+Magic =
+Currently, the [[Tumeken's shadow]] is one of the most effective ways of killing the Giant Mole. It offers some of the highest damage of any setup, comparable to using a [[Twisted bow]]. Due to Mole's 50% weakness to earth, earth spells are effective for accounts without a Twisted bow or shadow who wish to safespot. Unless autocasting with a staff, a dwarf multicannon should '''not''' be brought due to poor accuracy. An added bonus of using [[Magic]] is that splashes cannot trigger the mole to dig, meaning players won't have to chase after the mole as much compared to other combat styles.
+{{Recommended equipment
+|style = Magic
+|head1 = {{plink|Slayer helmet (i)}}{{Refn|When assigned as a slayer task|name=Slayer}} /<br/>{{plink|Ancestral hat}}
+|head2 = {{plink|Virtus mask}}
+|head3 = {{plink|Ahrim's hood}}
+|head4 = {{plink|Bloodbark helm}}
+|head5 = {{plink|Mystic hat}}
+|neck1 = {{plink|Occult necklace}}
+|neck2 = {{plink|Bonecrusher necklace}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}
+|cape2 = {{plink|God capes|pic=Saradomin cape}}
+|cape3 = {{plink|Ardougne cloak 4}}
+|cape4 = {{plink|Ardougne cloak 3}}
+|body1 = {{plink|Ancestral robe top}}
+|body2 = {{plink|Virtus robe top}}
+|body3 = {{plink|Ahrim's robetop}}
+|body4 = {{plink|Bloodbark body}}
+|body5 = {{plink|Mystic robe top}}
+|legs1 = {{plink|Ancestral robe bottom}}
+|legs2 = {{plink|Virtus robe bottom}}
+|legs3 = {{plink|Ahrim's robeskirt}}
+|legs4 = {{plink|Bloodbark legs}}
+|legs5 = {{plink|Mystic robe bottom}}
+|weapon1 = {{plink|Tumeken's shadow}}
+|weapon2 = {{plink|Harmonised Nightmare staff}}{{Refn|Only if using [[Earth Wave]]/[[Earth Surge]].|name=Earth|group=b}}
+|weapon3 = {{plink|Kodai wand}}{{Refn|name=Earth|group=b}} > {{plink|Mystic smoke staff}}{{Refn|name=Earth|group=b}} > {{plink|Twinflame staff}}{{Refn|Only below 95 [[Magic]]. Twice as likely to cause mole to burrow since the staff hits twice per successful hit.|name=below95|group=b}}
+|weapon4 = {{plink|Sanguinesti staff}}
+|weapon5 = {{plink|Ahrim's staff}}{{Refn|name=Earth|group=b}} / {{plink|Mystic dust staff}}{{Refn|name=Earth|group=b}}
+|shield1 = {{plink|Tome of Earth}}{{Refn|name=Earth|group=b}} / {{plink|Elidinis' ward (f)}} 
+|shield2 = {{plink|Elidinis' ward}} / {{plink|Arcane spirit shield}}
+|shield3 = {{plink|Malediction ward}} / {{plink|Ancient wyvern shield}} / {{plink|Mage's book}}
+|shield4 = {{Plink|Book of Darkness}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3}}/[[Rada's blessing 2|2]]
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|hands3 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Eternal boots}}
+|feet3 = {{plink|Infinity boots}} / {{plink|Aranea boots}}
+|feet4 = {{plink|Devout boots}}
+|ring1 = {{plink|Magus ring}}
+|ring2 = {{plink|Seers ring (i)}}
+|ring3 = {{plink|Ring of the gods (i)}}
+|ring4 = {{plink|Ring of endurance}}
+}}
+{{Reflist|group=b}}
+
+{{Inventory|align=right
+|1=Spade
+|2=Falador shield 4
+|3=Saturated heart
+|4=Stamina potion(4)
+|5=Prayer potion(4)
+|6=Prayer potion(4)
+|7=Prayer potion(4)
+|8=Stamina potion(4)
+|9=Prayer potion(4)
+|10=Prayer potion(4)
+|11=Prayer potion(4)
+|12=Stamina potion(4)
+|13=Prayer potion(4)
+|14=Prayer potion(4)
+|15=Prayer potion(4)
+|16=Stamina potion(4)
+|17=Prayer potion(4)
+|18=Prayer potion(4)
+|19=Prayer potion(4)
+|20=Prayer potion(4)
+|21=Prayer potion(4)
+|22=Prayer potion(4)
+|23=Prayer potion(4)
+|24=Prayer potion(4)
+|25=Shark
+|26=Divine rune pouch
+|27=Falador teleport (tablet)
+|28=Bullseye lantern
+}}
+{{Rune pouch|align=right
+|1=Fire rune
+|2=Nature rune
+|3=Dust rune
+|4=Wrath rune
+}}
+
+==Inventory==
+*[[Spade]]
+*A good [[light source]] such as a lit [[bullseye lantern]], Kandarin headgear, or [[Firemaking cape]]. Not needed if [[Fire of Eternal Light]] is built at the entrance.
+*[[Saturated heart]]
+*8-12 [[prayer potion]]s
+*4 [[stamina potion]]s
+*[[Falador shield 3]] or [[Falador shield 4|4]]
+*[[Ring of wealth]] with charges for teleporting to [[Falador Park]]
+*[[Rune pouch]] filled with runes for earth spells and [[High alchemy]]
+*[[Dwarf multicannon]] and [[steel cannonball]]s should only be brought if '''not''' using a powered staff, as above. Replace some prayer potions if choosing to bring.
+
+|-|
+Melee=
+Currently, the [[Osmumten's fang]] offers the most kills per hour while using melee equipment.
+
+{{Recommended equipment
+|style = Melee
+|head1 = {{Plink|Slayer helmet (i)}}{{Refn|When assigned as a slayer task|name=Slayer}} /<br/>{{plink|Torva full helm}}
+|head2 = {{plink|Neitiznot faceguard}} /</br>{{plink|Serpentine helm}}{{Refn|Poison will not cause the mole to burrow, so may be preferable if you don't lose a max hit.|group=c}}
+|head3 = {{plink|Void melee helm}}
+|head4 = {{plink|Helm of Neitiznot}}
+|neck1 = {{Plink|Amulet of rancour}}
+|neck2 = {{Plink|Amulet of torture}}
+|neck3 = {{Plink|Amulet of fury}}
+|neck4 = {{Plink|Amulet of glory}}
+|neck5 = {{Plink|Amulet of strength}}
+|neck6 = {{Plink|Amulet of power}}
+|cape1 = {{Plink|Infernal cape}}
+|cape2 = {{Plink|Fire cape}}
+|cape3 = {{plink|Ardougne cloak 4}}
+|cape4 = {{plink|Ardougne cloak 3}}
+|cape5 = {{plink|Ardougne cloak 2}}
+|body1 = {{plink|Torva platebody}}
+|body2 = {{plink|Bandos chestplate}} / {{plink|Oathplate chest}}
+|body3 = {{plink|Elite void top}}
+|body4 = {{plink|Fighter torso}}
+|body5 = {{plink|Proselyte hauberk}} /</br>{{plink|Mixed hide top}}
+|legs1 = {{plink|Torva platelegs}}
+|legs2 = {{plink|Bandos tassets}} / {{plink|Oathplate legs}}
+|legs3 = {{plink|Elite void robe}}
+|legs4 = {{plink|Proselyte cuisse}} /</br>{{plink|Mixed hide legs}}
+|weapon1 = {{plink|Osmumten's fang}}
+|weapon2 = {{plink|Noxious halberd}} / {{plink|Ghrazi rapier}}
+|weapon3 = {{plink|Zamorakian hasta}}{{Refn|Set to stab|group=d}} > {{plink|Blade of Saeldor}}
+|weapon4 = {{plink|Belle's folly}} > {{plink|Zombie axe}}
+|weapon5 = {{plink|Abyssal dagger}}
+|shield1 = {{Plink|Avernic defender}}
+|shield2 = {{Plink|Dragon defender}}
+|shield3 = {{Plink|Rune defender}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3}}/[[Rada's blessing 2|2]]
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Void knight gloves}}
+|hands4 = {{plink|Dragon gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{Plink|Primordial boots}}
+|feet3 = {{Plink|Dragon boots}}
+|feet4 = {{Plink|Spiked manacles}}
+|ring1 = {{plink|Ultor ring}}
+|ring2 = {{plink|Lightbearer}} /</br>{{plink|Berserker ring (i)}}
+|ring3 = {{plink|Brimstone ring}}
+|ring4 = {{plink|Ring of the gods (i)}}
+|ring5 = {{plink|Ring of suffering (i)}}
+|special1 = {{plink|Burning claws}}
+|special2 = {{plink|Voidwaker}}
+|special3 = {{plink|Dragon claws}}
+|special4 = {{plink|Arkan blade}}
+|special5 = {{plink|Osmumten's fang}}
+}}
+{{Reflist|group=c}}
+{{Reflist|group=d}}
+{{Inventory|align=right
+|1=Divine super combat potion(4)
+|2=Divine super combat potion(4)
+|3=Divine super combat potion(4)
+|4=Stamina potion(4)
+|5=Stamina potion(4)
+|6=Stamina potion(4)
+|7=Stamina potion(4)
+|8=Prayer potion(4)
+|9=Prayer potion(4)
+|10=Prayer potion(4)
+|11=Prayer potion(4)
+|12=Prayer potion(4)
+|13=Prayer potion(4)
+|14=Prayer potion(4)
+|15=Prayer potion(4)
+|16=Prayer potion(4)
+|17=Prayer potion(4)
+|18=Prayer potion(4)
+|19=Prayer potion(4)
+|20=Prayer potion(4)
+|21=Voidwaker
+|22=
+|23=
+|24=Spade
+|25=Falador shield 4
+|26=Rune pouch
+|27=Ring of wealth
+|28=Bullseye lantern
+}}
+{{Rune pouch|align=right
+|1=Nature rune\1000
+|2=Fire rune\5000
+|3=
+}}
+
+==Inventory==
+*[[Spade]]
+*A good [[light source]] such as a lit [[bullseye lantern]], [[Kandarin headgear]], or [[Firemaking cape]]. Not needed if [[Fire of Eternal Light]] is built at the entrance.
+*[[Special attack]] weapon (optional)
+*2-3 [[Divine super combat potion]]s
+*13-15 [[prayer potion]]s
+*3-4 [[stamina potion]]s
+*[[Falador shield 3]] or [[Falador shield 4|4]]
+*[[Rune pouch]] filled with nature and fire runes
+*[[Ring of wealth]] with charges for teleporting to [[Falador Park]]
+
+|-|
+Melee (Dharok's) =
+Using [[Dharok the Wretched's equipment]] offers fewer kills per hour than the [[Armadyl crossbow]], but is a much more affordable option for most players. Use the locator orb or a dwarven rock cake to get down to 1 Hitpoint. Always keep Protect from Melee on when you're attacking the boss.
+
+If the player does not own a cape that provides a Strength bonus, they can instead use a cape that provides a prayer bonus to maximise the amount of time Protect from Melee is active before needing to restore Prayer Points.
+
+{{Recommended equipment
+|style = Dharok's
+|head1 = {{plink|Dharok's helm}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|neck5 = {{plink|Amulet of strength}}
+|body1 = {{plink|Dharok's platebody}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|cape3 = {{plink|Mythical cape}}
+|cape4 = {{plink|Soul cape}} / {{plink|Ardougne cloak 4}} / {{plink|Ardougne cloak 3|txt=3}}
+|cape5 = {{plink|Cape_of_Accomplishment#Equipment_bonuses|txt=Skillcape (t)|pic=Strength cape(t)}} / {{plink|Ardougne cloak 2}} / {{plink|Vestment cloak|pic=Saradomin_cloak}}
+|legs1 = {{plink|Dharok's platelegs}}
+|weapon1 = {{plink|Dharok's greataxe}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Rune gloves}}
+|hands4 = {{plink|Regen bracelet}}
+|hands5 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Dragon boots}}
+|feet4 = {{plink|Climbing boots}}
+|ring1 = {{plink|Bellator ring}}
+|ring2 = {{plink|Ultor ring}} /</br>{{plink|Lightbearer}}
+|ring3 = {{plink|Berserker ring (i)}}
+|ring4 = {{plink|Brimstone ring}}
+|ring5 = {{plink|Warrior ring (i)}} /</br>{{plink|Ring of endurance}}
+|special1 = {{plink|Burning claws}}
+|special2 = {{plink|Voidwaker}}
+|special3 = {{plink|Dragon claws}}
+|special4 = {{plink|Elder maul}}
+|special5 = {{plink|Dragon dagger}}
+}}
+{{Inventory|align=right
+|1=Locator orb
+|2=Voidwaker
+|3=Super combat potion(4)
+|4=Super combat potion(4)
+|5=Super combat potion(4)
+|6=Stamina potion(4)
+|7=Stamina potion(4)
+|8=Stamina potion(4)
+|9=Stamina potion(4)
+|10=Prayer potion(4)
+|11=Prayer potion(4)
+|12=Prayer potion(4)
+|13=Prayer potion(4)
+|14=Prayer potion(4)
+|15=Prayer potion(4)
+|16=Prayer potion(4)
+|17=Prayer potion(4)
+|18=Prayer potion(4)
+|19=Prayer potion(4)
+|20=Prayer potion(4)
+|21=Prayer potion(4)
+|22=
+|23=
+|24=Spade
+|25=Falador shield 4
+|26=Ring of wealth
+|27=Rune pouch
+|28=Bullseye lantern
+}}
+{{Rune pouch|align=right
+|1=Nature rune\1000
+|2=Fire rune\5000
+|3=
+}}
+
+==Inventory==
+*[[Spade]]
+*A good [[light source]] such as a lit [[bullseye lantern]] or [[Firemaking cape]]. Not needed if [[Fire of Eternal Light]] is built at the entrance.
+*[[Special attack]] weapon (optional)
+*2-3 [[Super combat potion]]s
+*11-13 [[Prayer potions]]
+*4-5 [[stamina potion]]s
+*[[Falador shield 3]] or [[Falador shield 4|4]]
+*[[Locator orb]] or [[dwarven rock cake]]
+*[[Rune pouch]] filled with nature and fire runes
+*[[Ring of wealth]] with charges for teleporting to [[Falador Park]]
+
+|-|
+Melee (Budget) =
+Using melee without Void Knight equipment offers fewer kills per hour than Void or Dharok the Wretched's equipment. This setup has the advantage of using cheap gear and not requiring untradeable items, making it more accessible for newer players. You should Protect from Melee when in combat with the Giant Mole.
+{{Recommended equipment
+|style = Melee & Prayer Budget
+|head1 = {{plink|Slayer helmet (i)}} {{Refn|When assigned as a slayer task|name=Slayer}}
+|head2 = {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Amulet of fury}}
+|neck2 = {{plink|Amulet of glory}}
+|neck3 = {{plink|Amulet of strength}}
+|cape1 = {{plink|Fire cape}}
+|cape2 = {{plink|Ardougne cloak 4}}
+|cape3 = {{plink|Obsidian cape}}
+|cape4 = {{plink|Mixed hide cape}}
+|body1 = {{plink|Fighter torso}}
+|body2 = {{plink|Obsidian platebody}}
+|body3 = {{plink|Proselyte hauberk}}
+|body4 = {{plink|Monk's robe top}}
+|legs1 = {{plink|Obsidian platelegs}}
+|legs2 = {{plink|Proselyte cuisse}}
+|legs3 = {{plink|Monk's robe}}
+|weapon1 = {{plink|Abyssal dagger}}
+|weapon2 = {{plink|Belle's folly}} / {{plink|Zombie axe}} (on slash)
+|weapon3 = {{plink|Abyssal whip}}
+|weapon4 = {{plink|Dragon sword}}
+|weapon5 = {{plink|Leaf-bladed sword}}
+|shield1 = {{plink|Dragon defender}}
+|shield2 = {{plink|Rune defender}}
+|shield3 = {{plink|Toktz-ket-xil}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Rune gloves}}
+|hands3 = {{plink|Regen bracelet}}
+|hands4 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Dragon boots}}
+|feet2 = {{plink|Climbing boots}}
+|ring1 = {{plink|Berserker ring (i)}}
+|ring2 = {{plink|Brimstone ring}}
+|ring3 = {{plink|Warrior ring (i)}}
+|special1 = {{plink|Dragon dagger}}
+}}
+{{Inventory|align=right
+|1=Divine super combat potion(4)
+|2=Divine super combat potion(4)
+|3=Prayer potion(4)
+|4=Prayer potion(4)
+|5=Prayer potion(4)
+|6=Prayer potion(4)
+|7=Prayer potion(4)
+|8=Prayer potion(4)
+|9=Prayer potion(4)
+|10=Prayer potion(4)
+|11=Prayer potion(4)
+|12=Prayer potion(4)
+|13=Stamina potion(4)
+|14=Stamina potion(4)
+|15=Stamina potion(4)
+|16=Stamina potion(4)
+|17=
+|18=
+|19=
+|20=
+|21=
+|22=
+|23=
+|24=Spade
+|25=Falador shield 4
+|26=Teleport to house (tablet)
+|27=Falador teleport (tablet)
+|28=Bullseye lantern
+}}
+
+==Inventory==
+*[[Spade]]
+*A good [[light source]] such as a lit [[bullseye lantern]] or [[Firemaking cape]]. Not needed if [[Fire of Eternal Light]] is built at the entrance.
+*[[Special attack]] weapon (optional)
+*1-2 [[Divine super combat potion]]s or [[Super set]]s
+*8-10 [[Prayer potions]]
+*4-5 [[Stamina]] or ([[Super energy|Super]]) [[energy potion]]s
+*[[Falador shield 3]] or [[Falador shield 4|4]]
+*[[Falador teleport (tablet)|Falador teletabs]]
+*An emergency [[teleport]] (optional)
+
+</tabber>
+[[Category:Strategies]]
