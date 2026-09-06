@@ -1,0 +1,354 @@
+This page shows various strategies and in-depth mechanics of [[The Gauntlet]] and The Corrupted Gauntlet.
+[[File:Fighting Crystalline Hunllef.png|thumb|300px|A player fights the boss of the Gauntlet, the Crystalline Hunllef.]]
+[[File:The Gauntlet map layout.png|thumb|300px|An example of a layout of the Gauntlet, showing the starting room and boss room.]]
+
+==Requirements==
+*Completion of {{SCP|Quest}} [[Song of the Elves]] to enter [[Prifddinas]].
+
+==Recommendations==
+* High [[combat]] stats. Although not required, the following skill levels are advised:
+** Level {{SCP|Attack|80}} or higher
+** Level {{SCP|Strength|85}} or higher
+** Level {{SCP|Defence|80}} or higher
+** Level {{SCP|Ranged|85}} or higher
+** Level {{SCP|Magic|80}} or higher
+** Level {{SCP|Hitpoints|85}} or higher
+** Level {{SCP|Prayer|77}} or higher
+* Completion of {{SCP|Quest}} [[King's Ransom]] and [[Camelot training room|Knight Waves Training Grounds]] to unlock the [[Piety]] [[Prayer#Prayers|prayer]].
+* Having the [[Rigour]] and [[Augury]] prayers unlocked. For Ironmen, [[Deadeye]] and [[Mystic Vigour]] will suffice.
+* {{SCP|Cooking|48}} [[Cooking]] to not burn [[paddlefish]].
+
+==Transportation==
+*Use the [[Eternal teleport crystal|(eternal)]] [[teleport crystal]] to teleport to [[Prifddinas]] and run north-west to arrive at the [[Gauntlet Portal]].
+*Use a [[charter ship]] to travel to Prifddinas; run east and then north to arrive at the Gauntlet Portal.
+*Use a [[Prifddinas teleport]] (or [[House teleport]] with [[POH]] in Prifddinas) tablet and run north to arrive at the Gauntlet Portal.
+*Use a [[Spirit Tree]] to travel to [[Prifddinas]] and run west to arrive at the Gauntlet Portal.
+
+==Mechanics==
+{{See also|The Gauntlet}}
+Refer to The Gauntlet's main page for a basic overview of the challenge. Consider playing one or two games to get familiar with The Gauntlet before reading too much in-depth information.
+
+===Weapon frames===
+[[Weapon frame]]s are dropped by all monsters found within The Gauntlet; however, the drop rates differ:
+*'''Weak monsters'''
+**Weapon frames are guaranteed from your first 'low tier' NPC kill. <ref>[https://secure.runescape.com/m=news/summer-sweep-up-gear--pvm-changes?oldschool=1 Summer Sweep-Up Gear & PvM Changes]</ref>
+*'''Strong monsters'''
+**Strong monsters have a guaranteed weapon frame drop if the player hasn't received one before.
+**The second weapon frame is a common drop from a strong monster; however, the exact drop rate is unknown.
+*'''Demi-bosses'''
+**Demi-bosses have a guaranteed weapon frame drop.
+
+===Perfected weapon upgrades===
+The perfected weapon upgrades, i.e. the [[crystalline bowstring]], [[crystal orb]] and [[crystal spike]], are dropped by the demi-bosses:
+*The bowstring is a guaranteed drop from the [[Crystalline Dark Beast]].
+*The orb is a guaranteed drop from the [[Crystalline Dragon]].
+*The spike is a guaranteed drop from the [[Crystalline Bear]].
+
+If the same kind of demi-boss is killed twice, the player is guaranteed to receive a different perfected weapon upgrade than the demi-boss's typical drop. Because of this change, players will obtain all the perfected weapon upgrades by killing three minibosses of any kind. In addition, if you lack [[Crystal shards (The Gauntlet)|crystal shards]], you can break the weapon upgrade with a pestle and mortar for 80 crystal shards.
+
+The demi-bosses only spawn on the perimeter (outside edge) of the map.
+
+===Boss fight===
+[[File:Crystalline Hunllef.png|right|300px]]
+The boss room is always located in the centre of the 7x7 grid of The Gauntlet and lies adjacent to the starting room. This room contains the [[Crystalline Hunllef]], a level 674 monster with 600 hitpoints. The Hunllef must be defeated in order to complete The Gauntlet. After defeating the Hunllef, the player will be teleported to The Gauntlet's central hub, where they may claim their loot from the [[Reward Chest (The Gauntlet)|Reward Chest]].
+
+====Fight mechanics====
+[[File: Crystalline Hunllef Attacks.png|300px|right|thumb|The standard Ranged and Magic attacks of the Crystalline Hunllef.]]
+[[File:Corrupted Gauntlet boss room run.png|right|thumb|The boss room in the Corrupted Gauntlet showing how to navigate different tile and tornado attack patterns. The perimeter should only be used when safe to do so. Otherwise, using the cross area is best while constantly moving.]]
+[[File:Corrupted Gauntlet boss room safe tiles.png|right|thumb|The highlighted tiles cannot turn orange during the last phase (below 330 Hitpoints), which may be helpful when tornadoes are not active.]]
+During their fight with the Hunllef, players will face a few unique fight mechanics:
+*The Hunllef's '''standard attacks''' consist of powerful [[Magic]] and [[Ranged]] attacks. Damage will be greatly reduced by using the correct [[protection prayers]]. Crystal armour pieces will further reduce the Hunllef's maximum damage (provided that a full set of armour is worn).
+**The boss will always start the fight with its Ranged attacks. Four (4) attacks will be done before switching to its Magic attacks. After four (4) hits, it will switch back to Ranged, and so forth.
+**The Magic attack will occasionally disable all [[prayers]]. This attack can be identified by a different sound effect and a slightly different animation. This attack also counts as one of the four attacks of the Hunllef's attack cycle.
+*The Hunllef will occasionally summon purple '''tornadoes''' that will chase the player.
+**Depending on the [[Hitpoints]] of the Hunllef, one (1) to three (3) tornadoes will spawn at a time.
+**Try to avoid these tornadoes; they deal 10-20 damage per tick when they reach the player.
+**Armour pieces will mitigate the damage dealt by the tornadoes. Higher tier pieces mitigate more damage than lower tier pieces.
+**This attack also counts as one of the four attacks of the Hunllef's attack cycle.
+*When under the Hunllef, the boss will perform a '''trample attack''' that can deal up to 50+ damage. 
+**This attack does '''not''' count as one of the four attacks of the Hunllef's attack cycle.
+*The '''floor tiles''' will randomly turn blue and then quickly orange. Avoid these tiles, as the player will receive 10-25 damage per tick while standing on an orange tile. During the [[Corrupted Gauntlet]], the floor tiles turn very quickly towards the end. The best way to navigate these tiles is to avoid standing too close to the corners (unless dodging or running from tornadoes on a safe path), maintaining some distance. (See image to the right.)
+*During the fight, the Hunllef will change its '''protection prayers''' to protect against the player's current attack style after every sixth attack by the player. Therefore, more than one attack style is needed to defeat the Hunllef.
+**For example, if the Hunllef begins the fight by using [[Protect from Melee]], and the player does five random attacks (the attack style for these five attacks doesn't matter) and then uses their bow for the sixth attack, the Hunllef will switch to the [[Protect from Missiles]] prayer.
+
+Make sure to always use the protection and offensive prayers. Make sure to immediately reactivate these after the Hunllef disables them. Using the quick prayer orb may be useful for this.
+
+==Time-saving methods==
+In The Gauntlet, there are a few methods players may execute to complete the challenge in a shorter time period. These methods are mainly used for speedrunning.
+
+===5:1 method===
+The 5:1 method focuses on manipulating the Hunllef's protection prayer switches to allow the player to maximise their time spent DPSing with their [[Crystal bow (perfected)|perfected crystal bow]] (tier 3). The player uses their perfected crystal bow for the first five attacks and then alternates between their Magic and Melee weapon on the sixth attack to ensure that the boss never uses [[Protect from Missiles]]. Here is an example:
+*The Hunllef begins the fight by using [[Protect from Melee]].
+*The player launches five bow attacks then a staff attack.
+*The Hunllef switches to [[Protect from Magic]].
+*The player launches five bow attacks then a kick ([[Melee]] attack, no weapon equipped).
+*The Hunllef switches to Protect from Melee.
+*Repeat.
+
+A staff and a bow are needed for this method to work as you must have access to all three attack styles.
+
+===Redemption method===
+The redemption method, named after the [[Redemption]] prayer, can be used in conjunction with the 5:1 method. The goal of this method is to minimise tick loss from eating during the boss fight by using the Redemption prayer as a supplementary source of healing. This method still requires 4-8 [[paddlefish]] as it is not always possible to use Redemption without risking being killed: as such, always eat if your HP is below 16. To actually do this method, simply pray the correct [[protection prayer]] when the Hunllef casts an attack and then switch to the Redemption prayer while the projectile is mid-air. Then once Redemption activates, '''immediately''' drink a sip of potion and turn on the correct prayer, before the next attack.
+
+===Filling vials===
+Fill the [[Vial (The Gauntlet)|vial]]s with water from the [[Fishing Spot]]s while fishing for [[raw paddlefish]], instead of at the [[Water Pump (The Gauntlet)|Water Pump]] in the starting room. This will save the player a few game ticks at the end of the run. After filling a vial this way, if the player immediately clicks on the Fishing Spot they will receive a fish in 1 tick.
+
+===Vengeance===
+Since active [[Vengeance]] casts won't be removed upon entering The Gauntlet, the [[Lunar spell]] has an important use in speedrunning. To use this method, follow these instructions:
+#Cast Vengeance before entering The Gauntlet. 
+#Avoid receiving any damage until you find your first demi-boss.
+#Tank the first hit from the demi-boss and use the correct prayer afterwards.
+
+==The Corrupted Gauntlet==
+[[File:Corrupted Hunllef.png|right|300px]]
+There is also a more challenging version of The Gauntlet: The Corrupted Gauntlet. 
+
+The main differences to the regular Gauntlet are:
+*The main colour theme of The Corrupted Gauntlet is red instead of blue.
+*All items are Corrupted instead of Crystal; however, they have the same properties and stats.
+*All monsters are Corrupted instead of Crystalline. These monsters have the same mechanics and drop tables; however, their combat stats are increased.
+*The player only has 7:30 minutes to prepare, instead of 10:00.
+*The boss room contains the [[Corrupted Hunllef]], which has 1,000 Hitpoints, increased stats and increased damage.
+*The Hunllef's tornado attack summons an extra tornado per attack.
+*Completing the Corrupted Gauntlet gives an additional roll on the standard loot table.
+
+==Regular Gauntlet strategy==
+===Desired equipment and inventory===
+{{Equipment|align = right
+|buttons = No
+|head = Crystal helm (basic)
+|cape = 
+|neck = 
+|ammo = 
+|weapon = Crystal bow (perfected)
+|torso = Crystal body (basic)
+|legs = Crystal legs (basic)
+|shield = 
+|gloves = 
+|boots = 
+|ring = 
+}}
+
+{{Inventory|align=right
+|Crystal staff (perfected) |Egniol potion (3) |Egniol potion (3) | 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+| | | | 
+| | | | 
+}}
+
+*2 of the following weapons: [[Crystal bow (perfected)]], [[Crystal halberd (perfected)]] or [[Crystal staff (perfected)]].
+**To save time, players with high [[combat]] stats might choose to make only one perfected (tier 3) and one attuned (tier 2) weapon.
+*The complete [[basic crystal equipment]] to reduce the [[Crystalline Hunllef]]'s maximum damage from 12 to 10 on the correct [[protection prayer]].
+*2 [[Egniol potion (3)]] for restoring [[run energy]] and [[prayer points]] whilst in The Gauntlet. 20 shards per potion.
+*Enough [[paddlefish]] to restore [[Hitpoints]] during the battle with the Crystalline Hunllef. Each paddlefish heals 20 Hitpoints.  (You may also 'combo-eat' crystallized paddlefish made at the singing bowl as they function similar to [[Cooked karambwan|Karambwan]].  Be aware they heal 16 instead of 20.)
+
+====Required resources====
+This listed set up requires the collection of the following resources:
+*2 [[weapon frame]]s.
+*3 [[crystal ore]]s, [[linum tirinum]]s and [[phren bark]]s.
+*2 [[grym leaves]].
+*320 [[Crystal shards (The Gauntlet)|crystal shards]].
+*2 of the following items: [[crystal spike]] (for the halberd), [[crystal orb]] (for the staff) or [[crystalline bowstring]] (for the bow).
+
+Beginners may choose to upgrade the [[basic crystal armour]] to [[attuned crystal armour]] in order to reduce the Crystalline Hunllef's maximum damage to 8 on the correct [[protection prayer]]. This would require the following additional resources:
+*4 crystal ores, linum tirinums and phren barks.
+*180 crystal shards.
+
+Totals:
+*A full set of Tier 1 armour and two Tier 3 weapons requires 250 [[corrupted shards]]
+*A full set of Tier 2 armour and two Tier 3 weapons requires 450 [[corrupted shards]]
+*A full set of Tier 3 armour and two Tier 3 weapons requires 750 [[corrupted shards]]
+
+===Guide===
+[[File:The Gauntlet runs.png|thumb|An example of the first run to collect supplies around the base and the second run to collect upgrades and more supplies.]]
+#Kill the weak monsters in the rooms adjacent to the starting room to collect a [[weapon frame]] and 100 [[Crystal shards (The Gauntlet)|crystal shards]]. An effective method for gathering supplies entails a clockwise or counterclockwise route around the starting room (i.e. making a 'C' around the starting room).
+#Return to the starting room and make a [[Crystal staff (attuned)]] (tier 2) and two [[Vial (The Gauntlet)|vial]]s at the [[Singing Bowl]].
+#Gather a sufficient amount of [[raw paddlefish]] as well as three [[crystal ore]]s, [[linum tirinum]]s and [[phren bark]]s (or seven of each material for beginners) and two [[grym leaves]].
+#*The inner 3x3 area adjacent to the boss is guaranteed to include at least three of each crystal ores, linum tirinums and phren barks, effectively making fishing spots rarer in this area as a drawback.
+#Make a lap around the outer edge of the arena to find a [[Crystalline Dark Beast]] and/or [[Crystalline Dragon|Dragon]] (if going for only one tier 3 weapon, only kill whichever comes first) for the [[Crystal bow (perfected)|Tier 3 Bow]]/[[Crystal staff (perfected)|Staff]] upgrade. Be sure to collect a second weapon frame and 220 crystal shards as well.
+#Use the [[Teleport crystal (The Gauntlet)|teleport crystal]] to return back to the starting room.
+#Cook the raw paddlefish, make the [[basic crystal armour]] (120 shards), make either a [[Crystal bow (attuned)]] (tier 2) or [[Crystal staff (attuned)]] (tier 2) (80 shards), upgrade one (or both) of the weapons to tier 3 and grind 20 crystal shards to make two [[egniol potion]]s.
+
+{{Clear}}
+
+==Regular Gauntlet speedrunning==
+===Desired equipment and inventory===
+{{Equipment|align = right
+|buttons = No
+|head = 
+|cape = 
+|neck = 
+|ammo = 
+|weapon = Crystal bow (perfected)
+|torso = 
+|legs = 
+|shield = 
+|gloves = 
+|boots = 
+|ring = 
+}}
+
+{{Inventory|align=right
+|Crystal staff (attuned) |Egniol potion (3) |Egniol potion (3) | 
+|Paddlefish |Paddlefish |Paddlefish | 
+| | | | 
+| | | | 
+| | | | 
+| | | | 
+| | | | 
+}}
+
+*A [[Crystal bow (perfected)]] (tier 3) and [[Crystal staff (attuned)]] (tier 2).
+**To save time, players with high [[combat]] stats might choose to only make the attuned (tier 2) version of each weapon.
+*2 [[Egniol potion (3)]] for restoring [[run energy]] and [[prayer points]] whilst in The Gauntlet.
+*Enough [[paddlefish]] to restore [[Hitpoints]] during the battle with the Crystalline Hunllef. Each paddlefish heals 20 Hitpoints.  (You may also 'combo-eat' crystallized paddlefish made at the singing bowl as they function similar to [[Cooked karambwan|Karambwan]].  Be aware they heal 16 instead of 20.)
+
+====Required resources====
+This listed set up requires the collection of the following resources:
+*2 [[weapon frame]]s.
+*2 [[grym leaves]].
+*200 [[Crystal shards (The Gauntlet)|crystal shards]].
+*A [[crystalline bowstring]].
+
+===Guide===
+The process is largely identical to the regular Gauntlet guide, but you try to save ticks along the way by employing the following methods:
+#Cast [[Vengeance]] before entering The Gauntlet. Avoid receiving any damage until facing the boss.
+#Check the [[Crystalline Hunllef]]'s protection prayer upon entering the Gauntlet. If it is using [[Protect from Missiles]], leave and restart (only if doing the [[#5:1 method|5:1 method]]).
+#Kill the weak monsters in the rooms adjacent to the starting room to collect a [[weapon frame]] and 100 [[Crystal shards (The Gauntlet)|crystal shards]].
+#*Lure monsters towards the next room that you intend to go to while killing them to save time on running after the kill.
+#Return to the starting room and make an [[Crystal staff (attuned)|attuned crystal staff]] (tier 2) and two [[Vial (The Gauntlet)|vial]]s at the [[Singing Bowl]].
+#Gather a sufficient amount of [[raw paddlefish]] and two [[grym leaves]].
+#*Fill your vials with water from the [[Fishing Spot]]s while fishing.
+#Make a lap around the outer edge of the arena to find a [[Crystalline Dark Beast]] for the [[perfected crystal bow]] (tier 3) upgrade. Be sure to collect a second weapon frame and 100 crystal shards as well.
+#Use the [[Teleport crystal (The Gauntlet)|teleport crystal]] to return back to the starting room.
+#Cook the raw paddlefish, make an [[attuned crystal bow]] (tier 2) (80 shards), upgrade the crystal bow to tier 3 and grind 20 crystal shards to make two [[egniol potion]]s.
+#Don't use a [[protection prayer]] for the Hunllef's first attack to activate the Vengeance.
+#Switch to the [[attuned crystal staff]] or unequip your weapon every sixth attack so that the boss changes prayer to the undesired combat style, and then resume attacking with your perfected crystal bow. See the 5:1 method section for more info on this method.
+
+==Corrupted Gauntlet strategy==
+{{Obsolete|Armour materials (ore, wood, and wool) are now stackable, demibosses have been moved, and drops are rebalanced, drastically changing the strategies for speedrunning}}
+===Desired equipment and inventory===
+{{Equipment|align = right
+|buttons = No
+|head = Corrupted helm (attuned)
+|cape = 
+|neck = 
+|ammo = 
+|weapon = Corrupted bow (perfected)
+|torso = Corrupted body (attuned)
+|legs = Corrupted legs (attuned)
+|shield = 
+|gloves = 
+|boots = 
+|ring = 
+}}
+
+{{Inventory|align=right
+|Corrupted staff (perfected) |Egniol potion (3) |Egniol potion (3) |Egniol potion (3) 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+| | | | 
+}}
+
+*A [[Corrupted bow (perfected)]] (tier 3) and [[Corrupted staff (perfected)]] (tier 3).
+**Depending on the lay-out, a [[Corrupted halberd (perfected)]] (tier 3) might be brought instead of the Corrupted staff (perfected) (tier 3).
+*A full set of [[Basic_corrupted_equipment#Armour_bonuses|Basic corrupted armour]] (tier 1) - Note that while mixing different tiers of armour does not provide any additional damage reduction from the Corrupted Hunllef's attacks, it does provide slightly higher offensive / defensive stats; allowing the player to take slightly less damage and hit slightly more accurately throughout the fight.
+*2-3 [[Egniol potion (3)]] for restoring [[run energy]] and [[prayer points]] whilst in The Gauntlet. 20 shards per potion.
+*Enough [[paddlefish]] to restore [[Hitpoints]] during the battle with the Corrupted Hunllef. Each paddlefish heals 20 Hitpoints.
+
+====Required resources====
+This listed set up requires the collection of the following resources:
+*2 [[weapon frame]]s.
+*3-7 [[corrupted ore]]s, [[Linum tirinum (corrupted)|linum tirinum]]s and [[Phren bark (corrupted)|phren bark]]s.
+*2-3 [[grym leaves]].
+*320-520 [[corrupted shards]].
+*A [[corrupted bowstring]] and [[corrupted orb]].
+
+Struggling players may choose to upgrade the armour from basic to attuned (optimally in full if time allows) in order to mitigate the Corrupted Hunllef's damage on the correct [[protection prayer]]. This would require the following additional resources:
+*4 crystal ores, linum tirinums and phren barks (total of 7 each).
+*180 crystal shards (total of 500 if using 2 potions and 520 if 3 potions).
+
+Totals:
+*A full set of Tier 1 armour and two Tier 3 weapons requires 250 [[corrupted shards]]
+*A full set of Tier 2 armour and two Tier 3 weapons requires 450 [[corrupted shards]]
+*A full set of Tier 3 armour and two Tier 3 weapons requires 750 [[corrupted shards]]
+
+===Preparation guide===
+[[File:The Gauntlet runs.png|thumb|An example of the first run to collect supplies around the base and the second run to collect upgrades and more supplies.]]
+#Check the [[Corrupted Hunllef]]'s protection prayer upon entering the Gauntlet. If it is using [[Protect from Missiles]], leave and restart (only if doing the 5:1 method).
+#Kill the weak monsters in the rooms adjacent to the starting room to collect a [[weapon frame]] and 100 [[corrupted shards]]. An effective method for gathering supplies entails a clockwise or counterclockwise route around the starting room (i.e. making a 'C' around the starting room).
+#Return to the starting room and make a [[Corrupted staff (attuned)]] (tier 2) and two [[Vial (The Gauntlet)|vial]]s at the [[Singing Bowl]].
+#Gather a sufficient amount of [[raw paddlefish]] as well as three [[corrupted ore]]s, [[Linum tirinum (corrupted)|linum tirinum]]s and [[Phren bark (corrupted)|phren bark]]s and two [[grym leaves]].
+#*Fill your vials with water from the [[Fishing Spot]]s while fishing.
+#*If you're struggling to find fish, be aware that one of the rooms adjacent to the Hunllef is guaranteed to have at least three fishing spots (12 paddlefish).
+#Make a lap around the outer edge of the arena to find a [[Corrupted Dark Beast]] and [[Corrupted Dragon]] for the [[perfected corrupted bow]] and [[perfected corrupted staff]] (tier 3) upgrades. Be sure to collect a second weapon frame and 220 corrupted shards as well.
+#*If you see a [[Corrupted Bear]], you should kill it even if you don't want to use a halberd; demibosses will always drop unique tier 3 upgrades, and so killing it will allow you to kill the first three demibosses you see rather than specifically hunting for a dragon and a dark beast. You can also use a [[pestle and mortar]] to crush the [[corrupted spike]] into 80 corrupted shards.
+#Use the [[Corrupted teleport crystal|teleport crystal]] to return back to the starting room.
+#Cook the raw paddlefish, make the [[basic corrupted armour]] (120 shards), make a [[Corrupted bow (attuned)]] (tier 2) (80 shards), upgrade the corrupted bow to tier 3 and grind 20 corrupted shards to make two [[egniol potion]]s.
+
+{{Clear}}
+
+==Corrupted Gauntlet speedrunning==
+===Desired equipment and inventory===
+{{Equipment|align = right
+|buttons = No
+|head = Corrupted helm (basic)
+|cape = 
+|neck = 
+|ammo = 
+|weapon = Corrupted bow (perfected)
+|torso = Corrupted body (basic)
+|legs = Corrupted legs (basic)
+|shield = 
+|gloves = 
+|boots = 
+|ring = 
+}}
+
+{{Inventory|align=right
+|Corrupted staff (basic) |Egniol potion (3) |Egniol potion (3) | 
+|Paddlefish |Paddlefish |Paddlefish |Paddlefish 
+| | | | 
+| | | | 
+| | | | 
+| | | | 
+| | | | 
+}}
+
+*A [[Corrupted bow (perfected)]] (tier 3) and [[Corrupted staff (basic)]] (tier 1).
+**Depending on the lay-out, a [[Corrupted halberd (perfected)]] (tier 3) might be brought instead of the Corrupted staff (basic) (tier 1).
+*2 [[Egniol potion (3)]] for restoring [[run energy]] and [[prayer points]] whilst in The Gauntlet.
+*Enough [[paddlefish]] to restore [[Hitpoints]] during the battle with the Corrupted Hunllef. Each paddlefish heals 20 Hitpoints.  (You may also 'combo-eat' crystallized paddlefish made at the singing bowl as they function similar to [[Cooked karambwan|Karambwan]].  Be aware they heal 16 instead of 20.)
+
+====Required resources====
+This listed set up requires the collection of the following resources:
+*2 [[weapon frame]]s.
+*3 [[corrupted ore]]s, [[Linum tirinum (corrupted)|linum tirinum]]s and [[Phren bark (corrupted)|phren bark]]s.
+*2 [[grym leaves]].
+*260 [[corrupted shards]] (320 if going for the perfected halberd (tier 3)).
+*A [[corrupted bowstring]].
+
+===Guide===
+The process is largely identical to the regular Corrupted Gauntlet guide, but you try to save ticks along the way by employing the following methods:
+#Cast [[Vengeance]] before entering The Gauntlet. Avoid receiving any damage until facing the boss.
+#Check the [[Corrupted Hunllef]]'s protection prayer upon entering the Gauntlet. If it is using [[Protect from Missiles]], leave and restart (only if doing the 5:1 method).
+#Kill the weak monsters in the rooms adjacent to the starting room to collect a [[weapon frame]] and 100 [[corrupted shards]].
+#*Lure monsters towards the next room that you intend to go to while killing them to save time on running after the kill.
+#Return to the starting room and make an [[attuned corrupted bow]] (tier 2) and two [[Vial (The Gauntlet)|vial]]s at the [[Singing Bowl]].
+#Gather a sufficient amount of [[raw paddlefish]] as well as three [[corrupted ore]]s, [[Linum tirinum (corrupted)|linum tirinum]]s and [[Phren bark (corrupted)|phren bark]]s and two [[grym leaves]].
+#*Fill your vials with water from the [[Fishing Spot]]s while fishing.
+#Make a lap around the outer edge of the arena to find a [[Corrupted Dark Beast]] for the [[perfected corrupted bow]] (tier 3) upgrade. Be sure to collect a second weapon frame and 160 corrupted shards as well.
+#Use the [[Corrupted teleport crystal|teleport crystal]] to return back to the starting room.
+#Cook the raw paddlefish, make the [[basic corrupted equipment]] (120 shards), make a [[basic corrupted staff]] (tier 1) (20 shards), upgrade the corrupted bow to tier 3 and grind 20 corrupted shards to make two [[egniol potion]]s.
+#Don't use a [[protection prayer]] for the Hunllef's first attack to activate the Vengeance.
+#Switch to the corrupted staff or unequip your weapon every sixth attack so that the boss changes prayer to the undesired combat style, and then resume attacking with your perfected corrupted bow. See the 5:1 method section for more info on this method.
+
+{{The Gauntlet}}
+{{DEFAULTSORT:Gauntlet, The/Strategies}}
+[[Category:Strategies]]

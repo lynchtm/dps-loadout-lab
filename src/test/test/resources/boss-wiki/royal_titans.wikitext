@@ -1,0 +1,497 @@
+[[File:Fighting Royal Titans.png|thumb|300px|A pair of players take on the Royal Titans.]]
+The [[Royal Titans]] are a pair of ice and fire giant bosses located in the [[Asgarnia Ice Dungeon]]: the fire giant queen [[Branda the Fire Queen|Branda]] and the ice giant king [[Eldric the Ice King|Eldric]]. There are no requirements to access or fight them. They can be fought in a duo or solo.
+
+To reach the bosses, after entering the dungeon, players must run north past the pirates and muggers, then west. Alternately, players with 60 [[Agility]] can use a shortcut directly to the west of the entrance.
+
+==Recommendations==
+* Moderate [[combat]] stats in all styles
+** Level {{SCP|Attack|70}} or higher
+** Level {{SCP|Strength|70}} or higher
+** Level {{SCP|Defence|70}} or higher
+** Level {{SCP|Ranged|70}} or higher
+** Level {{SCP|Magic|75}} or higher for a max hit of 40 with [[Fire Wave]] and [[Water Wave]] on elementals
+*** Levels below this will not be able to 1-shot elementals
+** Level {{SCP|Hitpoints|70}} or higher
+** Level {{SCP|Prayer|43}} for protection prayers
+
+==Transportation==
+Players can use the [[Tunnel (Asgarnian Ice Dungeon, level 60)|tunnel shortcut]] just west of the dungeon ladder with 60 [[Agility]] to get to the boss room faster if they don't have the [[giantsoul amulet]] yet.
+* The [[Giantsoul amulet]] will teleport the player directly outside the boss room.
+* The fairy ring code {{Fairycode|AIQ}} is south of the dungeon entrance.
+* The minigame teleport to the [[rat pits]], Port Sarim [[spirit tree patch]], and [[explorer's ring]] are north of the dungeon entrance.
+* The Rimmington [[Portal (Player-owned house)|house portal]] is north of the dungeon entrance.
+
+==Fight overview==
+The fight against the Royal Titans takes place on a five-tile-wide strip of land between the [[Crandor and Karamja Dungeon]] and [[Asgarnian Ice Dungeon]]. The encounter is recommended for two players, though a player can fight the Royal Titans alone if desired. Most damage taken during the fight is avoidable, so the major difference a solo player can expect is a significantly lengthier fight.
+
+All three combat styles are highly recommended but serve different purposes. A typical setup will primarily consist of melee damage and should prioritise a strong melee weapon. It's possible to kill the Titans with only melee or only ranged attacks, but it can be much slower than bringing both. Magic is primarily used to adjust the playable area of the arena and destroy elemental minions who would otherwise deal unavoidable damage. It's possible to complete the fight without magic, but this is only recommended for higher-levelled players.
+
+The Titans have 600 health each, with a Defence level of 100. They are slightly weaker to crush, though not significantly enough to prioritise a crush weapon over something stronger. Additionally, despite their high ranged defences of +700, players get a hidden +500% (a 6x multiplier) to ranged accuracy whenever the titans are out of melee distance.{{CiteNews|url=https://secure.runescape.com/m=news/game-jam-poh-improvements?oldschool=1|title=Game Jam: POH Improvements|newsdate=26 February 2025|quote=The moment a Royal Titan starts retreating from Melee range, it becomes far more vulnerable to Ranged attacks. While it's in this state, your Ranged Accuracy gets a whopping 500% boost - meaning your hits are going to land much more reliably. This effect lasts until the Titan turns around to re-engage in Melee combat, so keep those arrows flying while you have the advantage! The Accuracy buff also applies during the charge-up pulse attack in Stage 3, covering both the charging phase and the attack itself.}} This lasts until the Titans turn around to start engaging in melee combat once again. This accuracy boost also applies during the entirety of the Elemental Blast attack, which includes the charging and a few ticks after the attack has completed. 
+
+Despite the strength of this boost, the Titans still have considerably lower melee defence and players are incentivised to attack with melee whenever possible.
+
+===Attacks===
+The titans use several different attacks during the fight:
+* '''Stomp''' - a melee attack in which the Titans will stomp the ground (affecting the three rows in front of them), which can be blocked with [[Protect from Melee]]. Only used whilst in melee distance during the first phase of the fight. This can deal up to 26 damage.
+[[File:Royal Titans - dealing with hazards.mp4|thumb|400px|A player deals with walls and elementals using magic. A [[twinflame staff]] works best here due to its spell-switching ability.]]
+* '''Fire/Icicle Walls''' - a row of fire/icicles will begin to manifest, fully forming and blocking said row after four [[ticks]]. Standing on a targeted tile will deal up to 12 damage to the player, but prevents the obstacle from forming. They will dissipate on their own in time, but can be destroyed with their opposing element without incurring any attack delays, regardless of the player's magic attack bonus:
+** The [[Fire (Royal Titans)|fires]] are doused with [[Water Blast]] or greater, extinguishing the two others adjacent to the targeted tile. [[Ice spells]] are also effective.
+** The [[Icicles (Royal Titans)|icicles]] are melted with [[Fire Blast]] or greater, melting the two others adjacent to the targeted tile.
+* '''Fire/Ice elementals''' - The Titans will summon three [[Fire elemental (Royal Titans)|fire]]/[[Ice elemental (Royal Titans)|ice elementals]] that attack with melee. If not killed, they will self-destruct, dealing 8-10 damage in a 3x3 area around them.
+** Players with a +70 magic attack bonus (or +39 if wearing the full [[Void Knight equipment#Set effects|void mage set]]) are guaranteed a [[successful hit]], dealing their max hit with water or fire spells, which uniquely attack in a 3x3 area around its primary target during this fight. The elementals also have an [[elemental weakness]] to their opposing element, taking double damage.
+** For each elemental killed, the player receives a 1-tick reduction to their attack delay, allowing spells to be cast consecutively much quicker than usual.
+* '''Elemental Blast''' - The Titans will blast the entire area with their respective elements three times, except for one safe tile, dealing up to 30 damage per blast. Only used once the Titans enter the second phase of the fight.
+
+===Phase 1===
+Upon entering the fight area, Branda and Eldric will briefly be in melee distance at the centre. Players have enough time to run from the entrance and strike one of them with any melee weapon (Eldric being easiest) before they distance themselves from the platform. When this occurs, the player's ranged accuracy is increased by 6x, lasting until the Titans start to move back within melee distance.
+
+While out of melee range, the Titans will conjure icicles and fire walls, with elementals being summoned once one of the Titans have taken 100 damage. The elementals can stack on each other and do not have a clear indicator on when they self-destruct, so it is recommended to kill them, as the damage can quickly add up. It is also possible to lure the elementals onto an emerging wall of the opposing element, which will kill them instantly when it forms, although this is not a fully reliable strategy due to the unpredictable placement of the walls.
+
+After roughly 20 seconds, they will enter melee distance and perform their stomp attacks. When one of the Titans drops to 210 (35%) health or below, the fight will transition to the second phase.
+
+When soloing, it's advisable to try to stagger the melee/range phases for both Titans so that at least one of them is in melee range for as much of phase 1 as possible,  with one titan entering into melee when the other one is just about to enter into ranged. This can be accomplished by staying as far away from a Titan as possible so that they have to walk the max distance to get to you upon transitioning to melee, delaying their sequence. When done correctly, there should barely be any situations where neither titan is in melee range, which increases DPS as you can just run back and forth without needing to switch to lesser ranged DPS. 
+
+If the player remains in the instance after slaying the titans, it's possible to use a  four-tick weapon to attack each of the titans a single time before they walk away; Or a four-tick weapon followed by a [[halberd]] swap can allow two hits on a single Titan before it leaves melee range. 
+
+===Phase 2===
+[[File:Royal Titans - elemental combo.mp4|thumb|450px|A full rotation of the second phase of the fight.]]
+Both Titans will make their way onto the main fight area, occupying three rows at both ends. If a player is standing on the position a Titan will occupy, the player is knocked back and takes roughly 15-30 damage. The Titans will then begin charging their Elemental Blast attack after a short delay; the player's ranged accuracy gets a 6x multiplier during the charging, attack, and for a few seconds after.
+
+Depending on gear and attack styles, a player may wish to bring both Titans down equally to this point, or focus on a single titan to reach this phase as soon as possible. While the Titans will now always be in melee distance, lower-levelled players may find it more difficult to manage as the titans will now follow a more dangerous, albeit generally consistent attack rotation.
+
+During this phase, the Titans will now use Elemental Blast, summon elementals and stomp. The Titans will generally sync their attacks, though this may desync once they fall below 100{{Fact}} hitpoints, such as one Titan stomping and the other summoning elementals rather than both stomping at once. Notably, the stomp will cover the entire arena.
+
+Try to leave the Titans' health as low as possible before subduing them, as defeating one Titan will cause the other to go unchecked by their opposing element. This will result in their stomp attacks dealing up to 10 damage through prayer, and the safespot for the Elemental Blast always being placed at the furthest row from them.
+
+During the Elemental Blast, there is one safe tick between each blast that the player can exploit with melee to attack once and then run back to the safespot. This is only damage-free if the safespot is two tiles away from the respective Titan so the player can return on the next tick, or the player will be hit by the following blast. If three tiles away, a halberd can be used instead. A useful indicator for timing this method is to attack immediately after a Titan raises its staff to perform the blast. Otherwise, attack them with ranged. Utilising this strategy minimises time spent swapping gear and prayers. 
+
+If one of the Titans is subdued before the Elemental Blast fully charges, the blasts will no longer cover their corresponding area for that cast, thus making it a brief safespot for that instance.
+
+<gallery mode="packed" heights="300" style="text-align:left">
+Royal Titans - melee reach.mp4|The player briefly leaves the safespot between blasts to attack. This only works when the safespot is two tiles away from either Titan.
+Royal Titans - halberd reach.mp4|The player uses a halberd to continue attacking with melee during the Elemental Blast while the safespot is three tiles away from both Titans. This can only be done with a halberd, though a halberd can still be used when the safespot is two tiles away.
+</gallery>
+
+==Equipment==
+All three styles of combat are beneficial to the fight, so balancing the best equipment available with your limited inventory space is a concern. Bring switches that have high magic attack bonuses; spells will have a chance to splash on the minions if your magic attack bonus is below the following values: 70+ magic attack bonus (39+ magic attack bonus with void).
+
+As the Titans are primarily fought with melee, prioritise melee strength bonus. For when the Titans are out of reach of melee, bring a ranged weapon and equipment.  
+
+Additional gear switches can make the fight faster if executed correctly, but may shorten trips due to fewer supplies. Because the giants can have very high ranged defence in some parts of each phase it's better to prioritise getting high-hitting melee attacks primarily, although with slower kills, ranged equipment becomes more important.
+
+If choosing to kill the elementals, bringing an additional staff is recommended.  Despite the low inbuilt accuracy, the [[Twinflame staff]] is highly recommended due to the passive effect automatically swapping between fire and water spells.
+
+{{Recommended equipment
+|style = Magic weapon
+|weapon1 = {{plink|Twinflame staff}} (+12)
+|weapon2 = {{plink|Purging staff}} (+37)
+|weapon3 = {{plink|Kodai wand}} (+28)
+|weapon4 = {{plink|Ancient sceptre}} / {{plink|Master wand}} (+20)
+|weapon5 = {{plink|Ancient staff}} (+15)
+}}
+
+=== On Slayer task ===
+Each boss counts as an [[ice giant]] or [[fire giant]] task respectively. The [[Slayer helmet (i)|imbued slayer helm]] can boost damage on task.
+
+The only slayer master that assigns both is [[Vannaka]], and you can optimize his blocklist to be Titans specific.
+
+Alternatively if you only need the fire giant task, [[Chaeldar]], [[Nieve]] and [[Duradel]] can assign them, but without the possibility of ice giants.
+
+===Low Level / Sustain===
+When fighting the Titans solo or in a duo with low end gear and stats, it may be easier to bring fewer switches and more supplies so you can kill more Titans before you have to bank. With lower damage output, it is recommended to use the [[Standard spellbook|standard spellbook]] to deal with the elementals and barriers, as their damage will add up quickly. 
+
+<tabber>
+Melee (Low Level)=
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}}{{efn|If on a [[Fire giant]] or [[Ice giant]] task, will work against the respective boss only}}
+|head2 = {{plink|Blood moon helm}}
+|head3 = {{plink|Helm of Neitiznot}}<br/>{{plink|Eclipse moon helm}}
+|neck1 = {{plink|Amulet of fury}} / {{plink|Amulet of strength}}
+|neck2 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Fire cape}}
+|cape2 = {{plink|Mythical cape}}
+|body1 = {{plink|Blood moon chestplate}}
+|body2 = {{plink|Fighter torso}}
+|body3 = {{plink|Eclipse moon chestplate}} / {{plink|Blue moon chestplate}}
+|legs1 = {{plink|Blood moon tassets}}
+|legs2 = {{plink|Eclipse moon tassets}} / {{plink|Blue moon tassets}}
+|weapon1 = {{plink|Dual macuahuitl}}{{efn|Without full [[Blood moon armour]], other options may be more effective}}
+|weapon2 = {{plink|Abyssal tentacle}} / {{plink|Abyssal whip}} / {{plink|Saradomin's blessed sword}}
+|weapon3 = {{plink|Zombie axe}}{{efn|On crush}} / {{plink|Sarachnis cudgel}}
+|weapon4 = {{plink|Dragon scimitar}}
+|shield1 = {{plink|Dragon defender}} / {{plink|Antler guard}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Aranea boots}}
+|feet2 = {{plink|Dragon boots}}
+|feet3 = {{plink|Climbing boots}}
+|ring1 = {{plink|Berserker ring (i)}}
+|ring2 = {{plink|Lightbearer}}
+|special1 = {{plink|Dragon dagger}} / {{plink|Crystal halberd}} / {{plink|Arkan blade}}
+}}
+{{notelist}}
+|-|
+Ranged (Low Level)=
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}}{{efn|If on a [[Fire giant]] or [[Ice giant]] task, will work against the respective boss only}}
+|head2 = {{plink|Eclipse moon helm}}
+|neck1 = {{plink|Amulet of fury}}
+|neck2 = {{plink|Necklace of fangs}}
+|neck3 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Ava's assembler}}
+|cape2 = {{plink|Ava's accumulator}}
+|body1 = {{plink|Eclipse moon chestplate}}
+|body2 = {{plink|Hueycoatl hide body}} / {{plink|Blessed d'hide body|pic=Ancient d'hide body}}
+|body3 = {{plink|Karil's leathertop}}
+|body4 = {{plink|Black d'hide body}}
+|legs1 = {{plink|Eclipse moon tassets}}
+|legs2 = {{plink|Hueycoatl hide chaps}} / {{plink|Blessed d'hide chaps|pic=Ancient chaps}}
+|legs3 = {{plink|Karil's leatherskirt}}
+|legs4 = {{plink|Black d'hide chaps}}
+|weapon1 = {{plink|Eclipse atlatl}}{{efn|Best with full [[Eclipse moon armour]]}} / {{plink|Toxic blowpipe}}
+|weapon2 = {{plink|Dragon crossbow}}{{efn|With [[Ruby bolts (e)]]|name=ruby}} / {{plink|Rune crossbow}}{{efn|name=ruby}}
+|weapon3 = {{plink|Hunters' sunlight crossbow}}
+|weapon4 = {{plink|Karil's crossbow}} / {{plink|Magic shortbow (i)}}
+|shield1 = {{plink|Antler guard}}
+|ammo1 = {{plink|Atlatl dart}} / {{plink|Rada's blessing 3|txt=Blessing}}
+|ammo2 = {{plink|Ruby dragon bolts (e)}} / {{plink|Ruby bolts (e)}}
+|ammo3 = {{plink|Moonlight antler bolts}} / {{plink|Sunlight antler bolts}}
+|ammo4 = {{plink|Bolt rack}} / {{plink|Amethyst arrow}} / {{plink|Rune arrow}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Aranea boots}}
+|feet2 = {{plink|Dragon boots}}
+|feet3 = {{plink|Climbing boots}}
+|ring1 = {{plink|Berserker ring (i)}}
+|ring2 = {{plink|Lightbearer}}
+|special1 = {{plink|Toxic blowpipe}}
+}}
+{{notelist}}
+|-|
+Minimal gear switching=
+Using [[Void knight equipment]] or [[Blue moon armour]] can greatly reduce the amount of gear switches required to meet the magic accuracy threshold for killing the elementals. This also makes transitioning from melee to ranged much easier for those getting familiar. 
+*Using ranged armour throughout the fight also has the same benefits, as melee armour gives considerably less bonuses to attack. The [[Eclipse atlatl]], which uses melee strength for calculating its maximum hit, is particularly effective for this approach as it requires fewer compromises on melee strength and ranged accuracy.
+
+In order to determine which gear to use, it is important to look at the magic attack bonus of the total gear chosen.
+<br/><br/>
+For example, choosing a [[twinflame staff]] (+12) as your magic weapon with full [[Void Knight equipment|void]] (+0), [[amulet of fury]] (+10), [[aranea boots]] (+5), [[Imbued Guthix cape|Imbued god cape]] (+15), and a [[dragon defender]] (-3) provides exactly 39 magic attack bonus.
+{{Recommended equipment
+|style = Minimal gear switching
+|head1 = {{plink|Void melee helm}} +<br/>{{plink|Void ranger helm}} +<br/>{{plink|Void mage helm}}
+|head2 = {{plink|Blue moon helm}}
+|neck1 = {{plink|Amulet of fury}}
+|neck2 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Ava's assembler}}
+|cape2 = {{plink|Ava's accumulator}}
+|body1 = {{plink|Elite void top}} / {{plink|Void knight top}}
+|body2 = {{plink|Blue moon chestplate}}
+|legs1 = {{plink|Elite void robe}} / {{plink|Void knight robe}}
+|legs2 = {{plink|Blue moon tassets}}
+|shield1 = {{plink|Dragon defender}} / {{plink|Mage's book}}
+|shield2 = {{plink|Antler guard}}
+|shield3 = {{plink|Unholy book}} / {{plink|Book of Darkness}}
+|hands1 = {{plink|Void knight gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Aranea boots}}
+|feet2 = {{plink|Dragon boots}}
+|feet3 = {{plink|Climbing boots}}
+}}
+{{notelist}}
+*
+
+{{Clear}}
+
+
+</tabber>
+
+=== High Level / Resetting ===
+When fighting the Titans in a duo with high end gear and high stats, damage taken from elementals per kill is very low. It is possible to forego use of fire and water spells for the elementals, and rely on [[thralls]], especially if resetting health, prayer, and special attack energy between kills at the [[Nardah statue]] or an [[ornate rejuvenation pool]]. This strategy is most effective for maximising kills-per-hour, although the gear threshold required to execute this strategy is reasonably high.
+
+If you instead opt for standard spells to kill elementals and remove barriers, reaching a magic attack bonus of a minimum of 70 is required. The most effective switches to reach this threshold are typically magic armour and a staff, with expensive gear such as [[ancestral robes]] / [[virtus robes]] (+61) only providing a modest accuracy boost over armour such as [[Ahrim's equipment]] (+52). If using [[amulet of rancour]] (-6) or [[ferocious gloves]] (-16), swapping to [[occult necklace]] (+12) / [[amulet of fury]] (+10) and [[barrows gloves]] (+6) / [[tormented bracelet]] (+10) might be required to hit +70 magic attack bonus.
+<tabber>
+Melee (High level)=
+Most Titans fights start with 1–2 melee hits, then transition to a ranged phase. Melee is still used frequently in the final stages of the fight.
+
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}}{{efn|If on a [[Fire giant]] or [[Ice giant]] task, will work against the respective boss only}}
+|head2 = {{plink|Torva full helm}} / {{plink|Oathplate helm}}{{efn|name=slash}}
+|head3 = {{plink|Inquisitor's great helm}}{{efn|name=inq}}
+|head4 = {{plink|Neitiznot faceguard}} /{{plink|Serpentine helm}}
+|head5 = {{plink|Blood moon helm}}{{efn|name=macs}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of fury}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|body1 = {{plink|Torva platebody}} / {{plink|Oathplate chest}}{{Efn|With a slash weapon|name=slash}}
+|body2 = {{plink|Inquisitor's hauberk}}{{efn|name=inq}}
+|body3 = {{plink|Bandos chestplate}} / {{plink|Blood moon chestplate}} / {{plink|Fighter torso}}
+|legs1 = {{plink|Torva platelegs}} / {{plink|Oathplate legs}}{{efn|name=slash}}
+|legs2 = {{plink|Inquisitor's plateskirt}}{{efn|name=inq}}
+|legs3 = {{plink|Bandos tassets}} / {{plink|Blood moon tassets}}  
+|weapon1 = {{plink|Scythe of Vitur}}
+|weapon2 = {{plink|Inquisitor's mace}}{{efn|With full [[Inquisitor's armour]] and [[Inquisitor's mace]]|name=inq}} / {{plink|Soulreaper axe}}
+|weapon3 = {{plink|Blade of Saeldor}} /{{plink|Ghrazi rapier}}
+|weapon4 = {{plink|Noxious halberd}}{{efn|Can  attack twice at the start of the fight and occasionally reach a Titan during the elemental blast}} / {{plink|Dual macuahuitl}}{{efn|With full [[Blood moon armour]] and [[Dual macuahuitl]]|name=macs}} / {{plink|Osmumten's fang}}
+|weapon5 = {{plink|Abyssal tentacle}}
+|shield1 = {{plink|Avernic defender}}
+|shield2 = {{plink|Dragon defender}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Rada's blessing 3}}
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Aranea boots}}
+|feet4 = {{plink|Dragon boots}}
+|ring1 = {{plink|Ultor ring}}
+|ring2 = {{plink|Berserker ring (i)}}
+|ring3 = {{plink|Lightbearer}}
+|special1 = {{plink|Zaryte crossbow}}
+|special2 = {{plink|Dragon claws}} > {{plink|Crimson kisten}}
+|special3 = {{plink|Burning claws}}
+|special4 = {{plink|Dragon dagger}} / {{plink|Voidwaker}}
+|special5 = {{plink|Crystal halberd}}{{efn|Use as a last hit on melee phases or at the end of the kill}}
+}}
+{{notelist}}
+|-|
+Ranged (High Level)=
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}}{{efn|If on a [[Fire giant]] or [[Ice giant]] task, will work against the respective boss only}}
+|head2 = {{plink|Masori mask (f)}}
+|head3 = {{plink|Crystal helm}}
+|head4 = {{plink|Eclipse moon helm}}{{efn|With [[Eclipse moon armour]] and [[Eclipse atlatl]]|name=atlatl}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Masori body}}
+|body3 = {{plink|Crystal body}}
+|body4 = {{plink|Eclipse moon chestplate}}{{efn|name=atlatl}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Masori chaps}}
+|legs3 = {{plink|Crystal legs}}
+|legs4 = {{plink|Eclipse moon tassets}}{{efn|name=atlatl}}
+|weapon1 = {{plink|Toxic blowpipe}}{{efn|If on task, or have 8 ranged strength aside from BP & darts, even Amethyst Darts surpass Bowfa/Crystal}}
+|weapon2 = {{plink|Bow of Faerdhinen}}{{efn|With crystal armour}}
+|weapon3 = {{plink|Eclipse atlatl}}{{efn|name=atlatl}} / {{plink|Zaryte crossbow}}
+|weapon4 = {{plink|Armadyl crossbow}}
+|shield1 = {{plink|Twisted buckler}}{{Efn|If using a 1-handed weapon|name=offhand}}
+|shield2 = {{plink|Dragonfire ward}}{{efn|name=offhand}}
+|shield3 = {{plink|Odium ward}}{{efn|name=offhand}} / {{plink|Aquanite hopper}}{{efn|name=offhand}}
+|ammo1 = {{plink|Rada's blessing 4}} / {{plink|Ruby dragon bolts (e)}}
+|ammo2 = {{plink|Rada's blessing 3|txt=Blessing}}
+|ammo3 = {{plink|Atlatl dart}}{{efn|name=atlatl}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Aranea boots}}
+|feet3 = {{plink|Primordial boots}}{{efn|name=atlatl}} / {{plink|Dragon boots}}{{efn|name=atlatl}}
+|special1 = {{plink|Zaryte crossbow}}{{efn|With ruby dragon bolts (e)}}
+}}
+{{notelist}}
+</tabber>
+
+=== Inventory ===
+<tabber>
+Budget=
+* Ranged weapon and equipment to hit the Titans when out of melee range
+* Magic equipment to reach a +70 Magic attack bonus threshold to destroy walls and always one-shot minions, with an autocast staff
+* [[Prayer potion]]s
+* A [[super strength potion]], [[super attack potion]], and [[ranging potion]]
+* [[Rune pouch]] with runes to cast [[Water Wave]] and [[Fire Wave]]
+* [[Dramen staff]] to get to the dungeon via fairy ring.
+* Emergency teleport
+{{Equipment
+| align = left
+| buttons = No
+| head = Helm of Neitiznot
+| cape = Fire cape
+| neck = Amulet of glory
+| ammo = Rune arrow
+| weapon = Dragon scimitar
+| shield = Dragon defender
+| torso = Fighter torso
+| legs = Black d'hide chaps
+| gloves = Barrows gloves
+| boots = Climbing boots
+| ring = Berserker ring (i)
+}}
+{{Inventory
+|align = right
+|Magic shortbow (i)|Black d'hide body|Prayer potion|Prayer potion
+|Ava's accumulator|Super attack|Prayer potion|Prayer potion
+|Super strength|Ranging potion|Shark|Shark
+|Shark|Shark|Shark|Shark
+|Shark|Shark|Shark|Shark
+|Dragon dagger|Mystic robe top|Book of Darkness|Dramen staff
+|Teleport to house (tablet)|Mystic robe bottom|Air battlestaff|Rune pouch|
+}}
+{{Rune pouch|align=right
+|1=Blood rune
+|2=Fire rune
+|3=Water rune
+}}
+|-|
+Mid game=
+* Ranged weapon and equipment to hit the Titans when out of melee range
+* Magic equipment to reach a +70 Magic attack bonus threshold to destroy walls and always one-shot minions, with an autocast staff
+* [[Prayer potion]]s
+* A [[super combat potion]] and [[ranging potion]]
+* [[Divine rune pouch]] with runes to cast [[Water Blast]]/[[Water Wave]] and [[Fire Blast]]/[[Fire Wave]]
+* [[Giantsoul amulet]] to get to the boss quickly
+* Emergency teleport
+{{Equipment
+| align = left
+| buttons = No
+| head = Blood moon helm
+| cape = Fire cape
+| neck = Amulet of fury
+| ammo = Atlatl dart
+| weapon = Dual macuahuitl
+| torso = Blood moon chestplate
+| legs = Blood moon tassets
+| gloves = Barrows gloves
+| boots = Dragon boots
+| ring = Berserker ring (i)
+}}
+{{Inventory
+|align = right
+|Eclipse atlatl|Eclipse moon helm|Ava's assembler|Prayer potion
+|Eclipse moon chestplate|Eclipse moon tassets|Prayer potion|Prayer potion
+|Super combat potion|Ranging potion|Prayer potion|Prayer potion
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Burning claws|Dark crab|Blue moon chestplate|Blue moon tassets
+|Teleport to house (tablet)|Giantsoul amulet|Twinflame staff|Divine rune pouch|
+}}
+{{Rune pouch|align=right
+|1=Air rune
+|2=Fire rune
+|3=Water rune
+|4=Blood rune
+}}
+{{Clear}}
+{{Equipment
+| align = left
+| buttons = No
+| head = Helm of Neitiznot 
+| cape = Ava's assembler
+| neck = Amulet of fury
+| ammo = Atlatl dart
+| weapon = Abyssal whip
+| shield = Dragon defender
+| torso = Blue moon chestplate
+| legs = Blue moon tassets
+| gloves = Barrows gloves
+| boots = Dragon boots
+| ring = Berserker ring (i)
+}}
+{{Inventory
+|align = right
+|Eclipse atlatl|Eclipse moon helm|Super combat potion|Ranging potion
+|Eclipse moon chestplate|Eclipse moon tassets|Prayer potion|Prayer potion
+|Prayer potion|Prayer potion|Prayer potion|Prayer potion
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Burning claws|Teleport to house (tablet)|Giantsoul amulet|Divine rune pouch|
+}}
+{{Rune pouch|align=right
+|1=Air rune
+|2=Fire rune
+|3=Water rune
+|4=Blood rune
+}}
+|-|
+Late game=
+* A Ranged switch to hit the Titans when out of melee range
+* A Noxious halberd to hit the titans for additional damage during the elemental blast attack if the safespot is in the middle
+* Runes to destroy ice and fire barriers. Optionally bring a mage switch for 70+ magic accuracy if killing the elementals.
+* [[Prayer potion]]s
+* A [[divine super combat potion]] and [[divine ranging potion]]
+* [[Divine rune pouch]] with runes to cast [[Water Wave]] and [[Fire Wave]] (Fire and Water runes are optional if you have the [[Twinflame Staff]] as the staff provides infinite water and fire runes)
+* [[Giantsoul amulet]] to get to the boss quickly
+* Emergency and/or bank teleport
+{{Equipment
+| align = left
+| buttons = No
+| head = Blood moon helm
+| cape = Infernal cape
+| neck = Amulet of rancour
+| ammo = Rada's blessing 4
+| weapon = Dual macuahuitl
+| torso = Blood moon chestplate
+| legs = Blood moon tassets
+| gloves = Barrows gloves
+| boots = Primordial boots
+| ring = Ultor ring
+}}
+{{Inventory
+|align = right
+|Toxic blowpipe|Necklace of anguish|Dizana's quiver|Dragon claws
+|Masori body (f)|Masori chaps (f)|Twinflame staff|Occult necklace
+|Divine super combat potion|Divine ranging potion|Ahrim's robetop|Ahrim's robeskirt
+|Prayer potion|Prayer potion|Prayer potion|Prayer potion
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Dark crab|Dark crab|Dark crab|Dark crab
+|Teleport to house (tablet)|Ring of dueling|Giantsoul amulet|Divine rune pouch
+}}
+{{Rune pouch|align=right
+|1=Air rune
+|2=Fire rune
+|3=Water rune
+|4=Blood rune
+}}
+|-|
+Best-in-slot=
+* With the [[Giantsoul amulet]], players can quickly restore hitpoints, prayer, and special attack with an [[Ornate rejuvenation pool]] in the [[POH]] or at the [[Elidnis statuette]] with completion of the elite [[Desert diary]]. This allows users to generally ignore the elementals and tank elemental walls to avoid needing the standard spellbook.
+* Full ranged switch + Toxic blowpipe and ZCB for its high hitting special attack 
+* Full melee switches + [[Dragon claws]]
+* [[Divine super combat potion]] and [[Divine ranging potion]]s
+* [[Divine rune pouch]] with runes to cast [[Thralls]]
+* Teleports to restore stats and bank
+{{Equipment
+| align = left
+| buttons = No
+| head = Torva full helm
+| cape = Infernal cape
+| neck = Amulet of rancour
+| ammo = Ruby dragon bolts (e)
+| weapon = Scythe of Vitur
+| torso = Oathplate chest
+| legs = Oathplate legs
+| gloves = Ferocious gloves
+| boots = Avernic treads (max)
+| ring = Ultor ring
+}}
+
+{{Inventory
+|align = right
+|Zaryte crossbow|Zaryte vambraces|Masori body (f)|Masori mask (f)
+|Necklace of rupture|Dizana's quiver|Masori chaps (f)|Twisted buckler
+|Divine super combat potion|Divine ranging potion|Crystal halberd|Toxic blowpipe
+|Divine super combat potion|Divine ranging potion|Super restore|Super restore
+|Super restore|Super restore|Super restore|Super restore
+|Max cape|Anglerfish|Anglerfish|Anglerfish
+|Desert amulet 4|Giantsoul amulet|Book of the Dead|Divine rune pouch
+}}
+{{Rune pouch|align=right
+|1=Blood rune
+|2=Cosmic rune
+|3=Fire rune
+
+
+}}
+</tabber>
+
+==References==
+{{reflist}}
+
+{{Royal Titans}}

@@ -1,0 +1,607 @@
+{{External|rs}}
+[[File:Fighting the King Black Dragon.png|thumb|400px|A group of players take on the King Black Dragon.]]
+'''{{Colour|red|Warning}}:''' While the King Black Dragon's lair is not considered to be a part of the Wilderness, you will need to cross a short distance in deep level 42-Wilderness that is commonly patrolled by [[Player killers]]. Do not bring any items into the Wilderness you are not willing to lose.
+
+The [[King Black Dragon]], commonly referred to as KBD, is a three-headed dragon located in [[King Black Dragon Lair|his lair]] deep in the [[Wilderness]]. The King Black Dragon has a [[combat level]] of 276, which makes him one of the strongest [[Dragon (race)|dragons]] in ''[[Old School RuneScape]]''. Players should always take an [[anti-dragon shield]] as his [[dragonfire]] breath is very deadly without protection. The King Black Dragon can also be killed as an alternative for a [[black dragon]] [[Slayer task]], '''except''' those given by [[Krystilia]].
+
+==Requirements==
+There are no strict requirements to killing the King Black Dragon.
+
+===Recommendations===
+*High [[combat]] stats. Although not required, the skill levels below are advised:
+**If using [[Melee]]:
+***Level {{SCP|Attack|80}} or higher
+***Level {{SCP|Strength|80}} or higher
+***Level {{SCP|Hitpoints|70}} or higher
+***Level {{SCP|Prayer|70}} or higher for the [[Piety]] prayer
+**If using [[Ranged]]:
+***Level {{SCP|Ranged|80}} or higher
+***Level {{SCP|Hitpoints|70}} or higher
+***Level {{SCP|Prayer|74}} or higher for the [[Rigour]] prayer
+*Partial completion of {{SCP|Quest}} [[Dragon Slayer I]] for access to [[anti-dragon shield]]s.
+*Completion of {{SCP|Quest}} [[Slug Menace]] for access to [[proselyte armour]].
+
+==Transportation==
+[[File:KBD Routes.png|thumb|400px|The routes that lead to the King Black Dragon Lair. The burning amulet route is blue. The obelisk route is yellow. The Ghorrock Teleport route is orange. The waka canoe route is green.]]
+The [[King Black Dragon]] resides in the [[King Black Dragon Lair]], which is '''not''' in the [[Wilderness]], so [[teleport]]s can be used inside if needed. However, its lair can only be accessed by travelling through the Wilderness, so take precautions and don't bring any items you're not willing to lose. In the event that you are teleblocked, you '''cannot''' use the [[Lever (King Black Dragon Lair)|lever]] to escape.
+
+Using any of the following methods, ordered from quickest to slowest, will lead players to the King Black Dragon Lair:
+*[[Burning amulet]]
+*#Use a burning amulet to teleport to the [[Lava Maze]].
+*#Run west and then north along the fence.
+*#Go through the gate and climb down the ladder.
+*[[Player-owned house]] [[Obelisk (Construction)|obelisk]] - Requires completion of the {{SCP|Diary}} [[Wilderness Diary|hard Wilderness Diary]] or better for effective use
+*#Select level 44 as the teleport destination of the obelisk in the [[superior garden]].
+*#Right-click the Wilderness Obelisk and select teleport to destination.
+*#Run south-east, go through the gate and climb down the ladder.
+*[[Ghorrock Teleport]] ([[Ghorrock teleport (tablet)|tablet]]) ([[Portal chamber|portal]]) - Requires completion of the {{SCP|Quest}} [[Desert Treasure I]] quest.
+*#Use the Ghorrock Teleport (or tablet or portal) to teleport to the [[Frozen Waste Plateau]], near the (level 44) [[Wilderness Obelisk]] west of the KBD lair.
+*#Run south-east, go through the gate and climb down the ladder.
+*[[Games necklace]] and [[Wilderness Obelisk]] - Requires completion of the {{SCP|Diary}} [[Wilderness Diary|hard Wilderness Diary]] or better for effective use
+*#Use a games necklace to teleport to the [[Corporeal Beast]]'s lair.
+*#Leave the cave and run south-east to the Wilderness Obelisk.
+*#Select level 44 as the teleport destination of the Wilderness Obelisk.
+*#Right-click the Wilderness Obelisk and select teleport to destination.
+*#Run south-east, go through the gate and climb down the ladder.
+*[[Waka canoe]] - This requires a woodcutting [[axe]] as well as level {{SCP|Woodcutting|57}} or better.
+*#Use the canoe station in [[Edgeville]] to travel to the [[Wilderness pond]] in level 35 Wilderness.
+*#Run west-north-west to and then north along the fence.
+*#Go through the gate and climb down the ladder.
+
+Down the stairs, there is a lever players can pull to enter the King Black Dragon Lair.
+
+==Mechanics==
+===Attack styles===
+[[File:KBD Melee and Dragonfire.gif|thumb|right|The King Black Dragon's Melee and fiery breath attacks.|200px]]
+[[File:KBD Special Breaths.gif|thumb|right|The King Black Dragon using his fiery, toxic and shocking breath attacks.|200px]]
+The King Black Dragon attacks with [[Melee]] and [[dragonfire]] attacks. King Black Dragon will use a melee attack 1/3 of the time provided the target is in melee range. Otherwise, a dragonfire attack is used with a 50% chance of a special dragonfire attack. <ref>{{PlainCiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1698712575108579369|date=4 September 2023|archiveurl=https://reldo.runescape.wiki/i/100462|archivedate=4 September 2023|quote=Yes, if it's in melee range, it's got a 1/3 chance of doing melee, 1/3 chance of doing fire and 1/3 of doing one of the ice/toxic/shocking attacks.}}</ref>All three special dragonfires (Toxic, Shocking, and Icy breath) are equally common, each with a 1/9 incidence in melee range or a 1/6 incidence outside of melee range.<ref>{{PlainCiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1698712744508154162|date=4 September 2023|archiveurl=https://reldo.runescape.wiki/i/103193|archivedate=4 September 2023|quote=If it gets to one of the ice/toxic/shocking attacks, normally they have equal chances.}}</ref> 
+*The Melee attack is only used when the player is standing in Melee distance and can hit up to 25.
+**The [[Protect from Melee]] prayer will negate all damage from this attack.
+*The fiery breath attack can deal up to 65 damage. [[Dragonfire#Protection|Antifire shields]], [[Dragonfire#Protection|antifire potions]], and [[Protect from Magic]], or a combination of these, will partially negate the damage from this attack.
+*There are three different special dragonfire attacks. Each of these attacks can deal up to 50 damage and have a 50% chance upon a successful hit to inflict a unique effect<ref>{{PlainCiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1698965398287212751|date=5 September 2023|archiveurl=https://reldo.runescape.wiki/i/98756|archivedate=5 September 2023|quote=Protection that reduces the damage, such as shields or the prayer. Without any of that, the chance would be higher - up to 1/2.}}</ref>. Antifire shields and Protect from Magic, or a combination of these, will partly negate the damage from this attack and reduce the effect chance to 1 in 8.<ref>{{PlainCiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1698729370817347816|date=5 September 2023|archiveurl=https://reldo.runescape.wiki/i/107077|archivedate=5 September 2023|quote=That one depends on your protection. It'll usually be 1/8 for a well-protected player.}}</ref>
+**Toxic breath inflicts poison to the player, starting at 8 damage.
+**Shocking breath drains two levels off of all the player's stats.
+**Icy breath freezes the player for 10 ticks (6 seconds).
+
+<gallery captionalign="center" widths="350px" heights="300px" mode="packed">
+King Black Dragon - Fiery breath.png|The King Black Dragon's fiery breath attack.
+King Black Dragon - Toxic breath.png|The King Black Dragon's toxic breath attack.
+King Black Dragon - Shocking breath.png|The King Black Dragon's shocking breath attack.
+King Black Dragon - Icy breath.png|The King Black Dragon's icy breath attack.
+</gallery>
+
+==Dragonfire==
+The King Black Dragon uses several kinds of [[dragonfire]] attacks. Dragonfire is a fiery breath attack that can deal considerable damage to players. However, there are a few precautions players can take to negate most of this damage, being:
+*Antifire potions: ([[Extended antifire|extended]]) [[antifire potion]] and ([[Extended super antifire|extended]]) [[super antifire potion]]
+*Anti-dragon shields: [[anti-dragon shield]], [[dragonfire shield]], [[dragonfire ward]], and [[ancient wyvern shield]]
+*Protection prayers: [[Protect from Magic]]
+
+See the table below for an overview of the maximum damage with (combinations of) the above-mentioned precautions.
+{{:Dragonfire/King_Black_Dragon}}
+{{clear}}
+
+==Tips==
+===Protection prayers===
+It is recommended to fight the King Black Dragon in Melee distance with the [[Protect from Melee]] prayer activated. This lowers the chance of the King Black Dragon using its unblockable special dragonfire attacks, while being able to negate all damage from its Melee attacks.
+
+However, when a player is using a [[Two-handed slot table|two-handed weapon]], such as the [[twisted bow]], the [[Protect from Magic]] prayer is necessary to partly negate the damage of the dragonfire attacks.
+
+===Draconic===
+The King Black Dragon is considered to be a [[Draconic (attribute)|draconic]] creature, which means that it is weak against [[dragonbane weapons]].
+
+===Instance===
+The King Black Dragon is a popular [[boss]], therefore it may be hard to find an empty world. To combat this, players can create an [[instance]] for {{NoCoins|50,000|c}}. This money does '''not''' have to be in your inventory and will automatically be taken out of the player's bank.
+
+Note that the instance will collapse if the player dies. This means that all unprotected items will be added to a gravestone outside the lever on death. Therefore an emergency teleport is highly recommended.
+
+===Gravestone method===
+Since the [[Wilderness]] is used to reach the [[King Black Dragon Lair]], only the player's three most valuable items (four with [[Protect Item]] activated, none if [[Skull (status)|skulled]]) are [[kept on death]] if the player dies on their way to the King Black Dragon's lair. Therefore it is recommended to '''only''' bring items you '''are willing to lose'''. However, it is possible to 'smuggle' more than four valuable items into the public instance utilising gravestone mechanics, and additional supplies if a [[looting bag]] is brought too.
+
+#(Optionally) fill a looting bag with potions and food.
+#Fill the inventory with the looting bag, a [[burning amulet]], desired supplies and the four valuable items you are 'smuggling' into the King Black Dragon Lair.
+#Activate the [[Protect Item]] prayer and head to King Black Dragon's lair.
+#Die to the King Black Dragon, so that all items in the inventory and looting bag drop onto the ground. These items will stay in your gravestone for exactly 15 minutes. If not retrieved in 15 minutes they will be transported to [[Death's office]]. 
+#Die again to send additional items to your gravestone. This does not have to be a death to the King Black Dragon, so it may be easier to die to the Corporeal Beast, or any other high hitting and easy to reach monster.
+#Collect items from the gravestone within the public instance of the lair.
+
+'''{{Colour|red|Warning}}:''' This method is not risk free, as there still is a chance of encountering [[PKers|player-killers]] before reaching the lair. It is strongly recommended to carry a means to restore prayer to keep [[Protect Item]] up continuously if carrying four items.
+
+===Smuggle method===
+An alternative method of bringing many powerful but valuable items into the KBD lair is to use other players or alt accounts to trade with the main account once inside. This eliminates the gravestone reclamation fee but requires much more coordination. Due to the time and difficulty of this method, it is generally only done by pet hunters.
+
+===Walk-under method===
+If using a [[twisted bow]], [[dragon hunter crossbow]], or [[Osmumten's fang]], the player's attack speed is slower than that of the King Black Dragon: the fang and bows (on rapid) attack every 5 ticks, whereas the dragon attacks every 4 ticks. When walking under the King Black Dragon immediately after performing an attack, the player is able to hide from the King Black Dragon's attacks until they step out to perform another attack, thus effectively slowing down its attack speed. When utilising this method correctly, the King Black Dragon will only perform 1 attack for every attack the player performs, reducing the damage taken by 20%. Players need not walk under the KBD after each attack; they can keep the 1:1 ratio even when walking under after every second or third attack, so long as they wait 5 ticks after they walk under.
+
+If using a twisted bow with this method, players could also choose to stand in Melee distance and pray [[Protect from Melee]], and bring an [[anti-dragon shield]] to equip when the King Black Dragon attacks. This requires great focus and timing, as missing even once can allow the King Black Dragon to deal up to 50 damage with its fire breath.
+
+===Bonecrusher necklace===
+To save on super restore potions, players could consider bringing a [[bonecrusher necklace]]. With this necklace equipped, players can bury the [[dragon bones]] to restore 4 prayer points. 
+
+In order to benefit from both an offensive necklace as well as the bonecrusher necklace's effect, players could wear their offensive necklace during the kill and then swap to the bonecrusher necklace once the final damage is dealt. Then re-equip the offensive necklace.
+
+One thing to consider is that this method requires taking an additional valuable item ({{NoCoins|{{GEP|Hydra tail}} + {{GEP|Dragonbone necklace}}|c}}) through the [[Wilderness]].
+
+==Equipment==
+'''{{Colour|red|Warning}}:''' Bear in mind that, since the [[Wilderness]] is used to reach the [[King Black Dragon Lair]], only the player's three most valuable items (four with [[Protect Item]] activated, none if [[Skull (status)|skulled]]) are [[kept on death]] if the player dies on their way to the King Black Dragon's lair. Therefore it is recommended '''not''' to bring any items you're not willing to lose.
+
+===Melee===
+<tabber>
+Melee=
+
+{{Equipment|align = right
+|buttons = No
+|head = Helm of Neitiznot
+|cape = Infernal cape
+|neck = Amulet of rancour
+|ammo = Rada's blessing 4
+|weapon = Dragon hunter lance
+|torso = Mixed hide top
+|legs = Mixed hide legs
+|shield = Dragonfire shield
+|gloves = Barrows gloves
+|boots = Dragon boots
+|ring = Ultor ring
+}}
+
+{{Inventory|align=right
+|Antidote++ |Extended antifire |Super combat potion(4) |Teleport to house (tablet)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|{{Cheap food}} |{{Cheap food}} |{{Cheap food}} |{{Cheap food}}
+|{{Cheap food}} |{{Cheap food}} |{{Cheap food}} |{{Cheap food}}
+|{{Cheap food}} |{{Cheap food}} |{{Cheap food}} |{{Cheap food}}
+|{{Cheap food}} |{{Cheap food}} |{{Cheap food}} |{{Cheap food}}
+|{{Cheap food}} |{{Cheap food}} |{{Cheap food}} |Burning amulet(5)
+}}
+
+This gear minimises the risk associated with the short trip through the wilderness while optimising <abbr title="Damage per second">DPS</abbr>. Proselyte can be used for less prayer potion usage and potentially longer trips. The [[dragon hunter lance]] scales well with gear upgrades, but the [[Osmumten's fang]] can perform better with less equipment strength bonus. 
+
+;Notes
+*Bring [[antidote++]] and [[extended antifire]] potions for poison and dragonfire protection respectively.
+*[[Extended super antifire]] potions can allow the use of [[Defender|Defenders]] but you will take more damage overall.
+*Bring a right balance of super restore potions and food to sustain for one trip at the King Black Dragon.
+*Bring a means of teleporting to the King Black Dragon Lair.
+*Bring a [[Teleport to house (tablet)|teleport to house]] tablet to teleport out at the end of the trip.
+
+===Equipment upgrades and downgrades===
+{{Recommended equipment
+|style = 4-item melee
+|head1 = {{Plink|Slayer helmet (i)}}{{efn|If on a [[Slayer task]]|name='Slayer task 1'}} /<br />{{Plink|Helm of Neitiznot}} 
+|head2 = {{Plink|Berserker helm}}
+|neck1 = {{Plink|Amulet of rancour}}{{efn|Downgrade to an [[amulet of glory]] if bringing a [[Slayer helmet (i)]] on task.|name=amulet}}
+|neck2 = {{Plink|Amulet of torture}}{{efn|name=amulet}}
+|neck3 = {{Plink|Amulet of fury}}{{efn|name=amulet}}
+|neck4 = {{Plink|Amulet of glory}}
+|neck5 = {{Plink|Amulet of power}}
+|cape1 = {{Plink|Infernal cape}}{{efn|Be sure to protect with a [[trouver parchment]]|name=trouver}} /<br /> {{plink|Fire cape}}
+|cape2 = {{Plink|Ardougne cloak|pic=Ardougne cloak 4}}
+|cape3 = {{Plink|Mythical cape}}
+|cape4 = {{Plink|Cape of accomplishment|pic=Strength cape(t)}}
+|body1 = {{Plink|Mixed hide top}}
+|body2 = {{Plink|Proselyte hauberk}}
+|body3 = {{Plink|Initiate hauberk}} /<br />{{Plink|Monk's robe top}}
+|legs1 = {{Plink|Mixed hide legs}}
+|legs2 = {{Plink|Proselyte cuisse}}
+|legs3 = {{Plink|Initiate cuisse}} /<br />{{Plink|Monk's robe}}
+|weapon1 = {{Plink|Dragon hunter lance}} /<br />{{Plink|Osmumten's fang}}
+|weapon2 = {{Plink|Ghrazi rapier}}
+|weapon3 = {{Plink|Noxious halberd}}
+|weapon4 = {{Plink|Zamorakian hasta}}
+|weapon5 = {{Plink|Abyssal dagger (p++)}}
+|shield1 = {{Plink|Avernic defender}}{{efn|Must use [[extended super antifire]] '''and''' Protect from Magic prayer for maximum protection|name=defender}}
+|shield2 = {{Plink|Dragon defender}}{{efn||name=defender}}
+|shield3 = {{Plink|Dragonfire shield}} /<br /> {{Plink|Antler guard}}{{efn||name=defender}}
+|shield4 = {{Plink|Anti-dragon shield}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Rada's blessing 3|txt=Rada's blessing 3}}/[[Rada's blessing 2|2]] <br />{{plink|God blessing|pic=Peaceful blessing}}
+|hands1 = {{Plink|Barrows gloves}}
+|hands2 = {{Plink|Dragon gloves}}
+|hands3 = {{Plink|Rune gloves}}
+|hands4 = {{Plink|Adamant gloves}}
+|hands5 = {{Plink|Combat bracelet}}
+|feet1 = {{Plink|Dragon boots}}
+|feet2 = {{Plink|Rune boots}} /<br />{{Plink|Climbing boots}} /<br />{{Plink|Mixed hide boots}}
+|feet3 = {{Plink|Fremennik sea boots 4}}
+|ring1 = {{Plink|Ultor ring}}
+|ring2 = {{Plink|Ring of shadows}} /<br /> {{Plink|Treasonous ring (i)}}
+|ring3 = {{Plink|Berserker ring (i)}}
+|ring4 = {{Plink|Brimstone ring}}
+|special1 = {{Plink|Voidwaker}} /<br /> {{Plink|Burning claws}}{{efn|On stab|name=stab}}{{efn|Use at beginning of kill for maximum burn damage|name=burn}}
+|special2 = {{Plink|Arkan blade}}{{efn||name=burn}}
+
+}}
+{{Notelist}}
+
+|-|
+
+Melee Gravestone method=
+
+{{Equipment|align = right
+|buttons = No
+|head = Torva full helm
+|cape = Infernal cape
+|neck = Amulet of rancour
+|ammo = Rada's blessing 4
+|weapon = Dragon hunter lance
+|torso = Torva platebody
+|legs = Torva platelegs
+|shield = Avernic defender
+|gloves = Ferocious gloves
+|boots = Avernic treads (max)
+|ring = Ultor ring
+}}
+
+{{Inventory|align=right
+|Antidote++ |Extended super antifire |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super combat potion(4) |Super combat potion(4) |Super combat potion(4) |{{Cheap food}}
+|{{Cheap food}} |{{Cheap food}} |{{Cheap food}} |{{Cheap food}}
+|{{Cheap food}} |{{Cheap food}} |Teleport to house (tablet) |Burning amulet(5)
+}}
+
+This is the best-in-slot available equipment for meleeing the King Black Dragon. It is only worth the time if you plan on spending a lot of time at KBD at once.
+
+;Notes
+*While transporting items to the [[King Black Dragon Lair]] via the gravestone method, make sure to bring enough food on these trips to be able to sustain for one hour at the King Black Dragon.
+*Bring enough super restore potions to be able to sustain for one hour at the King Black Dragon.
+*Both the 4-dose [[antidote++]] and [[extended antifire]] potions give a total of 48 minutes of protection. Therefore take one sip of each potion at the bank right before starting the actual trip.
+*[[Extended super antifire]] potions can allow the use of [[Defender|Defenders]] but you will take more damage overall.
+*Bring enough [[super combat potion]]s to last for one hour.
+*Bring a means of teleporting to the King Black Dragon Lair.
+*Bring a [[Teleport to house (tablet)|teleport to house]] tablet to teleport out at the end of the trip.
+
+===Equipment upgrades and downgrades===
+{{Recommended equipment
+|style = Melee BIS smuggle
+|head1 = {{Plink|Slayer helmet (i)}}{{efn|If on a [[Slayer task]]|name='Slayer task 1'}} /<br />{{Plink|Torva full helm}}
+|head2 = {{Plink|Serpentine helm}} > {{Plink|Neitiznot faceguard}}
+|head4 = {{Plink|Helm of Neitiznot}}
+|head5 = {{Plink|Berserker helm}} /<br />{{Plink|Obsidian helmet}}
+|neck1 = {{Plink|Amulet of rancour}}
+|neck2 = {{Plink|Amulet of torture}}
+|neck3 = {{Plink|Amulet of fury}}
+|neck4 = {{Plink|Amulet of glory}}
+|neck5 = {{Plink|Amulet of power}}
+|neck6 = {{Plink|Amulet of strength}}
+|cape1 = {{Plink|Infernal cape}}{{efn|Be sure to protect with a [[trouver parchment]]|name=trouver}} /<br /> {{plink|Fire cape}}{{efn|name=trouver}}
+|cape2 = {{Plink|Ardougne cloak|pic=Ardougne cloak 4}}
+|cape3 = {{Plink|Mythical cape}}
+|cape4 = {{Plink|Cape of accomplishment|pic=Strength cape(t)}}
+|body1 = {{Plink|Torva platebody}}
+|body2 = {{Plink|Bandos chestplate}} /<br />{{Plink|Fighter torso}}{{efn|name=trouver}} /<br />{{Plink|Blood moon chestplate}}
+|body3 = {{Plink|Mixed hide top}}
+|body4 = {{Plink|Proselyte hauberk}}
+|body5 = {{Plink|Initiate hauberk}} /<br />{{Plink|Monk's robe top}}
+|legs1 = {{Plink|Torva platelegs}}
+|legs2 = {{Plink|Bandos tassets}} /<br />{{plink|Blood moon tassets}}
+|legs3 = {{Plink|Mixed hide legs}}
+|legs4 = {{Plink|Proselyte cuisse}} /<br />{{Plink|Proselyte tasset}}
+|legs5 = {{Plink|Initiate cuisse}} /<br />{{Plink|Monk's robe}}
+|weapon1 = {{Plink|Dragon hunter lance}}
+|weapon2 = {{Plink|Osmumten's fang}}
+|weapon3 = {{Plink|Ghrazi rapier}}
+|weapon4 = {{Plink|Zamorakian hasta}}
+|weapon5 = {{Plink|Abyssal dagger (p++)}}
+|shield1 = {{Plink|Avernic defender}} > {{Plink|Dragonfire shield}}
+|shield2 = {{Plink|Dragon defender}} > {{Plink|Anti-dragon shield}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Rada's blessing 3|txt=Rada's blessing 3}}/[[Rada's blessing 2|2]] /<br />{{plink|God blessing|pic=Peaceful blessing}}
+|hands1 = {{Plink|Ferocious gloves}}
+|hands2 = {{Plink|Barrows gloves}}
+|hands3 = {{Plink|Dragon gloves}}
+|hands4 = {{Plink|Rune gloves}}
+|hands5 = {{Plink|Regen bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{Plink|Primordial boots}}
+|feet3 = {{Plink|Dragon boots}} /<br />{{Plink|Spiked manacles}}
+|feet4 = {{Plink|Guardian boots}}
+|feet5 = {{Plink|Granite boots}}
+|ring1 = {{Plink|Ultor ring}}
+|ring2 = {{Plink|Berserker ring (i)}}
+|ring3 = {{Plink|Brimstone ring}} /<br /> {{Plink|Treasonous ring (i)}}
+|ring4 = {{Plink|Ring of shadows}}
+|special1 = {{Plink|Voidwaker}} /<br /> {{Plink|Burning claws}}{{efn|On stab; use at beginning of kill for maximum burn damage|name=bclaws}}
+|special2 = {{Plink|Arkan blade}}{{efn||name=bclaws}}
+}}
+{{Notelist}}
+
+</tabber>
+
+===Ranged===
+<tabber>
+Twisted Bow / Bowfa=
+
+{{Equipment|align = right
+|buttons = No
+|head = Ancient coif
+|cape = Dizana's quiver (l)
+|neck = Necklace of rupture
+|ammo = Seeking dragon arrow
+|weapon = Twisted bow
+|torso = Masori body (f)
+|legs = Masori chaps (f)
+|shield = 
+|gloves = Barrows gloves
+|boots = Ancient d'hide boots
+|ring = Ring of shadows
+}}
+
+{{Inventory|align=right
+|Antidote++ |Extended antifire |Ranging potion(4) |Teleport to house (tablet)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Burning amulet(5)
+}}
+
+This is the recommended equipment for ranging the King Black Dragon without using the gravestone method or taking more than four valuable items. Blessed boots and Blessed coifs are the most expensive items risked and can be downgraded with minimal <abbr title="Damage per second">DPS</abbr> loss.
+
+;Notes
+*Bring [[antidote++]] and [[extended super antifire]] (or [[extended antifire]] with an [[anti-dragon shield]]) potions for poison and dragonfire protection respectively.
+*Pray magic instead of melee to reduce dragonfire damage considerably. Swap shield between attacks if using a [[bow of Faerdhinen]] while praying melee to reduce damage further, however this risks taking extreme damage if done incorrectly.
+*Bring a right balance of super restore potions and food to sustain for one trip at the King Black Dragon.
+*Bring a means of teleporting to the King Black Dragon Lair.
+*Bring a [[Teleport to house (tablet)|teleport to house]] tablet to teleport out at the end of the trip.
+
+===Equipment upgrades and downgrades===
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Blessed coif|pic=Ancient coif}} /<br />{{Plink|Slayer helmet (i)}}{{efn|If on a [[Slayer task]]|name='Slayer task 1'}}
+|head2 = {{Plink|Crystal helm}}{{efn|With [[bow of Faerdhinen]] and crystal armour|name=crystal}}
+|head3 = {{Plink|Karil's coif}}
+|head4 = {{plink|Archer helm}}
+|neck1 = {{Plink|Necklace of rupture}}{{efn|Replace with an [[amulet of glory]] if bringing a [[Slayer helmet (i)]] or bowfa setup|name=amulet}}
+|neck2 = {{Plink|Necklace of anguish}}{{efn|name=amulet}}
+|neck3 = {{Plink|Amulet of fury}}{{efn|name=amulet}}
+|neck4 = {{Plink|Bonecrusher necklace}}
+|cape1 = {{plink|Blessed Dizana's quiver (l)}}{{efn|Be sure to protect with a [[trouver parchment]], otherwise bring an [[Ava's assembler|assembler]]}}{{efn|Be sure to empty the quiver and only bring as many arrows as necessary for the trip}}
+|cape2 = {{plink|Ava's assembler}}{{efn|Only bring an [[Ava's assembler]] if you have spare [[Vorkath's head]]s}}
+|cape3 = {{plink|Ava's accumulator}}
+|cape4 = {{plink|Ava's attractor}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Crystal body}}{{efn|name=crystal}}
+|body3 = {{plink|Black d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Crystal legs}}{{efn|name=crystal}}
+|legs3 = {{plink|Black d'hide chaps}}
+|weapon1 = {{Plink|Twisted bow}}
+|weapon2 = {{plink|Bow of Faerdhinen}}{{efn|name=crystal}}
+|ammo1 = {{plink|Seeking dragon arrow}}
+|ammo2 = {{plink|Rada's blessing|pic=Rada's blessing 4}}{{efn|name=crystal}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands3 = {{plink|Black d'hide vambraces}}
+|hands4 = {{plink|Red d'hide vambraces}}
+|feet1 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet2 = {{plink|Mixed hide boots}}
+|ring2 = {{plink|Explorer's ring 4}}
+|ring1 = {{plink|Ring of shadows}}
+}}
+{{Notelist}}
+
+|-|
+
+Crossbow & shield=
+
+{{Equipment|align = right
+|buttons = No
+|head = Ancient coif
+|cape = Dizana's quiver
+|neck = Necklace of rupture
+|ammo = Diamond dragon bolts (e)
+|weapon = Dragon hunter crossbow
+|torso = Masori body (f)
+|legs = Black d'hide chaps
+|shield = Dragonfire ward
+|gloves = Barrows gloves
+|boots = Ancient d'hide boots
+|ring = Ring of shadows
+}}
+
+{{Inventory|align=right
+|Antidote++ |Extended antifire |Ranging potion(4) |Teleport to house (tablet)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Dark crab |Burning amulet(5)
+}}
+
+This is the best-in-slot available equipment for ranging the King Black Dragon without using the gravestone method, taking more than four valuable items, or the [[twisted bow]]. Utilising a [[dragonfire ward]] or [[anti-dragon shield]] reduces the amount of damage taken overall when praying protect from melee.
+
+;Notes
+*Bring [[antidote++]] and [[extended antifire]] potions for poison and dragonfire protection respectively.
+*Bring a right balance of super restore potions and food to sustain for one trip at the King Black Dragon.
+*Bring a means of teleporting to the King Black Dragon Lair.
+*Bring a [[Teleport to house (tablet)|teleport to house]] tablet to teleport out at the end of the trip.
+
+===Equipment upgrades and downgrades===
+{{Recommended equipment
+|style = Crossbow
+|head1 = {{plink|Blessed coif|pic=Ancient coif}} /<br />{{Plink|Slayer helmet (i)}} (if on [[Slayer task|task]])
+|head2 = {{Plink|Karil's coif}}
+|head3 = {{plink|Archer helm}}
+|neck1 = {{Plink|Necklace of rupture}}{{efn|Replace with an [[amulet of glory]] if bringing a [[Slayer helmet (i)]] |name=amulet}}
+|neck2 = {{Plink|Necklace of anguish}}{{efn|name=amulet}}
+|neck3 = {{Plink|Amulet of fury}}{{efn|name=amulet}}
+|neck4 = {{Plink|Bonecrusher necklace}}
+|cape1 = {{plink|Dizana's quiver}}{{efn|Be sure to protect with a [[trouver parchment]], otherwise bring an [[Ava's assembler|assembler]]}}
+|cape2 = {{plink|Ava's assembler}}{{efn|Only bring an [[Ava's assembler]] if you have spare [[Vorkath's head]]s}}
+|cape3 = {{plink|Ava's accumulator}}
+|cape4 = {{plink|Ava's attractor}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Black d'hide body}}
+|body3 = {{plink|Red d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Black d'hide chaps}}
+|legs3 = {{plink|Red d'hide chaps}}
+|weapon1 = {{Plink|Dragon hunter crossbow}}
+|weapon2 = {{Plink|Armadyl crossbow}}
+|weapon3 = {{Plink|Dragon crossbow}}
+|weapon4 = {{Plink|Hunters' sunlight crossbow}}
+|weapon5 = {{Plink|Rune crossbow}}
+|shield1 = {{Plink|Dragonfire ward}}
+|shield2 = {{Plink|Anti-dragon shield}}
+|ammo1 = {{plink|Diamond dragon bolts (e)}}
+|ammo2 = {{plink|Diamond bolts (e)}}
+|ammo3 = {{plink|Moonlight antler bolts}}{{efn|If using a [[hunters' sunlight crossbow]]|name=hunter}} > {{plink|Sunlight antler bolts}}{{efn|name=hunter}}
+|ammo4 = {{plink|Runite bolts}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands3 = {{plink|Black d'hide vambraces}}
+|hands4 = {{plink|Red d'hide vambraces}}
+|feet1 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet2 = {{plink|Mixed hide boots}}
+|feet3 = {{plink|Shayzien boots (5)}}
+|ring2 = {{plink|Explorer's ring 4}}
+|ring1 = {{plink|Ring of shadows}}
+}}
+{{Notelist}}
+
+|-|
+
+Gravestone method=
+
+{{Equipment|align = right
+|buttons = No
+|head = Masori mask (f)
+|cape = Dizana's quiver
+|neck = Necklace of rupture
+|ammo = Dragon arrow
+|weapon = Twisted bow
+|torso = Masori body (f)
+|legs = Masori chaps (f)
+|shield = 
+|gloves = Zaryte vambraces
+|boots = Avernic treads (max)
+|ring = Venator ring
+}}
+
+{{Inventory|align=right
+|Antidote++ |Extended antifire |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Ranging potion(4) |Ranging potion(4) |Ranging potion(4) |Dark crab
+|Dark crab |Dark crab |Dark crab |Dark crab
+|Dark crab |Dark crab |Teleport to house (tablet) |Burning amulet(5)
+}}
+
+This is the best-in-slot available equipment for ranging the King Black Dragon. This method takes considerable setup, so only plan on bringing this gear if you intend to stay at KBD for an extended period of time.
+
+;Notes
+*If killing the King Black Dragon in a small team or with alt accounts, using the [[Twisted bow]] may result in lower kills per hour than a high-end shield setup due to increased occurrence of the Icy Breath attack's freeze effect when not equipped with a form of anti-dragon shield.
+*While transporting items to the [[King Black Dragon Lair]] via the gravestone method, make sure to bring enough food on these trips to be able to sustain for one hour at the King Black Dragon.
+*Bring enough super restore potions to be able to sustain for one hour at the King Black Dragon.
+*Both the 4-dose [[antidote++]] and [[extended antifire]] potions give a total of 48 minutes of protection. Therefore take one sip of each potion at the bank right before starting the actual trip.
+*Bring enough [[ranging potion]]s to last for one hour.
+*Bring a means of teleporting to the King Black Dragon Lair.
+*Bring a [[Teleport to house (tablet)|teleport to house]] tablet to teleport out at the end of the trip.
+
+===Equipment upgrades and downgrades===
+{{Recommended equipment
+|style = Ranged BIS smuggle
+|head1 = {{Plink|Masori mask (f)}} /<br />{{Plink|Slayer helmet (i)}} (if on [[Slayer task|task]])
+|head2 = {{plink|Blessed coif|pic=Ancient coif}}
+|head3 = {{plink|Karil's coif}}
+|neck1 = {{Plink|Necklace of rupture}}
+|neck2 = {{Plink|Necklace of anguish}}
+|neck3 = {{Plink|Amulet of fury}}
+|neck4 = {{Plink|Bonecrusher necklace}}
+|neck5 = {{Plink|Amulet of power}}
+|cape1 = {{plink|Dizana's quiver}}{{efn|Be sure to protect with a [[trouver parchment]], otherwise bring an [[Ava's assembler|assembler]]}}
+|cape2 = {{plink|Ava's assembler}}{{efn|Only bring an [[Ava's assembler]] if you have spare [[Vorkath's head]]s}}
+|cape3 = {{plink|Ava's accumulator}}
+|cape4 = {{plink|Ranging cape(t)}}
+|cape5 = {{plink|Ava's attractor}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Blessed body|pic=Ancient d'hide body}}
+|body3 = {{plink|Black d'hide body}} /<br />{{plink|Karil's leathertop}}
+|body4 = {{plink|Red d'hide body}}
+|body5 = {{plink|Blue d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Blessed chaps|pic=Ancient chaps}}
+|legs3 = {{plink|Black d'hide chaps}} <br />{{plink|Karil's leatherskirt}}
+|weapon1 = {{Plink|Twisted bow}}
+|weapon2 = {{Plink|Dragon hunter crossbow}}
+|weapon3 = {{Plink|Armadyl crossbow}}
+|weapon4 = {{Plink|Dragon crossbow}}
+|weapon5 = {{Plink|Rune crossbow}}
+|shield1 = {{Plink|Dragonfire ward}}
+|shield2 = {{Plink|Anti-dragon shield}}
+|ammo1 = {{plink|Seeking dragon arrow}} (if using [[twisted bow]]) /<br />{{plink|Diamond dragon bolts (e)}} (if using crossbows)
+|ammo2 = {{plink|Diamond bolts (e)}} (if using crossbows)
+|ammo3 = {{plink|Runite bolts}} (if using crossbows)
+|hands1 = {{plink|Zaryte vambraces}}
+|hands3 = {{plink|Barrows gloves}}
+|hands4 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands5 = {{plink|Black d'hide vambraces}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Pegasian boots}}
+|feet3 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet4 = {{plink|Boots of Brimstone}}
+|feet5 = {{plink|Mixed hide boots}}
+|ring1 = {{plink|Venator ring}}
+|ring2 = {{plink|Archers ring (i)}}
+|ring3 = {{plink|Brimstone ring}}
+|ring4 = {{plink|Ring of shadows}}
+|ring5 = {{plink|Explorer's ring 4}}
+}}
+{{Notelist}}
+
+</tabber>
+
+===AFK Magic===
+<tabber>
+Dragon Hunter Wand=
+
+{{Equipment|align = right
+|buttons = No
+|head = Virtus mask
+|cape = Imbued Saradomin cape
+|neck = Occult necklace
+|ammo = Rada's blessing 4
+|weapon = Dragon hunter wand
+|torso = Virtus robe top
+|legs = Virtus robe bottom
+|shield = Ancient wyvern shield
+|gloves = Confliction gauntlets
+|boots = Avernic treads (et)
+|ring = Magus ring
+}}
+
+{{Inventory|align=right
+|Saturated heart |Blood rune |Soul rune |Death rune
+|Araxyte venom sac |Extended antifire(4) |Extended antifire(4) |Extended antifire(4)
+|Prayer regeneration potion |Prayer regeneration potion |Prayer regeneration potion |Prayer regeneration potion
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Super restore(4)
+|Super restore(4) |Super restore(4) |Super restore(4) |Teleport to house (tablet)
+}}
+
+Using the passive damage bonus from the [[dragon hunter wand]], it is possible to outheal the chip damage dealt by the boss and thus the only interaction needed is drinking potions every 5 minutes or so to maintain antifire protection and prayer. This is a very effective method for [[Prince Black Dragon|pet hunting]] due to the extremely long trip lengths and low interaction requirements, however can be costly due to the high cost of [[blood barrage]]. Due to the high cost of items used, it is strongly recommended to use the following method to move gear inside the KBD lair without risking being killed in the Wilderness:
+
+* Enter KBD's lair with no armour equipped, and 4 low value items in inventory. Die to KBD to spawn a gravestone inside the lair.
+* Withdraw all gear and potions required, and die a PvM death (e.g. to the [[Guard (Prifddinas)]] outside of the Prifddinas house portal with assistance from a [[locator orb]]). These items will be added to the gravestone within KBD's lair.
+* Return to KBD's lair and withdraw all items from the gravestone.
+
+Pray [[Protect from Melee]] and [[Mystic Might]]/[[Mystic Vigour]], stay in melee range of the boss and enable auto retaliate, with [[Blood Barrage]] autocasting.
+
+;Notes
+*It is not recommended to bank most loot from the boss using this method, as this will significantly reduce kills per hour.
+*The best method to resupply is to die to the boss, and return to KBD's lair with only potions.
+*The [[dragon hunter wand]] is required for this method. No other items are required (in particular, the [[ancient wyvern shield]] can be replaced with an [[anti-dragon shield]]), however if too many downgrades are made then it may not be possible to consistently outheal the boss.
+
+|-|
+
+</tabber>
+
+==References==
+{{Reflist}}
+[[Category:Strategies]]
+[[Category:Wilderness]]

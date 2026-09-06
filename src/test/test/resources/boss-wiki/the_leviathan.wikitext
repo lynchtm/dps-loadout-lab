@@ -1,0 +1,281 @@
+[[File:Fighting the Leviathan.png|thumb|400px|A player fighting the Leviathan, a sea creature dwelling in the Scar.]]
+After the completion of [[Desert Treasure II - The Fallen Empire]], players can fight a stronger variant of [[the Leviathan]]. An even stronger awakened variant can be fought by climbing the handholds with an [[awakener's orb]] in the player's inventory and selecting "Yes" when prompted.
+
+If the player dies while fighting the Leviathan, their [[grave]] will appear in [[the Scar]] by the rowboat. Players will have their reclamation fee reduced by 75% until they have five kills, after which the standard death cost will apply.
+
+== Requirements ==
+
+* Completion of {{SCP|Quest}} [[Desert Treasure II - The Fallen Empire]]
+
+== Suggested skills ==
+
+* {{SCP|Ranged|75+}}
+* {{SCP|Defence|70+}}
+* {{SCP|Hitpoints|80+}}
+
+==Transportation==
+The quickest methods of reaching [[the Scar]], where the Leviathan resides, are:
+* Using the [[ring of shadows]] to teleport to the Scar, by the abyssal rift. This requires having used the [[scarred tablet]] on it, which is a 1/25 drop from the Leviathan.
+* Teleporting to the [[Temple of the Eye (location)|Temple of the Eye]] via the [[Amulet of the Eye]] (or the [[Minigame Teleport]] for the [[Guardians of the Rift]] minigame), then reaching the Scar via the [[Catalytic Guardian]].
+* Reaching the Temple of the Eye via the portal in the [[Wizards' Tower]] basement ([[necklace of passage]] teleport or [[fairy ring]] code {{Fairycode|dis}}).
+
+==Fight overview==
+The Leviathan uses a volley of rapid-firing attacks which deal damage upon impact; protection prayers will fully block these attacks. The lure on its head will change colours accordingly as another indicator of the attack style it is using. 
+
+{| class="wikitable"
+!Orb
+!Colour
+!Pray
+!Max hit if not protected
+|-
+|[[File:Leviathan magic attack.png|frameless|width=90x90]]
+|'''Blue'''
+|{{Ilink|Protect from Magic|pic=Protect from Magic|size=23}}
+|32
+|-
+|[[File:Leviathan ranged attack.png|frameless|width=90x90]]
+|'''Green'''
+|{{Ilink|Protect from Missiles|pic=Protect from Missiles}}
+|24
+|-
+|[[File:Leviathan melee orb.png|frameless|width=90x90]]
+|'''Orange'''
+|{{Ilink|Protect from Melee|pic=Protect from Melee|size=25}}
+|50
+|-
+|[[File:Leviathan boulder.png|frameless|width=90x90]]
+|'''Rocks'''
+|None; run away from shadows
+|25
+|}
+Alongside the orb attacks, the Leviathan can also utilize a biting attack when in melee range, which [[Protect from Melee]] will fully block. This is rarely used since it interrupts the volley sequence, but it has no warning animation. It will only be used if the player is directly next to the pool (including diagonal tiles), and it is recommended to mark these tiles to avoid running into them.
+
+[[File:The Leviathan - tick flick.mp4|thumb|500px|The player demonstrates the swift switching of protection prayers in the fifth and sixth sequence of attacks.]]
+At the end of each volley, the boss will roar and cause debris to fall around the arena, with one falling down on the player's location as a permanent spawn for the remainder of the fight. Players will take up to 7 chip damage from the roar but can avoid the debris by moving at least 1 tile away. Every subsequent volley of attacks will increase in intensity, which can make it difficult to switch prayers at later volleys. The sequence of attacks are as follows:
+* 3 tick attacks with magic and ranged
+* 2 tick attacks with magic and ranged
+* 2 tick attacks with all three styles
+* 1 tick attacks with magic and ranged
+* 1 tick attacks with all three styles
+* All three styles with faster projectile time (2 ticks to react)
+* All three styles with even faster projectile time (1 tick to react)
+
+At any point during the volley of attacks, players can cast any type of [[shadow spell]] to stun the Leviathan, where it will stay still for 15 [[ticks]] (9 seconds). Damage against it is capped at 10 when stunned, but the player can run around to attack the gaping wound on its backside. When attacking the backside with ranged, it deals at least a minimum of ~65% of your maximum hit as damage, whereas attacking with magic is not guaranteed to hit and is subject to the usual accuracy rolls, but will deal double damage. Using [[Tumeken's shadow]] during this mechanic can be a highly effective way to reliably deal 100+ damage, especially if stunning right before triggering enrage. The Leviathan will break out of its stun when this occurs and use a special attack as retaliation.
+
+<u>Leviathan will progress down this list</u><u>, of attack styles, throughout the fight whether you stun or not!</u>
+
+If you:
+
+Stun ''and'' attack the gaping wound on The Leviathan's back
+
+- '''OR''' -
+
+Stun ''and'' have done 25% of The Leviathan's health in damage
+
+The Leviathan will reset to the 2nd attack style on the list and then progress downwards again. This will then repeat resetting to the 3rd on your second stun, so on and so forth until The Leviathan reaches its fastest attack. This means you should use your shadow spells to stun ''sparingly.''
+
+===Special attacks===
+* '''Lightning Barrage''' - The Leviathan unleashes a barrage of lightning towards the player while also launching orbs around it. The orbs will land across the arena, but never on the tiles surrounding the pool and have a 1x1 AoE. Run in a tight circle to stay ahead of the electric stroke (it can also be dodged with precise movement whilst also attacking it; see the demonstrations below). Once the attack ends, step away from melee range to prevent it from using its bite attack.
+* '''Smoke Blast''' - The Leviathan begins to spit out debris that falls onto the player's location every tick. The debris take two ticks to land, so players can stand still for one tick on each tile if they want to attack. After throwing ten debris, it will discharge a blast of smoke that can be avoided by standing behind the debris left behind. Getting caught in the blast will deal up to 59 damage. Beginning the enrage phase during this special attack will NOT interrupt the smoke blast.
+
+Damage dealt to the Leviathan is reduced by 33% for the duration of each special attack.
+
+Players can determine which special attack will be used first in the fight after the first roar by observing where the debris remains, assuming that the Leviathan was not stunned before a volley ended. If the debris appears to the '''east and west''', then the '''Lightning Barrage''' attack is used first. If the debris appears to the '''north and south''', then the '''Smoke Blast''' attack is used instead. The boss will alternate between the two special attacks.
+
+<gallery mode="packed" heights="200" style="text-align:left">
+The Leviathan - Smoke Blast.mp4|The player avoids the Smoke Blast attack.
+The Leviathan - Lightning Barrage skip (4-tick weapon).mp4|Performing the Lightning Barrage skip with a 4-tick weapon (ex. the [[Bow of Faerdhinen]]).
+The Leviathan - Lightning Barrage skip (5-tick weapon).mp4|Performing the Lightning Barrage skip with a 5-tick weapon (ex. the [[Armadyl crossbow]]).
+</gallery>
+
+===Enrage phase===
+[[File:The Leviathan - abyssal pathfinder glow.png|thumb|400px|The player has buffed their accuracy and damage by being within the abyssal pathfinder's area-of-effect.]]
+Upon reaching 180 hitpoints (20% of its health), the Leviathan will begin to focus on the player intensely, beginning the enrage phase. It will roar, causing one set of debris to drop on the arena, while an [[abyssal pathfinder]] will spawn. The abyssal pathfinder will spawn in the north-west corner of the arena, unless the spawn tile is blocked by debris. If blocked, it will instead spawn in the next corner following a clockwise pattern, unless all four spawn tiles are blocked, which will cause it to spawn in the original north-west corner. The Leviathan will also change its attack speed to 2, (i.e. 1.2 seconds) between attacks regardless of the state it was in before the phase started. It will only use magic and ranged orbs in this state, though it can still bite players if they are next to it.
+
+The abyssal pathfinder has a 5x5 Area-of-Effect that the player must stand in; if the player is not in its AoE, the Leviathan's attacks will pierce through protection prayers and the player's attacks will deal less damage. The player will glow when they are within the pathfinder's AoE, and will be granted perfect accuracy and an increased minimum hit<ref>{{PlainCiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1703058011122541032|date=16 September 2023|archiveurl=https://reldo.runescape.wiki/i/27963329|archivedate=16 September 2023|quote=Mod Ash: "[Hi, can you tell us how does the abyssal pathfinder at Leviathan works? How much dmg/accuracy % it gives?] If I'm reading my colleagues' code correctly, it's ensuring you hit for at least 20% of your max (...)"}}</ref>, so switching to a [[toxic blowpipe]] can be beneficial for its increased attack speed. Attacking with magic instead of ranged while within the pathfinder's AoE will grant doubled damage instead of perfect accuracy. 
+
+Players who have a [[webweaver bow]] can instead use the special attack twice to immediately finish it off, however in most cases a [[lightbearer]] will not be able to restore back to full energy for the next kill. This approach is not recommended for players with a [[zaryte crossbow]], and players using the crossbow should bring a toxic blowpipe switch in place of the webweaver bow.
+
+Until the phase ends, debris will continually drop from above, '''including the permanent blocker debris''', so it is important to defeat the boss before too many appear and restrict movement. Once the Leviathan is slain, all debris on the field will be removed.
+
+==Awakened mode==
+In Awakened mode, the Leviathan has the following changes:
+* The boss's health increases from 900 to '''2,700'''.
+* The boss is immune to [[stat drain]]s.
+* Upon reaching 50% of its health, a tornado will spawn in the arena and move towards the player. This will deal 40+ damage if it makes contact with them.
+* The permanent blocker debris is increased, from one to five dropped in a "+" style formation on the player.
+* Stuns are '''50% shorter''' in length.
+* Its enraged attack speed is '''doubled''' to one tick (0.6s)
+* The range of the [[abyssal pathfinder]] is increased to 7x7 tiles
+* Damage from the smoke blast increases from 59 to 70+ damage.
+* The [[black mask]] and [[Slayer helmet (i)|Slayer helmet]] do not apply their usual on-task damage and accuracy bonuses while on a Leviathan [[boss slayer task]].{{CiteNews|url=https://secure.runescape.com/m=news/desert-treasure-ii---tweaks-and-drop-rates?oldschool=1|title=Desert Treasure II - Tweaks and Drop Rates|newsdate=03 August 2023|quote=Slayer tasks no longer apply to the Awakened versions of the Desert Treasure II bosses.}}
+
+Rather than letting the Leviathan finish an attack sequence, it is highly recommended to stun it before it ends. This is because the boulders will drop in a +- shaped formation on the player, which will severely impede movement if allowed to appear; likely resulting in death in the enrage phase. This also ensures minimal damage is taken until the enrage phase, as the player is expected to take no damage from the lightning current or shockwave attacks. As the boss's magic level is significantly increased from 160 to 280, a [[twisted bow]] is the preferred weapon of choice over a crossbow, since it will fully benefit from its passive effect.
+
+Stunning the Leviathan resets the player's attack delay, meaning you can attack immediately after casting barrage to get a free ranged shot every stun before Levi's damage reduction kicks in.
+
+Once the tornado appears at 50% health (1350 health), lightning runs are a bit different. Rather than running back and forth, as this would result in the player running into the tornado, the player needs to utilise two additional tiles to safely evade the tornado while maintaining attacks. This is not required, as the player can simply run clockwise or counterclockwise respectively to attack and avoid the tornado. During the debris attack, each quadrant can allow for two instances of each attack before being unusable; during the first instance for each quadrant, run two tiles to leave a gap between it and the next thrown debris, so that the player can simply walk between them for the second instance of the attack. When it is no longer possible to do this, simply fill a row or column accordingly at the edges of the arena. The majority of damage will be primarily dealt during the lightning current attack.
+
+When rushing in to stun the Leviathan, make sure to swap to [[Protect from Melee]] to avoid any potential bite attacks. To avoid any unnecessary chip damage from incoming attacks as the enrage phase starts, leave the boss as close as possible to 20% of its health, then stun and hit from behind. Before starting the enrage phase, make sure to have max health and prayer. It is also encouraged to leave the north-west clear of debris to ensure the pathfinder spawns there and luring the tornado as south as possible to get a head-start once starting the phase, as it is important not to let it trail close to the player.
+
+During the enrage phase (540 health), dump two webweaver specials upon being lit by the pathfinder, which should reduce the boss's health to ~360 and return to a twisted bow and continue attacking the boss while moving and reacting to incoming attacks. While a toxic blowpipe can be used for higher DPS with its attack speed, the boss's even faster attack speed and the tornado, along with having to flick the attacks, dodging the tornado and being in sync with the pathfinder makes this highly unfeasible. Make sure to stay away from the boss's melee distance to ensure that it will not bite, as there is a high chance of dying if a melee attack and an unprotected orb hit in a small time frame. The player should have enough time to defeat the boss before the pathfinder completes a full cycle, though this also depends on how much the boss will swap between combat styles.
+
+With a [[Twisted bow]] and max ranged, [[Masori]] has ~9% higher DPS during the fight, while Void is ~9% stronger during Enrage. It's recommended to bring both and swap to void before enrage.
+
+==Equipment==
+{{clear|left}}
+<tabber>
+Range =
+*With [[Masori armour]], the [[Zaryte crossbow]] is best in slot against the Leviathan until it reaches 450 HP (380 without a [[venator ring]]), at which point the [[toxic blowpipe]] with [[dragon darts]] surpasses it.
+*The [[bow of Faerdhinen]] (with [[crystal armour]]) and the [[twisted bow]] don't have the damage falloff or chip damage of [[ruby bolts (e)]], and are better than the toxic blowpipe with [[amethyst darts]].
+*When inside the abyssal pathfinder, all ranged weapons cannot miss and deal a minimum hit of 20% of their maximum, making a blowpipe particularly effective for the enrage phase if the player can maintain its fast attack speed. [[Webweaver bow]] special attacks may also be used after the abyssal pathfinder activates to deal a large amount of damage quickly.
+*The Zaryte crossbow is the strongest spec weapon at Leviathan, and using it at the beginning of the fight as well as using the toxic blowpipe during the enrage phase leads to faster kills overall.
+
+{{Recommended equipment
+| style = Ranged
+| head1 = {{plink|Slayer helmet (i)}}{{efn|Only while on a Slayer task. Accuracy and damage bonuses '''will not be applied in the awakened fight.'''}} /<br> {{plink|Masori mask (f)}}  /<br>{{plink|Masori mask}}
+| head2 = {{plink|Crystal helm}}{{efn|With full crystal and [[Bow of Faerdhinen]]|name=crystal}}
+| head3 = {{plink|Void ranger helm}}{{efn|Only use with the full set of Void knight armour.|name=void}}
+| head4 = {{plink|Hueycoatl hide coif}} ><br> {{plink|Karil's coif}} /<br> {{plink|Blessed coif|pic=Ancient coif}}
+| neck1 = {{plink|Necklace of rupture}}
+| neck2 = {{plink|Necklace of anguish}}
+| neck3 = {{plink|Dragonbone necklace}} /<br> {{plink|Bonecrusher necklace}}
+| neck4 = {{plink|Amulet of fury}} /<br> {{plink|Amulet of glory}}
+| cape1 = {{plink|Dizana's quiver}}
+| cape2 = {{plink|Ava's assembler}}
+| cape3 = {{plink|Ava's accumulator}} /<br>{{plink|Ranging cape(t)}}
+| body1 = {{plink|Masori body (f)}} /<br>{{plink|Masori body}}
+| body2 = {{plink|Crystal body}}{{efn|name=crystal}} 
+| body3 = {{plink|Elite void top}}{{efn|name=void}}
+| body4 = {{plink|Karil's leathertop}} / <br>{{plink|Hueycoatl hide body}} / <br>{{plink|Blessed body|pic=Ancient d'hide body}}
+| body5 = {{plink|Black d'hide body}}
+| legs1 = {{plink|Masori chaps (f)}} /<br>{{plink|Masori chaps}}
+| legs2 = {{plink|Crystal legs}}{{efn|name=crystal}} 
+| legs3 = {{plink|Elite void robe}}{{efn|name=void}}
+| legs4 = {{plink|Karil's leatherskirt}} / <br>{{plink|Hueycoatl hide chaps}} /<br>{{plink|Blessed chaps|pic=Ancient chaps}}
+| legs5 = {{plink|Black d'hide chaps}}
+| weapon1 = {{plink|Zaryte crossbow}} +<br>{{plink|Toxic blowpipe}}{{efn|With [[Dragon darts]]. Best non-spec damage during enrage. Better at low hp compared to ruby bolts (e)|name=blowpipe}}
+| weapon2 = {{plink|Armadyl crossbow}} /<br>{{plink|Dragon crossbow}}
+| weapon3 = {{plink|Twisted bow}} ><br> {{plink|Bow of Faerdhinen}}{{efn|name=crystal}}{{efn|Comparable to higher tier crossbows without additional [[ranged strength]] equipment}}
+| weapon4 = {{plink|Rune crossbow}}
+| weapon5 = {{plink|Toxic blowpipe}}
+| shield1 = {{plink|Twisted buckler}}{{efn|name="1h"|If using a 1-handed weapon}}
+| shield2 = {{plink|Dragonfire ward}}{{efn|name="1h"}}{{efn|The twisted buckler may not increase max hit, in which case the defence of the dragonfire ward may be preferable}}
+| shield3 = {{plink|Odium ward}}{{efn|name="1h"}}
+| shield4 = {{plink|Antler guard}}{{efn|name="1h"}}
+| ammo1 = {{plink|Ruby dragon bolts (e)}}
+| ammo2 = {{plink|Ruby bolts (e)}}
+| ammo3 = {{plink|Seeking dragon arrow}}s
+| hands1 = {{plink|Zaryte vambraces}}
+| hands2 = {{plink|Barrows gloves}}
+| hands3 = {{plink|Void knight gloves}}{{efn|name=void}}
+| hands4 = {{plink|Hueycoatl hide vambraces}} /<br>{{plink|Blessed vambraces|pic=Ancient bracers}}
+| feet1 = {{plink|Avernic treads (max)}}
+| feet2 = {{plink|Devout boots}} /<br> {{plink|Pegasian boots}}
+| feet3 = {{plink|Ranger boots}}
+| feet4 = {{plink|Blessed boots|pic=Ancient d'hide boots}} /<br> {{plink|Aranea boots}}
+| ring1 = {{plink|Lightbearer}}
+| ring2 = {{plink|Ring of the gods (i)}} /<br> {{plink|Venator ring}}
+| ring3 = {{plink|Ring of suffering (i)}}
+| ring4 = {{plink|Archers ring (i)}} 
+| ring5 = {{plink|Ring of shadows}}
+| special1 = {{plink|Zaryte crossbow}}
+| special2 = {{plink|Webweaver bow}}{{efn|Use on enrage phase|name=enrage}}
+| special3 = {{plink|Armadyl crossbow}} /<br> {{plink|Toxic blowpipe}}{{efn|name=enrage}}
+| special4 = {{plink|Tonalztics of Ralos}} /<br>{{plink|Dragon knife}}{{efn|name=enrage}} /<br>{{plink|Rosewood blowpipe}}{{efn|name=enrage}}
+}}
+{{notelist}}
+|-|
+Mage (Tumeken's shadow)=
+Due to the [[Tumeken's shadow]]'s passive effect boosting its accuracy, it can compete with and outperform lower-tier range weapons at the Leviathan. Additionally, with access to a [[volatile Nightmare staff]], damage can be boosted through use of its special attack on the Leviathan's backside after stunning it. 
+
+Without access to several pieces of [[Ancestral equipment]] and/or a [[saturated heart]], players should consider ranging the Leviathan instead.
+
+{{Recommended equipment
+| style = Magic
+| head1 = {{plink|Ancestral hat}} / {{plink|Slayer helmet (i)}}
+| head2 = {{plink|Virtus mask}}
+| head3 = {{plink|Ahrim's hood}} (or:{{plinkp|Blue moon helm}}{{plinkp|Bloodbark helm}}{{plinkp|Dagon'hai hat}})
+| neck1 = {{plink|Occult necklace}}
+| cape1 = {{plink|Imbued god cape|pic=Imbued Saradomin cape}}
+| body1 = {{plink|Ancestral robe top}}
+| body2 = {{plink|Virtus robe top}}
+| body3 = {{plink|Ahrim's robetop}} (or: {{plinkp|Blue moon chestplate}}{{plinkp|Bloodbark body}}{{plinkp|Dagon'hai robe top}})
+| legs1 = {{plink|Ancestral robe bottom}}
+| legs2 = {{plink|Virtus robe bottom}}
+| legs3 = {{plink|Ahrim's robeskirt}} (or:{{plinkp|Blue moon tassets}}{{plinkp|Bloodbark legs}}{{plinkp|Dagon'hai robe bottom}})
+| weapon1 = {{plink|Tumeken's shadow}}
+| hands1 = {{plink|Confliction gauntlets}}
+| hands2 = {{plink|Tormented bracelet}}
+| feet1 = {{plink|Avernic treads (max)}}
+| feet2 = {{plink|Eternal boots}}
+| ring1 = {{plink|Magus ring}}
+| ring2 = {{plink|Lightbearer}}
+| special1 = {{plink|Volatile Nightmare staff}}
+| special2 = {{plink|Accursed sceptre}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{nowrap|{{plink|Rada's blessing 3|txt=Rada's blessing 3}}/[[Rada's blessing 2|2]]}}
+}}
+</tabber>
+
+==Inventory recommendations==
+{{Inventory
+|align = right
+|1 = Webweaver bow
+|2 = Toxic blowpipe
+|3 = Ring of shadows
+|4 = Teleport to house (tablet)
+|5 = {{Cheap prayer}}
+|6 = {{Cheap prayer}}
+|7 = {{Cheap prayer}}
+|8 = {{Cheap prayer}}
+|9 = Divine ranging potion(4)
+|10 = Divine ranging potion(4)
+|11 = Anglerfish
+|12 = Anglerfish
+|13 = {{Cheap food}}
+|14 = {{Cheap food}}
+|15 = {{Cheap food}}
+|16 = {{Cheap food}}
+|17 = {{Cheap food}}
+|18 = {{Cheap food}}
+|19 = {{Cheap food}}
+|20 = {{Cheap food}}
+|21 = {{Cheap food}}
+|22 = {{Cheap food}}
+|23 = {{Cheap food}}
+|24 = {{Cheap food}}
+|25 = {{Cheap food}}
+|26 = {{Cheap food}}
+|27 = {{Cheap food}}
+|28 = Divine rune pouch
+}}
+
+{{Rune pouch
+| align = right
+| 1 = Death rune
+| 2 = Chaos rune
+| 3 = Soul rune
+| 4 = Air rune
+}}
+* [[Prayer potion]]s or [[super restore]]s (can replace food with more potions if experienced)
+* [[Ring of shadows]] for teleporting back, or [[Amulet of the Eye]] if [[scarred tablet]] has not been acquired yet
+* [[Anglerfish]] are for boosting health before starting a kill to lessen interruptions during the volley of attacks, as well as chip damage from the roar attack
+* [[Shadow Rush]] is just as effective as [[Shadow Barrage]] in stunning the boss, whilst costing only a third per spell cast
+* A magic staff with autocast can be used to auto-cast Shadow spells. [[Thammaron's sceptre]] is a lighter weight option. Manually casting a spell is the same number of clicks, with the bonuses of saving an inventory slot and having a bigger click box in the spellbook tab by filtering out spells you lack the runes to cast.
+* [[Twisted bow]] can optionally be used for the backside attack, as it usually deals higher damage than crossbow attacks due to the vastly increased minimum hit, especially with a Dizana's quiver so as to not require two inventory slots
+
+==Plugins==
+
+===Radius Markers===
+* To highlight the buff radius of the [[Abyssal pathfinder]] during enrage phase, add a Radius Marker with NPC ID <code>12220</code> with a Ranged attack range of 1 for normal Leviathan, or a Ranged attack range of 2 for Awakened Leviathan
+
+===Better NPC Highlight===
+* To highlight the true tile of Awakened Leviathan's Tornado, paste <code>12222</code>  to True Tile -> True Tile IDs
+
+
+==References==
+{{Reflist}}
+
+{{DEFAULTSORT:Leviathan, The/Strategies}}
+[[Category:Strategies]]

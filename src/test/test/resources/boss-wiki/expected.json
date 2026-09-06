@@ -1,0 +1,3760 @@
+{
+  "abyssal_sire": {
+    "counts": {
+      "gearRaw": 8,
+      "loadouts": 8,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 8,
+      "unmatchedChoices": 8,
+      "unmatchedInventories": 1
+    },
+    "choices": [
+      {
+        "label": "Phase 1 · Phase 1 Melee",
+        "gearSlots": 10,
+        "weapons": [
+          "Scorching bow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Magic · Phase 1 Magic",
+        "gearSlots": 8,
+        "weapons": [
+          "Tumeken's shadow",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Blood ancient sceptre",
+          "Ancient sceptre"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged · Phase 1 Ranged",
+        "gearSlots": 8,
+        "weapons": [
+          "Scorching bow",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe",
+          "amethyst dart",
+          "Webweaver bow",
+          "Craw's bow",
+          "Crystal bow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Melee · Phase 1 Melee",
+        "gearSlots": 10,
+        "weapons": [
+          "Noxious halberd"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Melee - No defence reduction · Phase 2 Melee - DPS",
+        "gearSlots": 12,
+        "weapons": [
+          "Emberlight",
+          "Osmumten's fang"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Melee - Defence reduction · Phase 2 Other Melee Weapons",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Emberlight",
+          "Ghrazi rapier",
+          "Arclight",
+          "Inquisitor's mace",
+          "Blade of Saeldor",
+          "Zamorakian hasta"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Magic - Tumeken's Shadow · Phase 2 Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged · Phase 2 Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Scorching bow",
+          "Twisted bow",
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "alchemical_hydra": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 2
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Twisted bow",
+          "Toxic blowpipe",
+          "Dragon hunter crossbow",
+          "Bow of Faerdhinen",
+          "Eclipse atlatl"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Dragon hunter lance",
+          "Osmumten's fang",
+          "Ghrazi rapier",
+          "Soulreaper axe",
+          "Blade of Saeldor",
+          "Inquisitor's mace",
+          "Abyssal dagger",
+          "Noxious halberd",
+          "Zamorakian hasta",
+          "Dragon sword",
+          "Dual macuahuitl"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "amoxliatl": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Fight overview · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Dual macuahuitl",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Dual macuahuitl",
+          "Ursine chainmace (u)",
+          "Zamorakian hasta",
+          "Sarachnis cudgel",
+          "Glacial temotli",
+          "Ghrazi rapier",
+          "Saradomin sword",
+          "Zombie axe",
+          "Dragon mace"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "araxxor": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 2,
+      "switches": 1,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Ursine chainmace (u)",
+          "Zamorakian hasta",
+          "Sarachnis cudgel",
+          "Dual macuahuitl",
+          "Zombie axe"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Twisted bow"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "barrows_chests": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 3,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Magic (Low level) · Magic (Low level)",
+        "gearSlots": 11,
+        "weapons": [
+          "Trident of the Swamp",
+          "Twinflame staff",
+          "Smoke battlestaff",
+          "Ahrim's staff",
+          "Ancient sceptre",
+          "Staff of air",
+          "Iban's staff (u)"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic (High level) · Magic equipment",
+        "gearSlots": 12,
+        "weapons": [
+          "Eye of Ayak",
+          "Tumeken's shadow",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Staff of the Dead",
+          "Twinflame staff",
+          "Smoke battlestaff",
+          "Ahrim's staff"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Ranged (Ahrim) · Ranged (Ahrim)",
+        "gearSlots": 9,
+        "weapons": [
+          "Toxic blowpipe",
+          "Rosewood blowpipe",
+          "Hunters' sunlight crossbow",
+          "Magic shortbow (i)",
+          "Karil's crossbow",
+          "Yew shortbow"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "brutus": {
+    "counts": {
+      "gearRaw": 4,
+      "loadouts": 4,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 0,
+      "choices": 4,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee (free-to-play)",
+        "gearSlots": 9,
+        "weapons": [
+          "Rune scimitar",
+          "Barronite mace",
+          "Adamant scimitar",
+          "Mithril scimitar",
+          "Steel scimitar"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged (free-to-play)",
+        "gearSlots": 9,
+        "weapons": [
+          "Maple shortbow",
+          "Willow shortbow",
+          "Oak shortbow"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Magic · Magic (free-to-play)",
+        "gearSlots": 8,
+        "weapons": [
+          "Staff of earth",
+          "Staff of air"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee (high level) · Melee (high level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Dharok's greataxe",
+          "Soulreaper axe",
+          "Inquisitor's mace",
+          "Blade of Saeldor",
+          "Ghrazi rapier",
+          "Dual macuahuitl",
+          "Noxious halberd",
+          "Abyssal tentacle",
+          "Abyssal whip"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "bryophyta": {
+    "counts": {
+      "gearRaw": 0,
+      "loadouts": 0,
+      "switches": 0,
+      "inventories": 0,
+      "examples": 0,
+      "choices": 0,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [],
+    "searchContainsPage": false
+  },
+  "callisto_and_artio": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Webweaver bow",
+          "Craw's bow",
+          "Bow of Faerdhinen",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Ruby bolts (e)",
+          "Runite bolts",
+          "Magic shortbow (i)",
+          "Amethyst arrow",
+          "Rune arrow",
+          "Rune crossbow",
+          "Ruby bolts (e)",
+          "Runite bolts",
+          "Magic shortbow (i)",
+          "Amethyst arrow",
+          "Rune arrow",
+          "Magic shortbow (i)"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Accursed sceptre",
+          "Thammaron's sceptre",
+          "Eye of Ayak",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Warped sceptre"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "callisto_and_artio_2": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Webweaver bow",
+          "Craw's bow",
+          "Bow of Faerdhinen",
+          "Eclipse atlatl",
+          "Dragon crossbow",
+          "Hunters' sunlight crossbow",
+          "Magic shortbow (i)"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Accursed sceptre",
+          "Thammaron's sceptre",
+          "Eye of Ayak",
+          "Tumeken's shadow",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Warped sceptre"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "cerberus": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Emberlight",
+          "Soulreaper axe",
+          "Inquisitor's mace",
+          "Arclight",
+          "Osmumten's fang",
+          "Abyssal bludgeon",
+          "Ghrazi rapier"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Twisted bow",
+          "Scorching bow",
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Zaryte crossbow"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "chaos_elemental": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Webweaver bow",
+          "Craw's bow",
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe",
+          "Armadyl crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Ursine chainmace",
+          "Viggora's chainmace",
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Abyssal tentacle",
+          "Abyssal whip",
+          "Verac's flail"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "chaos_fanatic": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Suggested skills · Ranged",
+        "gearSlots": 10,
+        "weapons": [
+          "Webweaver bow",
+          "Craw's bow",
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Scorching bow",
+          "Magic shortbow (i)",
+          "Crystal bow"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "commander_zilyana": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Zaryte crossbow",
+          "Hunters' sunlight crossbow",
+          "Armadyl crossbow",
+          "Dragon hunter crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "corporeal_beast": {
+    "counts": {
+      "gearRaw": 6,
+      "loadouts": 6,
+      "switches": 0,
+      "inventories": 6,
+      "examples": 6,
+      "choices": 12,
+      "unmatchedChoices": 3,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Stat Draining · Stat draining",
+        "gearSlots": 10,
+        "weapons": [
+          "Noxious halberd",
+          "Zamorakian spear",
+          "Osmumten's fang"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Notes, gear, and inventory · Quick pool",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang",
+          "Noxious halberd"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Dolo · Dolo",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Fewer stat drains · Fewer stat drains",
+        "gearSlots": 11,
+        "weapons": [
+          "Noxious halberd",
+          "Osmumten's fang",
+          "Zamorakian spear"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Best in slot · Team melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Zamorakian spear",
+          "Dragon spear"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Best in slot · Melee masses",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Zamorakian spear",
+          "Dragon spear"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Stat Draining",
+        "gearSlots": 10,
+        "weapons": [
+          "Noxious halberd"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Quick-Pool",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Dolo",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Fewer stat drains",
+        "gearSlots": 10,
+        "weapons": [
+          "Noxious halberd"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Example · Best in slot",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Example · Best in slot",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 5
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "crazy_archaeologist": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Suggested skills · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Accursed sceptre",
+          "Thammaron's sceptre",
+          "Eye of Ayak",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Warped sceptre",
+          "Iban's staff (u)"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "dagannoth_kings": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 4,
+      "choices": 7,
+      "unmatchedChoices": 3,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Tribrid (Solo) · Tribrid (All Kings)",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Eye of Ayak",
+          "Twisted bow",
+          "Inquisitor's mace",
+          "Ghrazi rapier",
+          "Blade of Saeldor",
+          "Noxious halberd",
+          "Tumeken's shadow",
+          "Sanguinesti staff",
+          "Bow of Faerdhinen",
+          "Osmumten's fang",
+          "Abyssal tentacle",
+          "Trident of the Swamp",
+          "Toxic blowpipe",
+          "Abyssal whip",
+          "Trident of the Seas",
+          "Eclipse atlatl",
+          "Hunters' sunlight crossbow",
+          "Zombie axe",
+          "Belle's folly",
+          "Warped sceptre",
+          "Iban's staff",
+          "Crystal bow",
+          "Magic shortbow (i)"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Magic (Rex only) · Magic (Rex only)",
+        "gearSlots": 11,
+        "weapons": [
+          "Eye of Ayak",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Twinflame staff",
+          "Toxic staff of the dead",
+          "Void knight mace",
+          "Warped sceptre",
+          "Iban's staff (u)",
+          "Slayer's staff (e)"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged (Prime only) · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe",
+          "Crystal bow",
+          "Hunters' sunlight crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Max Tribrid Setup",
+        "gearSlots": 11,
+        "weapons": [
+          "Eye of Ayak"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Mid-Level Tribrid Setup",
+        "gearSlots": 11,
+        "weapons": [
+          "Abyssal tentacle"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Rex Safespot inventory",
+        "gearSlots": 11,
+        "weapons": [
+          "Trident of the Swamp"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Early Ironman Rex safespot setup",
+        "gearSlots": 11,
+        "weapons": [
+          "Iban's staff"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "deranged_archaeologist": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 0,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Equipment · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Warped sceptre",
+          "Iban's staff"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "doom_of_mokhaiotl": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 1,
+      "switches": 2,
+      "inventories": 2,
+      "examples": 2,
+      "choices": 3,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 10,
+        "weapons": [],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Max Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Zaryte crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Budget",
+        "gearSlots": 10,
+        "weapons": [
+          "Scorching bow"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "duke_sucellus": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Awakened mode · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Emberlight",
+          "Soulreaper axe",
+          "Noxious halberd",
+          "Blade of Saeldor",
+          "Arclight",
+          "Zombie axe",
+          "Abyssal whip"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_fight_caves": {
+    "counts": {
+      "gearRaw": 6,
+      "loadouts": 6,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 0,
+      "choices": 6,
+      "unmatchedChoices": 2,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Toxic blowpipe",
+          "Twisted bow",
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Hunters' sunlight crossbow",
+          "Dragon crossbow",
+          "Karil's crossbow",
+          "Rune crossbow",
+          "Magic shortbow (i)",
+          "Crystal bow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Blade of Saeldor",
+          "Ghrazi rapier",
+          "Inquisitor's mace",
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Zamorakian hasta",
+          "Abyssal tentacle",
+          "Abyssal whip"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Magic only · Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Twinflame staff",
+          "Mystic smoke staff"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Pure · Pure",
+        "gearSlots": 11,
+        "weapons": [
+          "Toxic blowpipe",
+          "Twisted bow",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Karil's crossbow",
+          "Rune crossbow",
+          "Magic shortbow (i)",
+          "Crystal bow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Early-game iron · Early-game iron",
+        "gearSlots": 12,
+        "weapons": [
+          "Karil's crossbow",
+          "Hunters' sunlight crossbow",
+          "Crystal bow",
+          "Rune crossbow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Ranged (Atlatl) · Ranged (Atlatl)",
+        "gearSlots": 11,
+        "weapons": [
+          "Eclipse atlatl"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "fortis_colosseum": {
+    "counts": {
+      "gearRaw": 6,
+      "loadouts": 6,
+      "switches": 0,
+      "inventories": 6,
+      "examples": 6,
+      "choices": 12,
+      "unmatchedChoices": 2,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Tumeken's shadow",
+          "Twisted bow",
+          "Venator bow",
+          "Soulreaper axe",
+          "Blade of Saeldor",
+          "Eye of Ayak",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe",
+          "Abyssal tentacle",
+          "Noxious halberd",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Bow of Faerdhinen",
+          "Eclipse atlatl"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic · Mage",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Scythe of Vitur",
+          "Venator bow",
+          "Tumeken's shadow",
+          "Blade of Saeldor",
+          "Toxic blowpipe",
+          "Tumeken's shadow",
+          "Noxious halberd",
+          "Eclipse atlatl"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Budget · Budget",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Bow of Faerdhinen",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Venator bow",
+          "Toxic blowpipe"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee only (not recommended for first quiver) · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Tumeken's shadow",
+          "Venator bow",
+          "Soulreaper axe",
+          "Sanguinesti staff",
+          "Toxic blowpipe",
+          "Osmumten's fang",
+          "Abyssal tentacle",
+          "Noxious halberd",
+          "Trident of the Swamp",
+          "Eclipse atlatl"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Melee only (not recommended for first quiver) · GM time",
+        "gearSlots": 11,
+        "weapons": [
+          "Scythe of Vitur",
+          "Tumeken's shadow",
+          "Twisted bow",
+          "Venator bow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "High efficiency · High efficiency",
+        "gearSlots": 11,
+        "weapons": [
+          "Scythe of Vitur",
+          "Tumeken's shadow",
+          "Twisted bow",
+          "Venator bow"
+        ],
+        "inventory": 5
+      },
+      {
+        "label": "Example · Ranged",
+        "gearSlots": 10,
+        "weapons": [
+          "Twisted bow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Magic",
+        "gearSlots": 10,
+        "weapons": [
+          "Tumeken's shadow"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Budget",
+        "gearSlots": 11,
+        "weapons": [
+          "Trident of the Swamp"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Melee only (not recommended for first quiver)",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Example · Melee only (not recommended for first quiver)",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon warhammer"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Example · High efficiency",
+        "gearSlots": 11,
+        "weapons": [
+          "Abyssal tentacle"
+        ],
+        "inventory": 5
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_gauntlet": {
+    "counts": {
+      "gearRaw": 0,
+      "loadouts": 0,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 4,
+      "choices": 4,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Example · Desired equipment and inventory",
+        "gearSlots": 4,
+        "weapons": [
+          "Crystal bow (perfected)"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Desired equipment and inventory",
+        "gearSlots": 1,
+        "weapons": [
+          "Crystal bow (perfected)"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Desired equipment and inventory",
+        "gearSlots": 4,
+        "weapons": [
+          "Corrupted bow (perfected)"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Desired equipment and inventory",
+        "gearSlots": 4,
+        "weapons": [
+          "Corrupted bow (perfected)"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "general_graardor": {
+    "counts": {
+      "gearRaw": 8,
+      "loadouts": 8,
+      "switches": 0,
+      "inventories": 8,
+      "examples": 0,
+      "choices": 8,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee (Solo)",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang",
+          "Inquisitor's mace",
+          "Ghrazi rapier",
+          "Blade of Saeldor",
+          "Abyssal tentacle",
+          "Zamorakian hasta",
+          "Abyssal whip",
+          "Zombie axe"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic · Magic (Solo)",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Ranged · Ranged (Solo)",
+        "gearSlots": 12,
+        "weapons": [
+          "Bow of Faerdhinen",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee Tank · Advanced Tank",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang",
+          "Inquisitor's mace",
+          "Ghrazi rapier",
+          "Blade of Saeldor",
+          "Abyssal tentacle",
+          "Zamorakian hasta",
+          "Abyssal whip"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Ranged Tank · Ranged Tank",
+        "gearSlots": 11,
+        "weapons": [
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon hunter crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Melee Attacker · Melee Attacker",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang",
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Ghrazi rapier",
+          "Blade of Saeldor",
+          "Abyssal tentacle",
+          "Abyssal whip"
+        ],
+        "inventory": 5
+      },
+      {
+        "label": "Ranged Attacker · Ranged Attacker",
+        "gearSlots": 12,
+        "weapons": [
+          "Zaryte crossbow",
+          "Bow of Faerdhinen",
+          "Armadyl crossbow",
+          "Toxic blowpipe",
+          "Eclipse atlatl",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 6
+      },
+      {
+        "label": "Magic Attacker · Magic (Group)",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Twinflame staff"
+        ],
+        "inventory": 7
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "giant_mole": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 5,
+      "switches": 0,
+      "inventories": 5,
+      "examples": 0,
+      "choices": 5,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Crystal bow",
+          "Zaryte crossbow",
+          "Armadyl crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Harmonised Nightmare staff",
+          "Kodai wand",
+          "Mystic smoke staff",
+          "Twinflame staff",
+          "Sanguinesti staff",
+          "Ahrim's staff",
+          "Mystic dust staff"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Ghrazi rapier",
+          "Zamorakian hasta",
+          "Blade of Saeldor",
+          "Belle's folly",
+          "Zombie axe",
+          "Abyssal dagger"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee (Dharok's) · Dharok's",
+        "gearSlots": 11,
+        "weapons": [
+          "Dharok's greataxe"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Melee (Budget) · Melee & Prayer Budget",
+        "gearSlots": 12,
+        "weapons": [
+          "Abyssal dagger",
+          "Belle's folly",
+          "Zombie axe",
+          "Abyssal whip",
+          "Dragon sword",
+          "Leaf-bladed sword"
+        ],
+        "inventory": 4
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "grotesque_guardians": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 4,
+      "choices": 6,
+      "unmatchedChoices": 2,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Scythe of Vitur",
+          "Granite hammer",
+          "Soulreaper axe",
+          "Inquisitor's mace",
+          "Ghrazi rapier",
+          "Blade of Saeldor",
+          "Noxious halberd",
+          "Abyssal tentacle",
+          "Osmumten's fang",
+          "Abyssal whip",
+          "Zamorakian hasta",
+          "Dual macuahuitl",
+          "Dragon scimitar"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged switches · Ranged switches",
+        "gearSlots": 12,
+        "weapons": [
+          "Venator bow",
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Eclipse atlatl",
+          "Hunters' sunlight crossbow",
+          "Magic shortbow (i)"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Max",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Mid-game",
+        "gearSlots": 11,
+        "weapons": [
+          "Granite hammer"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Atlatl only",
+        "gearSlots": 11,
+        "weapons": [
+          "Abyssal tentacle"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Melee only",
+        "gearSlots": 10,
+        "weapons": [
+          "Noxious halberd"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "hespori": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 0,
+      "choices": 3,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Entry level · Entry level",
+        "gearSlots": 12,
+        "weapons": [
+          "Zombie axe",
+          "Dragon scimitar"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Best-in-slot · Best-in-slot",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Blade of Saeldor",
+          "Abyssal tentacle",
+          "Noxious halberd",
+          "Soulreaper axe",
+          "Abyssal whip"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Mage · Mage",
+        "gearSlots": 11,
+        "weapons": [
+          "Harmonised Nightmare staff",
+          "Twinflame staff",
+          "Smoke battlestaff",
+          "Staff of the Dead",
+          "Nightmare staff",
+          "Kodai wand",
+          "Toxic staff of the dead",
+          "Purging staff",
+          "Dragon hunter wand",
+          "Ancient sceptre",
+          "Tome of Fire",
+          "Ahrim's staff",
+          "Blue moon spear",
+          "Ancient staff",
+          "Master wand",
+          "Slayer's staff",
+          "Mystic fire staff"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_hueycoatl": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 1,
+      "switches": 1,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Dragon hunter lance",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Dual macuahuitl",
+          "Abyssal bludgeon",
+          "Zamorakian hasta",
+          "Ursine chainmace (u)",
+          "Glacial temotli",
+          "Sarachnis cudgel",
+          "Zombie axe",
+          "Dragon mace"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_inferno": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 4,
+      "choices": 7,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Learner / First cape · First cape",
+        "gearSlots": 12,
+        "weapons": [
+          "Toxic blowpipe",
+          "Kodai wand",
+          "Nightmare staff",
+          "Twisted bow",
+          "Toxic blowpipe",
+          "Blood ancient sceptre",
+          "Ice ancient sceptre",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe",
+          "Ancient sceptre",
+          "Armadyl crossbow",
+          "Toxic blowpipe",
+          "Dragon hunter wand",
+          "Master wand",
+          "Dragon crossbow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "On-Task · On task",
+        "gearSlots": 12,
+        "weapons": [
+          "Toxic blowpipe",
+          "Kodai wand",
+          "Nightmare staff",
+          "Twisted bow",
+          "Toxic blowpipe",
+          "Toxic staff of the dead",
+          "Bow of Faerdhinen"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Mage tank · Mage tank",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Eldritch Nightmare staff",
+          "Tumeken's shadow",
+          "Sanguinesti staff",
+          "Blood ancient sceptre"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Example · Max Twisted bow",
+        "gearSlots": 11,
+        "weapons": [
+          "Kodai wand"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Bowfa",
+        "gearSlots": 11,
+        "weapons": [
+          "Ancient sceptre"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · On Task",
+        "gearSlots": 11,
+        "weapons": [
+          "Kodai wand"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Mage tank",
+        "gearSlots": 11,
+        "weapons": [
+          "Eye of Ayak"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "kalphite_queen": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 5,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 4,
+      "choices": 9,
+      "unmatchedChoices": 5,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "High Level / Resetting · High level melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Keris partisan of breaching",
+          "Inquisitor's mace",
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Keris partisan"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "High Level / Resetting · High level ranged",
+        "gearSlots": 10,
+        "weapons": [
+          "Toxic blowpipe",
+          "Amethyst dart",
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "High Level / Resetting · Max Mage (0 switches)",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Mid Level / Flinching · Flinching",
+        "gearSlots": 12,
+        "weapons": [
+          "Keris partisan of breaching",
+          "Zombie axe",
+          "Verac's flail",
+          "Colossal blade",
+          "Keris partisan"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Mid Level / Flinching · Flinching",
+        "gearSlots": 9,
+        "weapons": [
+          "Tecu salamander",
+          "Black salamander",
+          "Red salamander"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Flinching",
+        "gearSlots": 10,
+        "weapons": [
+          "Verac's flail"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Med (Pre-Elite diary)",
+        "gearSlots": 11,
+        "weapons": [
+          "Keris partisan"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Max (Post-Elite diary)",
+        "gearSlots": 11,
+        "weapons": [
+          "Keris partisan of breaching"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Shadow",
+        "gearSlots": 10,
+        "weapons": [
+          "Tumeken's shadow"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "king_black_dragon": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 5,
+      "switches": 0,
+      "inventories": 6,
+      "examples": 6,
+      "choices": 11,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · 4-item melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Dragon hunter lance",
+          "Osmumten's fang",
+          "Ghrazi rapier",
+          "Noxious halberd",
+          "Zamorakian hasta",
+          "Abyssal dagger (p++)"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee Gravestone method · Melee BIS smuggle",
+        "gearSlots": 12,
+        "weapons": [
+          "Dragon hunter lance",
+          "Osmumten's fang",
+          "Ghrazi rapier",
+          "Zamorakian hasta",
+          "Abyssal dagger (p++)"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Twisted Bow / Bowfa · Ranged",
+        "gearSlots": 10,
+        "weapons": [
+          "Twisted bow",
+          "Bow of Faerdhinen"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Crossbow & shield · Crossbow",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Hunters' sunlight crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Gravestone method · Ranged BIS smuggle",
+        "gearSlots": 11,
+        "weapons": [
+          "Twisted bow",
+          "Dragon hunter crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Example · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter lance"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Melee Gravestone method",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter lance"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Twisted Bow / Bowfa",
+        "gearSlots": 10,
+        "weapons": [
+          "Twisted bow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Crossbow & shield",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter crossbow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Gravestone method",
+        "gearSlots": 10,
+        "weapons": [
+          "Twisted bow"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Example · Dragon Hunter Wand",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter wand"
+        ],
+        "inventory": 5
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "kraken": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Tips · Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Eye of Ayak",
+          "Tumeken's shadow",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Staff of the Dead",
+          "Twinflame staff",
+          "Trident of the Seas",
+          "Warped sceptre",
+          "Slayer's staff (e)"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "kree_arra": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 5,
+      "switches": 0,
+      "inventories": 5,
+      "examples": 0,
+      "choices": 5,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Tumeken's Shadow · Magic",
+        "gearSlots": 10,
+        "weapons": [],
+        "inventory": 0
+      },
+      {
+        "label": "Chinchompas · Chinchompas",
+        "gearSlots": 11,
+        "weapons": [
+          "Black chinchompa",
+          "Red chinchompa"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Ranged Tank · Ranged Tank",
+        "gearSlots": 12,
+        "weapons": [
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon hunter crossbow",
+          "Dragon crossbow",
+          "Twisted bow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Tbow / Bowfa · Tbow / Bowfa",
+        "gearSlots": 10,
+        "weapons": [],
+        "inventory": 3
+      },
+      {
+        "label": "Melee (soulflame horn) · Melee (soulflame horn)",
+        "gearSlots": 11,
+        "weapons": [
+          "Noxious halberd"
+        ],
+        "inventory": 4
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "k_ril_tsutsaroth": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 5,
+      "switches": 0,
+      "inventories": 5,
+      "examples": 0,
+      "choices": 5,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Scorching bow",
+          "Twisted bow",
+          "Bow of Faerdhinen"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Solo Melee · Solo Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Emberlight",
+          "Osmumten's fang",
+          "Arclight"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Melee Tank · Melee Tank",
+        "gearSlots": 12,
+        "weapons": [
+          "Emberlight",
+          "Arclight",
+          "Zamorakian hasta",
+          "Ghrazi rapier",
+          "Scythe of Vitur",
+          "Abyssal tentacle"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Emberlight",
+          "Arclight",
+          "Osmumten's fang",
+          "Ghrazi rapier",
+          "Abyssal tentacle"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Purging staff"
+        ],
+        "inventory": 4
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_leviathan": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 2,
+      "unmatchedInventories": 1
+    },
+    "choices": [
+      {
+        "label": "Range · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Zaryte crossbow",
+          "Toxic blowpipe",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Rune crossbow",
+          "Toxic blowpipe"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Mage (Tumeken's shadow) · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_mad_angel": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 0,
+      "choices": 3,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Granite hammer",
+          "Inquisitor's mace",
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Abyssal bludgeon",
+          "Dual macuahuitl",
+          "Zamorakian hasta",
+          "Glacial temotli",
+          "Zombie axe"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee (Low level) · Melee (Low level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Granite hammer",
+          "Zombie axe",
+          "Zamorakian hasta",
+          "Dual macuahuitl",
+          "Dragon mace",
+          "Glacial temotli",
+          "Barronite mace"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Melee (1 Defence Pure) · Melee (1 Defence Pure)",
+        "gearSlots": 12,
+        "weapons": [
+          "Granite hammer",
+          "Inquisitor's mace",
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Osmumten's fang",
+          "Ghrazi rapier",
+          "Abyssal bludgeon",
+          "Elder maul",
+          "Noxious halberd",
+          "Zombie axe",
+          "Sarachnis cudgel"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "maggot_king": {
+    "counts": {
+      "gearRaw": 4,
+      "loadouts": 3,
+      "switches": 1,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 3,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Magic · Mage",
+        "gearSlots": 12,
+        "weapons": [
+          "Harmonised Nightmare staff",
+          "Twinflame staff",
+          "Tumeken's shadow",
+          "Purging staff",
+          "Kodai wand",
+          "Toxic staff of the dead",
+          "Volatile Nightmare staff",
+          "Eldritch Nightmare staff"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Range",
+        "gearSlots": 12,
+        "weapons": [
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon hunter crossbow",
+          "Dragon crossbow",
+          "Twisted bow",
+          "Rune crossbow"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Inquisitor's mace",
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Elder maul",
+          "Dharok's greataxe",
+          "Zombie axe",
+          "Zamorakian hasta"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "moons_of_peril": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 1,
+      "switches": 4,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Other items · Moons of Peril armour",
+        "gearSlots": 10,
+        "weapons": [],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "nex": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 3,
+      "choices": 5,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Zaryte crossbow",
+          "Twisted bow",
+          "Armadyl crossbow",
+          "Toxic blowpipe",
+          "Dragon hunter crossbow",
+          "Dragon crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Hybrid · Hybrid",
+        "gearSlots": 12,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Transportation",
+        "gearSlots": 10,
+        "weapons": [
+          "Ancient staff"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Zaryte crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Hybrid",
+        "gearSlots": 11,
+        "weapons": [
+          "Osmumten's fang"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_nightmare": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 2,
+      "choices": 4,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Dual macuahuitl",
+          "Ursine chainmace (u)",
+          "Sarachnis cudgel",
+          "Zombie axe",
+          "Zamorakian hasta",
+          "Osmumten's fang",
+          "Saradomin's blessed sword"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Totems · Mage",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Twinflame staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Accursed sceptre",
+          "Thammaron's sceptre"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Melee",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Solo",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_nightmare_2": {
+    "counts": {
+      "gearRaw": 4,
+      "loadouts": 2,
+      "switches": 2,
+      "inventories": 3,
+      "examples": 3,
+      "choices": 5,
+      "unmatchedChoices": 2,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Dual macuahuitl"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Mage · Mage",
+        "gearSlots": 11,
+        "weapons": [
+          "Eye of Ayak",
+          "Tumeken's shadow",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Trident of the Swamp"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · High level",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Entry level",
+        "gearSlots": 10,
+        "weapons": [
+          "Abyssal bludgeon"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Budget",
+        "gearSlots": 10,
+        "weapons": [
+          "Dual macuahuitl"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "obor": {
+    "counts": {
+      "gearRaw": 0,
+      "loadouts": 0,
+      "switches": 0,
+      "inventories": 0,
+      "examples": 0,
+      "choices": 0,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [],
+    "searchContainsPage": false
+  },
+  "phantom_muspah": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 0,
+      "choices": 3,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Harmonised Nightmare staff",
+          "Eye of Ayak",
+          "Sanguinesti staff",
+          "Mystic smoke staff",
+          "Twinflame staff",
+          "Trident of the Swamp",
+          "Trident of the Seas"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Twisted bow",
+          "Bow of Faerdhinen",
+          "Toxic blowpipe",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Dragon hunter crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Soulreaper axe"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "royal_titans": {
+    "counts": {
+      "gearRaw": 6,
+      "loadouts": 5,
+      "switches": 1,
+      "inventories": 5,
+      "examples": 5,
+      "choices": 10,
+      "unmatchedChoices": 5,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee (Low Level) · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Dual macuahuitl",
+          "Abyssal tentacle",
+          "Abyssal whip",
+          "Saradomin's blessed sword",
+          "Zombie axe",
+          "Sarachnis cudgel",
+          "Dragon scimitar"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged (Low Level) · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Eclipse atlatl",
+          "Toxic blowpipe",
+          "Dragon crossbow",
+          "Rune crossbow",
+          "Hunters' sunlight crossbow",
+          "Karil's crossbow",
+          "Magic shortbow (i)"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Minimal gear switching · Minimal gear switching",
+        "gearSlots": 8,
+        "weapons": [],
+        "inventory": -1
+      },
+      {
+        "label": "Melee (High level) · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Blade of Saeldor",
+          "Ghrazi rapier",
+          "Noxious halberd",
+          "Dual macuahuitl",
+          "Osmumten's fang",
+          "Abyssal tentacle"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged (High Level) · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Eclipse atlatl",
+          "Zaryte crossbow",
+          "Armadyl crossbow"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Budget",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon scimitar"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Mid game",
+        "gearSlots": 10,
+        "weapons": [
+          "Dual macuahuitl"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Mid game",
+        "gearSlots": 11,
+        "weapons": [
+          "Abyssal whip"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Late game",
+        "gearSlots": 10,
+        "weapons": [
+          "Dual macuahuitl"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Example · Best-in-slot",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 4
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "sarachnis": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 3,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 3,
+      "choices": 6,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee (Low level) · Melee (Low level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Dual macuahuitl",
+          "Zamorakian hasta",
+          "Sarachnis cudgel",
+          "Zombie axe",
+          "Abyssal tentacle",
+          "Saradomin sword",
+          "Colossal blade",
+          "Dragon mace",
+          "Glacial temotli"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee (High level) · Melee (High level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Dual macuahuitl",
+          "Abyssal bludgeon",
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Zamorakian hasta"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Magic (Tumeken's shadow) · Magic",
+        "gearSlots": 10,
+        "weapons": [
+          "Tumeken's shadow"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Melee (Low level)",
+        "gearSlots": 10,
+        "weapons": [
+          "Dual macuahuitl"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Melee (High level)",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Magic (Tumeken's shadow)",
+        "gearSlots": 10,
+        "weapons": [
+          "Tumeken's shadow"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "scorpia": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Suggested skills · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Accursed sceptre",
+          "Thammaron's sceptre",
+          "Eye of Ayak",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Trident of the Seas",
+          "Warped sceptre"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "scurrius": {
+    "counts": {
+      "gearRaw": 6,
+      "loadouts": 6,
+      "switches": 0,
+      "inventories": 6,
+      "examples": 0,
+      "choices": 6,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee (mid level) · Melee (mid level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Bone mace",
+          "Abyssal tentacle",
+          "Abyssal whip",
+          "Zombie axe",
+          "Sarachnis cudgel",
+          "Dragon scimitar",
+          "Arkan blade",
+          "Granite hammer",
+          "Rune scimitar"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged (mid level) · Ranged (mid level)",
+        "gearSlots": 11,
+        "weapons": [
+          "Bone shortbow",
+          "Hunters' sunlight crossbow",
+          "Magic shortbow (i)",
+          "Magic shortbow",
+          "Yew shortbow"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Magic (mid level) · Magic (mid level)",
+        "gearSlots": 11,
+        "weapons": [
+          "Bone staff",
+          "Trident of the Seas",
+          "Warped sceptre",
+          "Iban's staff",
+          "Air battlestaff"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee (high level) · Melee (high level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Inquisitor's mace",
+          "Bone mace",
+          "Blade of Saeldor",
+          "Ghrazi rapier",
+          "Dual macuahuitl",
+          "Abyssal tentacle",
+          "Abyssal whip"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Ranged (high level) · Ranged (high level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Toxic blowpipe",
+          "Amethyst dart",
+          "Dragon dart",
+          "Bone shortbow",
+          "Twisted bow",
+          "Zaryte crossbow"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Magic (high level) · Magic (high level)",
+        "gearSlots": 12,
+        "weapons": [
+          "Bone staff",
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Trident of the Swamp",
+          "Harmonised Nightmare staff",
+          "Trident of the Seas",
+          "Kodai wand"
+        ],
+        "inventory": 5
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "shellbane_gryphon": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 3,
+      "choices": 5,
+      "unmatchedChoices": 3,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Ghrazi rapier",
+          "Noxious halberd",
+          "Osmumten's fang",
+          "Blade of Saeldor",
+          "Abyssal tentacle",
+          "Zamorakian hasta",
+          "Abyssal whip",
+          "Abyssal dagger",
+          "Zombie axe",
+          "Belle's folly",
+          "Arkan blade",
+          "Colossal blade",
+          "Dragon scimitar"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee (POH) · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Ghrazi rapier",
+          "Osmumten's fang",
+          "Noxious halberd",
+          "Blade of Saeldor",
+          "Abyssal tentacle"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Equipment Loadouts",
+        "gearSlots": 10,
+        "weapons": [
+          "Scythe of Vitur"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Med",
+        "gearSlots": 11,
+        "weapons": [
+          "Ghrazi rapier"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Min",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon scimitar"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "skotizo": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Emberlight",
+          "Arclight"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Twisted bow",
+          "Scorching bow",
+          "Bow of Faerdhinen"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "tempoross": {
+    "counts": {
+      "gearRaw": 5,
+      "loadouts": 5,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 0,
+      "choices": 5,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Inventory setup · Standard",
+        "gearSlots": 7,
+        "weapons": [
+          "Crystal harpoon",
+          "Infernal harpoon",
+          "Dragon harpoon",
+          "Barb-tail harpoon"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Solo cooking + firefighting (max permits) · Solo Cooking + Firefighting (Max Permits)",
+        "gearSlots": 7,
+        "weapons": [
+          "Steam battlestaff",
+          "Twinflame staff",
+          "Infernal harpoon",
+          "Dragon harpoon",
+          "Crystal harpoon",
+          "Imcando hammer"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Solo cooking (mix of XP and permits) · Solo Cooking",
+        "gearSlots": 6,
+        "weapons": [
+          "Infernal harpoon"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Inventory & Equipment · Solo Cooking (5 Rounds)",
+        "gearSlots": 6,
+        "weapons": [
+          "Dragon harpoon",
+          "Barb-tail harpoon"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Solo no cooking (max XP) · Solo No Cooking",
+        "gearSlots": 7,
+        "weapons": [
+          "Crystal harpoon",
+          "Dragon harpoon"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "thermonuclear_smoke_devil": {
+    "counts": {
+      "gearRaw": 4,
+      "loadouts": 4,
+      "switches": 0,
+      "inventories": 4,
+      "examples": 0,
+      "choices": 4,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Kodai wand",
+          "Nightmare staff"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Magic (redemption) · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Kodai wand",
+          "Nightmare staff"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Osmumten's fang",
+          "Blade of Saeldor",
+          "Noxious halberd",
+          "Inquisitor's mace",
+          "Abyssal tentacle"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Melee (redemption) · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Scythe of Vitur",
+          "Soulreaper axe",
+          "Osmumten's fang",
+          "Blade of Saeldor",
+          "Noxious halberd",
+          "Inquisitor's mace",
+          "Abyssal tentacle"
+        ],
+        "inventory": 3
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "vardorvis": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 2
+    },
+    "choices": [
+      {
+        "label": "Awakened mode · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Soulreaper axe",
+          "Scythe of Vitur",
+          "Blade of Saeldor",
+          "Noxious halberd",
+          "Abyssal tentacle",
+          "Abyssal whip",
+          "Zombie axe"
+        ],
+        "inventory": -1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "venenatis_and_spindel": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 2,
+      "choices": 4,
+      "unmatchedChoices": 2,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Overview · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Ursine chainmace",
+          "Viggora's chainmace",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Zombie axe",
+          "Zamorakian hasta",
+          "Sarachnis cudgel"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Webweaver bow",
+          "Craw's bow",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Example melee setup",
+        "gearSlots": 11,
+        "weapons": [
+          "Ursine chainmace"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Example ranged setup",
+        "gearSlots": 9,
+        "weapons": [
+          "Webweaver bow"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "venenatis_and_spindel_2": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 0,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Overview · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Ursine chainmace",
+          "Viggora's chainmace",
+          "Inquisitor's mace",
+          "Soulreaper axe",
+          "Abyssal bludgeon",
+          "Zombie axe",
+          "Zamorakian hasta",
+          "Sarachnis cudgel",
+          "Dragon mace"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 12,
+        "weapons": [
+          "Webweaver bow",
+          "Craw's bow",
+          "Bow of Faerdhinen",
+          "Zaryte crossbow",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "vetion_and_calvarion": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 2,
+      "examples": 2,
+      "choices": 3,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Strategies · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Ursine chainmace",
+          "Viggora's chainmace",
+          "Soulreaper axe",
+          "Inquisitor's mace",
+          "Abyssal bludgeon",
+          "Zamorakian hasta",
+          "Zombie axe",
+          "Sarachnis cudgel",
+          "Elder maul",
+          "Dual macuahuitl",
+          "Leaf-bladed battleaxe",
+          "Dragon mace"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Example setup · Inventory 1",
+        "gearSlots": 11,
+        "weapons": [
+          "Ursine chainmace"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Example setup · Inventory 2",
+        "gearSlots": 11,
+        "weapons": [
+          "Ursine chainmace"
+        ],
+        "inventory": 1
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "vetion_and_calvarion_2": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 3,
+      "choices": 4,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Strategies · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Ursine chainmace",
+          "Viggora's chainmace",
+          "Soulreaper axe",
+          "Inquisitor's mace",
+          "Abyssal bludgeon",
+          "Zombie axe",
+          "Zamorakian hasta",
+          "Sarachnis cudgel",
+          "Elder maul",
+          "Dual macuahuitl",
+          "Leaf-bladed battleaxe",
+          "Dragon mace"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Recommended",
+        "gearSlots": 11,
+        "weapons": [
+          "Ursine chainmace"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Low-Risk",
+        "gearSlots": 11,
+        "weapons": [
+          "Zombie axe"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · High-risk",
+        "gearSlots": 11,
+        "weapons": [
+          "Ursine chainmace"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "vorkath": {
+    "counts": {
+      "gearRaw": 2,
+      "loadouts": 2,
+      "switches": 0,
+      "inventories": 3,
+      "examples": 3,
+      "choices": 5,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Ranged · Ranged (crossbow)",
+        "gearSlots": 12,
+        "weapons": [
+          "Dragon hunter crossbow",
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Armadyl crossbow",
+          "Dragon crossbow",
+          "Rune crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Dragon hunter lance",
+          "Osmumten's fang",
+          "Ghrazi rapier",
+          "Zamorakian hasta"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Ranged (crossbow)",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter crossbow"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Ranged (blowpipe)",
+        "gearSlots": 10,
+        "weapons": [
+          "Toxic blowpipe"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon hunter lance"
+        ],
+        "inventory": 2
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "the_whisperer": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 0,
+      "choices": 1,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Awakened mode · Magic",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Venator bow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Rosewood blowpipe",
+          "Sanguinesti staff",
+          "Trident of the Swamp",
+          "Mystic smoke staff",
+          "Twinflame staff"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "wintertodt": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 1,
+      "choices": 2,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Requirements · Solo",
+        "gearSlots": 11,
+        "weapons": [
+          "Infernal axe",
+          "Dragon axe",
+          "Bruma torch",
+          "Imcando hammer"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Large groups",
+        "gearSlots": 11,
+        "weapons": [
+          "Dragon axe"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "yama": {
+    "counts": {
+      "gearRaw": 3,
+      "loadouts": 2,
+      "switches": 1,
+      "inventories": 13,
+      "examples": 12,
+      "choices": 14,
+      "unmatchedChoices": 1,
+      "unmatchedInventories": 1
+    },
+    "choices": [
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 12,
+        "weapons": [
+          "Emberlight",
+          "Arclight",
+          "Scythe of Vitur"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Mage · Mage",
+        "gearSlots": 12,
+        "weapons": [
+          "Tumeken's shadow",
+          "Purging staff"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Emberlight"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Max Mage",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Melee and Mage",
+        "gearSlots": 11,
+        "weapons": [
+          "Emberlight"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Learner (Mage)",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Example · Catalyst/Worm/Shard",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 4
+      },
+      {
+        "label": "Example · Oathplate/Harmony",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 5
+      },
+      {
+        "label": "Example · Forfeit Breath",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 7
+      },
+      {
+        "label": "Example · Glyphic Attenuation",
+        "gearSlots": 11,
+        "weapons": [
+          "Inquisitor's mace"
+        ],
+        "inventory": 8
+      },
+      {
+        "label": "Example · Sensory Clouding",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 9
+      },
+      {
+        "label": "Example · Divine Severance",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 10
+      },
+      {
+        "label": "Example · Bloodied Blows",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 11
+      },
+      {
+        "label": "Example · Contract of Forfeit Breath",
+        "gearSlots": 11,
+        "weapons": [
+          "Purging staff"
+        ],
+        "inventory": 12
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "zalcano": {
+    "counts": {
+      "gearRaw": 1,
+      "loadouts": 1,
+      "switches": 0,
+      "inventories": 1,
+      "examples": 1,
+      "choices": 2,
+      "unmatchedChoices": 0,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Transportation · Mining",
+        "gearSlots": 11,
+        "weapons": [
+          "Crystal pickaxe",
+          "Dragon pickaxe",
+          "Infernal pickaxe",
+          "Rune pickaxe"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Transportation",
+        "gearSlots": 11,
+        "weapons": [
+          "Crystal pickaxe"
+        ],
+        "inventory": 0
+      }
+    ],
+    "searchContainsPage": true
+  },
+  "zulrah": {
+    "counts": {
+      "gearRaw": 4,
+      "loadouts": 4,
+      "switches": 0,
+      "inventories": 5,
+      "examples": 5,
+      "choices": 9,
+      "unmatchedChoices": 4,
+      "unmatchedInventories": 0
+    },
+    "choices": [
+      {
+        "label": "Magic · Magic",
+        "gearSlots": 11,
+        "weapons": [
+          "Tumeken's shadow",
+          "Eye of Ayak",
+          "Harmonised Nightmare staff",
+          "Sanguinesti staff",
+          "Twinflame staff",
+          "Staff of the Dead",
+          "Trident of the Swamp",
+          "Smoke battlestaff",
+          "Purging staff"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Ranged · Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Twisted bow",
+          "Toxic blowpipe",
+          "Bow of Faerdhinen",
+          "Hunters' sunlight crossbow",
+          "Eclipse atlatl",
+          "Karil's crossbow",
+          "Rune crossbow",
+          "Magic shortbow (i)",
+          "Rosewood blowpipe"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Melee · Melee",
+        "gearSlots": 11,
+        "weapons": [
+          "Noxious halberd",
+          "Eclipse atlatl"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Magic (Diary kill) · Magic (Diary kill)",
+        "gearSlots": 10,
+        "weapons": [
+          "Smoke battlestaff",
+          "Twinflame staff",
+          "Trident of the Swamp",
+          "Ahrim's staff",
+          "Mystic fire staff",
+          "Trident of the Seas",
+          "Iban's staff",
+          "Warped sceptre"
+        ],
+        "inventory": -1
+      },
+      {
+        "label": "Example · Max Magic & Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Eye of Ayak"
+        ],
+        "inventory": 0
+      },
+      {
+        "label": "Example · Void Mage and Ranged",
+        "gearSlots": 11,
+        "weapons": [
+          "Twinflame staff"
+        ],
+        "inventory": 1
+      },
+      {
+        "label": "Example · Magic Only",
+        "gearSlots": 11,
+        "weapons": [
+          "Twinflame staff"
+        ],
+        "inventory": 2
+      },
+      {
+        "label": "Example · Ranged Only",
+        "gearSlots": 10,
+        "weapons": [
+          "Bow of Faerdhinen"
+        ],
+        "inventory": 3
+      },
+      {
+        "label": "Example · Melee Only",
+        "gearSlots": 10,
+        "weapons": [
+          "Noxious halberd"
+        ],
+        "inventory": 4
+      }
+    ],
+    "searchContainsPage": true
+  }
+}

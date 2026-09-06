@@ -1,0 +1,332 @@
+[[File:Fighting Shellbane gryphon.png|thumb|300px|A player fighting the shellbane gryphon.]]
+After completion of [[Troubled Tortugans]], the shellbane gryphon can be fought again, but requires the player to be assigned a [[Slayer task/Gryphons|gryphon slayer task]], or to have an [[elite clue]] directing them to kill the Shellbane Gryphon (in which case the player will be only be able to kill the boss once).
+
+==Requirements==
+* Completion of {{SCP|Quest}} [[Troubled Tortugans]]
+
+===Recommendations===
+* Partial completion of {{SCP|Quest}} [[Fairytale II - Cure a Queen]] for access to [[fairy rings]]
+* {{SCP|Attack|65|link=yes}}
+* {{SCP|Strength|65|link=yes}}
+* {{SCP|Prayer|43|link=yes}} minimum for access to [[Protect from Melee]]
+** {{SCP|Prayer|70|link=yes}} and {{SCP|Defence|70|link=yes}} to unlock and use [[Piety]]
+
+==Transportation==
+* The fastest way to the shellbane gryphon's [[Shellbane Gryphon Cave|cave]] is by using fairy ring {{Fairycode|cjq}}, then running north.
+* Players without access to fairy rings may opt to use a [[charter ship]] to reach [[the Great Conch]], with the cost dependent on the departure location.
+
+==Fight overview==
+Like normal gryphons, the shellbane gryphon is primarily weak to [[melee]], but [[magic]] can also be effective due to its [[elemental weakness]] to [[wind spells]]; however, due to one of its special attacks, this is not entirely practical. Additionally, a [[tortugan shield]] is recommended for the encounter with the shellbane gryphon, otherwise the player will take heavy damage from gryphon's melee attacks even through [[Protect from Melee]], and receive a game message stating {{mes|The gryphon's attacks are devastating! You need some sort of protection!|colour=#ff3045}} Using Protect from Melee whilst having the tortugan shield equipped will fully negate all melee damage dealt.
+
+The shellbane gryphon primarily attacks with melee, but also uses a [[ranged]] attack occasionally. It also has three special attacks:
+[[File:Shellbane gryphon - reverse knockback.mp4|thumb|400px|A heavy player negating the shellbane gryphon's knockback, stunning it and returning the favour.]]
+* '''Knockback''' - The boss will throw the player backwards, dealing up to 30 unavoidable damage. Despite the audio from this attack, the player is not stunned and can immediately resume attacking. The knockback is countered by having the player's '''equipped''' weight be ≥40kg, which also causes the boss to prioritise using its other two special attacks.
+** Negating the knockback stuns the boss for 2 ticks (1.2s). During this short window, the player can quickly click to attack the boss to knock it back one tile and grants player one additional attack free of attack delay. However, if the player does not click to attack the boss while it's stunned, they will be knocked back regardless of equipped weight, indicated by the game message {{mes|The gryphon regains its focus and strikes!|colour=#ff3045}}
+** Players may not be able to perform the knockback in time if their attack is delayed by eating food.
+* '''Corrosive spit''' - An orange blob is launched, which corrodes the player's worn equipment if they do not move one tile away from where they stood. This causes a player to take 3-12 damage 6 times (18-72 damage total) over the course of 32 ticks (19.2s), which can be interrupted by quickly unequipping all of the player's items.
+[[File:Shellbane gryphon - strength 5 whirlwind.mp4|thumb|400px|A player taking large amounts of damage from a strength 5 whirlwind.]]
+* '''Whirlwind''' -  [[Whirlwind]]s begin to form at the player's current position, indicated by the game message {{mes|The gryphon aggressively flaps its wings...|colour=#ff3045}}
+** The boss will form a whirlwind every 3 ticks (1.8s), up to a maximum of 5. If a whirlwind would have formed on top of an existing whirlwind, that whirlwind instead grows more powerful. 6 ticks (3.6s) after the last whirlwind forms, all whirlwinds will begin damaging every tick the player stands on them.
+** 15 seconds after that, all summoned whirlwinds will burst and deal large amounts of damage, indicated by the game message {{mes|The whirlwinds explode outwards in a large gust of wind!|colour=#ff3045}} As such, its recommended to move one tile every attack in order to avoid whirlwinds stacking and increasing their size, resulting in less damage received.
+** When countering the knockback attack, players should be cautious on where they move to, as a whirlwind may inadvertently end up in range of damaging the player upon shoving the boss.
+{|class=wikitable style="text-align:center;"
+!Wind strength
+!Damage every tick
+!Burst damage
+!Burst radius
+|-
+|1
+|2-3
+|20-24
+|0
+|-
+|2
+|5-6
+|25-29
+|1
+|-
+|3
+|8-9
+|30-39
+|2
+|-
+|4
+|10-12
+|40-49
+|3
+|-
+|5
+|11-15
+|50+
+|Entire cave
+|}
+
+==Equipment==
+<tabber>
+Melee=
+Since the Shellbane Gryphon's knockback is effective against players with less than 40 kg of worn equipment, some of the best options do not necessarily provide the highest damage, but rather a balance between strength bonus and heavy weight. 
+<br /><br />
+A 40kg+ setup can be easily achieved with most melee armour coupled with both a tortugan and dragonfire shield, even when using a slayer helmet. If a black mask is used, its higher weight over the slayer helmet means that the player can slot in an avernic defender for better DPS. If not being used, the dragonfire shield is recommended to meet this requirement.
+<br /><br />
+If using low-level gear, adamant armour may be preferred to rune as it is heavier.
+
+{{Recommended equipment
+|align = left
+|style = Melee
+| head1 = {{plink|Black mask}}{{efn|A black mask weighs 7.733kg more than the slayer helmet, allowing to bring additional DPS in other slots.}}
+| head2 = {{plink|Slayer helmet (i)}}
+| head3 = {{plink|Gold helmet}}{{efn|Extremely heavy, allows to freely equip any type of item in other slots|name=heavy}}
+| head4 = {{plink|Granite helm}} / {{plink|Obsidian helmet}}
+| head5 = {{plink|Adamant full helm}}
+| neck1 = {{plink|Amulet of rancour}}
+| neck2 = {{plink|Amulet of torture}}
+| neck3 = {{plink|Amulet of strength}}
+| cape1 = {{plink|Tortugan shield}}
+| body1 = {{plink|Torva platebody}} / {{plink|Oathplate chest}}
+| body2 = {{plink|Bandos chestplate}}
+| body3 = {{plink|Granite body}}{{efn|name=heavy}} > {{plink|Obsidian platebody}}
+| body4 = {{plink|Adamant platebody}}
+| legs1 = {{plink|Torva platelegs}} / {{plink|Oathplate legs}}
+| legs2 = {{plink|Bandos tassets}}
+| legs3 = {{plink|Granite legs}}{{efn|name=heavy}} / {{plink|Obsidian platelegs}}
+| legs4 = {{plink|Adamant platelegs}}
+| weapon1 = {{plink|Scythe of Vitur}}{{efn|On slash|name=slash}} > {{plink|Soulreaper axe}}{{efn|name=slash}}
+| weapon2 = {{plink|Ghrazi rapier}} > {{plink|Noxious halberd}} / {{plink|Osmumten's fang}} / {{plink|Blade of Saeldor}}
+| weapon3 = {{plink|Abyssal tentacle}} > {{plink|Zamorakian hasta}} > {{plink|Abyssal whip}} / {{plink|Abyssal dagger}}
+| weapon4 = {{plink|Zombie axe}}{{efn|name=slash}} / {{plink|Belle's folly}}
+| weapon5 = {{plink|Arkan blade}} / {{plink|Colossal blade}}{{efn|name=heavy}}{{efn|name=slash}} > {{plink|Dragon scimitar}}{{efn|name=slash}}
+| shield1 = {{plink|Avernic defender}} / {{plink|Dragonfire shield}}{{efn|Weighs more than defender, but lacks accuracy bonuses.|name=str shield}}
+| shield2 = {{plink|Dragon defender}}
+| shield3 = {{plink|Rune defender}} / {{plink|Toktz-ket-xil}}{{efn|name=str shield}}
+| shield4 = {{plink|Granite shield}} > {{plink|Adamant kiteshield}}
+| shield5 = {{plink|Green d'hide shield}}{{efn|Can help if needing additional weight, but lacks relevant combat stats.|name=close}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|God blessing|pic=Unholy blessing}}
+| hands1 = {{plink|Ferocious gloves}} / {{plink|Bracelet of slaughter}}
+| hands2 = {{plink|Barrows gloves}}
+| hands3 = {{plink|Granite gloves}}
+| hands4 = {{plink|Combat bracelet}}
+| hands5 = {{plink|Elven gloves}}{{efn|name=close}} / {{plink|Rock-shell gloves}}{{efn|name=close}}
+| feet1 = {{plink|Avernic treads (max)}}
+| feet2 = {{plink|Echo boots}}{{efn|Weigh more than other boots, can allow for stronger items to be worn in other slots.|name=boots}} > {{plink|Guardian boots}}{{efn|name=boots}}
+| feet3 = {{plink|Primordial boots}} > {{plink|Spiked manacles}} > {{plink|Dragon boots}}
+| feet4 = {{plink|Boots of Brimstone}}{{efn|If using a stab weapon}} / {{plink|Granite boots}}
+| feet5 = {{plink|Mixed hide boots}} > {{plink|Climbing boots}}
+| ring1 = {{plink|Ultor ring}}
+| ring2 = {{plink|Berserker ring (i)}}
+| ring3 = {{plink|Granite ring (i)}}
+| ring4 = {{plink|Steel ring}}
+| ring5 = {{plink|Explorer's ring 4}}
+|special1 = {{plink|Dragon claws}}
+|special2 = {{plink|Crimson kisten}} > {{plink|Burning claws}}
+|special3 = {{plink|Voidwaker}} / {{plink|Dragon dagger}} / {{plink|Arkan blade}}
+|special4 = {{plink|Bone dagger}}
+}}
+{{notelist}}
+==Inventory==
+{{Inventory|align=right
+|1=Dragon dagger
+|2=Knife
+|3=Giant krill
+|4=Giant krill
+|5=Giant krill
+|6=Giant krill
+|7=Giant krill
+|8=Giant krill
+|9=Prayer potion(4)
+|10=Prayer potion(4)
+|11=Prayer potion(4)
+|12=Prayer potion(4)
+|13=Prayer potion(4)
+|14=Prayer potion(4)
+|15=Prayer potion(4)
+|16=Prayer potion(4)
+|17=Prayer potion(4)
+|18=Prayer potion(4)
+|19=Prayer potion(4)
+|20=Prayer potion(4)
+|21=Super attack(4)
+|22=Super attack(4)
+|23=Super strength(4)
+|24=Super strength(4)
+|25=Explorer's ring 4
+|26=Book of the Dead
+|27=Teleport to house (tablet)
+|28=Rune pouch
+}}
+{{Rune pouch|align=right
+|1=Blood rune
+|2=Fire rune
+|3=Cosmic rune
+}}
+*[[Special attack]] weapon such as a [[dragon dagger]]. If using the [[Arkan blade]] as a main-hand damaging weapon, its special attack will suffice.
+*[[Divine super combat potion]]s / [[super combat potion]]s; or [[super attack potion]]s + [[super strength potion]]s if those are not available.
+*Means to teleport to house, such as [[Teleport to house (tablet)]] or [[Construction cape]]
+*[[Rune pouch]], with runes to cast [[Resurrection spells]] and a [[Book of the Dead]].
+**If [[A Kingdom Divided]] has not yet been completed, simply bring [[nature rune]]s and [[fire rune]]s for [[High Level Alchemy]].
+*[[Explorer's ring 4]] if high alching runite item drops and using the [[Arceuus Spellbook]].
+*[[Herb sack]] if collecting herb drops.
+*[[Bonecrusher]] or [[bonecrusher necklace]] for Prayer experience and to reduce number of items on ground.
+*A [[bracelet of slaughter]] to switch to as the boss dies, if wishing to prolong Slayer task.
+* Some food to heal from occasional off-prayer attacks or mistakes. If no longer getting hit by special attacks in the fight, cheaper food may be brought.
+
+High-level players may forgo food by using the [[Saradomin godsword]]'s special attack to heal.
+Low-level players may use a knife on the [[watermelon]] drops to eat [[watermelon slice]]s, or bring a [[tinderbox]] and filled [[log basket]] or [[axe]] to cook the raw food drops outside of the cave.
+|-|
+Melee (POH)=
+{{Incomplete|Quick preliminary equipment recommendations based on dps calcs, could probably use improvements and additions. Needs DPS calc on venge vs thralls.}}
+Due to Shellbane gryphon's cave's proximity to fairy ring {{Fairycode|CJQ}}, players who have [[ornate rejuvenation pool]] and [[Fairy ring (Construction)|fairy ring]] built in their [[player-owned house]] can teleport out between kills and restore their [[hitpoints]], [[Special attacks|special attack]], and [[prayer points]]. This has three major benefits:
+* Less supplies used
+* Allows special attacks to be used more often
+* Allows player to bring better equipment
+** The weight aspect of gryphon's knockback can be ignored, since it's unlikely that the gryphon will do that more than once per kill and the damage taken is only moderate. 
+~50-65 kills per hour can be achieved with this method, depending on what gear player has access to, and how attentively they are playing.
+
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}}
+|head2 = {{plink|Black mask (i)}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Infernal cape}}{{efn|You can swap to a Tortugan shield if you get low on hitpoints, as without one, player will constantly take moderate damage even through [[protect from melee]].|name=tortugan}}
+|cape2 = {{plink|Fire cape}}{{efn|name=tortugan}}
+|cape3 = {{plink|Mythical cape}}{{efn|name=tortugan}}
+|cape4 = {{plink|Tortugan shield}}
+|body1 = {{plink|Oathplate chest}} / {{plink|Torva platebody}}
+|body2 = {{plink|Bandos chestplate}}
+|body3 = {{Plink|Blood moon chestplate}}
+|body4 = {{plink|Fighter torso}}
+|legs1 = {{plink|Torva platelegs}} / {{plink|Oathplate legs}}
+|legs2 = {{plink|Bandos tassets}}
+|legs3 = {{plink|Blood moon tassets}}
+|legs4 = {{plink|Obsidian platelegs}} / {{plink|Eclipse moon tassets}}
+|weapon1 = {{plink|Scythe of Vitur}}
+|weapon2 = {{plink|Ghrazi rapier}}
+|weapon3 = {{plink|Osmumten's fang}}
+|weapon4 = {{plink|Noxious halberd}} / {{Plink|Blade of Saeldor}}
+|weapon5 = {{plink|Abyssal tentacle}}
+|shield1 = {{plink|Avernic defender}}
+|shield2 = {{plink|Dragon defender}}
+|shield3 = {{plink|Rune defender}}
+|shield4 = {{plink|Toktz-ket-xil}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3}}/[[Rada's blessing 2|2]]
+|hands1 = {{plink|Ferocious gloves}} / {{plink|Bracelet of slaughter}}
+|hands2 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Dragon boots}} / {{Plink|Aranea boots}}
+|ring1 = {{plink|Ultor ring}}
+|ring2 = {{plink|Berserker ring (i)}}
+|special1 = {{plink|Burning claws}}{{efn|Burning claws outperform Dragon claws only when using surge potions to get additional special attack every kill.|name=bclaws}}
+|special2 = {{plink|Dragon claws}}
+|special3 = {{plink|Voidwaker}}
+|special4 = {{plink|Arkan blade}}
+}}
+{{notelist}}
+
+==Inventory==
+{{Inventory|align=right
+|1=Burning claws
+|5=Tortugan shield
+|6=Surge potion
+|7=Surge potion
+|8=Surge potion
+|9=Surge potion
+|10=Surge potion
+|11=Surge potion
+|12=Surge potion
+|13=Surge potion
+|14=Surge potion
+|15=Surge potion
+|16=Surge potion
+|17=Surge potion
+|18=Surge potion
+|19=Surge potion
+|20=Surge potion
+|21=Divine super combat potion
+|22=Divine super combat potion
+|23=Divine super combat potion
+|24=Bonecrusher
+|25=Explorer's ring 4
+|26=Herb sack
+|27=Teleport to house (tablet)
+|28=Rune pouch
+}}
+{{Rune pouch|align=right
+|1=Astral rune
+|2=Death rune
+|3=Earth rune
+|4=
+}}
+*Special attack weapon
+*[[Tortugan shield]]
+*[[Divine super combat potion]]s / [[super combat potion]]s
+*[[Surge potion]]s to get an extra spec every kill, the cooldown gets reset when you use your POH pool
+*Means to teleport to house, such as [[Teleport to house (tablet)]] or [[Construction cape]]
+*[[Rune pouch]]
+*[[Book of the Dead]] if using thralls instead of [[Vengeance]]
+*[[Explorer's ring 4]] if high alching rune drops
+*[[Bonecrusher]] for passive prayer experience
+</tabber>
+
+==Equipment Loadouts==
+Shown are example loadouts that reach the 40kg requirement to avoid the disrupting knockback attack. The equipment screen shows your your total weight including items in your inventory, so verify with an empty inventory if your equipment meets the threshold.
+ <tabber>
+Max=
+{{Equipment|align=left
+|buttons = yes
+|stats = yes
+|head = Black mask (i)
+|cape = Tortugan shield
+|neck = Amulet of rancour
+|ammo = Rada's blessing 4
+|weapon = Scythe of Vitur
+|shield = 
+|torso = Oathplate chest
+|legs = Torva platelegs
+|gloves = Ferocious gloves
+|boots = Avernic treads (max)
+|ring = Ultor ring
+}}
+|-|
+Med=
+{{Equipment|align=left
+|buttons = yes
+|stats = yes
+|head = Black mask (i)
+|cape = Tortugan shield
+|neck = Amulet of torture
+|ammo = Rada's blessing 4
+|weapon = Ghrazi rapier
+|shield = Dragon defender
+|torso = Bandos chestplate
+|legs = Bandos tassets
+|gloves = Ferocious gloves
+|boots = Dragon boots
+|ring = Berserker ring (i)
+}}
+|-|
+Min=
+{{Equipment|align=left
+|buttons = yes
+|stats = yes
+|head = Black mask (i)
+|cape = Tortugan shield
+|neck = Amulet of strength
+|ammo = Peaceful blessing
+|weapon = Dragon scimitar
+|shield = Dragon defender
+|torso = fighter torso
+|legs = Granite legs
+|gloves = Barrows gloves
+|boots = Mixed hide boots
+|ring = Berserker ring (i)
+}}
+</tabber>
+{{Clear}}
+
+[[Category:Sailing]]
+[[Category:Strategies]]

@@ -1,0 +1,251 @@
+[[File:Fighting the Mad Angel.png|thumb|width=300x300|A player fighting the Mad Angel.]]
+After completion of [[Fallen From Grace]], the [[Mad Angel]] can be fought again.
+
+==Requirements==
+* Completion of {{SCP|Quest}} [[Fallen From Grace]]
+
+===Recommendations===
+* {{SCP|Attack|75|link=yes}}
+* {{SCP|Prayer|43|link=yes}} minimum for [[Protect from Melee]] / [[Protect from Magic]]
+* {{SCP|Prayer|70|link=yes}} and {{SCP|Defence|70|link=yes}} for [[Piety]]
+
+==Transportation==
+* The fastest route to the cathedral in which the Mad Angel resides is via [[Ardeaglais teleport]].
+* Alternatively, use a [[Slayer ring]] to teleport to the cave underneath the boss. Then either interact with the golem to the north and climb the stairs to the boss, or exit the cave to the west and run to the boss.
+* You may also use a [[necklace of passage]], then run west and climb the [[Rocks (Wyrmscraig)|rocks]] to reach the front door to the cathedral. This requires you to have mined the rocks at the top of the shortcut, as well as 54 [[Agility]].
+
+==Fight overview==
+The Mad Angel attacks primarily with [[melee]], and is weak to [[golembane weapons]]; [[Protect from Melee]] will reduce the max hit of its standard attacks from 31 to 5. After three standard attacks, it will perform a special attack.
+
+Upon reaching 350 Hitpoints (~45%), the Mad Angel will enter the enrage phase at the next available opportunity, denoted by a {{overhead|...!}} overhead message. During this phase, its special attacks are performed quicker, requiring quicker reaction times to counter them. Additionally, it will use all three of its specials consecutively at the start of this phase.
+
+{| class="wikitable align-center-1" style="text-align:left;"
+!Attack
+!Description
+!Demonstration
+|-
+|Sweep attack
+|The Mad Angel stands still, drawing its sword back to either the left or the right. After a few seconds, it will cleave the area towards the side where the player was, as well as the side it drew the sword back from. The boss will perform this cleave 4 times (6 times during the enrage phase). [[Protect from Melee]] will reduce the damage from being caught in this attack by ~50%.
+
+In order to dodge the cleave, the player must run to the side of the boss opposite the sword or behind it. If an attack is successfully dodged to the side (not behind it), the player's next attack will be 100% accurate and damage rolls below 50% of their maximum hit will be raised to 50%.
+
+Players should be mindful to ensure that the boss's tiles are not against a wall, as when it performs a cleave the tiles to dodge may be unreachable. If the boss is against a wall, players can click inside of the boss's 3x3 area, on the middle tile toward the direction the dodge would be successful, to receive the buff and avoid damage.
+|[[File:Mad Angel - Sword Cleave dodging.mp4|center|500px]]
+|-
+|Blast attack
+|The Mad Angel launches a ball of light towards a destination tile, indicated with a looming shadow on the floor. If it reaches this destination, it will explode and deal 30+ damage to the entire arena. This explosion's damage can be reduced by ~50% with [[Protect from Magic]], however it is possible for a standard attack to land during the same tick.
+
+Standing on the destination tile will instead bounce the ball of light back to boss, dealing 18-22 damage to it; if done correctly, the ball will be bounced three times every time it performs this attack.
+
+This is the only special attack sequence during which the boss will continue to perform its standard attack. 
+|[[File:Mad Angel - Exploding Light.mp4|center|500px]]
+|-
+|Smite attack
+|The Mad Angel brings the sword towards its chest, then begins charging a lightning attack that must be protected from with [[Protect from Magic]]. Simply having the prayer overhead will reduce the damage by ~75%, but activating the prayer at the same tick that the lightning strikes will fully negate the damage, as well as guarantee a [[maximum hit]] for the next attack.
+
+The timing to perfectly negate the attack requires that the player click on Protect from Magic {{ticks|4}} after the attack begins charging, when the blue crackling first becomes visible. Players may also react to a visual cue, by activating the prayer when the boss's wings flap slightly once fully extended. 
+
+During the enrage phase, the boss will perform three strikes. The first attack can be countered normally, with the second strike occurring {{ticks|4}} after the first, and the third occurring {{ticks|2}} after the second.
+
+Another method of negating damage from this attack is to [[Prayer#Prayer flicking|1-tick prayer flick]] Protect from Magic for the duration of the animation. While this method is more click intensive, it does not require the player to time the flick on the exact tick of each attack. This approach works well for both the single attack and the enrage phase triple attack. 
+|[[File:Mad Angel - Lightning Smite.mp4|center|500px]]
+|}
+
+==Equipment==
+Melee is the simplest and most effective way to kill the Mad Angel. Due to its [[golembane]] weakness, a [[granite hammer]] is particularly effective, although many crush weapons are viable. 
+
+Since accuracy is guaranteed when perfectly dodging the sweep attack and max hits are guaranteed on the first hitsplat after perfectly praying against the smite attack, lower tier options perform well and swapping weapons throughout the fight at lower levels may be worthwhile; for example, to utilise boosted accuracy on the [[dual macuahuitl]] but using a higher accuracy weapon at the start of the fight. Most other ranged and magic setups will not perform well due to the boss's defence. However, the [[twisted bow]] can take advantage of the opportunities to hit with guaranteed accuracy.
+
+<tabber>
+Melee= 
+{{Recommended equipment
+| style = Melee
+| head1 = {{plink|Inquisitor's great helm}}
+| head2 = {{plink|Torva full helm}} / {{plink|Oathplate helm}}
+| head3 = {{plink|Neitiznot faceguard}}
+| head4 = {{plink|Serpentine helm}} /<br> {{plink|Blood moon helm}}
+| head5 = {{plink|Helm of Neitiznot}} /<br> {{plink|Zombie helmet}}
+| neck1 = {{plink|Amulet of rancour}}
+| neck2 = {{plink|Amulet of torture}}
+| neck3 = {{plink|Amulet of strength}}
+| neck4 = {{plink|Amulet of fury}}
+| cape1 = {{plink|Infernal cape}}
+| cape2 = {{plink|Fire cape}} / {{plink|Mythical cape}}
+| body1 = {{plink|Inquisitor's hauberk}}
+| body2 = {{plink|Torva platebody}} / <br> {{plink|Oathplate chest}}
+| body3 = {{plink|Bandos chestplate}} (or: {{plinkp|Blood moon chestplate}} {{plinkp|Fighter torso}})
+| legs1 = {{plink|Inquisitor's plateskirt}}
+| legs2 = {{plink|Torva platelegs}} / <br> {{plink|Oathplate legs}}
+| legs3 = {{plink|Bandos tassets}} (or: {{plinkp|Blood moon tassets}})
+| weapon1 = {{plink|Granite hammer}}
+| weapon2 = {{plink|Inquisitor's mace}} / {{plink|Scythe of Vitur}}{{efn|Set to crush if using [[Inquisitor's armour]], otherwise set to slash|name=scy-sra}} / {{plink|Soulreaper axe}}{{efn|name=scy-sra}}
+| weapon3 = {{plink|Osmumten's fang}} / {{plink|Noxious halberd}} / {{plink|Abyssal bludgeon}}
+| weapon4 = {{plink|Dual macuahuitl}} / {{plink|Zamorakian hasta}}{{efn|Set to crush|name=crush}}
+| weapon5 = {{plink|Glacial temotli}} / {{plink|Zombie axe}}{{efn|name=crush}}
+| shield1 = {{plink|Avernic defender}}
+| shield2 = {{plink|Dragon defender}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|God blessing|pic=Unholy blessing}}
+| hands1 = {{plink|Ferocious gloves}}
+| hands2 = {{plink|Barrows gloves}}
+| hands3 = {{plink|Dragon gloves}}
+| hands4 = {{plink|Rune gloves}}
+| hands5 = {{plink|Adamant gloves}}
+| feet1 = {{plink|Avernic treads (max)}}
+| feet2 = {{plink|Primordial boots}} 
+| feet3 = {{plink|Dragon boots}} /<br>{{Plink|Spiked manacles}}
+| feet4 = {{plink|Mixed hide boots}}
+| ring1 = {{plink|Ultor ring}}
+| ring2 = {{plink|Berserker ring (i)}} / {{plink|Lightbearer}}
+| ring3 = {{plink|Brimstone ring}}
+| ring4 = {{plink|Ring of shadows}}
+| ring5 = {{plink|Ring of the gods (i)}} / {{plink|Ring of suffering (ri)}} / {{plink|Steel ring}}
+| special1 = {{plink|Voidwaker}} / {{plink|Crimson kisten}}
+| special2 = {{plink|Arkan blade}}{{efn|These are the best special attack option if used exclusively during the magic special punish|name=magespec}} / {{plink|Dragon mace}}{{efn|name=magespec}}
+| special3 = {{plink|Elder maul}} / {{plink|Ancient godsword}}
+| special4 = {{plink|Bandos godsword}}{{efn|BGS hits much more consistently than DWH, despite the boss being weaker to crush}} > {{plink|Dragon warhammer}}
+}}{{notelist}}
+===Inventory===
+{{Inventory
+|Crimson kisten|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}
+|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}
+|Divine super combat potion|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|Crystal dust
+|Ardeaglais teleport|Book of the Dead|Teleport to house (tablet)|Divine rune pouch
+}}
+{{Rune pouch
+| 1 = Blood rune
+| 2 = Fire rune
+| 3 = Aether rune
+| 4 = Death rune
+}}
+
+|-|
+Melee (Low level)=
+The Mad Angel can be killed effectively with lower tier weaponry when countering its mechanics correctly due to the guaranteed max hits and accuracy granted throughout the fight. Lower level players looking to take on the boss should prioritise using the best weapon they have available to them, and should consider using the full [[blood moon set]] where possible. Utilising special attacks after the smite attack is also particularly effective, although this requires good timing to execute.
+
+{{Recommended equipment
+| style = Melee (Low level)
+| head1 = {{plink|Blood moon helm}}
+| head2 = {{plink|Helm of Neitiznot}}
+| neck1 = {{plink|Amulet of strength}}
+| neck2 = {{plink|Amulet of fury}}
+| neck3 = {{plink|Amulet of glory}}
+| cape1 = {{plink|Fire cape}} / {{plink|Mythical cape}}{{efn|Can have same max as firecape, and will provide more accuracy|name=mythvfire}}
+| cape2 = {{plink|Mixed hide cape}}
+| body1 =  {{plink|Blood moon chestplate}} / {{plink|Fighter torso}}
+| body2 =  {{plink|Eclipse moon chestplate}} > {{plink|Blue moon chestplate}}
+| body3 = {{plink|Torag's platebody|txt = Best tank armour}} or {{plink|Proselyte hauberk|txt = Prayer amour}}
+| legs1 = {{plink|Blood moon tassets}}
+| legs2 = {{plink|Eclipse moon tassets}} / {{plink|Blue moon tassets}}
+| legs3 = {{plink|Verac's plateskirt|txt = Best tank legs}} or {{plink|Proselyte cuisse|txt=Prayer armour}}
+| weapon1 = {{plink|Granite hammer}}
+| weapon2 = {{plink|Zombie axe}}{{efn|name=crush}} / {{plink|Zamorakian hasta}}{{efn|Set to crush|name=crush}} 
+| weapon3 = {{plink|Dual macuahuitl}}{{efn|Performs much worse without full set}} / {{plink|Dragon mace}} / {{plink|Glacial temotli}}
+| weapon4 = {{plink|Barronite mace}}
+| shield1 = {{plink|Dragon defender}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|God blessing|pic=Unholy blessing}}
+| hands1 = {{plink|Barrows gloves}}
+| hands2 = {{plink|Dragon gloves}}
+| hands3 = {{plink|Rune gloves}}
+| feet1 = {{plink|Dragon boots}}
+| feet2 = {{plink|Mixed hide boots}}
+| ring1 =  {{plink|Berserker ring (i)}} / {{plink|Lightbearer}}
+| ring2 = {{plink|Brimstone ring}} > {{plink|Berserker ring}}
+| ring3 = {{plink|Ring of the gods (i)}} / {{plink|Ring of suffering (ri)}}
+| ring4 = {{plink|Steel ring}}{{efn|Steel ring effective for defensive bonuses if no other rings available.}}
+| special1 = {{plink|Bandos godsword}}{{efn|BGS hits much more consistently than DWH, despite the boss being weaker to crush|name=bgs}} > {{plink|Dragon warhammer}}
+| special2 = {{plink|Dragon mace}}
+| special3 = {{plink|Arkan blade}}
+}}
+{{notelist}}
+===Inventory===
+{{Inventory|align=right
+|Dragon mace|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}
+|Dragon defender|Divine super combat potion|{{Cheap prayer}}|{{Cheap prayer}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap prayer}}|{{Cheap prayer}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|Soul rune
+|Necklace of passage|Book of the Dead|Teleport to house (tablet)|Divine rune pouch
+}}
+{{Rune pouch|align=right
+| 1 = Blood rune
+| 2 = Fire rune
+| 3 = Cosmic rune
+| 4 = Death rune
+}}
+
+* Special attack weapon, such as the [[dragon mace]]
+* Combat boosting potions, such as [[divine super combat potion]], or [[divine super strength potion]]
+* Prayer potions
+* Runes to cast [[thralls]] with [[Book of the Dead]], and ideally also [[Death Charge]]
+* Teleport to the boss such as [[necklace of passage]] or [[Slayer ring]]
+* Emergency teleport/a way to restore stats and bank, such as [[teleport to house (tablet)]] or [[ring of dueling]]
+* The rest food, such as [[karambwans]] or better
+
+|-|
+Melee (1 Defence Pure) =
+
+{{Recommended equipment
+| style = Melee (1 Defence Pure)
+| head1 = {{plink|Mitre|pic=Ancient mitre}}
+| head2 = {{plink|Halo|pic=Ancient halo}}
+| head3 = {{plink|Ancient ceremonial mask}}
+| head4 = {{plink|Zealot's helm}}
+| neck1 = {{plink|Amulet of rancour}}
+| neck2 = {{plink|Amulet of torture}}
+| neck3 = {{plink|Amulet of fury}} / {{plink|Amulet of strength}}
+| neck4 = {{plink|Amulet of glory}}
+| cape1 = {{plink|Infernal cape}}
+| cape2 = {{plink|Fire cape}}
+| body1 = {{plink|Zealot's robe top}}
+| body2 =  {{plink|Vestment robe top|pic=Ancient robe top}} / {{plink|Monk's robe top}}
+| legs1 = {{plink|Fremennik kilt}}{{efn|If it gives a max it|name=frem-kilt}} / {{plink|Zealot's robe bottom}}
+| legs2 = {{plink|Vestment robe legs|pic=Ancient robe legs}} / {{plink|Monk's robe}}
+| weapon1 = {{plink|Granite hammer}}
+| weapon2 = {{plink|Inquisitor's mace}} > {{plink|Scythe of Vitur}}{{efn|On slash|name=slash}} > {{plink|Soulreaper axe}}{{efn|On slash|name=slash}} / {{plink|Osmumten's fang}}{{efn|May perform worse compared to other options due to the lower max hit and increased accuracy from boss mechanics}}
+| weapon3 = {{plink|Ghrazi rapier}} > {{plink|Abyssal bludgeon}} / {{plink|Elder maul}} > {{plink|Noxious halberd}}{{efn|On slash|name=slash}}
+| weapon4 = {{plink|Zombie axe}}{{efn|On crush|3=crush}} > {{plink|Sarachnis cudgel}}
+| shield1 = {{plink|Antler guard}}
+| shield2 = {{plink|Book of War}}
+| shield3 = {{plink|Mooleta}}
+| ammo1 = {{plink|God blessing|pic=Ancient blessing}}
+| hands1 = {{plink|Regen bracelet}}
+| hands2 = {{plink|Combat bracelet}} / {{plink|Mithril gloves}}
+| feet1 = {{plink|Aranea boots}}
+| feet2 = {{plink|Spiked manacles}}
+| feet3 = {{plink|Climbing boots}}
+| ring1 = {{plink|Ultor ring}} / {{plink|Bellator ring}}{{efn|When using a slash weapon|4=bella}}
+| ring2 =  {{plink|Berserker ring (i)}} / {{plink|Lightbearer}}
+| ring3 = {{plink|Ring of the gods (i)}} / {{plink|Ring of suffering (ri)}}
+| special1 = {{plink|Crimson kisten}}
+| special2 = {{plink|Elder maul}} > {{plink|Bandos godsword}} / {{plink|Dragon warhammer}}
+| special3 = {{plink|Saradomin godsword}} / {{plink|Ancient godsword}}
+| special4 = {{plink|Arkan blade}}
+}}
+{{notelist}}
+===Inventory===
+{{Inventory
+|Crimson kisten|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}
+|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}|{{Cheap prayer}}
+|Divine super combat potion|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}|{{Cheap food}}
+|Ardeaglais teleport|Book of the Dead|Teleport to house (tablet)|Divine rune pouch
+}}
+{{Rune pouch
+| 1 = Blood rune
+| 2 = Fire rune
+| 3 = Aether rune
+| 4 = Death rune
+}}
+</tabber>
+
+
+{{Clear}}
+[[Category:Strategies]]

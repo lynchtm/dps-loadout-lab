@@ -1,0 +1,722 @@
+{{External|rs}}
+
+If the player clicks log out while in the cave, they will ''not'' be logged out immediately. Instead, the wave following the current wave will be prevented from spawning, giving the player the opportunity to log out without loss of progress. Clicking the log out button a second time ''will'' log the player out immediately, but the current wave will have to be repeated.
+
+It is generally recommended for the player to use [[Ranged]] for most of the run, as it allows the player to [[safespot]] monsters and attack them from a distance. At the highest levels and gear, using [[melee]] can be faster than Ranged, though the player is likely to take additional damage from melee attacks. Using [[Magic]] with [[Water Wave]] or [[Water Surge]] works well due to TzHaars' 40% weakness to water spells; however it is generally slower and more expensive than ranged. [[Blood spells]], [[Vengeance]], and [[Thralls]] can be used to support the other combat styles instead of using magic as primary damage.
+
+It is '''strongly''' recommended for Ranged users to check their ammunition supply before beginning a Fight Cave run and enter with as much as they can. Completing the Fight Cave takes a significant amount of time (often well over an hour for lower-level players) and requires a considerable amount of ammunition and potions. 
+
+==Suggested skills==
+While the Fight Cave does not have any strict level requirements, it is recommended that the player have at least the levels recommended below for their chosen combat method. Completing the Fight Cave is possible with lower levels, but this is not recommended unless the player has prior experience.
+{|class="wikitable" style="text-align:center;"
+!Skill
+![[#Ranged only|Ranged]]
+![[#Pure|Pure]]
+![[#Melee - Jad|Melee]]
+![[#Magic only|Magic]]
+![[TzHaar Fight Cave/Strategies#Early-game iron|Iron]]
+|-
+![[File:Ranged icon.png]]
+|75
+|80
+|{{NA}}
+|{{NA}}
+|61+
+|-
+![[File:Hitpoints icon.png]]
+|75
+
+|80
+|85+
+|75
+|70+
+|-
+![[File:Prayer icon.png]]
+|60
+|43
+|75+
+|43
+|43+
+|-
+![[File:Defence icon.png]]
+|70
+
+|< 20
+|90+
+|40+
+|50+
+|-
+![[File:Attack icon.png]]
+|{{NA}}
+|75
+|90+
+|30+
+|50+
+|-
+![[File:Strength icon.png]]
+|{{NA}}
+|42
+|90+
+|{{NA}}
+|50+
+|-
+![[File:Magic icon.png]]
+|{{NA}}
+|{{NA}}
+|94
+|75+
+|56+
+|}
+
+==Choosing your weapon==
+===Ranged===
+====[[File:Toxic blowpipe.png]] Toxic blowpipe====
+Requiring 75 [[Ranged]], the [[toxic blowpipe]] is very effective against all enemies in the Fight Caves, up to and including [[TzTok-Jad]]. Despite being less accurate and having a lower max hit than crossbows, the overall damage output is much higher due to its [[attack speed]] of 2 [[tick]]s on rapid. In addition, [[venom]] adds extra damage on the higher levelled enemies. The special attack, ''Toxic siphon'', provides healing, making this the top choice for a single weapon to take for the entire run.
+
+====[[File:Twisted bow.png]] Twisted bow====
+The [[Twisted bow]] is extremely effective against [[Ket-Zek]]s and TzTok-Jad, but poor against everything else. It is helpful against high [[Magic defence]] monsters that may take longer with the toxic blowpipe. It is not recommended to use it as the only weapon for the entire run, but is extremely effective when paired with the toxic blowpipe.
+
+====[[File:Rune crossbow.png]] [[File:Dragon crossbow.png]] [[File:Armadyl crossbow.png]] Crossbows====
+The [[Rune crossbow]] is an early-game accessible Ranged weapon, requiring 61 [[Ranged]] to use, while the [[Dragon crossbow|dragon]] and [[Armadyl crossbow|Armadyl]] crossbows require 64 Ranged and 70 Ranged, respectively. They fire every 5 ticks on rapid, but deal a lot of damage accurately. The accessibility of the rune crossbow makes it the earliest viable weapon [[Ironman mode|Ironmen]] can use for getting their first fire cape. However, a significant DPS improvement over only using the rune crossbow is to use the much faster [[hunters' sunlight crossbow]] against all enemies other than TzTok-Jad. An off-hand can be taken for Defence: the [[crystal shield]] makes [[Tok-Xil]] much less threatening while [[Ket-Zek]]s are still alive, or for offence, the [[twisted buckler]] for maximum damage or [[book of law]] for Prayer and accuracy.
+
+====[[File:Eclipse_atlatl.png]] Eclipse atlatl====
+The [[Eclipse atlatl]] is a versatile two-handed weapon which scales uniquely with melee strength and ranged accuracy. It is particularly well suited to those with higher Strength levels and lower Ranged levels, and provides consistent damage to all fight caves enemies, often surpassing the rune crossbow and magic shortbow, although rarely matching the toxic blowpipe. When worn with the full set, it also gives the chance to inflict [[burn]] for additional damage and access to the eclipse atlatl's special attack. However, the inability to wield a shield combined with the significant decrease in ranged defence with eclipse moon armour compared to dragonhide armour can make using the Eclipse atlatl harder to execute. The [[Hunter's spear]] scales in a similar manner off of Strength and Ranged, but is available much earlier and performs similarly to a magic shortbow or rune crossbow firing broad ammunition, assuming appropriate gear is worn, such as [[Mixed hide]] or the eclipse set.
+
+====[[File:Karil's crossbow.png]] [[File:Magic shortbow (i).png]] [[File:Crystal bow.png]] [[File:Bow of Faerdhinen.png]] Other weapons====
+Other weapons can fill a similar role to the toxic blowpipe, but the run will be slower. [[Karil's crossbow]] requires 70 [[Ranged]] and will perform well against all enemies, especially with the [[amulet of the damned]]'s double-tap effect with [[Karil's equipment]]. The [[magic shortbow (i)]] has only a 50 Ranged requirement, and will be faster than the rune crossbow against the weaker enemies, but will taper off against the high-defence Ket-Zeks and Jad. If you don't have a hunters' sunlight crossbow, consider using both it and a rune crossbow for more timely clears. A [[crystal bow]] requires 70 Ranged to use and will work against all enemies, but it may run out of charges before you finish. Finally, the [[Bow of Faerdhinen]] with [[crystal armour]] is superior to the toxic blowpipe for overall clear speed, but requires [[Song of the Elves]]. With the Fight Cave being a multi-combat zone, the [[Venator bow]] is also a viable option during the rounds prior to TzTok-Jad.
+
+===Supplements===
+==== [[File:Ancient staff.png]] Blood spells ====
+[[Blood spells]] from the [[Ancient Magicks]] spellbook have a [[life leech]] effect, which heals the caster by 25% of the damage dealt. With at least 56 [[Magic]] and completion of [[Desert Treasure I]], players can bring the runes for [[Blood Rush]] or better for reliable, practically unlimited healing against safespottable enemies.
+
+===Utility===
+====[[File:Holy wrench.png]] Holy wrench or Ring of the Gods (i)====
+By carrying a [[holy wrench]], [[Prayer potion]]s and [[super restore]]s may restore an extra Prayer point per dose. This comes at the cost of one inventory slot and is only beneficial to save money or to maximise Prayer restored, which is only possible if the number of doses available is greater than the total restoration of one potion.
+
+====[[File:Ancient_mace.png]] Ancient mace====
+By using the [[ancient mace]] special attack, players can restore prayer points equal to the damage dealt. At lower prayer levels and with slow completions, if used consistently, this can lead to greater prayer points restored per inventory slot than a prayer potion could've provided, making it an effective option for a first fire cape.
+
+==Equipment==
+<tabber>
+Ranged=
+
+The simplest method to use is to primarily use a ranged weapon such as the [[Toxic blowpipe]]. Completing the fight caves with Ranged isn't overly challenging and serves as a viable option for nearly all account types. It is recommended to consider maximising damage output and prayer bonus, with consideration for ranged defence and, to a lesser amount, slash defence.
+
+;Pros
+*This method is simple, provides reliable damage output and typically involves wearing armour with appropriate defence already.
+
+;Cons
+*Using blood spells to heal might require removing armour temporarily.
+
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}} (on task)
+|head2 = {{plink|Masori mask (f)}}
+|head3 = {{plink|Masori mask}} / {{plink|Crystal helm}}<ref name=crystal>If using crystal bow or Bow of Faerdhinen</ref>
+|head4 = {{plink|Hueycoatl hide coif}} / {{plink|Blessed coif|pic=Ancient coif}} / {{plink|Archer helm}}
+|head5 = {{plink|Neitiznot faceguard}} / {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Dragonbone necklace}} / {{plink|Bonecrusher necklace}}
+|neck4 = {{plink|Amulet of fury}}
+|neck5 = {{plink|Amulet of glory}} / {{plink|Amulet of the Damned}}<ref>Best when using full Karil's, otherwise works as a substitute for an Amulet of glory.</ref>
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Crystal body}}<ref name=crystal/>
+|body3 = {{plink|Hueycoatl hide body}} / {{plink|Blessed body|pic=Ancient d'hide body}}
+|body4 = {{plink|Karil's leathertop}}
+|body5 = {{plink|Black d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Crystal legs}}<ref name=crystal/>
+|legs3 = {{plink|Hueycoatl hide chaps}} / {{plink|Blessed chaps|pic=Ancient chaps}}
+|legs4 = {{plink|Karil's leatherskirt}}
+|legs5 = {{plink|Black d'hide chaps}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}} (Or best [[Ava's device]])
+|cape3 = {{plink|Ranging cape(t)}}
+|cape4 = {{plink|Vestment cloak|pic=Armadyl cloak}}
+|cape5 = {{plink|Ardougne cloak 4}}
+|shield1 = {{plink|Twisted buckler}}
+|shield2 = {{plink|Dragonfire ward}}
+|shield3 = {{plink|Odium ward}}
+|shield4 = {{plink|Crystal shield}} / {{plink|Blessed spirit shield}}
+|shield5 = {{plink|Toktz-ket-xil}} / {{plink|Dragon kiteshield}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands4 = {{plink|Dragon gloves}}
+|hands5 = {{plink|Regen bracelet}}
+|feet1 = {{plink|Avernic treads (max)}} > {{plink|Pegasian boots}}
+|feet2 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet3 = {{plink|Aranea boots}}
+|feet4 = {{plink|Ranger boots}}
+|feet5 = {{plink|Mixed hide boots}}
+|ring1 = {{plink|Venator ring}} / {{plink|Lightbearer}} (if using [[Blowpipe]])
+|ring2 = {{plink|Archers ring (i)}}
+|ring3 = {{plink|Ring of suffering (i)}} 
+|ring4 = {{plink|Ring of the gods (i)}}
+|ring5 = {{plink|Ring of shadows}} / {{plink|Granite ring (i)}} / {{plink|Explorer's ring 4}}
+|weapon1 = {{plink|Toxic blowpipe}} & {{plink|Twisted bow}} > {{plink|Toxic blowpipe}}
+|weapon2 = {{plink|Bow of Faerdhinen}}
+|weapon3 = {{plink|Zaryte crossbow}} / {{plink|Armadyl crossbow}}
+|weapon4 = {{plink|Hunters' sunlight crossbow}} / {{plink|Dragon crossbow}} / {{plink|Karil's crossbow}} / {{plink|Rune crossbow}}
+|weapon5 = {{plink|Magic shortbow (i)}} / {{plink|Crystal bow}}
+|ammo1 = {{plink|Seeking dragon arrow}} / {{plink|Rada's blessing 4}}  & {{plink|Dragon dart}} for [[Toxic blowpipe]]
+|ammo2 = {{plink|Seeking amethyst arrow}} = {{plink|Dragon arrow}} / {{plink|God blessing|pic=Holy blessing|txt=Any blessing}}  & {{plink|Amethyst dart}} for [[Toxic blowpipe]]
+|ammo3 = {{plink|Diamond bolts (e)}} / {{plink|Broad bolts}} / {{plink|Bolt rack}}s / {{plink|Rune arrow}}
+}}
+{{Reflist}}
+==Inventory==
+{{Inventory|align=right
+|Kodai wand|Bastion potion(4)|Bastion potion(4)|Bastion potion(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Saradomin brew(4)|Saradomin brew(4)|Saradomin brew(4)|Super restore(4)
+|Saradomin brew(4)|Saradomin brew(4)|Saradomin brew(4)|Rune pouch
+}}
+
+{{Rune pouch|align=right
+|Blood rune
+|Death rune
+|Soul rune
+}}
+
+*2-3 [[Bastion potion]]s (4)
+*4-6 [[Saradomin brew]]s (4)
+*Fill rest of slots with super restores or prayer potions (4), but you should have at least 1 restore to counteract the brews' effects on a 1:3 ratio of restores to brews (i.e. 3 doses of brew requires 1 dose of restore to counteract the effect of brews)
+*A rune pouch filled with runes to cast [[blood spell]]s to kill and heal off of [[Tz-Kek]]s
+*A weapon to [[autocast]] blood spells
+
+==Notes==
+*If you find you don't need to heal often, for example, if you are a higher-levelled Defence/[[Combat level|Combat]], consider the cheaper inventory of 4 Saradomin brews, 4 Super restores, 3 Ranging potions, and for the rest of your inventory, Prayer potions. 
+*This is only a recommended inventory setup and will always vary between each player.
+*The higher your Defence level, the less you need protective gear like [[Karil's leathertop]] or [[Karil's Leatherskirt|leatherskirt]].
+
+|-|
+Melee=
+Many melee weapons have a theoretically high damage output but can be more tedious to use due to the flinching typically required. This is a poor option for a first fire cape attempt.
+
+;Pros
+*Fight Cave is heavily sped up and can be as fast as approximately 25 minutes.
+*The first 30 waves are generally faster than using Ranged.
+
+;Cons
+*If you're *not* using a halberd you'll be attacking from within Jad's melee range, and will have to use [[Protect from Melee]] as well.
+*Rangers and magers in the Fight Caves can also melee you, so you may take additional damage, especially from the mager, if not flinching.
+
+
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}} / {{plink|Torva full helm}}
+|head2 = {{plink|Neitiznot faceguard}} / {{plink|Oathplate helm}}
+|head3 = {{plink|Serpentine helm}} > {{plink|Blood moon helm}}
+|head4 = {{plink|Helm of Neitiznot}} / {{plink|Verac's helm}}
+|head5 = {{plink|Torag's helm}} / {{plink|Dharok's helm}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of blood fury}} / {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}} / {{plink|Amulet of strength}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|cape3 = {{plink|Cape of Accomplishment|pic=Strength cape(t)}}
+|cape4 = {{plink|Obsidian cape}}
+|cape5 = {{plink|Vestment cloak|pic=Armadyl cloak}}
+|body1 = {{plink|Torva platebody}} / {{plink|Oathplate chest}}
+|body2 = {{plink|Bandos chestplate}} / {{plink|Fighter torso}} / {{plink|Blood moon chestplate}}
+|body3 = {{plink|Verac's brassard}} / {{plink|Guthan's platebody}}<ref name=healing>Switch to Guthan's when you need to heal</ref>
+|body4 = {{plink|Torag's platebody}} / {{plink|Dharok's platebody}}
+|legs1 = {{plink|Torva platelegs}} / {{plink|Oathplate legs}}
+|legs2 = {{plink|Bandos tassets}} / {{plink|Blood moon tassets}}
+|legs3 = {{plink|Verac's plateskirt}}
+|legs4 = {{plink|Torag's platelegs}} / {{plink|Dharok's platelegs}}
+|legs5 = {{plink|Guthan's chainskirt}} <ref name=healing/>
+|feet1 = {{plink|Avernic treads (max)}} > {{plink|Primordial boots}}
+|feet2 = {{plink|Echo boots}} / {{plink|Guardian boots}}
+|feet3 = {{plink|Dragon boots}}
+|feet4 = {{plink|Bandos boots}}
+|feet5 = {{plink|Rune boots}}
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Regen bracelet}}
+|weapon1 = {{plink|Scythe of Vitur}}  / {{plink|Soulreaper axe}}
+|weapon2 = {{plink|Blade of Saeldor}} / {{plink|Ghrazi rapier}} / {{plink|Inquisitor's mace}}
+|weapon3 = {{plink|Osmumten's fang}} / {{plink|Noxious halberd}}
+|weapon4 = {{plink|Zamorakian hasta}}
+|weapon5 = {{plink|Abyssal tentacle}} > {{plink|Abyssal whip}}
+|shield1 = {{plink|Avernic defender}}
+|shield2 = {{plink|Dragon defender}}
+|shield3 = {{plink|Dragonfire shield}}
+|shield4 = {{plink|Crystal shield}}
+|ring1 = {{plink|Lightbearer}} (If using Voidwaker/Claws)
+|ring2 = {{plink|Ultor ring}}
+|ring3 = {{plink|Berserker ring (i)}}
+|ring4 = {{plink|Brimstone ring}}
+|ring5 = {{plink|Ring of suffering (i)}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3}}/{{plink|Rada's blessing 2|txt=2}}
+|special1 = {{plink|Voidwaker}}
+|special2 = {{plink|Dragon claws}} / {{plink|Burning claws}}
+|special3 = {{plink|Saradomin godsword}} (cave healing)
+|special4 = {{plink|Crystal halberd}}
+}}
+<references/>
+
+While fighting Jad, players must keep [[Protect from Melee]] on, switching to [[Protect from Missiles]]/[[Protect from Magic]] depending on what he is using, before immediately switching back to Protect from Melee between each of Jad's attacks. This is because, unlike his magic and ranged attacks, his melee attack does not give the player any time to react; the player's melee protection prayer must already be activated in the event that he uses this attack, in order to avoid taking damage.
+This can be skipped completely by using the noxious halberd from out of Jad's melee range.
+
+A strategy used when meleeing is to use [[thralls]] in order to speed up the encounter. Another strategy used is casting the [[Vengeance]] spell to recoil some damage back to the NPC.
+
+==Inventory==
+{{Inventory|align=right
+|Voidwaker|Divine super combat potion(4)|Divine super combat potion(4)|Divine super combat potion(4)
+|Avernic defender|Stamina potion(4)|Stamina potion(4)|Divine rune pouch
+|Book of the Dead|Saradomin brew(4)|Saradomin brew(4)|Saradomin brew(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+
+}}
+*3-4 Divine super combat potion (4)
+*7-9 Saradomin brew (4)
+*13-15 Super restore (4)
+*2 Stamina potion(4)
+*[[rune pouch]] / [[divine rune pouch]] if you plan to use [[Vengeance]] or thralls
+*Book of the dead if you plan to use thralls
+*Fill any open inventories with prayer potions (4)s
+
+==Notes==
+Reduce the amount of prayer potions if you plan to use Guthan's during the Fight Cave.
+|-|
+Magic only=
+
+Using Magic to complete the Fight Caves is a reliable and effective strategy; however, it's worth noting that completion times will usually be slower when compared to other set-ups, since they output damage faster than Magic. This is typically also more expensive than comparable ranged setups and offers less defence. However, wearing magic armour does increase the effectiveness of blood spells, which might make a magic only approach feel easier.
+
+Due to the 40% water weakness of TzHaar, using the standard spellbook's [[Water Wave]] or [[Water Surge]] is very effective in the fight cave. Using powered staves or ancient spells is also possible, but won't benefit from this weakness, thus they should generally not be considered unless using strong weapons such as a [[Tumeken's shadow]], though it is possible with lower tier weapons too.
+
+If using [[Void Knight equipment]], wearing the Void mage helm, [[Void knight top|robe top]], [[Void knight robe|skirt]], and [[Void knight gloves|hands]], yields a 45% bonus to Magic accuracy. It requires 42 Attack, Strength, Defence, Ranged, Magic, Hitpoints and 22 Prayer.
+
+;Pros
+*No inventory slots will be occupied by armour pieces.
+
+;Cons
+*It can be quite expensive and slightly slower than ranged setups.
+*A decent shield might be required to help offset the low defensive stats of magical armour.
+
+{{Recommended equipment
+|style = Magic
+|head1 = {{plink|Slayer helmet (i)}} / {{plink|Ancestral hat}}
+|head2 = {{plink|Virtus mask}}
+|head3 = {{plink|Void mage helm}}
+|head4 = {{plink|Ahrim's hood}} (or: {{plinkp|Blue moon helm}}{{plinkp|Dagon'hai hat}}{{plinkp|Bloodbark helm}}{{plinkp|Infinity hat}}) 
+|neck1 = {{plink|Occult necklace}}
+|neck2 = {{plink|Dragonbone necklace}} / {{plink|Bonecrusher necklace}}
+|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}
+|cape2 = {{plink|God capes|pic=Saradomin cape}}
+|cape3 = {{plink|Infernal cape}} / {{plink|Fire cape}} / {{plink|Cape of Accomplishment|pic=Strength cape(t)}}
+|cape4 = {{plink|Vestment cloak|pic=Armadyl cloak}}
+|body1 = {{plink|Ancestral robe top}}
+|body2 = {{plink|Virtus robe top}}
+|body3 = {{plink|Elite void top}}
+|body4 = {{plink|Ahrim's robetop}} (or: {{plinkp|Blue moon chestplate}}{{plinkp|Dagon'hai robe top}}{{plinkp|Bloodbark body}}{{plinkp|Infinity top}})
+|legs1 = {{plink|Ancestral robe bottom}} 
+|legs2 = {{plink|Virtus robe bottom}}
+|legs3 = {{plink|Elite void robe}}
+|legs4 = {{plink|Ahrim's robeskirt}} (or: {{plinkp|Blue moon tassets}}{{plinkp|Dagon'hai robe bottom}}{{plinkp|Bloodbark legs}}{{plinkp|Infinity bottoms}})
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Eternal boots}}
+|feet3 = {{plink|Echo boots}} / {{plink|Guardian boots}}
+|feet4 = {{plink|Bandos boots}} / {{plink|Infinity boots}} / {{plink|Aranea boots}}
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|hands3 = {{plink|Barrows gloves}}
+|hands4 = {{plink|Regen bracelet}}
+|weapon1 = {{plink|Tumeken's shadow}} & {{plink|Eye of Ayak}}
+|weapon2 = {{plink|Twinflame staff}} <ref name=water>Using water spells</ref>
+|weapon3 = {{plink|Mystic smoke staff}} <ref name=water/>
+|shield1 = {{plink|Elidinis' ward (f)}} / {{plink|Tome of Water}} <ref name=water/>
+|shield2 = {{plink|Arcane spirit shield}}
+|shield3 = {{plink|Ancient wyvern shield}}
+|shield4 = {{plink|Malediction ward}}
+|shield5 = {{plink|Crystal shield}} / {{plink|Blessed spirit shield}}
+|ring1 = {{plink|Magus ring}}
+|ring2 = {{plink|Seers ring (i)}} / {{plink|Brimstone ring}}
+|ring3 = {{plink|Ring of suffering (i)}}
+|ring4 = {{plink|Ring of the gods (i)}}
+|ring5 = {{plink|Granite ring (i)}} / {{plink|Ring of shadows}} / {{plink|Explorer's ring 4}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}}
+|special1 = {{plink|Eldritch Nightmare staff}}
+|special2 = [[Blood spells]]
+}}
+<references/>
+
+==Inventory==
+*6-9 Saradomin brews (4)
+*2-3 super restores (4)
+*Runes for the spell that you're casting (2000-2500 casts)
+*1000 Blood Barrage casts (optional, for healing)
+*A [[Saturated heart]] for boosting your Magic level (optional, but strongly recommended)
+*Fill any remaining open inventories with super restore or prayer potions (4)
+
+|-|
+Pure=
+''This method is meant for pures only. Regular players should use one of the above methods instead.''<br/>If you are a pure and you have a Defence level of 20 or lower, the Fight Cave can prove very hard and expensive, but '''not''' impossible. It is recommended to study the Fight Cave and many guides before attempting if you are not experienced. You will be hit very hard by the level 90s. When the healers appear in the last wave, it is recommended to use the [[Steel Skin]] prayer to aid your low Defence against them.
+
+Although the following recommendations are for Range only, pures may still wish to consider using Magic only if they have access to best-in-slot gear including a [[Tumeken's shadow]] and [[Saturated heart]].
+
+{{Recommended equipment
+|style = Pure
+|ammo1 = {{plink|Diamond dragon bolts (e)}} / {{plink|Seeking dragon arrow}} / {{plink|God blessing|pic=Holy blessing|txt=Any blessing}} & {{plink|Dragon dart}}s
+|ammo2 = {{plink|Bolt rack}}s (only if using Karil's crossbow)
+|body1 = {{plink|Rangers' tunic}}
+|body2 = {{plink|Vestment robe top|pic=Armadyl robe top}}
+|body3 = {{plink|Monk's robe top}}
+|body4 = {{plink|Initiate hauberk}} ({{SCP|Defence|20}})
+|feet1 ={{plink|Aranea boots}}
+|feet2 ={{plink|Ranger boots}}
+|feet3 ={{plink|Holy sandals}}
+|feet5 ={{plink|Fancy boots}} / {{plink|Fighting boots}}
+|cape1 = {{plink|Ranging cape(t)}}
+|cape2 = {{plink|Ava's accumulator}}
+|cape3 = {{plink|Fire cape}}
+|cape4 = {{plink|Cape of Accomplishment|pic=Strength cape(t)}}
+|cape5 = {{plink|Vestment cloak|pic=Armadyl cloak}}
+|hands1 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands2 = {{plink|Adamant gloves}} ({{SCP|Defence|13}})
+|hands3 = {{plink|Regen bracelet}}
+|hands4 = {{plink|Mithril gloves}} ({{SCP|Defence|1}})
+|hands5 = {{plink|Combat bracelet}}
+|head1 = {{plink|Mitre|pic=Armadyl mitre}}
+|head2 = {{plink|Robin hood hat}}
+|head3 = {{plink|Initiate sallet}} ({{SCP|Defence|20}})
+|head4 = {{plink|Bearhead}} / {{plink|Halo|pic=Saradomin halo}} ({{SCP|Defence|1}})
+|legs1 = {{plink|Hueycoatl hide chaps}} / {{plink|Blessed chaps|pic=Ancient chaps}}
+|legs2 = {{plink|Black d'hide chaps}}
+|legs3 = {{plink|Rangers' tights}}
+|legs4 = {{plink|Vestment robe legs|pic=Armadyl robe legs}}
+|legs5 = {{plink|Monk's robe}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|neck5 = {{plink|Stole|pic=Armadyl stole}}
+|ring1 = {{plink|Ring of the gods (i)}}
+|ring2 = {{plink|Venator ring}}
+|ring3 = {{plink|Ring of suffering (i)}} / {{plink|Ring of suffering}}
+|shield1 = {{plink|Book of Law}}
+|shield2 = {{plink|Unholy book}}
+|shield3 = {{plink|Book of Balance}}
+|shield4 = {{plink|Holy book}}
+|weapon1 = {{plink|Toxic blowpipe}} & {{plink|Twisted bow}}
+|weapon2 = {{plink|Zaryte crossbow}}
+|weapon3 = {{plink|Armadyl crossbow}}
+|weapon4 = {{plink|Dragon crossbow}} / {{plink|Karil's crossbow}} / {{plink|Rune crossbow}}
+|weapon5 = {{plink|Magic shortbow (i)}} / {{plink|Crystal bow}}
+}}
+==Inventory==
+*10 Saradomin brews (4)
+*300+ purple sweets
+*14-15 super restores (4)
+*1-2 Bastion potions (4)
+*Dragon darts<span> or </span>diamond bolts (e)<span> for Jad</span>
+|-|
+Early-game iron=
+The fire cape is an important milestone for many iron players, but getting there can be a little difficult, given the lower availability of good gear. This is a setup that is within reach for early-game iron players with mid-level stats and gear. Iron players at this stage usually have tier-50 and tier-60 gear (or can obtain it fairly easily) and maybe a barrows piece or two.
+<br><br>
+Using this setup means that you will likely need to conserve as much prayer as you can, and your kills will be well in excess of 60 minutes long (usually closer to 90+ minutes). Due to this, it's recommended that you don't downgrade your gear too much. You can minimize prayer costs by familiarizing yourself with safespot mechanics and selecting a safespot-friendly rotation (rotations 5 and 6 are especially convenient).
+<br><br>
+Irons within boosting range of 74 Fletching and 72 Hunter should use the [[Hunters' sunlight crossbow]] with [[Sunlight antler bolts]]. The increase in attack speed and range more than compensates for the decrease in accuracy on all but TzTok-Jad himself.
+<br><br>
+Many iron players using this setup will have completed [[Desert Treasure I]], but are unlikely to have a rune pouch or an easy supply of blood spell runes. If you do, however, have a rune pouch and an easy supply of blood spell runes, do bring them. Additionally, if you have good upgrades (e.g. DK rings, god d'hide) or space-saving items (e.g. bolt pouch), consider bringing them, too. Bolts for the Hunters' crossbows cannot be stored in the bolt pouch.
+
+{{Recommended equipment
+|style = Early-game iron
+|ammo1 = {{plink|Bolt rack}}s (Karil's crossbow)
+|ammo2= {{plink|Sunlight antler bolts}} ([[Hunters' sunlight crossbow]])
+|ammo3 = {{plink|Broad bolts}} (for cave) / {{plink|Diamond bolts (e)}} (for Jad)
+|ammo4 = {{plink|God blessing|pic=Holy blessing|txt=Any blessing}} ([[Crystal bow]])
+|body1 = {{plink|Karil's leathertop}}
+|body2 = {{plink|Blessed body|pic=Ancient d'hide body}}
+|body3 = {{plink|Void knight top}}<ref name=void>When used with full Void knight set.</ref>
+|body4 = {{plink|Black d'hide body}}
+|feet1 ={{plink|Holy sandals}}
+|feet2 ={{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet3 ={{plink|Mixed hide boots}}
+|feet4 ={{plink|Shayzien boots (5)}} / {{plink|Snakeskin boots}}
+|cape1 = {{plink|Ava's accumulator}} / [[Ava's device]]
+|cape2 = {{plink|Ranging cape}}
+|cape3 = {{plink|Cape of Accomplishment|pic=Strength cape(t)}}
+|cape4 = {{plink|Ardougne cloak|pic=Ardougne cloak 1}}
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Combat bracelet}} / {{plink|Black spiky vambraces}} / {{plink|Black d'hide vambraces}}
+|hands3 = {{plink|Void knight gloves}}<ref name=void/>
+|hands4 = {{plink|Red spiky vambraces}} / {{plink|Red d'hide vambraces}}
+|head1 = {{plink|Slayer helmet (i)}} (if on task)
+|head2 = {{plink|Verac's helm}}
+|head3 = {{plink|Void ranger helm}}<ref name=void/>
+|head4 = {{plink|Helm of Neitiznot}}
+|legs1 = {{plink|Karil's leatherskirt}}
+|legs2 = {{plink|Blessed chaps|pic=Ancient chaps}}
+|legs3 = {{plink|Void knight robe}}<ref name=void/>
+|legs4 = {{plink|Black d'hide chaps}}
+|neck1 = {{plink|Unholy symbol}}
+|neck2 = {{plink|Holy symbol}}
+|neck3 = {{plink|Amulet of glory}}
+|neck4 = {{plink|Amulet of power}}
+|ring1 = {{plink|Steel ring}}
+|ring2 = {{plink|Explorer's ring|pic=Explorer's ring 1}}
+|ring3 = {{plink|Ring of recoil}}
+|shield1 = {{plink|Book of Law}}
+|shield2 = {{plink|Unholy book}} / {{plink|Book of Balance}} / {{plink|Holy book}}
+|shield3 = {{plink|Book of Darkness}}{{efn|If using blood spells}} / {{plink|Damaged book|pic=Holy book}}
+|shield4 = {{plink|Crystal shield}}
+|special1 = {{plink|Ancient mace}}
+|weapon1 = {{plink|Karil's crossbow}}
+|weapon2 = {{plink|Hunters' sunlight crossbow}}
+|weapon3 = {{plink|Crystal bow}}
+|weapon4 = {{plink|Rune crossbow}}
+}}
+{{notelist}}
+==Inventory==
+{{Inventory|align=right
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)|Prayer potion(4)
+|Prayer potion(4)|Cooked karambwan|Cooked karambwan|Cooked karambwan
+|Cooked karambwan|Tuna potato|Tuna potato|Tuna potato
+|Tuna potato|Tuna potato|Tuna potato|Tuna potato
+}}
+*17 [[Prayer potions]] or [[Super restores]]
+*7 [[Tuna potatoes]]
+*4 [[Cooked karambwan]]
+*[[Holy wrench]] (swap for a prayer potion only if it would help restore more prayer)
+*[[Ancient mace]] (swap out a prayer potion, and maybe a few more for food)
+*[[Diamond bolts(e)]]
+*[[Rune pouch]] with blood spell runes
+
+If you need to eat in a pinch, use your high-healing food.
+
+If you bring the ancient mace, use your special by flinching the meleers (180s) or the blobs (45s), though the blobs recoil a little melee damage. With a dragon halberd, you can spec the meleers and Jad's healers. 
+
+The viability of bringing the holy wrench will depend on your prayer level/confidence in beating the caves. For example: at 52 prayer and with 16 prayer potions, the holy wrench would only help to restore an extra 64 prayer points while another 4 dose prayer potion would restore 80. At 63 prayer, however, a holy wrench will restore an extra 128 prayer points over 16 potions, compared to the 88 you'd restore from another pot. To do your own calculations for the viability of the wrench make sure to check the [[holy wrench]] and [[prayer potions]] pages. The other benefit of bringing the holy wrench is that you can save an extra prayer potion if you're struggling to source them consistently, but unless you're already somewhat experienced or confident in the caves the extra prayer points will usually be worth it.
+
+If bringing blood spells, consider swapping out some tuna potatoes for mage gear. This is most useful if you're bringing a mage helm when using void, or if you have damage-increasing gear (e.g. imbued god capes). You can barrage the blobs (45s) or the meleers (180s), though the meleers have a fairly high magic level, so you might splash quite a bit. You can also sometimes catch the bats behind other monsters and heal off of them, too.
+|-|
+Ranged (Atlatl) =
+
+The [[Eclipse atlatl]] is a viable weapon for tackling the fight caves, but its unique scaling with melee strength and range accuracy requires some additional considerations, but provides potential benefits.
+
+;Pros
+*Provides reliable damage output and scales well with gear with reasonable defensive bonuses.
+*Melee strength armour boosts the effectiveness of melee special attack weapons, such as [[Dragon claws|dragon]] or [[burning claws]], [[Voidwaker]], if not relying purely on the atlatl's own special attack.
+*The [[eclipse moon armour]]'s set effect provides additional damage over time.
+
+;Cons
+*Ranged potions and strength potions are needed for maximum damage output.
+*Forgoing use of the [[toxic blowpipe]] primarily forfeits access to venom (which can be significant with lower levels) and requires an additional inventory slot if using for its healing special attack.
+*The atlatl is both shorter range and two handed, which can mean more damage taken.
+*The faster attack speed means more ammo will be consumed over the course of the fight caves compared to some slower weapons.
+*Limited access to prayer bonus.
+
+{{Recommended equipment
+|style = Ranged (Atlatl)
+|head1 = {{plink|Slayer helmet (i)}} (on task)
+|head2 = {{plink|Eclipse moon helm}}
+|head3 = {{plink|Neitiznot faceguard}} / {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Amulet of strength}}
+|neck2 = {{plink|Dragonbone necklace}} / {{plink|Bonecrusher necklace}}
+|neck3 = {{plink|Amulet of fury}}
+|body1 = {{plink|Eclipse moon chestplate}}
+|legs1 = {{plink|Eclipse moon tassets}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|cape3 = {{plink|Dizana's quiver}}
+|cape4 = {{plink|Ava's assembler}} (Or best [[Ava's device]])
+|hands1 = {{plink|Barrows gloves}}
+|hands2 = {{plink|Regen bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Aranea boots}}
+|feet3 = {{plink|Echo boots}}
+|feet4 = {{plink|Mixed hide boots}}
+|ring1 = {{plink|Lightbearer}} / {{plink|Ultor ring}}
+|ring2 = {{plink|Berserker ring (i)}}
+|weapon1 = {{plink|Eclipse atlatl}}
+|ammo1 = {{plink|Atlatl dart}}
+|special1 = {{plink|Voidwaker}}
+|special2 = {{plink|Dragon claws}} / {{plink|Burning claws}}
+|special3 = {{plink|Eclipse atlatl}}
+|special4 = {{plink|Saradomin godsword}} / {{plink|Toxic blowpipe}}
+}}
+{{Reflist}}
+==Inventory==
+{{Inventory|align=right
+|Divine super strength potion(4)|Divine super strength potion(4)|Ranging potion(4)|Ranging potion(4)
+|Dragon claws|Super restore(4)|Super restore(4)|Super restore(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Super restore(4)|Super restore(4)|Super restore(4)|Super restore(4)
+|Saradomin brew(4)|Saradomin brew(4)|Saradomin brew(4)|Super restore(4)
+|Saradomin brew(4)|Saradomin brew(4)|Saradomin brew(4)|Rune pouch
+}}
+*2-3 [[Super strength potion]]s and [[Ranging potion]]s (4)
+*6-8 [[Saradomin brew]]s (4)
+*Fill rest of slots with super restores or prayer potions (4), but you should have at least 1 restore to counteract the brews' effects on a 1:3 ratio of restores to brews (i.e. 3 doses of brew requires 1 dose of restore to counteract the effect of brews)
+*Optionally, a weapon to [[autocast]] blood spells to kill and heal off of [[Tz-Kek]]s
+
+==Notes==
+*If you find you don't need to heal often, for example, if you are a higher-levelled Defence/[[Combat level|Combat]], consider the cheaper inventory of 4 Saradomin brews, 4 Super restores, 3 Ranging potions, and for the rest of your inventory, Prayer potions.
+*It is worthwhile to consider taking a couple of the [[prayer regeneration potion]]s from mixology.
+*This is only a recommended inventory setup and will always vary between each player.
+
+|-|
+</tabber>
+
+Note: The healers that appear when Jad has reached half health can be extremely dangerous, even for void and berserker pures. A simple mistake can potentially lead to instant death. If one is unable to use the Italy rock to keep all healers on the opposite side of Jad, one '''must kill the healers or run through Jad''' (east-west/west-east). Running through Jad is extremely difficult. An easier option for limiting the lethality of the healers is to bring a small amount of [[black chinchompa]]s to use on the healers. If auto-retaliate is enabled, one will only have to monitor Prayers and health. Also, the range of chinchompas when using the rapid attack style is comparable to a crossbow. Users of the toxic blowpipe will be able to avoid using long-range, and avoid any unwanted defence experience gain. Switch to your black chinchompas after a Prayer switch when Jad is nearing half-health. You must still target each healer as Jad is too large for the chinchompas' area of effect. Switch back to your main weapon to finish Jad off.
+
+==The battle itself==
+===Monsters===
+In this activity, players must battle past 62 waves of monsters ranging from level 22 up to level 360, before facing the final boss, [[TzTok-Jad]]. Each of these monsters require a different tactic by the player, though due to the structure of the activity, most of them are best fought from a distance. The monsters generally have high Attack and Strength, along with a special ability, but low Hitpoints and Defence. This means they will hit hard and often, but can be killed quite easily.
+
+The monsters appear in waves, 63 in total. The monsters are referred to by their Combat levels. Monsters in the Caves continue to "stack" in a way. For example, after facing two Yt-MejKots, you will face a Ket-Zek (wave 31). From the first Ket-Zek you fight, they will keep appearing until wave 62, when two Ket-Zeks will appear.
+
+Monsters should be killed based on their threat to the player: [[Tz-Kih]]s, then [[Tok-Xil]]s, then [[Ket-Zek]]s, then [[Yt-MejKot]]s, and finally [[Tz-Kek]]s.
+
+It is very important to note that when two of the same monster appears, one of them will be discoloured. This discoloured monster will serve as a "way point" for the next monster in line to spawn there. For example, when two Ket-Zeks appear, one of them is coloured '''orange'''; this orange Ket-Zek's spawn point will be the next monster, in this case, TzTok-Jad's, spawn point.
+
+Full Guthan's with Protect from Melee activated if needed can be used to heal you as long as any major threat, such as the 360, is vanquished. Since the 360 has deadly Magic and Melee attacks, be sure to kill it with Protect from Magic. Waves 1-30 are excellent for healing and Meleeing at high Combat level, but Waves 31-61 can also be used to heal provided the 360 is killed first. Wave 61 is the last opportunity to heal using Guthan's.
+
+{{TzHaar Fight Cave Waves}}
+{{reflist}}
+The progression can be summarised as follows: if a wave has two of the same monster, the next wave will replace those monsters with one monster of the next higher level; e.g.: "22, 22" becomes "45", "90, 90" becomes "180", and so on. If all monsters have different levels, another Tz-Kih (22) appears. The running total of monsters is: 48 Tz-Kih (22), 40 Tz-Kek (45) [80 Tz-Kek (22)], 36 Tok-Xil (90), 34 Yt-MejKot (180), 33 Ket-Zek (360), 1 TzTok-Jad (702), 4 Yt-HurKot (108).
+
+Mathematically, the monster progression follows a [[wikipedia:Skew_binary_number_system|Skew Binary Number System]]. The monster tiers represent weights of 1, 3, 7, 15, 31, and 63. The monster weights add up to the current wave number, with the provision that only the lowest-tier monster may appear twice.
+
+The order in which you should kill the monsters is:
+
+*Tz-Kih (level 22)
+*Tok-Xil (level 90)
+*Ket-Zek (level 360)
+*Yt-MejKot (level 180)
+*Tz-Kek (level 45 and 22)
+
+'''Note:''' If there are monsters in the wave that were able to get trapped behind a rock, it is best to stay behind that rock and defeat the monsters you can access from there, before moving onto the monsters who are trapped, thus minimising the number of monsters you have to worry about at one time. The monsters are in order of appearance by wave number:
+{| class="wikitable"
+!First Wave
+!Level
+!Name
+!Hitpoints
+!Attack style
+!Max hit (approx.)
+!Notes
+|-
+|1
+|22
+|<center>[[Tz-Kih]]</center><center>[[File:Tz-Kih.png|Tz-Kih|100px]]</center>
+|10
+|[[File:Attack icon.png]] Melee
+|4
+|Despite its low Combat level, this monster is usually the player's first priority to kill, unless it is trapped behind an object or other monster. Drains [[File:Prayer icon.png]] Prayer points when in Melee range by 100% of damage done + 1 Prayer point (so it will drain at least 1 point per attack).
+|-
+|3
+|45
+|<center>[[Tz-Kek]]</center><center>[[File:Tz-Kek (level 45).png|Tzkek (45)|100px]]</center>
+|20
+|[[File:Attack icon.png]] Melee
+| 7
+| A small Melee fighter. Inflicts 1 HP of recoil damage when hit by any melee attack. The least dangerous monster in the cave, so this should be a player's lowest priority to kill. Can't hit very high and is not accurate. When it dies, two level 22 Tz-Keks take its place.
+|-
+|3
+|22
+|<center>[[Tz-Kek]]</center><center>[[File:Tz-Kek (level 22).png|100px]]</center>
+| 10
+|[[File:Attack icon.png]] Melee
+|4
+| Two of these appear when a level 45 Tz-Kek is killed; they do not have the recoil effect.
+|-
+|7
+|90 
+|<center>[[Tok-Xil]]</center><center>[[File:Tok-Xil (1).png|Tok xil|100px]]</center>
+|40
+|[[File:Ranged icon.png]] Ranged, [[File:Attack icon.png]] Melee
+|13
+|An accurate Ranged fighter that can deal devastating damage. The player's second priority to kill unless the Tz-Kih is trapped behind an object or monster. Praying against these in the early waves is advised. Later on, Prayer must be used against the Ket-Zek's Magic attacks instead, so these should be killed soon. When unable to pray against Ranged attacks, the player could walk up to Melee range to attack this monster since its Melee attacks are weaker. If Guthan's is owned, these can be dealt with very easily and without the use of Prayer.
+|-
+|15
+|180
+|<center>[[Yt-MejKot]]</center><center>[[File:Yt-MejKot (1).png|Yt-MejKot|100px]]</center>
+| 80
+|[[File:Attack icon.png]] Melee
+|31
+|A slow Melee fighter; the player's fourth priority to kill. Can easily be trapped behind a rock or a Ket-Zek, and is not much of a threat when trapped; if it does hit the player, though, it can hit high. This monster can heal itself and other monsters when attacking. 
+|-
+|31
+|360
+|<center>[[Ket-Zek]]</center><center>[[File:Ket-Zek (1).png|Ket-Zek|100px]]</center>
+|160
+|[[File:Magic icon.png]] Magic, [[File:Attack icon.png]] Melee
+|54
+|A very large and dangerous monster - the player's third priority to kill. Whenever one is alive, the player must pray against its Magic attacks. Can kill a player in a few hits if it gets the chance. Use safespots combined with Prayer to fully block their damage. When in melee range, it will use both Magic and Melee attacks. These can be used in the later waves to block the Yt-MejKots. Be very cautious, for the Ket-Zek's Melee attack is also capable of dealing very high damage.
+|-
+|-
+|63
+|702
+|<center>[[TzTok-Jad]]</center><center>[[File:TzTok-Jad.png|Jad|100px]]</center>
+|255 
+|[[File:Attack icon.png]] Melee, [[File:Magic icon.png]] Magic, [[File:Ranged icon.png]] Ranged
+|97 
+|The final boss of the Fight Cave. Uses Ranged, Magic, and Melee attacks. Almost impossible to kill without using the correct Prayers. See text for more details.
+|-
+|63
+|108
+|<center>[[Yt-HurKot]]</center><center>[[File:Yt-HurKot.png|Yt-HurKot|100px]]</center>
+|60
+|[[File:Attack icon.png]] Melee
+|14
+|Four of them appear when TzTok-Jad is at half health to heal it; these must be killed or distracted. They can heal each other or themselves when in melee range like their cousin, the Yt-MejKot. If they heal TzTok-Jad back to full health before killed, they will spawn again.
+|}
+
+===TzTok-Jad===
+[[File:Fighting TzTok-Jad.png|thumb|300px|A player fighting [[TzTok-Jad]] in the final wave of the TzHaar Fight Caves.]]
+[[TzTok-Jad]] is the final monster encountered in the Fight Cave. Examining it yields the discouraging message ''"This is going to hurt..."''. Which is very true if you enter the fight unprepared. It is one of the highest levelled monsters in all of ''Old School RuneScape'' that players can fight with conventional methods. Defeating TzTok-Jad requires persistence and determination.
+
+====General information====
+In order for one to reach TzTok-Jad, one must first fight 62 progressively tougher waves of monsters. The current wave that the player is on is shown at the beginning of each wave. TzTok-Jad himself is a level 702, huge, four-legged behemoth and uses all three sides of the [[combat triangle]] - Magic, Ranged, and Melee. TzTok-Jad will attack with Melee only when the player is adjacent to him. When the player is in melee range, TzTok-Jad will use Magic and Ranged attacks as well. If the player attacks from a distance - which is strongly recommended - TzTok-Jad will randomly alternate between Magic and Ranged attacks. During the fight, auto retaliate should only be enabled if you are not yet comfortable with efficiently switching Prayers. Even when the Yt-HurKots appear or the player gets hit, switching Prayers is the most important thing to do. If you wish to take a break before TzTok-Jad, '''do not attempt to log out on wave 62, the wave preceding Jad. If you log out after you have completed wave 62, you will spawn in the middle of the fight cave and you will only be able to do one action before he spawns.''' Instead, attempt to log out on wave 61 — finish the wave, set your quick Prayer to protect from magic, and logout. When you log back in, you will be facing two Ket-Zeks, and you will have plenty of time to prepare yourself for TzTok-Jad. Do not hit continue in the chat dialogue. Instead, turn on your quick Prayer. This will begin the wave.
+
+TzTok-Jad spawns where the orange/off-colour [[Ket-Zek]] spawned on wave 62.
+
+Another handy trick to getting a good TzTok-Jad spawn is that on wave 3, wherever the level 45 Tz-Kek spawns is where jad will spawn on wave 63. You can take advantage of this by fighting until wave 3 and look where the level 45 Tz-Kek spawns. If it's a good spawn (South of Italy rock is the best spawn) you carry on, if it doesn't spawn there, you can escape through the exit to reset back to wave 1. Don't forget to bank for supplies.
+
+===Attacks===
+[[File:TzTok-Jad Animations.mp4|thumb|350px|Jad slams his front legs to the ground for Ranged, and he rears up dangling his front legs for Magic.|autoplay|loop]]
+Survival depends on watching TzTok-Jad's movements - an emote precedes the attack, telling the player which protection Prayer to use.
+*'''Melee:''' TzTok-Jad slams his fist into the player. This is the fastest attack, but if the player stays at a distance, they should not encounter it. '''Please note that this attack has no warning for you to pray for.'''
+*'''Magic:''' TzTok-Jad will rear up, standing up straight and will begin to breathe fire after about half a second. You can hear him inhale/growl loudly, (the sound of Retribution's effect activating) while rearing up and before he actually attacks, so listen for it. Protect from Magic needs to be activated while he's rearing up as after he begins to breathe fire it will be too late, and you will be hit.
+*'''Ranged:''' TzTok-Jad slams his front legs onto the ground, and large cracks appear in the floor at his feet - the player must turn on their Prayer now. Next, a boulder will fall down on the player. The sound from this attack only occurs '''AFTER''' the hit has been registered, meaning you must have your Prayer on beforehand, it is recommended you have this Prayer on when the wave starts, as you may not be able to see Jad before it is too late. (If you hear the magic sound you can always swap Prayers.)
+
+Although somewhat slow, all of these attacks can deal immense damage; the melee and ranged attacks can hit up to 97, while the magic attacks can hit up to 95. These can easily kill lower-leveled players in a single hit, so players who do not have 98 or more Hitpoints (lower levels can still boost with [[anglerfish]] or [[saradomin brew]]s) should be mindful of their health.
+
+===Healers===
+When TzTok-Jad is down to half health, he will summon four Yt-HurKots (level 108 Melee fighters with 60 HP and tiny in comparison), which will heal him effectively causing him to regenerate endlessly until they are dealt with. In order to stop them from healing, they need to be hit once so they turn their attention to the player. Should you take too much damage from healers, you may kill them; however, make sure that none are healing him, as any killed healers will respawn when Jad reaches half health again if he was healed to full. The Yt-HurKots' Melee attacks hit up to 14, so they can kill the player, but if one has a decent Defence level and good equipment, they should not be extremely dangerous - one should always watch their health, though. Alternatively, when all of the Yt-HurKots are attacking the player, run through TzTok-Jad and they will become trapped behind him. This is not advised unless the player is experienced (technique only works if east-west or vice versa).
+
+It is '''NOT''' advised to tank the healers as each healer that is in combat with you still has the ability to heal Jad. (some people like to line the healers and only tank one; leaving only one healer able to heal Jad and simply outhitting it.) If the healers appear on the opposite side of TzTok-Jad and the player is using a ranged weapon, then it might be advisable to set the attack stance to long range, so as to ensure the player doesn't get in melee distance of TzTok-Jad when trying to hit the healers.
+
+'''Notes:'''
+*Before attacking Yt-HurKots when they appear to distract them, change [[attack style]] to [[long range]] for the Ranged weapon and avoid walking too close to TzTok-Jad and his melee attack.
+*When taking damage from TzTok-Jad, do not panic or consume a large amount of food or potions in one go. Stay calm and focused. Heal once every time he attacks while prioritising praying first.
+*Get the attention of '''all''' 4 healers without killing them; leaving even one can cause Jad to return to full health by the time it takes other three healers to be killed.
+
+===Logging out===
+It is possible to log out and save one's progress in the Fight Cave. In order to do this, the player should click the logout button '''''once'''''. The game will register that the player wants to log out, and two red messages in the chat box telling the player they will be logged out as soon as the current wave ends. The player should now kill all the monsters in the current wave after which have an opportunity to log out safely. When they next log in, they will start on the next wave. You can also logout regularly if you're not in combat for 10 seconds, or x-log if you have enough Prayer to not die before you logout completely.
+
+If the player clicks the logout button twice, or avoids all combat for 10 seconds while there are still monsters alive and then logs out, their progress will be saved, but they will have to start from the beginning of the wave they logged out on.
+
+The wave will not start immediately; however, the player will find themselves in a conversation in which the creature who waits at the entrance to the caves is telling them to get ready to fight for their life, just the same as when they first entered the caves. The wave will not begin, nor will monsters spawn, until this message disappears as a result of the player doing something. This gives the player time to go into the Prayer tab and activate the necessary Prayer, and quickly run from the centre of the room (which is where the player will be upon login) to a safespot if need be '''before''' the monsters spawn. This is usually not too dangerous although it is somewhat risky, so it is always better to stay logged in while in the caves unless absolutely necessary.
+
+==Predicting the spawn location of future waves ==
+Predicting the spawn location of monsters in future waves can shave up to five minutes off of one's time to complete the Fight Cave. A table of all possible spawn orders may be found at [[TzHaar Fight Cave/Rotations]].
+
+{{TzHaar Fight Cave}}
+[[Category:Strategies]]

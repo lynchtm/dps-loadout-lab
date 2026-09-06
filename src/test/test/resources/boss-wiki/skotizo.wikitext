@@ -1,0 +1,225 @@
+[[File:Fighting Skotizo.png|thumb|300px|A player fighting Skotizo.]]
+[[Skotizo]] is a level 321 demon located underneath the [[Catacombs of Kourend]]. His arena requires sacrificing a [[Dark totem]] to the [[Altar (Catacombs of Kourend)|Altar]] in the centre of the catacombs to enter. He is commonly killed for his high valued drops, [[Ancient shard|Ancient shards]], [[Clue scroll (hard)|Hard]] and [[Clue scroll (elite)|Elite clues]], and the [[Skotos]] pet.
+
+== Requirements ==
+
+* Access to the [[Catacombs of Kourend]]
+* A [[Dark totem]], assembled from pieces acquired as drops from monsters within the catacombs.
+
+== Suggested skills ==
+
+* {{SCP|Attack|75+}} for [[Arclight]]
+* {{SCP|Strength|75+}}
+* {{SCP|Defence|75+}}
+* {{SCP|Hitpoints|75+}}
+* {{SCP|Magic|75+}}
+
+==Transportation==
+The [[Altar (Catacombs of Kourend)|Altar]] is located in the centre of the Catacombs of Kourend. The quickest way to reach the entrance is to enter the Catacombs through [[Statue (King Rada I)|the Statue of King Rada I]] located in the [[Kourend Castle]] courtyard. This can be reached by using a [[Xeric's talisman]] via the 'Xeric's heart' option. After completion of [[Client of Kourend]], the [[Kourend Castle Teleport]] can be used.
+
+== Strategy ==
+Like all [[demon]]s, Skotizo is vulnerable to the powers of [[demonbane weapons]]. He counts as a [[Black demon|black]] or [[greater demon]] for the purposes of a [[Slayer task]].
+
+For most players, the best method available to fight Skotizo is to use ranged. Using a scorching bow over melee is a much better option. If the player can afford one, a [[twisted bow]] is also effective and can be used at distance to take no damage. Wearing [[armour]] with high [[Magic Defence]] (e.g. [[black dragonhide armour]]) while using [[Protect from Melee]] so the only source of damage is from his [[Magic]] attacks is helpful, especially without [[oathplate]] or [[Torva]], though with better gear it is slightly more efficient to use strictly melee gear and use Protect from Magic, stepping outside of melee range when not attacking. For special attacks, defence reduction with [[dragon warhammer]], [[elder maul]] or [[Bandos godsword]] is especially beneficial without best-in-slot gear, while [[burning claws]] or [[Voidwaker]] can deal high damage directly.
+
+At any time during the fight, Skotizo will randomly activate one of the four [[Awakened Altar]]s on each side of the room. For each activated altar, the player will deal less damage to him - 15% less with Arclight/Emberlight and 25% less with other weapons (up to a maximum of 60% and 100% damage reduction, respectively). When travelling to disable the Awakened Altars, the player should temporarily switch to [[Protect from Magic]], as Skotizo does not approach to use melee attacks. When an altar is deactivated, there is a cooldown of one minute before it can be reactivated.
+
+Arclight and Emberlight (but '''not''' [[Silverlight]] or [[Darklight]]) will disable an altar in one hit regardless of the player's stats and gear; this effect does not extend to the [[demonbane spells]] in the [[Arceuus spellbook]] or the [[scorching bow]]. If using the [[amulet of blood fury]], its passive effect ''can'' occur while disabling the altars, healing the player for 30 hitpoints if also using Arclight. It is advised to bring [[stamina potion]]s to save on energy when running to disable the altars. The [[toxic blowpipe]] is an effective weapon against the altars in case the player chooses not to use Arclight. 
+
+After two-thirds of Skotizo's health is depleted, he will summon three [[reanimated demon spawn]]s to his aid, and may randomly summon a [[Dark Ankou|dark ankou]] at any point while an altar is active: neither of these will pose a threat if using Protect from Melee. If the minions are slain, Skotizo may summon them again. Fighting the minions provides no benefit, so the player should instead focus on Skotizo and the altars.
+
+==Equipment==
+<tabber>
+Melee=
+{{Recommended equipment
+|style = Melee
+|head1 = {{plink|Slayer helmet (i)}} (if on task) /<br />{{plink|Oathplate helm}}
+|head2 = {{plink|Torva full helm}}
+|head3 = {{plink|Neitiznot faceguard}} ><br/>{{plink|Serpentine helm}}
+|head4 = {{plink|Blood moon helm}} ><br />{{plink|Helm of Neitiznot}}
+|head5 = {{plink|Zombie helmet}} ><br/>{{plink|Dwarven helmet}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|neck5 = {{plink|Amulet of power}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|cape3 = {{plink|Mythical cape}}
+|cape4 = {{plink|Ardougne cloak 4}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} /<br/>{{plink|Rada's blessing 3}} /<br/>{{plink|Rada's blessing 2}}
+|body1 = {{plink|Oathplate chest}} /<br/>{{plink|Masori body (f)}}{{efn|Using equipment in the body slot to boost magic defence instead of strength bonus can be helpful if protecting from melee due to Skotizo's accurate magic attack.|name=magedef}}
+|body2 = {{plink|Torva platebody}} /<br />{{plink|Karil's leathertop}}{{efn|name=magedef}}
+|body3 = {{plink|Bandos chestplate}} /<br/>{{plink|Fighter torso}} /<br/> {{plink|Blood moon chestplate}}
+|body4 = {{plink|Obsidian platebody}} /<br/>{{plink|Blessed body|pic=Ancient d'hide body}}
+|body5 = {{plink|Elite void top}} /<br/>{{plink|Void knight top}} ><br/>{{plink|Black d'hide body}}
+|legs1 = {{plink|Oathplate legs}} ><br />{{plink|Torva platelegs}}
+|legs2 = {{plink|Bandos tassets}} /<br/> {{plink|Blood moon tassets}}
+|legs3 = {{plink|Obsidian platelegs}}
+|legs4 = {{plink|Elite void robe}} /<br/>{{plink|Void knight robe}}
+|legs5 = {{plink|Karil's leatherskirt}} /<br/>{{plink|Blessed chaps|pic=Ancient chaps}} /<br/>{{plink|Black d'hide chaps}}
+|weapon1 = {{plink|Emberlight}}
+|weapon2 = {{plink|Arclight}}
+|shield1 = {{plink|Avernic defender}}
+|shield2 = {{plink|Dragon defender}}
+|shield3 = {{plink|Dragonfire shield}}
+|shield4 = {{plink|Rune defender}}
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Rune gloves}}
+|hands4 = {{plink|Regen bracelet}}
+|hands5 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Dragon boots}} /<br/>{{plink|Spiked manacles}}
+|feet4 = {{plink|Guardian boots}}
+|feet5 = {{plink|Mixed hide boots}} /<br/>{{plink|Rune boots}} /<br/>{{plink|Climbing boots}}
+|ring1 = {{plink|Ultor ring}}
+|ring2 = {{plink|Bellator ring}}{{efn|In some loadouts, bellator can outperform ultor, but the lost strength bonus with Arclight/Emberlight scaling is usually detrimental.}}
+|ring3 = {{plink|Berserker ring (i)}}
+|ring4 = {{plink|Brimstone ring}}
+|ring5 = {{plink|Ring of shadows}}
+|special1 = {{plink|Dragon claws}} /<br />{{plink|Burning claws}}
+|special2 = {{plink|Voidwaker}}
+|special3 = {{plink|Elder maul}}{{efn|Consider bringing gear that boosts crush accuracy for the special attack.|name=crush}} > {{plink|Bandos godsword}}
+|special4 = {{plink|Emberlight}} / {{plink|Dragon warhammer}}{{efn|name=crush}}
+|special5 = {{plink|Arclight}}
+}}
+{{notelist}}
+==Inventory==
+{{Inventory
+| align = right
+| 1 = Burning claws
+| 2 = Divine super combat potion(4)
+| 3 = Prayer potion(4)
+| 4 = Prayer potion(4)
+| 5 = {{Cheap food}}
+| 6 = {{Cheap food}}
+| 7 = {{Cheap food}}
+| 8 = {{Cheap food}}
+| 9 = {{Cheap food}}
+| 10 = {{Cheap food}}
+| 11 = {{Cheap food}}
+| 12 = {{Cheap food}}
+| 13 = {{Cheap food}}
+| 14 = {{Cheap food}}
+| 15 = {{Cheap food}}
+| 16 = {{Cheap food}}
+| 17 = {{Cheap food}}
+| 18 = {{Cheap food}}
+| 19 = {{Cheap food}}
+| 20 = {{Cheap food}}
+| 21 = {{Cheap food}}
+| 22 = {{Cheap food}}
+| 23 = {{Cheap food}}
+| 24 = {{Cheap food}}
+| 25 = Teleport to house (tablet)
+| 26 = Stamina potion(4)
+| 27 = {{Cheap food}}
+| 28 = Dark totem
+}}
+
+*[[Divine super combat potion(4)]] or [[Super set]]
+*Special attack weapon
+*2-3 [[Prayer potion (4)]]
+*[[Stamina potion]] (optional)
+*Emergency [[teleport]]
+*[[Dark totem]]
+*The rest of your inventory should be [[shark]]s or better
+|-|
+Ranged=
+Ranging is recommended over melee with a [[twisted bow]] if the player does not own [[Emberlight]]. Other ranged weapons are less effective than [[Arclight]]/Emberlight, but may alternatively be used by [[pure]]s or to take no damage from Skotizo's melee attacks. As most viable special attack options are melee, it is recommended to bring some equipment to boost their effectiveness.
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}} (if on task) /<br />{{plink|Masori mask (f)}}
+|head2 = {{plink|Armadyl helmet}}
+|head3 = {{plink|Crystal helm}} (with [[Bow of Faerdhinen]])
+|head4 = {{plink|Blessed coif|pic=Ancient coif}}
+|head5 = {{plink|Void ranger helm}} (if using [[Void Knight equipment|void]])
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}}
+|cape3 = {{plink|Ava's accumulator}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Armadyl chestplate}} /<br />{{plink|Crystal body}} (with [[Bow of Faerdhinen]])
+|body3 = {{plink|Blessed body|pic=Ancient d'hide body}} /<br />{{plink|Black d'hide body}}
+|body4 = {{plink|Elite void top}} /<br />{{plink|Void knight top}} (if using void)
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Armadyl chainskirt}} /<br />{{plink|Crystal legs}} (with [[Bow of Faerdhinen]])
+|legs3 = {{plink|Blessed chaps|pic=Ancient chaps}} /<br />{{plink|Black d'hide chaps}}
+|legs4 = {{plink|Elite void robe}} /<br />{{plink|Void knight robe}} (if using void)
+|weapon1 = {{plink|Twisted bow}}
+|weapon2 = {{plink|Scorching bow}}
+|weapon3 = {{plink|Bow of Faerdhinen}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Black d'hide vambraces}} /<br />{{plink|Ranger gloves}} /<br />{{plink|Void knight gloves}} (if using void)
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Pegasian boots}}
+|feet3 = {{plink|Ranger boots}} ><br />{{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet4 = {{plink|Aranea boots}}
+|ring1 = {{plink|Venator ring}}
+|ring2 = {{plink|Archers ring (i)}}
+|ring3 = {{plink|Brimstone ring}}
+|ring4 = {{plink|Ring of the gods (i)}} /<br />{{plink|Ring of suffering (i)}}
+|ammo1 = {{plink|Dragon arrow}}
+|ammo2 = {{plink|Amethyst arrow}}
+|ammo3 = {{plink|Rune arrow}}
+|ammo4 = {{plink|Rada's blessing|pic=Rada's blessing 4}} ><br />{{plink|God blessing|pic=Peaceful blessing}} (if using bow of Faerdhinen/quiver)
+|special1 = {{plink|Voidwaker}} /<br />{{plink|Burning claws}}
+|special2 = {{plink|Elder maul}}
+|special3 = {{plink|Bandos godsword}}
+|special4 = {{plink|Dragon warhammer}}
+|special5 = {{plink|Emberlight}} ><br />{{plink|Arclight}}
+}}
+
+==Inventory==
+{{Inventory
+| align = right
+| 1 = Elder maul
+| 2 = Divine bastion potion(4)
+| 3 = Prayer potion(4)
+| 4 = Prayer potion(4)
+| 5 = Arclight
+| 6 = {{Cheap food}}
+| 7 = {{Cheap food}}
+| 8 = {{Cheap food}}
+| 9 = {{Cheap food}}
+| 10 = {{Cheap food}}
+| 11 = {{Cheap food}}
+| 12 = {{Cheap food}}
+| 13 = {{Cheap food}}
+| 14 = {{Cheap food}}
+| 15 = {{Cheap food}}
+| 16 = {{Cheap food}}
+| 17 = {{Cheap food}}
+| 18 = {{Cheap food}}
+| 19 = {{Cheap food}}
+| 20 = {{Cheap food}}
+| 21 = {{Cheap food}}
+| 22 = {{Cheap food}}
+| 23 = {{Cheap food}}
+| 24 = {{Cheap food}}
+| 25 = Teleport to house (tablet)
+| 26 = Stamina potion(4)
+| 27 = {{Cheap food}}
+| 28 = Dark totem
+}}
+
+*[[Divine bastion potion(4)]]
+*Special attack weapon (optionally, gear to increase its effectiveness)
+*[[Arclight]]/[[Emberlight]] to destroy altars
+*2-3 [[Prayer potion (4)]]
+*[[Stamina potion]] (optional, but recommended when using arclight as more altars will be activated)
+*Emergency [[teleport]]
+*[[Dark totem]]
+*Xeric's talisman (or another method of transportation to the catacombs)
+*The rest of your inventory should be [[shark]]s or better
+</tabber>
+
+[[Category:Strategies]]
+[[Category:Demons]]

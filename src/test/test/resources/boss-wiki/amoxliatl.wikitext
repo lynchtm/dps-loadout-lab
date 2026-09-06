@@ -1,0 +1,153 @@
+[[File:Fighting Amoxliatl.png|thumb|300px|The player fights Amoxliatl, the guardian of Tapoyauik.]]
+After completion of [[The Heart of Darkness]], players can fight [[Amoxliatl]] as a regular boss encounter within the [[Ruins of Tapoyauik]], albeit slightly stronger than when fought during the quest.
+
+==Recommendations==
+* Level {{SCP|Attack|60}} or higher
+* Level {{SCP|Strength|60}} or higher
+* Level {{SCP|Defence|60}} or higher
+* Level {{SCP|Hitpoints|60}} or higher
+* Level {{SCP|Prayer|37}} for [[Protect from Magic]]
+* Level {{SCP|Hunter|85}} or higher if wishing to barehand [[moonlight moth]]s for [[Prayer]] restoration (75 with an equipped [[butterfly net]])
+
+==Transportation==
+The two easiest ways to reach the [[Ruins of Tapoyauik]] include:
+* [[Pendant of Ates]] - Teleport to the Twilight Temple statue outside the Tower of Ascension after activating it.
+* [[Quetzal Transport System]] - Travel to the [[Salvager Overlook]] and head south-east towards the Twilight Temple (after building landing site) or travel to [[Quetzacalli Gorge]] and pass the large gate.
+
+By returning to the chamber with the statues and murals within Tapoyauik, players can use the [[lift platform]] in the centre (which appears after completion of the quest) to ascend to the [[Tower of Ascension]]. This unlocks a permanent shortcut which allows quick access to Amoxliatl.
+
+==Fight overview==
+Amoxliatl uses three different attacks. Her standard magic attack summons ice spikes on the player's current tile and around the arena. [[Protect from Magic]] will protect against the initial attack, but the ice spikes additionally deal typeless damage. Finally, an icy pool will be left on the tile where the player was originally standing on that will deal 6-10 damage per tick. 
+
+After every 2-4 standard attacks, Amoxliatl will use one of two special attacks. Her initial choice is random, but she will alternate between the two afterwards. The only exception is if the player is standing in the 3-tile wide pathway leading up to her main platform when she chooses her next special attack. If so, Amoxilatl will not have space to use Unstable Ice and will exclusively use Icicle Crash.
+* '''Unstable Ice''' - 1-4 blocks of [[unstable ice]] are launched near the player, indicated by the game message {{mes|Amoxliatl forms some unstable ice blocks around you.|colour=#00e6e6}}. If not destroyed within 15 ticks (9 seconds), all remaining ice blocks will shatter, causing icy pools to form within 3x3 of where they were, and healing the boss (16-25) for each block shattered. The unstable ice blocks can only be destroyed with melee, and melee attacks against them will result in a max hit with an attack speed of 1. After destroying an ice block, the player may eat a piece of food without incurring the normal attack delay, should they need to heal.
+** It is possible to hit Amoxliatl and unstable ice with the same swing of a [[Scythe of Vitur]], capitalising on the increased attack speed to do extra damage to the boss while also not incurring additional delay for the first regular attack after the final ice block is destroyed.
+* '''Icicle Crash''': Amoxliatl will first disable all the player's active prayers before launching an icicle attack directly toward the player, dealing up to 34 damage (which can be negated by reactivating Protect from Magic). This attack is indicated by the game message {{mes|Amoxliatl disables your prayers and launches an icicle attack!|colour=#ff3045}}
+
+A good tip for the fight is to run to any two tiles from wherever they are standing after Amoxliatl begins her standard attack to drag her forward, then attack her again to stand on a new non-icy tile. Players comfortable dodging ice spikes in confined spaces may also choose to drag Amoxilatl to the pathway leading to her main platform so she can only use her Icicle Crash special attack: this may speed up kills slightly by reducing the time spent destroying Unstable Ice blocks. 
+
+<gallery mode="packed" heights="300" style="text-align:left">
+Amoxliatl - stepping back movement.mp4|The player steps two tiles back to drag Amoxliatl and resume attacking on a non-icy tile.
+Amoxliatl - unstable ice.mp4|Melee weapons will damage unstable ice blocks without an attack cooldown.
+</gallery>
+
+After the fight, players can leave the boss room and refill their prayer points by catching [[moonlight moth]]s just outside, with the required hunter level. Doing so can reduce supplies used and frequency of banking by taking the place of prayer-restoring items such as [[prayer potion]]s.
+
+==Equipment==
+The boss has -2 [[flat armour]] and is weak to crush, so it is recommended to use a crush weapon that deals damage with multiple hitsplats such as the [[scythe of Vitur]], [[dual macuahuitl]], or [[glacial temotli]]. [[Torag's hammers]] are not recommended, as their slower attack speed means that they perform worse than a [[dragon mace]] and [[dragon defender]], assuming all other gear is equivalent.
+
+Given the relatively low defence of the boss, strength bonus should be prioritised.
+
+Although the boss has a 30% [[elemental weakness]] to fire, it is better to take melee as the [[unstable ice]]  can only take damage from melee sources. This means taking [[Thrall|thralls]] is recommended.
+
+{{Recommended equipment
+| align = left
+| style = Melee
+| head1 = {{plink|Slayer helmet (i)}}{{efn|When on a lesser nagua slayer task|name=slay}} /<br/>{{Plink|Inquisitor's great helm}} ><br/>{{Plink|Torva full helm}}
+| head2 = {{plink|Blood moon helm}}{{efn|Best used with the full [[Blood moon armour]] set and [[Dual macuahuitl]]|name=Blood moon}}
+| head3 = {{Plink|Neitiznot faceguard}}
+| head4 = {{plink|Zombie helmet}} /<br/>{{Plink|Helm of Neitiznot}}
+| head5 = {{plink|Dwarven helmet}} /<br/>{{Plink|Berserker helm}}
+| neck1 = {{plink|Amulet of rancour}}
+| neck2 = {{plink|Amulet of torture}}
+| neck3 = {{plink|Amulet of fury}}
+| neck4 = {{plink|Amulet of strength}}
+| neck5 = {{plink|Amulet of glory}}
+| cape1 = {{plink|Infernal cape}}
+| cape2 = {{plink|Fire cape}}
+| cape3 = {{plink|Mythical cape}}
+| cape4 = {{plink|Ardougne cloak 4}} /<br/>{{plink|Mixed hide cape}}
+| cape5 = {{Plink|Cape of accomplishment|pic=Strength cape(t)}}
+| body1 = {{Plink|Inquisitor's hauberk}} ><br/>{{Plink|Oathplate chest}}{{efn|When using [[Scythe of Vitur]]|name=scythe}} ><br/>{{Plink|Torva platebody}}
+| body2 = {{Plink|Blood moon chestplate}}{{efn|name=Blood moon}}
+| body3 = {{Plink|Bandos chestplate}} /<br>{{Plink|Fighter torso}}
+| body4 = {{plink|Obsidian platebody}} /<br/>{{plink|Proselyte hauberk}}
+| body5 = {{plink|Monk's robe top}}
+| legs1 = {{Plink|Inquisitor's plateskirt}} ><br/>{{Plink|Oathplate legs}}{{efn|name=scythe}} ><br/>{{Plink|Torva platelegs}}
+| legs2 = {{Plink|Blood moon tassets}}{{efn|name=Blood moon}}
+| legs3 = {{Plink|Bandos tassets}}
+| legs4 = {{Plink|Obsidian platelegs}} /<br/>{{plink|Proselyte cuisse}}
+| legs5 = {{plink|Monk's robe}}
+| weapon1 = {{plink|Scythe of Vitur}}{{efn|Set to slash unless using at least 2 pieces of [[Inquisitor's armour]], then use crush|name=inqscy}}
+| weapon2 = {{plink|Dual macuahuitl}}{{efn|When used with full blood moon set}} /<br/>{{plink|Inquisitor's mace}}{{efn|When used with [[Inquisitor's armour]], and max strength gear, performs slightly better than [[Blood moon armour]] and [[Dual macuahuitl]]}} <!-- 11.520 dps vs 11.048, respectively -->
+| weapon3 = {{plink|Soulreaper axe}}{{efn|name=crush}} ><br>{{plink|Abyssal bludgeon}} ><br>{{plink|Dual macuahuitl}}{{efn|When used without full blood moon set}} ><br>{{plink|Ursine chainmace (u)}} ><br>{{Plink|Zamorakian hasta}}{{efn|name=crush}}
+| weapon4 = {{plink|Sarachnis cudgel}} ><br/>{{plink|Glacial temotli}} ><br/>{{plink|Ghrazi rapier}} ><br/>{{plink|Saradomin sword}}{{efn|name=crush}}
+| weapon5 = {{plink|Zombie axe}}{{efn|Set to crush|name=crush}} /<br/>{{plink|Dragon mace}}
+| shield1 = {{plink|Avernic defender}}
+| shield2 = {{plink|Dragon defender}}
+| shield3 = {{plink|Rune defender}}
+| shield4 = {{plink|Dragonfire shield}}
+| shield5 = {{plink|Adamant defender}} /<br/>{{Plink|Toktz-ket-xil}}
+| hands1 = {{Plink|Ferocious gloves}}
+| hands2 = {{Plink|Barrows gloves}}
+| hands3 = {{Plink|Dragon gloves}}
+| hands4 = {{Plink|Rune gloves}}
+| hands5 = {{Plink|Combat bracelet|pic=Combat bracelet(4)}}
+| feet1 = {{plink|Avernic treads (max)}}
+| feet2 = {{Plink|Primordial boots}}
+| feet3 = {{Plink|Aranea boots}} /<br>{{Plink|Dragon boots}} /<br>{{Plink|Spiked manacles}}
+| feet4 = {{Plink|Echo boots}} /<br>{{Plink|Guardian boots}} /<br>{{Plink|Granite boots}}
+| feet5 = {{plink|Mixed hide boots}} /<br/>{{plink|Rune boots}} /<br/>{{plink|Climbing boots}}
+| ring1 = {{Plink|Ultor ring}}
+| ring2 = {{Plink|Berserker ring (i)}}
+| ring3 = {{Plink|Lightbearer}}
+| ring4 = {{Plink|Tyrannical ring (i)}}
+| ring5 = {{plink|Ring of shadows}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|Rada's blessing 3}} /<br>{{plink|Rada's blessing 2}} /<br>{{plink|God blessing|pic=Peaceful blessing}}
+| special1 = {{plink|Dragon claws}}
+| special2 = {{plink|Crimson kisten}} /<br/>{{plink|Burning claws}}
+| special3 = {{plink|Bandos godsword}} /<br/>{{plink|Voidwaker}}
+| special4 = {{plink|Dragon dagger}} /<br/>{{plink|Arkan blade}}
+| special5 = {{plink|Saradomin godsword}}{{efn|Use on [[Unstable ice]] for a guaranteed max hit}}
+}}
+{{notelist}}
+
+==Inventory==
+{{Inventory
+|align = right
+|1 = Burning claws
+|2 = Divine super combat potion(4)
+|3 = Prayer potion(4)
+|4 = Prayer potion(4)
+|5 = Prayer potion(4)
+|6 = Prayer potion(4)
+|7 = Prayer potion(4)
+|8 = Prayer potion(4)
+|9 = Prayer potion(4)
+|10 = Prayer potion(4)
+|11 = Prayer potion(4)
+|12 = Cooked karambwan
+|13 = Cooked karambwan
+|14 = Cooked karambwan
+|15 = Cooked karambwan
+|16 = Cooked karambwan
+|17 = Cooked karambwan
+|23 = Soul rune
+|24 = Ectoplasmator
+|25 = Pendant of Ates
+|26 = Book of the Dead
+|27 = Divine rune pouch
+|28 = Teleport to house (tablet)
+}}
+{{Rune pouch
+| align = right
+| 1 = Fire rune
+| 2 = Blood rune
+| 3 = Cosmic rune
+| 4 = Death rune
+}}
+*[[Special attack]] weapon (e.g. [[burning claws]] or [[dragon dagger]])
+*1 [[divine super combat potion]]
+*Many [[Prayer potion]]s or [[Super restore|Super restores]]
+** Prayer can also be restored by catching [[moonlight moth]]s outside of Amoxliatl's chamber, albeit more slowly
+*[[Manta ray]] or other food ([[monkfish]], [[shark]], etc.)
+**All of Amoxliatl's damage is theoretically avoidable, so experienced players may opt to only bring a few food in case of emergency. Players with lower damage may need more food as the fight will last longer and have less available damage-free floor space.
+** A cheap but decent-healing food such as [[potato with cheese]].
+* [[Ectoplasmator]] to receive Prayer experience each kill
+*[[Pendant of Ates]] for teleporting to the [[Twilight Temple]]
+*[[Book of the Dead]] for casting resurrection spells on the [[Arceuus spellbook]]
+*[[Rune pouch]] and runes for [[Thrall]] spells and [[Death charge]]
+*[[Teleport to house (tablet)|House tablets]] (or [[construct. cape]]/[[max cape]]) or [[desert amulet 4]]
+
+[[Category:Strategies]]

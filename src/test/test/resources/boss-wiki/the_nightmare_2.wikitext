@@ -1,0 +1,377 @@
+[[Phosani's Nightmare]] is a solo boss located in the [[Sisterhood Sanctuary]], a dungeon beneath [[Slepe]] in [[Morytania]]. It is the stronger version of [[the Nightmare]].
+
+Players can initiate the fight by entering the [[Pool of Nightmares]] which is located north of The Nightmare's arena on a raised area. As a solo instanced fight, players do not need to hop worlds.
+
+Phosani's Nightmare awakens in 10 seconds upon entering the instance, compared to 30 at the original. After she is defeated, players can continue fighting her by disturbing her again.
+
+Unlike most other bosses, players who die fighting Phosani's Nightmare are sent back outside to the Pool of Nightmares, and [[Sister Senga]] acts as an [[Item Retrieval Service]] for this purpose. Reclaims cost {{Coins|60000}} regardless of the equipment's value or amount of kills completed.
+
+==Requirements==
+*Completion of {{SCP|Quest}} [[Priest in Peril]] to access [[Morytania]].
+
+==Recommendations==
+*High [[combat]] stats. Although not required, see the skill levels below for an indication of the advised stats:
+**Level {{SCP|Attack|95}} or higher
+**Level {{SCP|Strength|95}} or higher
+**Level {{SCP|Defence|85}} or higher
+**Level {{SCP|Magic|95}} or higher
+**Level {{SCP|Hitpoints|95}} or higher
+**Level {{SCP|Prayer|70}} or higher
+*Completion of {{SCP|Quest}} [[A Taste of Hope]] for the [[Drakan's Medallion]], which is the quickest teleportation method.
+**Alternatively, completion of {{SCP|Quest}} [[Ghosts Ahoy]] for the [[ectophial]], which is the second quickest teleportation method.
+
+==Transportation==
+The five quickest methods of reaching [[Slepe]], where Phosani's Nightmare resides, are (from fastest to slowest):
+*Teleporting directly to Slepe via [[Drakan's medallion]] after unlocking this teleport via [[Slepey tablet]], which is a drop from Phosani's Nightmare.
+*Teleporting to the [[Morytania Spider Cave]] with a [[spider cave teleport]] and running east to Slepe
+*Teleporting to [[Hallowed Sepulchre]] using a [[Hallowed crystal shard]], then running east to Slepe via an agility shortcut that requires 63 [[Agility]] and installing two [[Long rope]]s
+*Teleporting to [[Ver Sinhaza]] via [[Drakan's medallion]], then running north. Once players pass the small dock, run east to arrive at Slepe.
+*Using the [[Ectophial]] to teleport to the [[Ectofuntus]], then heading north to the small dock and paying [[Andras]] 10,000 coins to row to Slepe. The player will arrive at a dock just south-west of Slepe.
+
+==Mechanics==
+Phosani's Nightmare shares the same combat stats with the original, despite having a higher combat level.
+
+The fight is divided into four phases; three normal phases with a shield value of 400 and a final phase consisting of 150 hitpoints, along with four totems in the first three phases with a charge value of 200 (100 if maging).
+
+The total amount of physical damage needed is 1,350, while totem charges needed are 2,400 (1,200 if maging); a total of 2,550 damage is required.
+
+===Standard attacks===
+[[File:The Nightmare - attacks.mp4|thumb|400px|A player correctly praying against the Nightmare's attacks.|autoplay|loop]]
+Unlike the normal Nightmare, praying against the attacks of Phosani's Nightmare will fully block damage. However, the attacks deal significantly increased damage in return if not protected against, with both the ranged and magic having a maximum hit of 80 and melee a maximum of 73.
+*[[Ranged]] attack: Phosani's Nightmare will contort herself and shoot out projectiles toward players; having game sounds enabled will help as this attack performs a loud clicking sound per contortion. Players have '''3 ticks''' (1.8s) to react with [[Protect from Missiles]].
+*[[Magic]] attack: Phosani's Nightmare will flail to the side surrounding herself with pink flower petals, then spin back shooting the petals toward players. Players have '''3 ticks''' (1.8s) to react with [[Protect from Magic]].
+*[[Melee]] attack: Phosani's Nightmare will charge her claws and quickly scrapes the area in front of her. Players have '''2 ticks''' (1.2s) to react with [[Protect from Melee]]. This attack will always hit regardless of the player's defensive bonuses if not protected against. The attack can also be avoided by walking one tile away from her just before the claws rise up.
+
+===Special attacks===
+Each phase will have three special attacks. This will always consist of one "spawn" (husk or parasite), one paired with Grasping Claws (Corpse Flowers or Spores), and one miscellaneous special attack (Curse or Surge). Below are four possible sets of special attacks:
+
+* '''A1''': Spore/Husks/Curse
+* '''A2''': Spore/Husks/Surge
+* '''B1''': Flowers/Parasite/Curse
+* '''B2''': Flowers/Parasite/Surge
+
+The first phase picks a random set (A or B), then every following phase alternates between the A and B sets, but randomly picks between 1 and 2. For example, a special attack set will go as follows: A1, B2, A2.
+
+The Nightmare '''will''' expend all special attacks first before she may use them again, and both the spawning mechanic and claw-accompanying mechanic cannot be used in consecutive phases.
+* '''Sleepwalkers:''' At the end of the first three phases, Phosani's Nightmare will summon [[Sleepwalker (Phosani's Nightmare)|sleepwalkers]] that walk toward her, the number of which is dependent upon which phase the player is on, up to four at the end of phase three.
+** Sleepwalkers have 10 health, but players will deal their maximum hit on them and always hit regardless of bonuses. The number of sleepwalkers that reach her will determine how strong her power blast will be. If no sleepwalkers are killed, the resulting blast will always kill the player.
+[[File:The Nightmare - husks.mp4|thumb|400px|The Nightmare summons a pair of husks.]]
+* '''Husks:''' Phosani's Nightmare spawns two [[Husk (Phosani's Nightmare)|husks]] around the player. The player will be frozen in place until the husks are killed. The blue, skinny husk uses magic attacks, while the green, bulky husk uses ranged attacks.
+** Phosani's Nightmare will not spawn Grasping Claws portals under players frozen by the husks. '''However, if the player is under Phosani's Nightmare while frozen by husks, they will still take damage'''. Additionally, any weapon on its crush attack style will always land as a [[maximum hit]] on the husks.
+** To fully avoid damage from husks, kill the ranged husk first during phases 1 and 2. The magic husk will hit before the Nightmare does, whereas the ranged husk will hit on the same tick as the Nightmare.
+** During phase 3, if the Nightmare uses melee, the magic husk must be killed first, as damage will register on the same tick.
+* '''Spores:''' Puffshroom-like objects spawn around the arena. Standing within 1 tile of one will cause it to explode, causing the player to become weary; their run is disabled, their attack speed is lowered by 2 ticks, and every yawn will also drain prayer by 6 points. Accompanied by '''Grasping Claws''', the attack will occur before or after husks appear.
+* '''Parasites:''' Phosani's Nightmare impregnates the player with a [[parasite (Phosani's Nightmare)|parasite]]. After ~18 ticks (10.8s), it will grow and burst out of the player, dealing massive damage, and will then begin healing Phosani's Nightmare until killed. 
+** Drinking a dose of [[Sanfew serum]] or [[Relicym's balm]] before it emerges will weaken the parasite and greatly reduce the damage taken when the parasite bursts out; like with husks, any weapon on its crush attack style will always hit as a maximum hit against a weakened parasite. Players may click the [[Minimap|Hitpoints Orb]] to weaken the Parasite instead of clicking the potion within their inventory as well.
+[[File:The Nightmare - corpse flowers.mp4|thumb|400px|The Nightmare's Corpse Flower attack, followed by her Grasping Claws attack.]]
+*'''Corpse Flowers:''' Phosani's Nightmare will divide the room into four equal quadrants with lines of flowers. One quadrant will be safe as indicated with white '''nightmare flowers''', while the remaining quadrants are unsafe as indicated with red '''nightmare berries'''. Accompanied by '''Grasping Claws''', the attack will occur before or after the parasite appears.
+** If the player is in the incorrect quadrant, they will take rapid damage that heals the boss for twice the amount inflicted, and any attacks that would damage the boss will instead heal her.
+
+The following special attacks are used randomly throughout all phases.
+* '''Grasping Claws:''' Phosani's Nightmare will spawn a black portal underneath her, and numerous smaller "end" portals before sticking her claws inside. If the player stands on '''any''' portal, they will take up 50-65 damage. Simply move into a tile free of a black portal to avoid damage. Compared to the normal fight, Grasping Claws is significantly more clumped around the player, as well as being used several times in succession instead of once.
+** This attack is used randomly throughout the fight, and is also performed for the entirety of the '''Corpse Flowers''' and '''Spores''' attacks. Lastly, it is used indefinitely during her desperation phase.
+*'''Curse:''' A pink glow fills the player's screen and protection prayers are shuffled to the right. Using [[Protect from Melee]] will instead activate [[Protect from Magic]], Protect from Magic activates [[Protect from Missiles]], and Protect from Missiles activates Protect from Melee. After 5 attacks, the curse is lifted.
+*'''Surge:''' Phosani's Nightmare will teleport to one of the four edges of the room, then immediately surge across to the opposite side, dealing up to ~80 damage if caught in her path. Move out of the way to avoid taking damage.
+*'''Prayer Deactivation:''' Only during phase three, Phosani's Nightmare will deactivate the player's protection prayer if they have the correct prayer active before the attack animation starts.
+
+==Fight overview==
+Before heading to the boss, eat an [[anglerfish]] to overheal. If the player does not have the teleport to the [[Sisterhood Sanctuary]] with [[Drakan's medallion]] (via [[slepey tablet]], acquired from the boss), it is '''required''' that players sip a [[stamina potion]] before leaving the bank, as their run energy will deplete before even reaching the sanctuary. If the player has the teleport unlocked, a stamina dose is not necessary.
+
+The fight plays out very similarly to the original, though much faster. Phosani's Nightmare is significantly more punishing when a mistake is made, as its auto-attacks have the capability to kill players in two hits. Food that can heal 22 (ideally anglerfish for its overhealing capability) is recommended for mistakes and chip damage taken during the fight. Unlike the original, an [[amulet of blood fury]] is not mandatory, as an ideal kill will only see minor chip damage, dealt through phase transitions and parasites. Generally without a [[saradomin godsword]], up to three mistakes are allowed, after which the fourth one will likely kill the player when accounting for the best loadout.
+
+When using a weapon on its crush setting, the player will be guaranteed a maximum hit on both husks and weakened parasites. When using a 5-tick or slower weapon such as a [[scythe of Vitur]], a [[goblin paint cannon]] or [[ham joint]] swap is generally encouraged due to their 3-tick attack speed. If using an 4-tick weapon such as an [[inquisitor's mace]], this is not necessary. For parasites, the player must have a minimum of 118 [[Strength]], a strength bonus of 160 or more and [[piety]] in order to one-hit weakened parasites. A godsword swap requires piety and a four-way swap of the weapon, cape, amulet and gloves. If the parasite is not weakened, the damage it deals to the player will be added onto its base health, and the player will not be able to land maximum hits on it even with crush weapons. An elder maul will not need any swaps, but the strength level and piety must be maintained.
+[[File:Phosani's Nightmare - corner rifting.mp4|thumb|400px|A player demonstrates the corner rifting technique, using audio cues to time their movements.]]
+Learning players will likely struggle against the Grasping Claws, as a late reaction by even a tick will deal heavy damage, and it also has the capability to kill players in two hits. It is important to quickly locate safe tiles; learners should prioritise dodging the pools over attacking the boss, as a few mistakes will quickly kill the player. A more advanced strategy is to "corner rift"; this method requires the player to stand underneath the Nightmare by the corners of her collision box, as standing anywhere else will result in damage. The player must quickly step out of the boss before the next set of pools form, or one will form in the corner. This allows players to maintain a cadence while minimising tick loss from not attacking the boss.
+
+Before using Flower Power or Spores,{{Fact}} the Nightmare will have a slight delay before actually using the attack alongside Grasping Claws. She will always teleport to the centre of the arena when performing these attacks.
+
+As with the original fight, there are three iterations of Flower Power. Assuming she is not moved from the centre, two of these layouts will not require the player to move her. Some particular layouts will have spores diagonally across from her, which requires luring her away from the centre as they will severely restrict movement. If the player is tick perfect, they can move her two tiles south to corner rift; if the boss only moves one tile due to late reactions, corner rifting is still not possible but the area east and south of the boss can be used to dodge rifts.
+
+At the end of each phase, the Nightmare will spawn a corresponding amount of [[Sleepwalker (Phosani's Nightmare)|sleepwalkers]] while charging up an attack. This attack will '''always''' deal 149 damage if no sleepwalkers are killed. Killing a sleepwalker will reduce the damage appropriately to the amount of sleepwalkers present; e.g with 4 sleepwalkers, each sleepwalker killed will reduce the blast damage by 36. If all sleepwalkers are killed before they reach the boss, the blast will deal 5 damage instead. Sleepwalker control can be dealt with using [[blisterwood stake]]s or a [[toxic blowpipe]] on the [[rapid]] style, but quick reactions must be maintained to avoid leaks.
+
+{| class="wikitable"
+|+Damage taken at the end of a phase
+!
+!0 unkilled
+!1 unkilled
+!2 unkilled
+!3 unkilled
+!4 unkilled
+|-
+|2 Sleepwalkers
+|5
+|77
+|149
+|N/A
+|N/A
+|-
+|3 Sleepwalkers
+|5
+|53
+|101
+|149
+|N/A
+|-
+|4 Sleepwalkers
+|5
+|41
+|77
+|113
+|149
+|}
+
+=== Phases 1-2 ===
+The first two phases are very much like the regular encounter except the special attacks can be used randomly in any of these phases.
+
+As the player progresses through the phases, sleepwalkers will spawn in to reach the Nightmare. Two will spawn at the end of phase 1 and an additional will spawn at the end of the phase.
+
+=== Phase 3 ===
+Phosani's Nightmare will deactivate the player's protection prayers as soon as she starts her attack animation. Since the attacks have a slight delay and only deal damage upon being launched, this is mostly to keep players vigilant. She will also have a much higher chance of using melee attacks during this time, so players should prioritise activating Protect from Melee (or Ranged if Curse is active).
+
+To avoid damage from husks during the phase, players should not have any overhead prayers active before they appear. Once the husks appear, pray magic, as both the Nightmare and the magic husk will attack on the same tick (although the magic husk will hit first). If the player prays against magic and the Nightmare uses a magic attack, the magic husk will likely hit the player. Even if the Nightmare uses melee, players can still flick against all three enemies at once by praying against magic, then melee and finally ranged within 1 tick of each other from the first prayer.
+
+For sleepwalker control in this phase, players using a short ranged weapon like blisterwood stakes should stand next to one corner of the arena, as a sleepwalker is guaranteed to spawn on either side of the pillar. If using a bow, stand in the middle. Unlike the previous phase, there is a slight delay before the sleepwalkers start moving. '''In order to avoid damage from sleepwalkers, the player must kill at least two sleepwalkers before this delay lifts.'''
+
+===Desperation phase===
+[[File:Phosani's Nightmare - desperation phase.mp4|thumb|450px|Mastering corner rifting, unleashing special attacks at the end, and having Redemption active, can mean the difference between finishing the fight and dying.<br/><br/>Here, the player fails to kill the last sleepwalker, and has run out of food and prayer potions. However, having Redemption active allowed them to take one more power blast and finish off the fight by the skin of their teeth.]]
+Phosani's Nightmare will survive the final blast, and teleport to the centre of the arena. Lashing out to survive, she will unleash a desperate last stand by indefinitely using '''Grasping Claws''', while sleepwalkers continuously spawn from the edges of the arena. Mastering the corner rifting technique will make this phase less hectic.
+
+Unlike the previous sleepwalkers, these will only deal 15 damage upon reaching the Nightmare, with a short delay. The first sleepwalker that spawns will deal damage ~20 ticks after spawning, allowing for four attacks with a four or five-tick weapon before this occurs. Focusing on ending the fight instead of dealing with the sleepwalkers is crucial.
+
+Before the phase starts, the player should fully restore their health, ensure their melee stats are boosted, and their special attack energy is full. Although not necessary, standing underneath the boss before the phase starts will usually allow the player to dodge the first set of rifts. Immediately dump special attacks on the Nightmare to quickly damage her, if available. [[Redemption]], although not needed, can be very useful in this phase if low on supplies or if the phase takes longer than usual.
+
+The strongest special attack weapon to use is the [[crimson kisten]], as it is very likely to hit and generally deals more damage on average compared to a [[voidwaker]]. Voidwaker is still strong for players who don't have a kisten, due to its guaranteed accuracy. If neither are available, [[dragon claws]] can perform relatively well despite the boss's high Slash defence, and finally, the [[Granite maul (ornate handle)|ornate granite maul]]. While the maul should be better than dragon claws, it does require proper timing to avoid unnecessary tick delay.
+
+===Hallowfell===
+
+Utilizing the [[Hallowfell]] to its full potential takes some planning to avoid the 1/6 bad husk spawn and 1/4 bad parasite spawn chances. The same trick will work for both situations; when standing next to a wall or against a corner, she cannot spawn either husk or parasite in a location that the Hallowfell will fail to provide area-of-effect damage. However, it is important to note that to effectively move the boss the player needs to be moving in between attacks or waiting for '''Surge''', as both the magic and ranged auto-attacks have a rather lengthy animation that roots her in place.
+
+<gallery mode="packed" heights="250" style="text-align:left">
+Hallowfell Good Spawn.gif|An example of a good husk spawn in the middle of the room.
+Hallowfell Corner Trap.gif|An example of a husk corner trap to avoid a bad spawn. 
+Hallowfell Parasite.gif|An example of a good parasite corner trap to avoid a bad spawn.
+</gallery>
+
+==Equipment==
+Note that Phosani's Nightmare is not [[undead]], therefore items such as [[Salve amulet]] will have no effect on her.
+<tabber>
+Melee=
+
+{{Recommended equipment
+| style = Melee
+| align = left
+| buttons = No
+| head1 = {{plink|Inquisitor's great helm}}
+| head2 = {{plink|Torva full helm}}
+| head3 = {{plink|Neitiznot faceguard}} /<br />{{plink|Zombie helmet}}{{efn|Beats faceguard when using [[Scythe of Vitur]] or [[Soulreaper axe]]. Otherwise, only better than higher strength bonus options when it does not lose a max hit.|name=zombie helm}}
+| head4 = {{plink|Blood moon helm}}{{efn|While using [[Dual macuahuitl]].}}
+| neck1 = {{plink|Amulet of rancour}}
+| neck2 = {{plink|Amulet of torture}}
+| neck3 = {{plink|Amulet of blood fury}}
+| neck4 = {{plink|Amulet of fury}}
+| cape1 = {{plink|Infernal cape}}
+| cape2 = {{plink|Fire cape}} /<br />{{plink|Mythical cape}}
+| body1 = {{plink|Inquisitor's hauberk}}
+| body2 = {{plink|Torva platebody}}
+| body3 = {{plink|Bandos chestplate}} /<br/>{{plink|Blood moon chestplate}} /<br />{{plink|Fighter torso}}
+| legs1 = {{plink|Inquisitor's plateskirt}}
+| legs2 = {{plink|Torva platelegs}}
+| legs3 = {{plink|Bandos tassets}} /<br />{{plink|Blood moon tassets}}
+| weapon1 = {{plink|Scythe of Vitur}}{{efn|On crush|name=crush}} ><br />{{plink|Inquisitor's mace}}
+| weapon2 = {{plink|Soulreaper axe}}{{efn|name=crush}}
+| weapon3 = {{plink|Abyssal bludgeon}}
+| weapon4 = {{plink|Dual macuahuitl}}{{efn|On crush|name=crush}}{{efn|With full [[Blood moon armour]].}}
+| shield1 = {{plink|Avernic defender}}
+| shield2 = {{plink|Dragon defender}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|Rada's blessing 3}} /<br />{{plink|God blessing|pic=Peaceful blessing}}
+| hands1 = {{plink|Ferocious gloves}}
+| hands2 = {{plink|Barrows gloves}}
+| feet1 = {{plink|Avernic treads (max)}}
+| feet2 = {{plink|Primordial boots}}
+| feet3 = {{plink|Dragon boots}}
+| ring1 = {{plink|Ultor ring}} > {{plink|Lightbearer}}{{efn|Lightbearer is less beneficial with a scythe, where the lost strength bonus incur more of a penalty to DPS, or when not using a Voidwaker. Alternatively, it can be taken only as a switch for the totem phase.}}
+| ring2 = {{plink|Berserker ring (i)}}
+| ring3 = {{plink|Brimstone ring}}{{efn|The passive effect and magic attack bonus do not make a meaningful difference, as the [[Totem (Phosani's Nightmare)|Totems]] possess no stats.}} > {{plink|Berserker ring}} 
+| special1 = {{plink|Crimson kisten}}
+| special2 = {{plink|Voidwaker}}
+| special3 = {{plink|Granite maul (ornate handle)}}{{efn|With at least two [[Inquisitor's armour]] pieces|name=inquisitor}} /<br />{{plink|Burning claws}}{{efn|On stab}}
+| special4 = {{plink|Dragon claws}}
+}}
+{{Recommended equipment
+| style = Husks
+| weapon1 = {{plink|Hallowfell}}{{efn|On crush|name=crush}} / {{plink|Dinh's bulwark}}{{efn|Must use special attack energy to hit both husks|name=spec}}
+| weapon2 = {{plink|Ham joint}} / {{plink|Goblin paint cannon}}
+| weapon3 = {{plink|Saradomin godsword}}{{efn|name=crush}}{{efn|Can guarantee a max hit special attack for increased prayer and hitpoints.|name=sgs}} / {{plink|Dragon 2h sword}}{{efn|name=crush}}{{efn|name=spec}}
+}}
+{{Recommended equipment
+| style = Parasites
+| weapon1 = {{plink|Hallowfell}}{{efn|On crush|name=crush}} / {{plink|Inquisitor's mace}}{{efn|Can max 55 HP for the parasite|name=parasite}}
+| weapon2 = {{plink|Zombie axe}}{{efn|name=parasite}}
+| weapon3 = {{plink|Saradomin godsword}}{{efn|name=crush}}{{efn|Can guarantee a max hit special attack for increased prayer and hitpoints.}}
+}}
+{{notelist}}
+|-|
+Mage=
+As the [[Totem (Phosani's Nightmare)|Totems]] possess no stats, magic accuracy is not beneficial. Prioritise adding as many magic damage switches as possible, as all magic damage is increased significantly. If an item only adds accuracy without increasing your max hit, it is not worth bringing. Consider using a DPS calculator or the [[combat dummy]] to see if an item gives you a max hit in your specific gear.
+
+Eye of Ayak and Tumeken's shadow share a similar damage output in spite of their different attack speeds and max hit when both are using the same gear, boosts and prayers; the max hit of a shadow is 70, whereas an eye of Ayak has a max hit of 44 (when accounting for a [[Elidinis' ward (f)|fortified Elidinis ward]]) The only notable difference is the long range style; long range Ayak has a range of 8, while the shadow has a range of 10. This difference is most appreciated during '''Flower Power''', as the ayak can only hit the pillar diagonally across from the safe zone while under the boss, whereas the shadow can safely attack without running under.
+
+{{Recommended equipment
+|style = Mage
+|head1 = {{plink|Ancestral hat}}
+|head2 = {{plink|Virtus mask}}
+|neck1 = {{plink|Occult necklace}}
+|neck2 = {{plink|Elemental amulet}}{{efn|Only if using Fire Surge}}
+|cape1 = {{plink|Imbued god cape|pic=Imbued Saradomin cape}}
+|body1 = {{plink|Ancestral robe top}}
+|body2 = {{plink|Virtus robe top}}
+|legs1 = {{plink|Ancestral robe bottom}}
+|legs2 = {{plink|Virtus robe bottom}}
+|weapon1 = {{plink|Eye of Ayak}} /<br />{{plink|Tumeken's shadow}}
+|weapon2 = {{plink|Harmonised Nightmare staff}}{{efn|For casting Fire Surge. Best with [[searing page]]s (or [[sunfire rune]]s).|name=fire}}
+|weapon3 = {{plink|Sanguinesti staff}} ><br />{{plink|Trident of the Swamp}}
+|shield1 = {{plink|Tome of Fire}}{{efn|name=fire}}
+|shield2 = {{plink|Elidinis' ward (f)}}
+|shield3 = {{plink|Arcane spirit shield}} / {{plink|Elidinis' ward}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Rada's blessing 3}} / {{plink|God blessing|pic=Peaceful blessing}}
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Eternal boots}}{{efn|Usually only grants max hits with a [[Tumeken's shadow]]|name=shadow}}
+|ring1 = {{plink|Magus ring}} /<br />{{plink|Lightbearer}}
+|ring2 = {{plink|Seers ring (i)}}{{efn|Increases max hit only in certain setups|name=seers}}
+}}
+{{notelist}}
+</tabber>
+
+<tabber>
+High level = 
+When using best-in-slot gear, players should have a fairly simple phase. It usually common to have one or two parasites spawn during the fight (depending on which mechanic starts first) and is less common to have none or three spawn for an entire fight. One 4-dose sanfew serum is more than enough for a single kill.
+{{Equipment
+| buttons = No
+| head = Inquisitor's great helm
+| cape = Infernal cape
+| neck = Amulet of rancour
+| ammo = Rada's blessing 4
+| weapon = Scythe of Vitur
+| torso = Inquisitor's hauberk
+| legs = Inquisitor's plateskirt
+| gloves = Ferocious gloves
+| boots = Avernic treads (max)
+| ring = Ultor ring
+}}
+
+{{Inventory
+|Tumeken's shadow|Ancestral hat|Ancestral robe top|Ancestral robe bottom
+|Occult necklace|Confliction gauntlets|Imbued Saradomin cape|Magus ring
+|Blisterwood stake|Crimson kisten|Hallowfell
+|Ham joint|Prayer potion|Prayer potion|Sanfew serum
+|Divine super combat potion|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Anglerfish|Anglerfish|Surge potion(4)|Book of the Dead
+|Saturated heart|Divine rune pouch|Drakan's medallion|Teleport to house (tablet)
+}}
+
+{{Rune pouch
+| 1 = Aether rune
+| 2 = Blood rune
+| 3 = Fire rune
+| 4 = Death rune
+}}
+|-|
+Entry level =
+
+
+{{Equipment
+| buttons = No
+| head = Neitiznot faceguard
+| cape = Mythical cape
+| neck = Amulet of blood fury
+| ammo = Rada's blessing 3
+| weapon = Abyssal bludgeon
+| torso = Fighter torso
+| legs = Blood moon tassets
+| gloves = Ferocious gloves
+| boots = Dragon boots
+| ring = Berserker ring (i)
+}}
+
+{{Inventory
+|Trident of the Swamp|Tormented bracelet|Blisterwood stake|Crimson kisten
+|Occult necklace|Imbued Saradomin cape|Divine super combat potion|Prayer potion
+|Prayer potion|Prayer potion|Sanfew serum|Anglerfish
+|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Book of the Dead|Divine rune pouch|Drakan's medallion|Teleport to house (tablet)
+}}
+
+{{Rune pouch
+| 1 = Aether rune
+| 2 = Blood rune
+| 3 = Fire rune
+| 4 = Death rune
+}}
+|-|
+Budget =
+While the fight has a low amount of guaranteed chip damage, the increased length caused by lower end gear can create more opportunity for mistakes. Additionally, more than 4 parasites can spawn throughout the fight if the player is unlucky. An additional Sanfew serum is taken because of this. If more supplies are needed, the [[Teleport to house (tablet)]] can be exchanged for another Prayer potion, or more food. It is recommended to save enough special attack energy for three uses of the [[Burning claws]] during the enrage phase.
+
+{{Equipment
+| buttons = No
+| head = Blood moon helm
+| cape = Mythical cape
+| neck = Amulet of fury
+| ammo = Rada's blessing 3
+| weapon = Dual macuahuitl
+| torso = Blood moon chestplate
+| legs = Blood moon tassets
+| gloves = Barrows gloves
+| boots = Dragon boots
+| ring = Berserker ring (i)
+}}
+
+{{Inventory
+|Trident of the Swamp|Blisterwood stake|Burning claws|Occult necklace
+|Imbued Saradomin cape|Super combat potion|Prayer potion|Prayer potion
+|Prayer potion|Sanfew serum|Sanfew serum|Anglerfish
+|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Anglerfish|Anglerfish|Anglerfish|Anglerfish
+|Book of the Dead|Rune pouch|Drakan's medallion|Teleport to house (tablet)
+}}
+
+{{Rune pouch
+| 1 = Cosmic rune
+| 2 = Blood rune
+| 3 = Fire rune
+}}
+</tabber>
+
+* Upgrades to melee gear should be prioritised over magic upgrades, due to the emphasis on melee combat. Less experienced players can substitute some magic gear for extra supplies.
+* Although the [[Scythe of Vitur]] can deal more damage, it is less accurate and requires charges ({{NoCoins|{{GEP|Blood rune|2}}+{{GEP|Vial of blood|0.01}}|c}} per attack), which increases supply costs.
+** The [[inquisitor's mace]] has a similar damage output when worn alongside [[inquisitor's armour]], and does not require charges. With a high enough strength bonus from other item slots, the player can potentially negate the need to bring a strong two-handed crush weapon to one-shot parasites.
+** Overall, it is up to the player to decide which weapon they prefer; the scythe is more consistent for speed-based [[Combat Achievements]].
+* Aether runes as a combination of [[soul rune|soul]] and [[cosmic rune]]s. If not using, bring soul runes on the side.
+* The [[Crimson kisten]] has the strongest special attack for boss damage. The granite maul is an alternative budget-friendly option if using inquisitor's armour, as long as the player is comfortable swapping to it and using its special attacks in between regular weapon hits.
+* The [[Hallowfell]] (on crush) is the best weapon to kill Husks and Parasites. There is a 1/6 chance husks can spawn front to back requiring 2 hits to kill. In this situation, a [[Ham joint]] to hit the rear husk, then the hallowfell to hit nightmare with splash damage to the DDed husk can be used. In regards to the parasite, try to have the nightmare and parasite near each other, so that the splash damage hitting the parasite damages nightmare. 
+* An [[elder maul]] or godsword (on crush) can be used to kill parasites in one hit. With high enough strength bonus, the mace is also capable of this, but it is less convenient to do a full melee switch when the parasite spawns on pillar phase. [[Saradomin godsword]] can double as a special attack weapon and helping cover some mistakes due to guaranteed max hits on crush, additionally including its special attack.
+* If using a [[powered staff]] for totems, an [[imbued heart|imbued]] or [[saturated heart]] should be used. The heart should not be brought if using [[Fire Surge]].
+* If using thralls, the [[ghostly thrall]] should be summoned as they benefit from doubled damage against totems. Focus on one totem at a time, otherwise the thrall will waste a lot of time moving between them.
+* For killing the sleepwalkers, a weapon with long range, fast attack speed and fast [[projectile speed]] is highly recommended. [[Blisterwood stakes]] are cheaper and more efficient at sleepwalker clearing than a toxic blowpipe, sharing the same attack speed but with +1 range. These require partial completion of [[The Blood Moon Rises]] to the point where the player learns how to make them.
+* An [[amulet of blood fury]] can be useful for learners, but shouldn't be relied on, due to extremely high damage from off-prayer hits or special attacks.
+* A [[surge potion]] can be used for additional special attacks throughout the fight. Following changes on [[25 June]] [[2025]], the player will not be able to maintain 100% special attack energy for the final phase when using special attacks readily; as such, a surge potion helps offset some of this.
+* [[Dinh's bulwark]]'s special attack can one-shot both Husks simultaneously.
+{{Clear}}
+
+==Tips and tricks==
+*During the last Grasping Claws after a Spore special attack, the rifts will never spawn on where a spore was, so the player can safely move to one of those tiles without the concern of being hit.
+*Be sure to have 100% special attack energy at the start of the final phase, as it is imperative to kill the boss quickly during this phase.
+*With lightbearer and double Death Charge (unlocked by reading the [[rite of vile transference]] from [[Yama]]), the player can spec twice per shield phase and twice in enrage.
+*Keep in mind that in order to one-hit both husks and parasites, your max hit has to equal or be above their health (20 and 55 HP respectively). In order to guarantee a one-hit kill, make sure you are wearing your melee gear, praying Piety, and boosted by your combat potion. In this fashion, a Goblin paint cannon or Ham joint will not be able to kill the parasite seeing as the max hit will never be above 30. For this reason, a higher-hitting weapon must be used for the parasite.
+**Save enough special attack energy to one-hit parasites with a [[dragon mace#special attack|dragon mace]] or [[Saradomin godsword#Special attack|saradomin godsword]] with minimum gear, also helpful for completing [[Crush Hour]] Combat Achievement.
+*Defence-reducing attacks can lower the boss's Defence level from 150 to a minimum of 120, and she recovers drained levels every 3 seconds (5 ticks) instead of every minute. Thus, she will always recover any drained defence levels within 90 seconds. However, because of the high crush accuracy of the [[Dragon warhammer#Special attack|dragon warhammer]] and [[Elder maul#Special attack|elder maul]], their special attacks can still be beneficial in combination with other damage-dealing specs for players with worse than [[Phosani's Nightmare/Strategies#Entry level|entry level gear]] who aren't using [[Voidwaker#Special attack|voidwaker]].
+**When using this strategy, it's best to wait until 100% special attack energy before reducing her Defence, ideally before a husk or parasite special so that [[Death Charge]] can allow for additional specials while her defence is lowered. [[Surge potion]]s can also be used for extra specs during this window, but are best used only if the 5-minute cooldown between doses will expire before her desperation phase.
+
+{{The Nightmare}}
+[[Category:Strategies]]
