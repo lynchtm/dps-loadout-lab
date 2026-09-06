@@ -45,3 +45,40 @@ Local modifications (September 5, 2026): scenario editor, independent loadouts, 
 profile storage, manual provenance, searches, distributions and graphs, client event/thread
 changes, reflection/Lombok removal, RuneLite Gson compatibility, validation and regression tests.
 The imported code was modified; it is not an unchanged copy of the native upstream payload.
+
+## Wiki equipment setup components
+
+The pure Wiki equipment/inventory/example parsers, item-name resolver, ownership and
+inventory recommendation helpers, associated tests and original page fixtures are adapted
+from Jiimbones, Wiki Gear Setups, BSD 2-Clause:
+https://github.com/Jiimbones/wiki-gear-setups/tree/e836b8d156f0f5f9b7e6375bb04c52f21835ac19
+(reviewed September 5, 2026). Copyright (c) 2026 Jiimbones. The full BSD notice is retained
+in each adapted Java file and in src/main/resources/META-INF/LICENSE-wiki-gear-setups.
+Local adaptations remove Lombok, preserve stack quantities/noted annotations and connect
+pure resolutions to independent DPS drafts; the reference plugin itself is not required.
+Bank layout positioning and use of core Bank Tags APIs were informed by that project.
+
+Wiki page fixtures and user-requested template data are attributed to OSRS Wiki contributors
+under the Wiki's applicable content license, CC BY-NC-SA 3.0:
+https://oldschool.runescape.wiki/w/RuneScape:Copyrights . The added Nechryael fixture is
+https://oldschool.runescape.wiki/w/Slayer_task/Nechryael?oldid=15330350
+(retrieved September 5, 2026). Imported drafts retain their source page and revision.
+These equipment guides are separate from the pinned calculation engine/reference data.
+
+Araxxor strategy regression fixture: OSRS Wiki contributors, CC BY-NC-SA 3.0,
+https://oldschool.runescape.wiki/w/Araxxor/Strategies?oldid=15322538
+(retrieved September 6, 2026). Preserved to test full-loadout/inventory pairing when a
+separate araxyte weapon recommendation occurs earlier on the page.
+
+Collection Log boss audit corpus (retrieved September 6, 2026): OSRS Wiki contributors,
+CC BY-NC-SA 3.0. `src/test/resources/boss-wiki/manifest.json` identifies all 61 page titles,
+revision IDs and source SHA-256 hashes. Each source is available at
+https://oldschool.runescape.wiki/w/<title>?oldid=<revision>. The catalog is derived from
+https://oldschool.runescape.wiki/w/Collection_log?oldid=15330455 (57 Bosses entries).
+Captured public search results cover 33 component NPC names as well as encounter names.
+These fixtures are development/test data and are not included in the plugin JAR.
+
+The offline test item-name snapshot comes from RuneLite's public cache export,
+https://static.runelite.net/cache/item/names.json (retrieved September 6, 2026).
+Item names originate from Jagex game data. The audit report records its SHA-256;
+this snapshot is a test aid, not a replacement for client item definitions.
