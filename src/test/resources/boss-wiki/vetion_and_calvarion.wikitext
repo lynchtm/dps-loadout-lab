@@ -1,0 +1,235 @@
+[[File:Fighting Vet'ion.png|thumb|300px|A group of players fighting Vet'ion.]]
+'''{{Colour|red|Warning}}:''' [[Vet'ion]] resides in a [[multi-way]] area in moderately high-level [[Wilderness]]. Completion of the medium [[Wilderness Diary]] is required to fight Vet'ion.
+
+You may be attacked at any time during the fight, and death is all but guaranteed in any deep wilderness [[multicombat area]]. '''Do not''' bring any items that you are not willing to lose. Some untradeable items like the [[Dragon defender]] will become [[(broken)|broken]] or [[(mangled)|mangled]], requiring you to pay to repair them if they are not protected on death or protected with a [[trouver parchment]].
+
+==Transportation==
+[[Vet'ion]] resides in [[Vet'ion's Rest]], the entrance of which is located just north of the [[Bone Yard]]. There is a small building where he originally roamed before his rework where the player may drop into his chambers, requiring a fee of 50,000 coins to enter which can be taken from the bank. This fee decreases by 10,000 for every kill for the player who deals the most damage. The fee is not required again on subsequent trips unless killed by another player.
+
+To get there quickly, you can:
+
+*Teleport to the level 40 [[Revenant Caves]] entrance with a [[Revenant cave teleport]], then run south-east.
+*Teleport to [[Carralanger teleport|Carralanger]] with a [[Carrallanger teleport (tablet)|tablet]] or your PoH portal, then run north-east.
+*Teleport to [[Annakarl]] with a [[Annakarl teleport (tablet)|tablet]] or your PoH portal, then run south-west.
+*Teleport to the [[Wilderness Obelisk]] at level 35 wildy from outside [[Ferox Enclave]] or your PoH, then run east.
+*Teleport to the [[Corporeal Beast's Lair]] with a [[Games necklace]] or your PoH, then exit the cave and run north.
+*Teleport to the [[Black chinchompa (Hunter)|black chinchompa]] hunting ground with level 99 [[Hunter]] and a [[hunter cape]], then run east. NOTE: as [[Vet'ion's Rest]] lies beyond level 20 Wilderness, you will LOSE your cape on death.
+*Ride a [[waka canoe]] up to the [[Wilderness pond]] from any [[canoe]] station with 57 [[Woodcutting]] and any type of [[axe]], then run east.
+
+==Suggested skills==
+
+*{{SCP|Attack|70+}}
+*{{SCP|Strength|70+}}
+*{{SCP|Defence|70+}} 
+*{{SCP|Hitpoints|75+}} 
+*{{SCP|Prayer|70+}} (for [[Piety]], highly recommended)
+
+==Attacks and abilities==
+[[Vet'ion]] has several attacks and abilities:
+*[[Magic]] attack: Five bolts of lightning strike various tiles across the arena, much like the [[Grotesque Guardians]]' lightning attack. Each lightning bolt deals damage in a 3x3 area, but any tile that is about to be struck glows, giving players the chance to dodge the attack. When soloing, one bolt will always target the player's tile or an adjacent tile, while four more will target random tiles around the arena. In groups, one bolt will appear for every player in the chamber, capped at seven. Being caught in its AoE will deal light damage, while being directly on a strike will deal higher damage.
+*Hellhounds: Upon reaching half health, Vet'ion will summon two [[Skeleton Hellhound (Vet'ion)|skeletal hellhounds]] to attack players. They attack with melee, so activate [[Protect from Melee]] when they spawn or keep it active during the fight. They will provide him with complete damage immunity while present. He will do the same again in his enraged form. 
+*Shield Bash: Vet'ion will raise his shield to bash an area in front or around and underneath him; shadows will appear forewarning the AoE of the attack. If the player doesn't move out of range, they'll take up to 35 damage and be unable to attack for the next 4.8 seconds. This attack is only used when in melee distance.
+*Enraged Form: Upon losing all health in his first form, Vet'ion will summon orange lightning bolts (which share his standard lightning bolts' 3x3 area damage) in a circle around him and restore his health to full. In his second form, the hellhound mechanic is repeated, but he will die after losing all of his health in this form.
+
+==Strategies==
+While [[Vet'ion]]'s stats were not changed following the [[25 January]] [[2023]] rework, Vet'ion has the highest defensive capabilities of the three bosses. However, his negative crush defence of -10 makes him fairly easy to hit.
+
+Since all of Vet'ion's attacks are '''AoE''' it is possible to avoid all damage from his attacks - meaning it is possible to logout or hop worlds during the fight to avoid player killers if you haven't taken any damage 10 seconds prior. This will eject the player outside his arena into the [[Escape Caves]]. The shield bash is the only major concern due to its larger AoE, but is still otherwise easy to dodge as the attack is signalled by a slight delay from his regular attacks.
+
+When Vet'ion reaches '''50%''' of his health in either form he will summon [[Skeleton Hellhound (Vet'ion)|Skeletal Hellhounds]] during his first and [[Greater Skeleton Hellhound (Vet'ion)|Greater Skeletal Hellhounds]] in his second phase to assist him in battle. The hellhounds will channel immunity to Vet'ion until they are killed. While they deal '''powerful''' '''melee''' hits, they are not durable, with both the normal and greater versions only having 30 health. Vet'ion will gain 90% damage resistance after falling below half health, so it is not possible to skip the hellhounds.
+
+Upon reaching 0 health in his standard form, he will charge up lightning around him as he yells that the player has to defeat him a second time. This can be avoided by being far enough from him or standing under him in his middle tiles. Vet'ion will restore his health to full, restore any drained stats, increase his max hit and attack speed from a 6 tick cycle to 5 ticks.
+
+As Vet'ion will move towards a player between his attacks, the player can draw him towards the exit to his arena and keep him there for the majority of the time. This is fairly easy to set up in small teams and for solo players and enables a faster escape, as getting frozen in the middle of the room will likely result in death from both player killers and Vet'ion's attacks.
+
+Unlike his lesser counterpart [[Calvar'ion]], Vet'ion resides in a [[Multicombat area]] and in level 35 Wilderness, so teleports cannot be used to directly escape player killers. The only chance a player has to escape is by running out the exit, which will take them into the Escape Caves where they must navigate their way to an exit. The Escape Caves are full of aggressive monsters, such as [[Grizzly bear]]s and [[poison spider]]s, so antipoison is recommended. It is recommended to leave a "scout" outside, giving the player an early warning and can sometimes cause other players to ignore whoever is inside. 
+
+In the event you are targeted by player killers and are leaving via the escape caves, the fastest exit to level 30 Wilderness for a teleport is the southern exit from the caves. However, the north-eastern exit is preferrable for players confident in their ability to tank a single PKer to level 30 wilderness or for the duration of a [[Tele Block]], as teams may wait at the southern entrance to attack players.
+
+==Equipment==
+'''Always keep risk to a minimum in the Wilderness!''' - Whenever gearing, check your [[Items Kept on Death]] and enable "Wilderness beyond level 20" to make sure important items will not be lost.
+
+The most effective equipment to fight Vet'ion involves a large amount of risk by using items that can be protected with [[Trouver parchment]]s, but most players should opt for cheaper setups until they are confident in their ability to handle PKers. The [[Ursine chainmace]] is by far the most effective weapon against Vet'ion, but comes with additional risk as it must be charged with [[Revenant ether]]. Players should choose three (or four, with [[Protect item]] if you are confident you can mitigate the risk of being [[Smite]]d) valuable with the most strength bonus possible compared to cheaper alternatives.
+
+Note: The benefit from [[Salve amulet (e)]] does not stack with a [[Slayer helmet]]. As Salve amulets are free and kept on death below Level 20 Wilderness they should always be prioritised. 
+
+{{Recommended equipment
+| style = Melee
+| head1 = {{plink|Helm of Neitiznot}} > <br/>{{plink|Berserker helm}}
+| head2 = {{plink|Dwarven helmet}}
+| neck1 = {{plink|Salve amulet (e)}}
+| neck2 = {{plink|Salve amulet}}
+| neck3 = {{plink|Amulet of strength}}
+| neck4 = {{plink|Amulet of glory}}
+| neck5 = {{plink|Amulet of power}}
+| body1 = {{plink|Fighter torso}}{{efn|Has an additional [[(broken)#PvP breakable items|repair fee]] if not a protected item in a PVP death|name=break}}+{{plinkp|Trouver parchment}}{{efn|<big>'''ITEM WILL BE LOST'''</big> above 20 wilderness to a PVP death unless locked with a [[trouver parchment]] at [[Perdu]]. Adds an additional 500,000 GP to repair|name=trouver}}
+| body2 = {{plink|Black d'hide body}} / {{plink|Mixed hide top}}{{efn|name=maxhit|If the player doesn't gain a max hit, the Black d'hide body is superior. Use the DPS calculator to decide}}
+| body3 = {{plink|Proselyte hauberk}}
+| body4 = {{plink|Monk's robe top}}
+| legs1 = {{plink|Black d'hide chaps}}
+| legs2 = {{plink|Proselyte cuisse}} / {{plink|Proselyte tasset}}
+| legs3 = {{plink|Monk's robe}}
+| ammo1 = {{plink|Rada's blessing 4}}
+| ammo2 = {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}} / {{plink|God blessing|pic=Peaceful blessing}}
+| feet5 = {{plink|Fremennik sea boots 4}}
+| ring1 = {{plink|Ultor ring}}
+| ring2 = {{plink|Berserker ring (i)}}
+| ring3 = {{plink|Ring of shadows}}
+| ring4 = {{plink|Ring of wealth (i)}}{{efn|name=roi|Can be brought alongside ultor/berserker and equipped before Vet'ion's death animation finishes, and replaces any other lvl 30 teleport}}
+| special1 = {{plink|Elder maul}}{{efn|name=spec|Only if this is your mainhand weapon}}
+| special2 = {{plink|Abyssal bludgeon}}{{efn|name=spec}}
+| special3 = {{plink|Dragon mace}}{{efn|name=spec}}
+| bucket = y
+| cape1 = {{plink|Infernal cape}}{{efn|name=break}}+{{plinkp|Trouver parchment}}{{efn|name=trouver}}
+| cape2 = {{plink|Mythical cape}} /  {{plink|Fire cape}}{{efn|name=break}}
+| cape3 = {{plink|Mixed hide cape}}
+| cape4 = {{plink|Ardougne cloak|pic=Ardougne cloak 4}}
+| hands1 = {{plink|Barrows gloves}}
+| hands2 = {{plink|Rune gloves}}
+| hands3 = {{plink|Combat bracelet}}
+| feet1 = {{plink|Dragon boots}}
+| feet2 = {{plink|Mixed hide boots}} / {{plink|Rune boots}}
+| feet3 = {{plink|Climbing boots}}
+| shield1 = {{plink|Avernic defender}}{{efn|name=break}}
+| shield2 = {{plink|Dragon defender}}{{efn|name=break}}
+| shield3 = {{plink|Dragonfire shield}}
+| shield4 = {{plink|Rune defender}}{{efn|name=break}} / {{plink|Toktz-ket-xil}}
+| shield5 = {{plink|Book of War}} / {{plink|Falador shield 4}}
+| weapon1 = {{plink|Ursine chainmace}} / {{plink|Viggora's chainmace}}
+| weapon2 =  {{plink|Soulreaper axe}} > {{plink|Inquisitor's mace}}
+| weapon3 = {{plink|Abyssal bludgeon}} / {{plink|Zamorakian hasta}}{{efn|name=crush|Use the attack style that inflicts [[Crush weapons|"Crush"]] damage}} / {{plink|Zombie axe}}{{efn|name=crush}}
+| weapon4 = {{plink|Sarachnis cudgel}} / {{plink|Elder maul}} / {{plink|Dual macuahuitl}}
+| weapon5 = {{plink|Leaf-bladed battleaxe}}{{efn|name=crush}} / {{plink|Dragon mace}}
+}}
+{{notelist}}
+
+===Example setup===
+The aim is to maximise damage output while minimising risk. Choosing three items with a large amount of melee strength bonus is recommended, such as 
+the [[ultor ring]] or the [[avernic defender]], and using cheap items otherwise which can be easily replaced such as [[barrows gloves]], [[Salve amulet (e)]], and the [[helm of Neitiznot]].
+
+If on a [[skeleton]] or [[boss task]], the player can use [[bracelet of slaughter]] to extend the task. This will affect damage output, but lower the player's risk slightly.
+
+{{Equipment
+|align = right
+|head = Helm of Neitiznot
+|cape = Infernal cape
+|neck = Salve amulet (e)
+|ammo = Rada's blessing 4
+|weapon = Ursine chainmace
+|torso = Black d'hide body
+|legs = Black d'hide chaps
+|shield = Avernic defender
+|gloves = Barrows gloves
+|boots = Mixed hide boots
+|ring = Ultor ring
+}}
+====Items protected:====
+
+* [[Ultor ring]]
+* [[Ursine chainmace]]{{efn|name=mace}} / [[Viggora's chainmace]]{{efn|With around 1500 revenant ether. Do not overcharge the mace, as all charges are lost on death|name=mace}} — This adds between {{NoCoins|{{GEP|Revenant ether|1100}}}} and {{NoCoins|{{GEP|Revenant ether|1500}}}} to the value risked, as it uses [[revenant ether]] for charges. The DPS difference from [[Inquisitor's mace]] is [https://dps.osrs.wiki?id=KingdomFormMalediction significant].
+* [[Avernic defender]] 	
+* [[Infernal cape]] or [[fire cape]], with [[protect item]]. A less valuable cape, such as the [[Ardougne cape 4]] or [[mixed hide cape]] can be used if using [[Dinh's bulwark]], trading damage output for survivability.
+
+====Items lost:====
+
+* Mixed hide boots {{Coins|{{GEP|Mixed hide boots}}}} 
+* Black d'hide body{{efn|[[Mixed hide top]], if it increases the player's max hit, can be the ideal option at a cost of {{NoCoins|{{GEP|Mixed hide top}}}}, although it often reduces damage. Use the DPS calculator to determine its benefit before using.}} {{Coins|{{GEP|Black d'hide body}}}} and black d'hide chaps {{Coins|{{GEP|Black d'hide chaps}}}}
+* 1,500 Revenant ether {{Coins|{{GEP|Revenant ether|1500}}}}
+* Barrows gloves {{Coins|130,000}} — Culinaromancer's Chest (or {{Coins|104,000}} after completing the elite Lumbridge & Draynor Diary)
+* Salve amulet (e)
+* Rada's blessing 4
+* Mythical cape {{Coins|10,000}} (if using)
+* Helm of Neitiznot {{Coins|{{GEP|Helm of Neitiznot}}}}
+
+'''Total cost:''' {{Coins|(({{GEP|Mixed hide boots}}+{{GEP|Black d'hide body}}+{{GEP|Black d'hide chaps}}+{{GEP|Revenant ether|1500}}+{{GEP|Helm of Neitiznot}})+104000+10000)}} (Plus a supply cost of around {{Coins|({{GEP|Blighted super restore(4)|5}}+{{GEP|Saradomin brew(4)|5}}+{{GEP|Blighted anglerfish|10}}+{{GEP|Blighted karambwan|5}}+{{GEP|Divine super combat potion(4)}}+{{GEP|Revenant cave teleport}}+{{GEP|Sanfew serum(4)|1}})}})
+----
+{{notelist}}
+
+==Inventory==
+{{Inventory
+|align = right
+|1 = Looting bag
+|2 = Royal seed pod
+|3 = Divine super combat potion(4)
+|4 = Revenant cave teleport
+|5 = Blighted super restore(4)
+|6 = Blighted super restore(4)
+|7 = Blighted super restore(4)
+|8 = Sanfew serum(4)
+|9 = Blighted manta ray
+|10 = Blighted manta ray
+|11 = Blighted manta ray
+|12 = Saradomin brew(4)
+|13 = Blighted manta ray
+|14 = Blighted manta ray
+|15 = Blighted manta ray
+|16 = Blighted manta ray
+|17 = Blighted manta ray
+|18 = Blighted karambwan
+|19 = Blighted manta ray
+|20 = Blighted karambwan
+|21 = Blighted manta ray
+|22 = Blighted karambwan
+|23 = Blighted manta ray
+|24 = Blighted karambwan
+|25 = Blighted manta ray
+|26 = Blighted karambwan
+|27 = Blighted manta ray
+|28 = Blighted karambwan
+}}
+
+As Vet'ion is possible to defeat without taking any damage, supplies are mostly tailored to surviving PKers. Vet'ion frequently drops un-noted blighted food or potions that replace supplies used during the fight.
+
+* [[Royal seed pod]] or any other level 30 [[Wilderness]] teleport. [[Ring of wealth|Ring of wealth (5)]] can be configured to be a one-click teleport to the [[Grand Exchange]] using [[menu entry swapper]].
+* [[Divine super combat potion]]
+* 4+ [[Blighted super restores]] or [[Prayer potions]] and 1+ [[Sanfew serum]]
+* [[Saradomin brew]]s with [[blighted super restores]] for emergency food
+* [[Looting bag]] (strongly recommended, can also be obtained from [[Vet'ion]] or his summons)
+* Some form of [[antipoison]] e.g. [[Sanfew serums]] (optional, recommended, if poisoned/venomed by a PKer or inside the [[escape caves]])
+* Rest food — [[Blighted manta ray]] or [[blighted anglerfish]] at 93+ {{SCP|Hitpoints|link=no}} (optional: 2+ [[Blighted karambwan]] for [[Food/Fast foods|combo-eating]])
+* [[Stamina potion]], [[Guthix rest]] (+5% [[energy]] per dose), [[summer pie]]s (+10% energy per half) for escaping PKers —
+
+{{Inventory
+|align = right
+|1 = Rune crossbow
+|2 = Black d'hide shield 
+|3 = Royal seed pod
+|4 = Looting bag
+|5 = Dinh's bulwark
+|6 = Divine super combat potion(4)
+|7 = Stamina potion(4)
+|8 = Phoenix necklace
+|9 = Blighted super restore(4)
+|10 = Blighted anglerfish
+|11 = Saradomin brew(4)
+|12 = Blighted karambwan
+|13 = Blighted super restore(4)
+|14 = Blighted anglerfish
+|15 = Saradomin brew(4)
+|16 = Saradomin brew(4)
+|17 = Blighted super restore(4)
+|18 = Blighted anglerfish
+|19 = Saradomin brew(4)
+|20 = Blighted karambwan
+|21 = Blighted super restore(4)
+|22 = Blighted anglerfish
+|23 = Saradomin brew(4)
+|24 = Saradomin brew(4)
+|25 = Blighted super restore(4)
+|26 = Sanfew serum(4)
+|27 = Saradomin brew(4)
+|28 = Saradomin brew(4)
+}}
+
+For more advanced setups, if players are confident in their ability to tank PKers to safety and are comfortable risking more and/or staying longer, an inventory could look more like the second example. None of these are required for the boss fight and may add some risk, but can be worthwhile additions for players barely failing to escape. 
+
+* [[Dinh's bulwark]] switch — greatly increase survivability against multiple attackers 
+** Note that setting your [[Combat Options]] to defensive provides an invisble +5 level boost to your defence and also reduces non-pvp damage by 20% (with the Bulwark equipped)
+** The shield's animation will play when the wielder fails to block an incoming attack. This can alert the wielder to heal as it occurs prior to the hit landing
+* [[Phoenix necklace]] — emergency healing whilst tanking
+* [[Anti-venom]] or [[Sanfew serums]] — cures/prevents venom from the commonly used weapons such as the [[toxic staff of the dead]] or [[noxious halberd]]. The player can bring one or two doses of each to reduce total cost.
+* Consider bringing low-risk hand slot switches with high magical defence bonuses such as a [[staff of earth]] and [[red d'hide shield]] (can be brought with [[Dinh's bulwark]] for the duration of being unfrozen)
+* Alternatively bring a [[rune crossbow]] with cheap [[bolts]] instead of a staff to fight back while being frozen/entangled to force PKers to eat instead of attacking you (less effective against multiple attackers)
+
+[[Category:Strategies]]
+[[Category:Wilderness]]

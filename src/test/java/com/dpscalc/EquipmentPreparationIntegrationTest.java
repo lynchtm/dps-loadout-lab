@@ -1,20 +1,19 @@
 package com.dpscalc;
 
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
+
 import com.dpscalc.equipment.EquipmentPreparationFacade;
 import com.dpscalc.state.CombatStyle;
 import com.dpscalc.state.EquipmentSlot;
 import com.dpscalc.state.EquipmentStats;
 import com.dpscalc.state.PlayerState;
-import com.dpscalc.state.PlayerStateManager;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+
 import org.junit.Test;
 
-import java.lang.reflect.Field;
 import java.util.Arrays;
-
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
 
 public class EquipmentPreparationIntegrationTest {
     @Test
@@ -25,23 +24,35 @@ public class EquipmentPreparationIntegrationTest {
         snapshot.setEquippedItemIds(rawIds());
         snapshot.setEquippedItemNames(fixture.getEquippedItemNames().clone());
         snapshot.setCombatStyle(CombatStyle.RANGED_RAPID);
-        PlayerStateManager manager = new PlayerStateManager();
-        setField(manager, "equipmentPreparation", new EquipmentPreparationFacade());
+        EquipmentPreparationFacade equipment = new EquipmentPreparationFacade();
 
         // When
-        manager.prepareEquipment(snapshot, 415);
+        equipment.prepare(
+                snapshot,
+                equipment.loadoutFromIds(snapshot.getEquippedItemIds()),
+                snapshot.getEquippedItemNames(),
+                EquipmentPreparationFacade.context(snapshot, 415));
 
         // Then
         assertArrayEquals(fixture.getEquippedItemIds(), snapshot.getEquippedItemIds());
         assertArrayEquals(fixture.getEquippedItemVersions(), snapshot.getEquippedItemVersions());
-        assertArrayEquals(fixture.getEquippedItemCategories(), snapshot.getEquippedItemCategories());
+        assertArrayEquals(
+                fixture.getEquippedItemCategories(), snapshot.getEquippedItemCategories());
         assertEquals(fixture.getWeaponSpeed(), snapshot.getWeaponSpeed());
         assertStatsEqual(fixture.getEquipmentStats(), snapshot.getEquipmentStats());
-        boolean binaryEqual = Arrays.equals(fixture.getEquippedItemIds(), snapshot.getEquippedItemIds())
-            && fixture.getEquipmentStats().toString().equals(snapshot.getEquipmentStats().toString())
-            && fixture.getWeaponSpeed() == snapshot.getWeaponSpeed();
-        System.out.println("Bowfa+quiver+ammo fixture totals=" + fixture.getEquipmentStats()
-            + " snapshot totals=" + snapshot.getEquipmentStats() + " binaryEqual=" + binaryEqual);
+        boolean binaryEqual =
+                Arrays.equals(fixture.getEquippedItemIds(), snapshot.getEquippedItemIds())
+                        && fixture.getEquipmentStats()
+                                .toString()
+                                .equals(snapshot.getEquipmentStats().toString())
+                        && fixture.getWeaponSpeed() == snapshot.getWeaponSpeed();
+        System.out.println(
+                "Bowfa+quiver+ammo fixture totals="
+                        + fixture.getEquipmentStats()
+                        + " snapshot totals="
+                        + snapshot.getEquipmentStats()
+                        + " binaryEqual="
+                        + binaryEqual);
         assertEquals(true, binaryEqual);
     }
 
@@ -72,19 +83,14 @@ public class EquipmentPreparationIntegrationTest {
     }
 
     private static JsonObject rawPlayer() {
-        return (new JsonParser()).parse("{"
-            + "\"skills\":{\"atk\":99,\"str\":99,\"def\":99,\"ranged\":99,\"magic\":99,\"hp\":99},"
-            + "\"buffs\":{},\"style\":{\"type\":\"ranged\",\"stance\":\"Rapid\"},"
-            + "\"spell\":null,\"prayers\":[],\"equipment\":{"
-            + "\"cape\":{\"id\":28955,\"itemVars\":{}},"
-            + "\"weapon\":{\"id\":25867,\"itemVars\":{}},"
-            + "\"ammo\":{\"id\":11212,\"itemVars\":{}}}}")
-            .getAsJsonObject();
-    }
-
-    private static void setField(Object target, String name, Object value) throws Exception {
-        Field field = target.getClass().getDeclaredField(name);
-        field.setAccessible(true);
-        field.set(target, value);
+        return (new JsonParser())
+                .parse(
+                        "{\"skills\":{\"atk\":99,\"str\":99,\"def\":99,\"ranged\":99,\"magic\":99,\"hp\":99},"
+                            + "\"buffs\":{},\"style\":{\"type\":\"ranged\",\"stance\":\"Rapid\"},"
+                            + "\"spell\":null,\"prayers\":[],\"equipment\":{"
+                            + "\"cape\":{\"id\":28955,\"itemVars\":{}},"
+                            + "\"weapon\":{\"id\":25867,\"itemVars\":{}},"
+                            + "\"ammo\":{\"id\":11212,\"itemVars\":{}}}}")
+                .getAsJsonObject();
     }
 }

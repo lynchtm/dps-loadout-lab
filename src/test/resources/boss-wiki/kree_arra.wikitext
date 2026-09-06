@@ -1,0 +1,545 @@
+{{External|rs}}
+[[File:Fighting Kree'arra.png|thumb|A group of players fighting Kree'arra and his bodyguards.]]
+This is a guide to defeating [[Kree'arra]], the [[Armadyl]]-aligned general in the [[God Wars Dungeon]].
+
+As Kree'arra is airborne, regular [[melee]] attacks will not work; instead, [[Ranged]] or [[Magic]] must be used to fight him. [[Halberd]]s and [[salamander]]s are the only melee options, but due to Kree'arra's extremely high melee defence, this is not generally recommended unless using the [[soulflame horn]] in small teams.
+
+Kree'arra and his minions count toward [[aviansie]] [[Slayer tasks]]; [[Slayer helm (i)]] and [[black mask (i)]] both give the 15% accuracy and damage boost to those on task.
+
+==Requirements==
+===Quest requirements===
+*[[Death Plateau]] and [[Troll Stronghold]] to the point where you defeat [[Dad]].
+*Alternatively, [[Ghommal's hilt]] can be used to teleport to [[Trollheim]] without requiring either quest
+===Other requirements===
+*40 [[Armadyl]] Kill count in the godwars dungeon (lower with varying tiers of [[Combat Achievements]]) or an [[Ecumenical key]]
+*A [[Crossbow (weapon)|crossbow]] of any type
+*[[Mithril grapple]].
+
+==Suggested skills==
+*{{SCP|Combat|85+}} (Required, 100+ Recommended)
+*{{SCP|Ranged|70+}} (80+ Recommended)
+*{{SCP|Defence|70+}} (80+ Recommended)
+*{{SCP|Magic|92+}} ([[Blood Barrage]])
+*{{SCP|Hitpoints|70+}} (80+ Recommended)
+*{{SCP|Prayer|44+}} ([[Eagle Eye]])
+
+==Strategy==
+===General Strategy===
+When starting a trip at Kree'arra, many players prefer using an [[ecumenical key]] to skip kill count, as Armadylean kill count is very slow and requires the use of prayer. Kree'arra is also commonly killed on a [[Slayer task]] of [[Aviansie]], so skipping kill count is even more desirable in this case as the player will progress their slayer task if they kill Aviansie for kill count, reducing the overall number of Kree'arra that can be killed on-task.
+
+Kree'arra, unlike the other generals, utilises all three forms of combat. By default, he attacks with ranged and magic. The ranged attack consists of grey dust tornadoes, while the magic attack is a blue dust tornado. Kree'arra's magic attack is classified as [[ranged magic]], meaning that its accuracy rolls against the player's ranged defence bonuses, rather than magic.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/599981024366309376|date=17 May 2015|archiveurl=https://reldo.runescape.wiki/i/97969|archivedate=1 September 2023|quote=Apologies - I rechecked, and Kree's magic attack rolls its MAGIC accuracy against your RANGED defence. No idea why.}} The ranged attack can deal up to 69 damage, while his magic attack deals up to 21. Both of these attacks hit all players in the room, and can knock the player back a tile unless they are standing in the corners of the chamber. '''It is important to keep Protect from Missiles on at all times while Kree'arra is alive, or players will likely meet a swift death.'''
+
+Should Kree'arra not be targeted, he will go up to his target and swipe his talons at them, dealing up to 26 damage.
+
+Kree'arra has three bodyguards; [[Flight Kilisa]], [[Wingman Skree]] and [[Flockleader Geerin]], who use melee, magic and ranged respectively, capable of dealing up to 15, 16 and 25 damage respectively. Only Kilisa will be a threat, as Skree is generally inaccurate and the player is protected from Geerin's attacks.
+
+When killed, Kree'arra and his bodyguards will drop bones, which can be converted into peaches with [[bones to peaches (tablet)|bones to peaches tablets]]. Peaches heal for 8 health, so the player can heal for 32 health after each encounter with Kree'arra and his bodyguards. The bodyguards occasionally drop two [[manta ray]]s or three [[mushroom potato]]es, which heal for 44 and 60 health respectively. These should be juggled if inventory is full.
+
+Regardless of the method used, it is recommended to bring a staff that can autocast ancient spells to heal larger amounts after Kree'arra dies, conserving food for later kills.
+
+===Tumeken's Shadow===
+[[Tumeken's shadow]], with its [[passive effect]] enhancing powerful [[magic gear]], is the strongest weapon for conventional methods of killing Kree'arra, and it is far cheaper and more efficient than throwing chinchompas. Additionally, the combination of [[Blood barrage]] to heal off the bodyguards and the special attack of an [[Eldritch Nightmare staff]], especially with the reduced cooldown granted by the [[Lightbearer]], can allow players to remain in Kree'arra's lair indefinitely, limited only by [[runes]] and weapon charges.
+
+However, it should be noted that this strategy requires near-max magic gear. Downgrades will significantly impact kill times and trip length, due to the multiplying effect [[Tumeken's shadow]] has on the magic stat bonuses of other pieces of equipment.
+
+As ancestral armour has less defence bonuses than conventional ranged options, players will take more damage from Kree'arra's magic attacks and Kilisa. It is recommended to freeze Kilisa whenever possible and go under Kree'arra after every attack made, as he attacks on a 3 tick cycle compared to the staff's 5 tick cycle.
+
+===Chinchompas===
+Because of Kree'arra's exceptionally high defensive stats, one of the most effective ways to kill him is by dealing indirect damage using [[red chinchompa|red]] or [[black chinchompa]]s. Hitting Kree'arra directly is significantly harder compared to the other generals with most weapons. Chinchompas roll accuracy based on the player's current target; if the hit is successful, then all other monsters in range will generally take damage regardless of their Defence level and bonuses. This method is primarily preferred for players without access to strong weapons such as a [[Bow of Faerdhinen]].
+
+To utilise the chinchompa method, the player must have both targets near or directly on each other. Monsters with a size of 2x2 tiles or larger have their hitboxes placed on the south-western most tile, which is also where any items dropped upon their death will appear.
+
+'''It is important that when utilising the chinchompa method, Kree'arra must be targeted off-tick (when the player is not attacking); otherwise, he will attempt to use Melee; Medium Fuse has the same attack rate as Kree'arra.''' To achieve this, simply left-click Kree'arra after throwing a chinchompa at Flight Kilisa, and then left-click Kilisa again just before your next attack. Repeating this cycle will ensure you take no melee damage from Kree'arra during the fight.
+
+When an untouched room is entered, Kree'arra and his minions will be wandering around. Players should move to the south-western corner of the chamber to line up both Kree'arra and Kilisa. The player throws the chinchompas at Kilisa, allowing the chinchompas to damage Kree'arra in the process. Kilisa will clearly die before Kree'arra does at the start of the encounter, so switch to your crossbow or bow to kill Kree'arra while waiting for Kilisa to respawn, if she does so. On rapid, a crossbow will fire at a rate of 5 ticks (3.0 seconds), a twisted bow 5 ticks (3.0 seconds) and a bow of Faerdhinen 4 ticks (2.4 seconds), so walk under Kree'arra after every attack to reduce the frequency of his own attacks.
+
+When the room is cleared and Kree'arra respawns, when he attempts to melee the player, his hitboxes will also collide with Geerin, allowing chinchompas to be used on both of them for equal effect. The primary advantage of two chinchompa targets allows players to maintain more consistent damage, although there are also a few disadvantages in doing so; if the player's reflexes are too slow, Kree'arra will move out of the chinchompa's AoE, forcing the player to fully lure Kree'arra onto Kilisa and reducing the overall amount of health healed if Geerin does not respawn before Kree'arra dies.
+
+When Kree'arra dies, switch to your toxic blowpipe and kill off Skree. Kilisa and Geerin can be stacked for Blood Barrage, unless Kilisa is dead or on low health, in which the player should use Blood Blitz on Geerin instead. Geerin and Skree will generally attack on different ticks (as Skree spawns all the way to the east, out of visible range when standing on the western edge), allowing their attacks to be flicked. It is also possible to flick all three bodyguards' attacks if they attack on different ticks, which saves even more food.
+
+===Team===
+In team encounters, all players will take damage from Kree'arra's attacks, so there is no designated tank. Due to the extra players, chinchompas are unnecessary and players should bring their best ranged weapon.
+
+==Equipment==
+<tabber>
+Tumeken's Shadow=
+
+[[Tumeken's shadow]] is currently the only weapon capable of killing Kree'arra directly that is competitive with black chinchompas. Note that it is dramatically more effective than any other magic weapon in this encounter, dealing roughly three times as much damage as the next strongest option. As such, no other magic weapons are recommended for killing Kree'arra directly.
+
+{{Recommended equipment|style = Magic
+|head1 = {{plink|Slayer helmet (i)}}{{Efn|Only on a [[Slayer task]].}}
+|head2 = {{plink|Ancestral hat}}
+|head3 = {{plink|Virtus mask}}
+|neck1 = {{plink|Occult necklace}}
+|cape1 = {{plink|Imbued Zamorak cape}}
+|body1 = {{plink|Ancestral robe top}}
+|body2 = {{plink|Virtus robe top}}
+|legs1 = {{plink|Ancestral robe bottom}}
+|legs2 = {{plink|Virtus robe bottom}}
+|2h1 = {{plink|Tumeken's shadow}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Honourable blessing}} /<br />{{plink|Rada's blessing 3}}/[[Rada's blessing 2|2]]
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Eternal boots}}
+|ring1 = {{plink|Magus ring}} /<br />{{plink|Lightbearer}}{{Efn|Only use with a [[spec weapon]].}}
+|ring2 = {{plink|Ring of suffering (ri)}}
+|ring3 = {{plink|Seers ring (i)}}
+|special1 = {{plink|Eldritch Nightmare staff}}
+}}
+{{Notelist}}
+
+==Inventory==
+{{Inventory|align=right
+|1= Eldritch Nightmare staff
+|2= Elidinis' ward (f)
+|3= Saradomin brew(4)
+|4= Saradomin brew(4)
+|5= Anglerfish
+|6= Anglerfish
+|7= Saradomin brew(4)
+|8= Saradomin brew(4)
+|9= Anglerfish
+|10= Anglerfish
+|11= Super restore(4)
+|12= Super restore(4)
+|13= Anglerfish
+|14= Anglerfish
+|15= Super restore(4)
+|16= Super restore(4)
+|17= Anglerfish
+|18= Anglerfish
+|19= Super restore(4)
+|20= Super restore(4)
+|21= Anglerfish
+|22= Anglerfish
+|23= Bronze crossbow
+|24= Mith grapple
+|25= Saturated heart
+|26= Ecumenical key
+|27= Teleport to house (tablet)
+|28= Divine rune pouch
+}}
+
+{{Rune pouch|align=right
+|1 = Water rune
+|2 = Death rune
+|3 = Blood rune
+|4 = Soul rune
+}}
+
+* [[Eldritch Nightmare staff]] to autocast [[Ancient Magicks]] or something else such as a [[Kodai wand]] or [[Blood ancient sceptre]]
+** The [[eldritch Nightmare staff]] not only autocasts Ancient Magicks, but also has a [[special attacks|special attack]] that restores Prayer which can be used on the melee or ranged minion
+* [[Elidinis' ward (f)]] to pair with the Ancient Magick switch
+* [[Ecumenical key]] to get into the room
+* 3-5 [[Saradomin brew]]s
+* 5-7 [[super restore]]s
+* High-healing food such as [[anglerfish]] or [[manta ray]]s
+* Any crossbow with a [[mith grapple]] to get to the lair, if not already using a crossbow
+* One-click [[teleport]]
+* Rune pouch with necessary runes to cast [[Blood Barrage]] to heal off the minions and [[ice spells]] to freeze [[Flight Kilisa]].
+* [[Imbued heart]] or its [[Saturated heart|saturated]] version to boost Magic level.
+* Any necessary [[god items]]{{efn|Respective [[god items]] must be worn at all times prior to entering an area plagued with a god or gods' followers. The god item can be swapped or removed when entering the boss room since the boss is aggressive regardless.|name="god items"}} and/or secondary [[bolt]] if using any (optional)
+* [[Trollheim Teleport]]{{efn|Drop two [[Saradomin brew]]s upon teleporting, and use an [[amulet of glory]] or a [[ring of dueling]] teleport to grab two more brews and another [[Trollheim Teleport]].|name=brews}}
+{{Notelist}}
+
+|-|
+Chinchompas=
+
+By using [[Chinchompa (weapon)|chinchompas]], one can kill [[Kree'arra]] quickly even if they are soloing, though it is also expensive. <br/>
+To use this method, stand in the south-western corner of the room and wait for both Kree'arra and [[Flight Kilisa]], the melee bodyguard, to close in on you. <br/>
+When both are in position, start throwing chinchompas at Flight Kilisa; the chinchompas will almost always hit her due to her lower [[Defence]], and the AoE damage will hit Kree'arra.
+
+{{Recommended equipment|style = Chinchompas
+|head1 = {{plink|Slayer helmet (i)}}{{Efn|Only on a [[Slayer task]].}}
+|head2 = {{plink|Justiciar faceguard}}
+|head3 = {{plink|Verac's helm}}
+|head4 = {{plink|Armadyl helmet}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Dragonbone necklace}} / {{plink|Bonecrusher necklace}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Max cape}}
+|cape3 = {{plink|Ranging cape(t)}}
+|cape4 = {{plink|Ava's assembler}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Armadyl chestplate}}
+|body3 = {{plink|Karil's leathertop}}
+|body4 = {{plink|Armadyl d'hide body}} / {{plink|Zamorak d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Armadyl chainskirt}}
+|legs3 = {{plink|Karil's leatherskirt}}
+|legs4 = {{plink|Armadyl chaps}} / {{plink|Zamorak chaps}}
+|weapon1 = {{plink|Black chinchompa}}s
+|weapon2 = {{plink|Red chinchompa}}s
+|shield1 = {{plink|Elysian spirit shield}}
+|shield2 = {{plink|Dragonfire ward}}
+|shield3 = {{plink|Twisted buckler}}
+|shield4 = {{plink|Dragonfire shield}}
+|shield5 = {{plink|Crystal shield}}
+|ammo1 = {{plink|Seeking dragon arrow}} /<br/>{{plink|Diamond dragon bolts (e)}}<br/>{{Efn|Ammo is used with tbow or crossbow switches in the event [[Flight Kilisa]] is killed too fast, and [[Kree'arra]] is still alive.|name=Ammo}}
+|ammo2 = {{plink|Diamond bolts (e)}}{{Efn|name=Ammo}}
+|ammo3 = {{plink|Mith grapple}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Armadyl bracers}} / {{plink|Zamorak bracers}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Armadyl d'hide boots}}
+|feet3 = {{plink|Pegasian boots}}
+|feet4 = {{plink|Echo boots}}
+|ring1 = {{plink|Ring of suffering (ri)}} /<br> {{plink|Lightbearer}}
+|ring2 = {{plink|Venator ring}}
+}}
+{{Notelist}}
+
+==Inventory==
+{{Inventory|align=right
+|1= Bow of Faerdhinen
+|2= Toxic blowpipe
+|3= Bastion potion(4)
+|4= Bastion potion(4)
+|5= Blood ancient sceptre
+|6= Ecumenical key
+|7= Saradomin brew(4)
+|8= Saradomin brew(4)
+|9= Saradomin brew(4)
+|10= Saradomin brew(4)
+|11= Saradomin brew(4)
+|12= Saradomin brew(4)
+|13= Super restore(4)
+|14= Super restore(4)
+|15= Super restore(4)
+|16= Super restore(4)
+|17= Super restore(4)
+|18= Super restore(4)
+|19= Super restore(4)
+|20= Super restore(4)
+|21= Super restore(4)
+|22= Super restore(4)
+|23= Super restore(4)
+|24= Bronze crossbow
+|25= Mith grapple
+|26= Bones to peaches (tablet)
+|27= Teleport to house (tablet)
+|28= Rune pouch
+}}
+
+{{Rune pouch|align=right
+|1=Death rune\1500
+|2=Blood rune\1500
+|3= Soul rune\375
+}}
+
+*[[Toxic blowpipe]] for killing the minions and specs
+*[[Bow of Faerdhinen]] to hit Kree'arra when he and Flight Kilisa are not stacked, which happens at spawn and if Flight Kilisa dies before Kree'arra
+*[[Blood ancient sceptre]] or something else to autocast [[blood spells]] such as a [[Kodai wand]] or [[ancient staff]]
+**The [[eldritch Nightmare staff]] not only autocasts Ancient Magicks, but also has a [[special attacks|special attack]] that restores Prayer which can be used on the melee or ranged minion
+*[[Ecumenical key]] to get into the room
+*2+ [[bastion potion]]s or [[ranging potion]]s
+*6-10 [[Saradomin brew]]s depending on your combats and if you are using [[Blood Barrage]]
+*11+ [[super restore]]s
+*[[Bones to peaches (tablet)|Bones to peaches tab]] for extra healing
+*Any crossbow with a [[mith grapple]] to get to the lair, if not already using a crossbow
+*One-click [[teleport]]
+*Rune pouch with necessary runes to cast [[Blood Barrage]] to heal off the minions
+*Any necessary [[god items]]{{efn|Respective [[god items]] must be worn at all times prior to entering an area plagued with a god or gods' followers. The god item can be swapped or removed when entering the boss room since the boss is aggressive regardless.|name="god items"}} and/or secondary [[bolt]] if using any (optional)
+*[[Trollheim Teleport]]{{efn|Drop two [[Saradomin brew]]s upon teleporting, and use an [[amulet of glory]] or a [[ring of dueling]] teleport to grab two more brews and another [[Trollheim Teleport]].|name=brews}}
+{{Notelist}}
+
+|-|
+Ranged Tank=
+
+{{Recommended equipment|style = Ranged Tank
+|head1 = {{plink|Slayer helmet (i)}}{{Efn|Only on a [[Slayer task]].}}
+|head2 = {{plink|Justiciar faceguard}}
+|head3 = {{plink|Verac's helm}}
+|head4 = {{plink|Masori mask (f)}}
+|head5 = {{plink|Armadyl helmet}}
+|neck1 = {{plink|Amulet of fury}}
+|neck2 = {{plink|Necklace of rupture}}
+|neck3 = {{plink|Necklace of anguish}}
+|neck4 = {{plink|Dragonbone necklace}} / {{plink|Bonecrusher necklace}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}} (Or best [[Ava's device]])
+|cape3 = {{plink|Max cape}}
+|cape4 = {{plink|Ranging cape(t)}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Armadyl chestplate}}
+|body3 = {{plink|Karil's leathertop}}
+|body4 = {{plink|Armadyl d'hide body}} / {{plink|Zamorak d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Armadyl chainskirt}}
+|legs3 = {{plink|Karil's leatherskirt}}
+|legs4 = {{plink|Verac's plateskirt}}
+|legs5 = {{plink|Armadyl chaps}} / {{plink|Zamorak chaps}}
+|weapon1 = {{plink|Zaryte crossbow}}
+|weapon2 = {{plink|Armadyl crossbow}}
+|weapon3 = {{plink|Dragon hunter crossbow}}
+|weapon4 = {{plink|Dragon crossbow}}
+|weapon5 = {{plink|Twisted bow}}
+|shield1 = {{plink|Elysian spirit shield}}
+|shield2 = {{plink|Dragonfire ward}}
+|shield3 = {{plink|Twisted buckler}}
+|shield4 = {{plink|Crystal shield}}
+|shield5 = {{plink|Odium ward}}
+|ammo1 = {{plink|Diamond dragon bolts (e)}}
+|ammo2 = {{plink|Diamond bolts (e)}}
+|ammo4 = {{plink|Ruby bolts (e)}}{{Efn|Only use if your max hit is around 20 or less. Ruby bolts may be used for the [[enchanted bolt effect]] during the beginning of the kill to deplete 10% of Kree'arra's health (up to 25). Afterwards, use a primary bolt for the rest of the kill.}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Armadyl bracers}} / {{plink|Zamorak bracers}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Armadyl d'hide boots}}
+|feet3 = {{plink|Pegasian boots}}
+|feet4 = {{plink|Echo boots}}
+|ring1 = {{plink|Ring of suffering (ri)}}
+|ring2 = {{plink|Venator ring}}
+|special1 = {{plink|Zaryte crossbow}}
+|special2 = {{plink|Armadyl crossbow}}
+}}
+{{Notelist}}
+
+==Inventory==
+{{Inventory|align=right
+|1= Teleport to house (tablet)
+|2= Ranging potion(4)
+|3= Ranging potion(4)
+|4= Ranging potion(4)
+|5= Saradomin brew(4)
+|6= Saradomin brew(4)
+|7= Saradomin brew(4)
+|8= Saradomin brew(4)
+|9= Saradomin brew(4)
+|10= Saradomin brew(4)
+|11= Saradomin brew(4)
+|12= Saradomin brew(4)
+|13= Saradomin brew(4)
+|14= Saradomin brew(4)
+|15= Saradomin brew(4)
+|16= Saradomin brew(4)
+|17= Saradomin brew(4)
+|18= Super restore(4)
+|19= Super restore(4)
+|20= Super restore(4)
+|21= Super restore(4)
+|22= Super restore(4)
+|23= Super restore(4)
+|24= Super restore(4)
+|25= Super restore(4)
+|26= Super restore(4)
+|27= Mith grapple
+|28= Unholy book
+}}
+
+*[[Mith grapple]]
+*One-click [[teleport]] (such as [[ectophial]] or [[teleport tab]]s)
+*Any necessary [[god items]]{{efn|Respective [[god items]] must be worn at all times prior to entering an area plagued with a god or gods' followers. The god item can be swapped or removed when entering the boss room since the boss is aggressive regardless.|name="god items"}}
+*12-16 [[Saradomin brew]]s
+*6-8 [[super restore]]s
+*2-3 [[ranging potion]]s
+*[[Ecumenical key]] (optional)
+*[[Trollheim Teleport]]{{efn|Drop two [[Saradomin brew]]s upon teleporting, and use an [[amulet of glory]] or a [[ring of dueling]] teleport to grab two more brews and another [[Trollheim Teleport]].|name=brews}}
+{{Notelist}}
+
+|-|
+Tbow / Bowfa=
+
+The [[Twisted Bow]] and [[Bow of Faerdhinen]] are both viable methods for killing Kree'arra. While weaker than [[Black Chinchompa]]s, they're much cheaper to use and less click intensive.<br>
+Twisted Bow is stronger than the Bow of Faerdhinen if the player has [[Masori armour set (f)|Masori armour (f)]] and [[Dragon arrow]]s—if missing two of those three items, the Bow of Faerdhinen with [[Crystal armour]] is stronger.<br>
+Players should stand under Kree'arra after each hit to minimise the amount of attacks Kree'arra can use against the player, especially if using a Twisted Bow as its attack speed is slower than Bow of Faerdhinen
+
+{{Recommended equipment|style = Tbow / Bowfa
+|head1 = {{plink|Slayer helmet (i)}}
+|head2 = {{plink|Masori mask (f)}}
+|head3 = {{plink|Crystal helm}}{{efn|name=crystal|If using [[Bow of Faerdhinen]]}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}} / <br> {{plink|Amulet of glory}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}} (Or best [[Ava's device]])
+|cape3 = {{plink|Max cape}}
+|cape4 = {{plink|Ranging cape(t)}}
+|body1 = {{plink|Masori body (f)}}
+|body2 = {{plink|Armadyl chestplate}} <br>/ {{plink|Crystal body}}{{efn|name=crystal}}
+|body3 = {{plink|Karil's leathertop}}
+|body4 = {{plink|Armadyl d'hide body}} / {{plink|Zamorak d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Armadyl chainskirt}} <br>/ {{plink|Crystal legs}}{{efn|name=crystal}}
+|legs3 = {{plink|Karil's leatherskirt}}
+|legs4 = {{plink|Verac's plateskirt}}
+|legs5 = {{plink|Armadyl chaps}} / {{plink|Zamorak chaps}}
+|2h1 = {{plink|Twisted bow}}{{efn|[[Twisted bow]] is stronger than [[Bow of Faerdhinen]] if you have at least 2 of the following: [[Masori body (f)]], [[Masori chaps (f)]], [[Dragon arrow]]s}}
+|2h2 = {{plink|Bow of Faerdhinen}}{{efn|Only use with full crystal armour (Crystal helm can be substituted with [[Slayer helmet (i)]])}}
+|ammo1 = {{plink|Seeking dragon arrow}} <br>/{{plink|Rada's blessing 4}}{{efn|name=blessing|If using [[Bow of Faerdhinen]]}} <br/> / {{plink|Mith grapple}}
+|ammo2 = {{plink|Unholy blessing}}{{efn|name=blessing}} <br>/{{plink|Honourable blessing}}{{efn|name=blessing}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Barrows gloves}}
+|hands3 = {{plink|Armadyl bracers}} <br>/{{plink|Zamorak bracers}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Pegasian boots}}
+|feet3 = {{plink|Armadyl d'hide boots}} <br>/{{plink|Ranger boots}}
+|feet4 = {{plink|Echo boots}}
+|ring1 = {{plink|Ring of suffering (ri)}}
+|ring2 = {{plink|Venator ring}} <br>/{{plink|Lightbearer}}{{efn|Only with spec weapon}}
+|ring3 = {{plink|Ring of the gods (i)}}
+|special1 = {{plink|Zaryte crossbow}}{{efn|With [[Ruby dragon bolts (e)]]}}
+|special2 = {{plink|Eldritch Nightmare staff}}
+|special3 = {{plink|Toxic blowpipe}}
+}}
+{{notelist}}
+
+==Inventory==
+{{Inventory|align=right
+|1= Blood ancient sceptre
+|2= Virtus robe top
+|3= Bastion potion(4)
+|4= Bastion potion(4)
+|5= Toxic blowpipe
+|6= Super restore(4)
+|7= Saradomin brew(4)
+|8= Saradomin brew(4)
+|9= Super restore(4)
+|10= Super restore(4)
+|11= Saradomin brew(4)
+|12= Saradomin brew(4)
+|13= Super restore(4)
+|14= Super restore(4)
+|15= Saradomin brew(4)
+|16= Saradomin brew(4)
+|17= Super restore(4)
+|18= Super restore(4)
+|19= Saradomin brew(4)
+|20= Saradomin brew(4)
+|21= Super restore(4)
+|22= Super restore(4)
+|23= Bronze crossbow
+|24= Bracelet of slaughter
+|25= Trollheim teleport (tablet)
+|26= Bones to peaches (tablet)
+|27= Ecumenical key
+|28= Divine rune pouch
+}}
+
+{{Rune pouch|align=right
+|1=Death rune\1500
+|2=Blood rune\1500
+|3= Soul rune\375
+}}
+
+*[[Toxic blowpipe]] for killing the minions and specs
+*[[Blood ancient sceptre]] or something else to autocast [[blood spells]] such as a [[Kodai wand]] or [[ancient staff]]
+**The [[eldritch Nightmare staff]] not only autocasts Ancient Magicks, but also has a [[special attacks|special attack]] that restores Prayer which can be used on the melee or ranged minion
+*[[Ecumenical key]] to get into the room
+*2+ [[bastion potion]]s
+*6-10 [[Saradomin brew]]s depending on your combats and if you are using [[Blood Barrage]]
+*8-10 [[super restore]]s
+*[[Bones to peaches (tablet)|Bones to peaches tab]] for extra healing
+*Any crossbow with a [[mith grapple]] to get to the lair. The grapple can be held within [[Dizana's quiver]] if owned.
+*Rune pouch with necessary runes to cast [[Blood Barrage]] to heal off the minions
+*Any necessary [[god items]]
+*2 [[Trollheim Teleport]]s - Revert one after teleporting Trollheim to get a house teleport back.
+*[[Bracelet of slaughter]] to extend slayer tasks if applicable
+{{Notelist}}
+
+|-|
+Melee (soulflame horn)=
+
+Even though Kree'arra has extremely high melee defences, the special attack of the [[soulflame horn]] can be used to make the player's next melee hit always land. Since the horn's special attack only works if another player is near the user, it is mandatory to kill Kree'arra in a small team with this method, with duos and trios working the best. Additionally, the player must be using a halberd since Kree'arra is airborne; the [[noxious halberd]] is the only viable halberd for this method.
+<br/>
+All players should stand under Kree'arra after every attack, and use the soulflame horn's special attack while under him. While it is possible for a team to use only one soulflame horn and simply trade the horn between players after killing the minions, it is recommended for all players to have a soulflame horn in the event the player currently using the horn uses all of their special attacks (and thus guaranteed hits for the party) before Kree'arra is dead.
+<br/>
+Despite melee armour giving high ranged defence bonuses, it is still recommended to pray Protect from Missiles to avoid potentially getting comboed by Kree'arra. Switch to Protect from Magic after Kree'arra dies to kill the magic minion.
+
+{{Recommended equipment
+|style = Melee (soulflame horn)
+|head1 = {{plink|Slayer helmet (i)}}{{Efn|Only on a [[Slayer task]].}}
+|head2 = {{plink|Torva full helm}}
+|head3 = {{plink|Oathplate helm}} ><br/> {{plink|Neitiznot faceguard}}
+|neck1 = {{plink|Amulet of rancour}}
+|neck2 = {{plink|Amulet of torture}}
+|neck3 = {{plink|Amulet of blood fury}}
+|cape1 = {{plink|Infernal cape}}
+|cape2 = {{plink|Fire cape}}
+|body1 = {{plink|Torva platebody}}
+|body2 = {{plink|Oathplate chest}} ><br/> {{plink|Bandos chestplate}}
+|body3 = {{plink|Blood moon chestplate}}
+|legs1 = {{plink|Torva platelegs}}
+|legs2 = {{plink|Oathplate legs}} ><br/> {{plink|Bandos tassets}}
+|legs3 = {{plink|Blood moon tassets}}
+|weapon1 = {{plink|Noxious halberd}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|Unholy blessing}} /<br> {{plink|Honourable blessing}}
+|hands1 = {{plink|Ferocious gloves}}
+|hands2 = {{plink|Barrows gloves}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Aranea boots}} /<br/> {{plink|Dragon boots}}
+|ring1 = {{plink|Lightbearer}}{{efn|Alternatively, another ring can be used during kills, with the lightbearer being switched to after a kill.}}
+|ring2 = {{plink|Ultor ring}} ><br/> {{plink|Berserker ring (i)}}
+|ring3 = {{plink|Ring of suffering (ri)}}
+|special1 = {{plink|Soulflame horn}}
+}}
+{{notelist}}
+
+==Inventory==
+{{Inventory|align=right
+|1= Blood ancient sceptre
+|2= Virtus robe top
+|3= Super combat potion(4)
+|4= Super combat potion(4)
+|5= Confliction gauntlets
+|6= Soulflame horn
+|7= {{Cheap food}}
+|8= {{Cheap food}}
+|9= Super restore(4)
+|10= Super restore(4)
+|11= {{Cheap food}}
+|12= {{Cheap food}}
+|13= Super restore(4)
+|14= Super restore(4)
+|15= {{Cheap food}}
+|16= {{Cheap food}}
+|17= Super restore(4)
+|18= Super restore(4)
+|19= {{Cheap food}}
+|20= {{Cheap food}}
+|21= Super restore(4)
+|22= Super restore(4)
+|23= Bronze crossbow
+|24= Mith grapple
+|25= Trollheim teleport (tablet)
+|26= Bones to peaches (tablet)
+|27= Ecumenical key
+|28= Divine rune pouch
+}}
+
+{{Rune pouch|align=right
+|1=Death rune
+|2=Blood rune
+|3=Soul rune
+|4=Water rune
+}}
+
+*[[Soulflame horn]]
+*[[Lightbearer]] to switch to after a kill if using another ring (e.g. ultor ring)
+*Rune pouch with necessary runes to cast [[Blood Barrage]] and [[Ice Barrage]] if using [[Ancient Magicks]], or [[Death Charge]] if using the [[Arceuus spellbook]]
+**While water runes for Ice Barrage are optional, it allows players to avoid damage from the melee minion by freezing them on top of the ranged minion
+*Magic gear switch and a weapon that can autocast [[Ancient Magicks]] (e.g. [[blood ancient sceptre]], [[kodai wand]])
+*[[Ecumenical key]] to get into the room
+*2+ [[super combat potion]]s or [[divine super combat potion]]s
+*High-healing food such as [[manta ray]]s or [[tuna potato]]es
+*8 [[super restore]]s
+*[[Bones to peaches (tablet)|Bones to peaches tab]] for extra healing
+*Any crossbow with a [[mith grapple]] to get to the lair.
+*Any necessary [[god items]]
+*[[Ghommal's hilt]] or [[Trollheim Teleport]]
+{{Notelist}}
+</tabber>
+
+==References==
+{{reflist}}
+
+[[Category:Strategies]]

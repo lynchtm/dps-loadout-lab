@@ -8,11 +8,17 @@ public final class OwnedEquipment {
     public final long revision, bankScannedAt;
     public final Map<Integer, Integer> bank, inventory, equipped, quantities;
     public final Map<String, Integer> levels;
+    public final Map<Integer, String> names;
     public OwnedEquipment(String profile,long revision,long scanned,Map<Integer,Integer> bank,
                           Map<Integer,Integer> inventory,Map<Integer,Integer> equipped,Map<String,Integer> levels) {
+        this(profile,revision,scanned,bank,inventory,equipped,levels,Map.of());
+    }
+    public OwnedEquipment(String profile,long revision,long scanned,Map<Integer,Integer> bank,
+                          Map<Integer,Integer> inventory,Map<Integer,Integer> equipped,Map<String,Integer> levels,Map<Integer,String> names) {
         this.profile=profile;this.revision=revision;this.bankScannedAt=scanned;
         this.bank=immutable(bank);this.inventory=immutable(inventory);this.equipped=immutable(equipped);
         this.levels=Collections.unmodifiableMap(new TreeMap<>(levels));
+        this.names=Collections.unmodifiableMap(new TreeMap<>(names));
         Map<Integer,Integer> total=new TreeMap<>();
         for(Map<Integer,Integer> source:Arrays.asList(bank,inventory,equipped))source.forEach((id,quantity)->{
             if(id>0&&quantity>0)total.merge(id,quantity,(a,b)->(int)Math.min(Integer.MAX_VALUE,(long)a+b));

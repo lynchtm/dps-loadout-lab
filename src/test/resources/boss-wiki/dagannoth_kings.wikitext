@@ -1,0 +1,543 @@
+{{External|rs}}
+[[File:Fighting Dagannoth Kings.png|thumb|300px|A trio of players take on the mighty Dagannoth Kings.]]
+Dagannoth Kings are a trio of bosses found in the [[Waterbirth Island Dungeon]], known for their [[dragon axe]], [[berserker ring]], [[archers ring]], [[warrior ring]] and [[seers ring]] drops. Their [[dagannoth bones|bones]] are also valuable, making them consistently rewarding to kill.
+
+==The Kings==
+{{Main|Dagannoth Prime|Dagannoth Rex|Dagannoth Supreme|Spinolyp}}The [[Dagannoth Kings|Kings]] reside on the sixth floor (the deepest) in [[Waterbirth Island Dungeon]].
+
+*[[Dagannoth Prime]]: The Dagannoth King who uses 3x3 area-of-effect (AoE) [[magical]] attacks. Whenever he is attacking, [[Protect from Magic]] must be on at all costs as Prime can hit up to 50 damage and easily kill in two hits. Prime is weak to ranged attacks.
+*[[Dagannoth Rex]]: The Dagannoth King who uses [[melee]] attacks. He is extremely easy to deal with, as he can be either bound or lured to the edges of the islet where he can get stuck easily.
+*[[Dagannoth Supreme]]: The Dagannoth King who uses [[ranged]] attacks. Supreme is also easy to deal with, hitting harder than Rex but lower than Prime. Supreme's attacks can hit multiple players if they are facing his direction.
+*[[Spinolyp]]s inhabit the moat surrounding the Dagannoth Kings' island. They are generally weak and have 75 [[Hitpoints]]. Their attacks are not very accurate, especially if the player has armour with high ranged defence, but their ranged attacks can inflict [[poison]], and their magic attacks drain one [[prayer point]] if they hit. The poison damage starts at 6, so it is worth bringing [[Antidote++]] potions. They can be used to heal with the use of [[Guthan the Infested's equipment|Guthan's set]] or [[Saradomin godsword]] while waiting for the Kings to respawn.
+
+{| class="wikitable" cellpadding="0" cellspacing="0" align="center"
+|-
+! style="text-align: center;" |[[Dagannoth Prime]]
+! style="text-align: center;" |[[Dagannoth Rex]]
+! style="text-align: center;" |[[Dagannoth Supreme]]
+|-
+| style="text-align: center;" |Uses [[Magical]] Attacks.<br/>[[File:Protect from Magic.png]]
+| style="text-align: center;" |Uses [[Melee]] Attacks.<br/>[[File:Protect from Melee.png]]
+| style="text-align: center;" |Uses [[Ranged]] Attacks.<br/>[[File:Protect from Missiles.png]]
+|-
+|[[File:Dagannoth Prime.png|center|frameless|143x143px]]
+|[[File:Dagannoth Rex.png|center|frameless|115x115px]]
+|[[File:Dagannoth Supreme.png|center|frameless|138x138px]]
+|-
+| style="text-align: center;" |Fight with Ranged
+| style="text-align: center;" |Fight with Magic
+| style="text-align: center;" |Fight with Melee
+|}
+
+==Suggested skills==
+
+*{{SCP|Attack|70+}}
+*{{SCP|Strength|70+}}
+*{{SCP|Magic|75+}}
+*{{SCP|Ranged|70+}}
+*{{SCP|Defence|60+}} (80+ Recommended)
+*{{SCP|Hitpoints|70+}}
+*{{SCP|Prayer|45+}} for [[Mystic Might]], 70+ for [[Piety]]
+*{{SCP|agility|85+}} for shortcuts skipping the tunnels and need for Rune Thrownaxe/Pet Rock (can be boosted from 80 with a [[Summer Pie]])
+
+== Strategy ==
+{{Tile markers box|Module:Tile markers/Waterbirth_Dungeon.json|showpreview=false}}
+As the Kings all attack with different styles, reducing the amount of time spent attacking multiple Kings is essential for staying alive and extending trips. This can be done by killing the Kings in a cycle and utilising the downtime before they respawn to safely kill the other kings, by [[Safespot|safespotting]], or by attacking a King outside the aggression range of the others. The aggression range for every Dagannoth King is 5 tiles from Kings' south-western tile. As Dagannoth Kings are size 3x3 monsters you can get closer to Dagannoth Kings if you're in the north-eastern side of the room. 
+
+Download the tile markers above to show safespots for [[Dagannoth Rex|Rex]], along with ladder locations throughout the entire dungeon route. 
+
+==== Entering the Lair ====
+Upon entering the lair, the player can be targeted by any amount of Kings at the same time, though it is most common to be attacked by both Prime and/or Supreme upon dropping down. [[Protect from Magic]] should be activated '''before''' entering their lair since Prime is likely to be very accurate and also hits the hardest of the three by far.
+
+For players wishing to safespot Rex or Prime, they should enter and exit the room (leaving via the ladder will nullify some incoming attacks if done quickly enough), until they can safely run along the southern side of the island without being targeted by [[Dagannoth Supreme|Supreme]] or [[Dagannoth Prime|Prime]]. Once on the eastern wall, players can attack [[Dagannoth Rex|Rex]] with magic and use either safespot freely.
+
+For players planning on killing all 3 Kings, there are a few common options to start. 
+
+* You can sneak to the eastern wall and start the rotation with '''Rex''' with magic.
+* If Supreme is not aggressive, you can run north and begin attacking '''Prime''' with ranged.
+* If Prime is not aggressive, you can attempt to kill '''Supreme''' quickly with melee. Note that Supreme's spawn location makes it more likely that a second or third king will notice you, so starting with Supreme is typically the most difficult option.
+
+==== Handling multicombat ====
+If multiple Kings begin attacking you, you can attempt to off-tick their attacks and correctly pray against all of them. For a more relaxed approach, you can stick with Protect from Magic while quickly killing Supreme first or safespotting Rex.
+
+With very high defence bonuses (such as with 99 Defence and expensive armour), Rex and Supreme will only have 15-30% accuracy against you. This makes it possible to run in with Protect from Magic and strong melee armour to kill both Supreme and Rex before finally switching to weaker ranged armour to defeat Prime. You will typically take very little damage even if all three kings attack you at once.
+
+==== Logging Out in the Lair ====
+
+Entering the lair without drawing aggression from the Kings is the most difficult part of setting up rotations, as well as Rex's safespot. To avoid having to repeat this process after a break, it is possible to logout in the Rex safespot; upon login the player will return to the same position.
+
+Normally the player will receive constant damage from Spinolyps, however if enough of them can be killed or submerged in a short enough time while also not under aggression from any of the Kings, combat can be interrupted for the 10 seconds required to logout. This requires a fair amount of damage and is somewhat luck-based, but it can be done consistently. 
+
+==== Tribrid Rotation (3 Kings) ====
+Depending on gear and stats, the Kings can be killed quickly enough that there is very little overlap where multiple kings are alive and able to reach the player. Rex can easily be safespotted on the north-eastern, south-eastern, or north-western walls. With a long range ranged weapon, Prime can be reached from the northern side while staying out of the aggression ranges of Supreme and Rex. Supreme, however, should be defeated with melee, and is very close to Prime and Rex. Ideally, defeat Supreme after Prime so both aren't attacking the player at once. 
+{{Map|mapID=25|x=2634|y=9667|zoom=3|width=370|height=370|align=right
+|mtype:media,img:Dagannoth Prime.png,size:60px,2635:9672
+|mtype:media,img:Dagannoth Supreme.png,size:60px,2629:9664
+|mtype:media,img:Dagannoth Rex.png,size:60px,2638:9661
+|mtype:media,img:Protect from Magic overhead.png,2638:9676
+|mtype:media,img:Protect from Missiles overhead.png,2622:9664
+|mtype:media,img:Protect from Melee overhead.png,2620:9670
+|mtype:media,img:Protect from Melee overhead.png,2644:9660.5
+|mtype:rstext,color:#0f0,fontsize:12px,label:West safespot <br> for Rex (optional).,2620:9675
+|mtype:rstext,color:orange,fontsize:12px,label:Kill Supreme here.,2621:9661
+|mtype:rstext,color:orange,fontsize:12px,label:Kill Prime here.,2640:9679
+|mtype:rstext,color:#0f0,fontsize:12px,label:safespot,2646:9670
+|mtype:rstext,color:#0f0,fontsize:12px,label:safespot,2646:9656
+|mtype:rstext,color:yellow,fontsize:12px,label:Lure Rex,2643.5:9664
+|mtype:rectangle,fill:#00FF00,stroke:#00FF00,stroke-width:2,rectX:1,rectY:1,2646:9658,2646:9668
+|mtype:rectangle,fill:#F0FF00,stroke:#F0FF00,stroke-width:2,rectX:1,rectY:7,2648:9663
+}}
+A safe example rotation:
+
+* Enter the room without drawing aggression and head counter-clockwise along the southern wall to the east side of the room.
+* Attack and safespot Rex with magic along the east wall.
+* Rotate counter-clockwise north and begin attacking Prime with ranged along the northern wall. 
+* Rotate counter-clockwise south and begin attacking Supreme with melee while staying as west as possible to avoid Rex when he spawns.
+* Move to the eastern wall and safespot Rex again.
+
+A faster rotation, best done with powerful equipment capable of defeating the Kings quickly.
+
+* Enter the room and attack Supreme with melee, taking care to either avoid Prime or correctly pray against its attacks. 
+* Attack Rex with magic while dragging him to the north-western safespot, praying against Prime if they have noticed the player.
+* Move to the north side and attack Prime with ranged, avoiding being too close to Supreme when he spawns. 
+* Attack Supreme with melee, avoiding Rex by staying as north/west as possible.
+* Attack Rex with magic and use the north-west safespot again.
+
+==== Rex Only ====
+[[File:Dagannoth Rex safespot.png|thumb|right|Luring Rex to the south-east safespot (note that the right side of the image is north; safespot's map location shown in the upper-right).]]Once safely on the eastern wall of the lair, Rex can be attacked with a long range magic spell or staff without alerting the other Kings. As Rex approaches the eastern wall, pray [[Protect from Melee]] and move north or south until they are stuck on a wall and unable to reach the player. From there, you can attack with magic. Bring equipment with high [[range defence]], as [[Spinolyp|Spinolyps]] attack with [[Ranged-based magic]] and will be the main drain on your supplies. Players can utilise [[blood spells]], [[Guthan the Infested's equipment|Guthan's equipment]], [[Regen bracelet]], [[Hitpoints cape]], the [[Saradomin godsword]], or [[Sanguinesti staff]] to passively heal off Rex or Spinolyps to greatly extend trips. Players should use '''caution''' even while in the safe area. Others may attempt to kill you with [[Dagannoth Prime]]'s AOE attack.
+
+==== Prime Only ====
+Prime can be reached in a similar manner to Rex from the eastern wall with ranged attacks. However, he will not approach the player and instead attack from a distance. This means the player needs to wait until it is safe to grab his drops or bring [[Telekinetic Grab]] to loot. Players can safely alternate between Rex and Prime if desired.
+
+==Equipment==
+The Dagannoth Kings can take a long time to reach and can be difficult to setup properly, so it is often more valuable to reduce unnecessary gear switches and bring extra supplies in order to extend trips. Balance damage output between each style, (if killing all 3 Kings), with ranged defence and prayer bonus to reduce unnecessary damage taken from the Spinolyps.
+
+<tabber>
+Tribrid (Solo) =
+A [[tribrid]] setup means a single player using [[Magic]], [[Ranged]] and [[Melee]] to kill all three Dagannoth Kings. It is only recommended for people who can afford good enough equipment to be able to kill all Kings fast enough.
+
+If the player is not experienced, an alternative to attacking all three kings is to have another person targeting [[Rex]], while the player targets [[Dagannoth Prime|Prime]] and [[Dagannoth_Supreme|Supreme]]. The person targeting Rex may help defeat Prime/Supreme if needed.
+
+Because the run there takes so long, especially without the shortcuts, overall kills per hour are maximized by ensuring you complete a full Slayer task in only 1 trip, or as few trips as possible. It's preferable to sacrifice some DPS in favour of sustainability if you need to do so in order to last the full task. It's often worthwhile minimising gear swaps to bring more supplies (e.g. using [[Barrows gloves]] instead of [[Ferocious gloves]] + [[Zaryte vambraces]], ignoring [[Bandos tassets]]) or favouring sustainability oriented gear (e.g. using [[Spectral spirit shield]] instead of a defender, using [[Guardian boots]] over Primordials, using SGS + [[Lightbearer]] over offensive options)
+
+{{Recommended equipment
+|style = Tribrid (All Kings)
+|head1 = {{plink|Slayer helmet (i)}} (if on task)
+|head2 = {{plink|Torva full helm}} / {{plink|Serpentine helm}}{{efn|Wearing the serpentine helm provides immunity to poison.}}
+|head3 = {{plink|Neitiznot faceguard}}
+|head4 = {{plink|Crystal helm}}{{efn|Only recommended if using a bow of Faerdhinen (c) or crystal bow.|name="crystal"}}
+|head5 = {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Amulet of rancour}} +</br>{{plink|Occult necklace}} +</br>{{plink|Necklace of rupture}}
+|neck2 = {{plink|Amulet of blood fury}} / {{plink|Amulet of fury}}
+|neck3 = {{plink|Bonecrusher necklace}} /</br>{{plink|Dragonbone necklace}}
+|neck4 = {{plink|Amulet of glory|pic=Amulet of glory(4)}}
+|cape1 = {{plink|Infernal cape}} +</br>{{plink|Blessed Dizana's quiver}} 
+|cape2 = {{plink|Fire cape}} +</br>{{plink|Ava's assembler}} 
+|cape3 = {{plink|Max cape}}
+|cape4 = {{plink|Ranging cape(t)}}
+|body1 = {{plink|Torva platebody}} + {{plink|Masori body (f)}}
+|body2 = {{plink|Bandos chestplate}} +</br>{{plink|Masori body}}
+|body3 = {{plink|Crystal body}}{{efn|name="crystal"}} / {{plink|Eclipse moon chestplate}}
+|body4 = {{plink|Blessed body|pic=Ancient d'hide body}}
+|legs1 = {{plink|Torva platelegs}} + {{plink|Masori chaps (f)}}
+|legs2 = {{plink|Masori chaps}}
+|legs3 = {{plink|Crystal legs}}{{efn|name="crystal"}}/ {{plink|Eclipse moon tassets}}
+|legs4 = {{plink|Blessed chaps|pic=Ancient chaps}}
+|weapon1 = {{plink|Scythe of Vitur}} +</br>{{plink|Eye of Ayak}} +</br>{{plink|Twisted bow}}
+|weapon2 = {{plinkp|Inquisitor's mace}}/{{plinkp|Ghrazi rapier}}/{{plinkp|Blade of Saeldor}}/{{plinkp|Noxious halberd}} +</br>{{plinkp|Tumeken's shadow}}{{efn|Requires several mage switches to beat some lower tier options|name=shadow}}/{{plinkp|Sanguinesti staff}} +</br>{{plink|Bow of Faerdhinen}}{{efn|Only stronger than blowpipe if wearing crystal armour. Does not require Ava's device.}}
+|weapon3 = {{plink|Osmumten's fang}} /<br/>{{plink|Abyssal tentacle}} +</br>{{plink|Trident of the Swamp}} +</br>{{plink|Toxic blowpipe}}
+|weapon4 = {{plink|Abyssal whip}} +</br>{{plink|Trident of the Seas}} +</br>{{plink|Eclipse atlatl}} / {{plink|Hunters' sunlight crossbow}}
+|weapon5 = {{plink|Zombie axe}} /<br/>{{plink|Belle's folly}} +</br>{{plink|Warped sceptre}} /{{plink|Iban's staff}} +</br>{{plink|Crystal bow}}/{{plink|Magic shortbow (i)}}
+|shield1 = {{plink|Spectral spirit shield}}
+|shield2 = {{plink|Avernic defender}}
+|shield3 = {{plink|Dragon defender}}
+|shield4 = {{plink|Dragonfire shield}}
+|shield5 = {{plink|Crystal shield}} /</br>{{plink|Toktz-ket-xil}}
+|ammo1 = {{plink|Seeking dragon arrow}} /</br>{{plink|Moonlight antler bolts}}{{efn|Only for Hunters' sunlight crossbow. Sunlight bolts will also work}}
+|ammo2 = {{plink|Amethyst arrow}}{{efn|Cheaper alternative at the cost of 6 ranged strength}} /</br>{{plink|Rada's blessing 4}}{{efn|If using a [[toxic blowpipe]] or [[Bow of Faerdhinen (c)|bow of Faerdhinen (c)]].|name="blessing"}}
+|ammo3 = {{plink|God blessing|pic=Peaceful blessing}} /</br>{{plink|Rada's blessing 3}}/[[Rada's blessing 2|2]]{{efn|name="blessing"}}
+|hands1 = {{plink|Ferocious gloves}} +</br>{{plink|Confliction gauntlets}} +</br>{{plink|Zaryte vambraces}}
+|hands2 = {{plink|Tormented bracelet}} +</br>{{plink|Barrows gloves}}
+|hands3 = {{plink|Regen bracelet}}
+|hands4 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Primordial boots}}
+|feet3 = {{plink|Echo boots}} /</br> {{plink|Guardian boots}}
+|feet4 = {{plink|Dragon boots}}
+|ring1 = {{plink|Lightbearer}}
+|ring2 = {{plink|Ring of the gods (i)}}
+|ring3 = {{plink|Brimstone ring}}
+|ring4 = {{plink|Ring of suffering (i)}} / {{plink|Granite ring (i)}}
+|ring5 = {{plink|Berserker ring (i)}}
+|special1 = {{plink|Saradomin godsword}}
+|special2 = {{plink|Eldritch Nightmare staff}}
+|special3 = {{plink|Dragon claws}}
+|special4 = {{plink|Toxic blowpipe}}
+|special5 = {{plink|Ancient mace}}
+}}
+{{Notelist}}
+
+|-|
+Magic (Rex only) =
+This setup is used to solo [[Dagannoth Rex]]. Rex is the easiest out of all the Kings as it can be [[safespotted]], and offers the chance of receiving the [[berserker ring]]. Long trips can be achieved using [[Guthan's armour set]], a [[Saradomin godsword]] or [[blood spells]] on the [[Spinolyps]] in between kills.
+[[Magic]] is highly effective against Rex due to his extremely low magic defence. With a decent Magic level, players can wear full melee armour for the increased ranged defence and still hit Rex consistently.
+
+{{Recommended equipment
+|style = Magic (Rex only)
+|head1 = {{plink|Slayer helmet (i)}} (if on task)
+|head2 = {{plink|Justiciar faceguard}}
+|head3 = {{plink|Serpentine helm}}{{efn|If using the [[Serpentine helm]], [[antipoison]]s are not needed as you will be immune to poison.}}
+|head4 = {{plink|Barrows helm|pic=Guthan's helm}}{{efn|[[Guthan's equipment]] should be brought if you plan to bring the whole set for its set effect. Otherwise, any barrows piece will work.|name="guthans"}}
+|head5 = {{plink|Helm of Neitiznot}}
+|neck1 = {{plink|Occult necklace}}
+|neck2 = {{plink|Amulet of fury}}
+|neck3 = {{plink|Amulet of the Damned}}{{efn|If the [[amulet of the Damned]] is used while using [[Guthan's armour]] set, players can heal a maximum of 10 [[Hitpoints]] above their base Hitpoints level.}}
+|neck4 = {{plink|Bonecrusher necklace}} /</br>{{plink|Dragonbone necklace}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}} 
+|cape2 = {{plink|Infernal cape}} / {{plink|Fire cape}}
+|cape3 = {{plink|Cape of accomplishment|pic=Hitpoints cape(t)}}
+|cape4 = {{plink|Ardougne cloak|pic=Ardougne cloak 4}}{{efn|All versions of the [[Ardougne cloak]] provide a good combination of both magic and prayer bonuses|name=ardy cloak}}
+|cape5 = {{plink|Vestment cloak|pic=Saradomin cloak}}
+|body1 = {{plink|Justiciar chestguard}} / {{plink|Torva platebody}}
+|body2 = {{plink|Bandos chestplate}} / {{plink|Barrows body|pic=Guthan's platebody}}{{efn|name="guthans"}}
+|body3 = {{plink|Granite body}}
+|body4 = {{plink|Dragon chainbody}}
+|body5 = {{plink|Rune platebody}}
+|legs1 = {{plink|Justiciar legguards}} / {{plink|Torva platelegs}}
+|legs2 = {{plink|Bandos tassets}} / {{plink|Barrows legs|pic=Guthan's chainskirt}}{{efn|name="guthans"}}
+|legs3 = {{plink|Granite legs}}
+|legs4 = {{plink|Dragon platelegs}}
+|legs5 = {{plink|Rune platelegs}}
+|weapon1 = {{plink|Eye of Ayak}} / {{plink|Sanguinesti staff}}
+|weapon2 = {{plink|Trident of the Swamp}} ></br>{{plink|Trident of the Seas}} / {{plink|Twinflame staff}}{{efn|When casting [[Earth wave]].|name=earth}}
+|weapon3 = {{plink|Toxic staff of the dead}}{{efn|If using [[Flames of Zamorak]] or [[Magic Dart]].}}
+|weapon4 = {{plink|Void knight mace}}{{efn|If using [[Claws of Guthix]].}} > {{plink|Warped sceptre}}{{efn|Equal with Void knight mace at 99 Magic}}
+|weapon5 = {{plink|Iban's staff (u)}}{{efn|If using [[Iban Blast]].}}
+|weapon6 = {{plink|Slayer's staff (e)}}{{efn|If using [[Magic Dart]].}}
+|shield1 = {{plink|Elidinis' ward (f)}} / {{plink|Arcane spirit shield}}
+|shield2 = {{plink|Elysian spirit shield}} / {{plink|Spectral spirit shield}}
+|shield3 = {{plink|Crystal shield}} / {{plink|Dragonfire shield}}
+|shield4 = {{plink|Granite shield}} / {{plink|Toktz-ket-xil}}
+|shield5 = {{plink|Dragon sq shield}} / {{plink|Rune kiteshield}}
+|ammo1 = {{plink|Rada's blessing 4}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} /</br>{{plink|Rada's blessing 3}}/[[Rada's blessing 2|2]]
+|hands1 = {{plink|Confliction gauntlets}}
+|hands2 = {{plink|Tormented bracelet}}
+|hands3 = {{plink|Regen bracelet}}
+|hands4 = {{plink|Barrows gloves}}
+|hands5 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Echo boots}}/ {{plink|Guardian boots}}
+|feet3 = {{plink|Eternal boots}} / {{plink|Bandos boots}}
+|feet4 = {{plink|Boots of Brimstone}}
+|feet5 = {{plink|Bloodbark boots}}
+|ring1 = {{plink|Ring of suffering (i)}} / {{plink|Granite ring (i)}}
+|ring2 = {{plink|Ring of the gods (i)}}
+|ring3 = {{plink|Brimstone ring}}
+|ring4 = {{plink|Ring of shadows}}
+|ring5 = {{plink|Beacon ring}} /</br>{{plink|Lunar ring}} /</br>{{plink|Explorer's ring|pic=Explorer's ring 4}}
+}}
+{{Notelist}}
+
+|-|
+Ranged (Prime only) =
+Players may wish to kill only [[Dagannoth Prime]] for its unique drops or the pet. Once inside the north-east corner of the room, Prime can be ranged while remaining out of aggression range of [[Dagannoth Supreme|Supreme]] and [[Dagannoth Rex|Rex]]. Use of [[Telekinetic Grab]] will aid in collecting drops. Maximize ranged strength and accuracy, or bring additional tank gear or switches to heal while waiting for Prime to respawn. 
+
+{{Recommended equipment
+|style = Ranged
+|head1 = {{plink|Slayer helmet (i)}} (if on task)
+|head2 = {{plink|Masori mask (f)}} / {{plink|Justiciar faceguard}}
+|head3 = {{plink|Crystal helm}}{{efn|With the full crystal set and a [[Bow of Faerdhinen]] or [[Crystal bow]]|name=crystal}}  / {{plink|Masori mask}}
+|head4 = {{plink|Barrows helm|pic=Guthan's helm}}{{efn|[[Guthan's equipment]] should be brought if you plan to bring the whole set for its set effect. Otherwise, Any barrows piece will work.|name="guthans"}}
+|neck1 = {{plink|Necklace of rupture}}
+|neck2 = {{plink|Necklace of anguish}}
+|neck3 = {{plink|Amulet of fury}}
+|neck4 = {{plink|Bonecrusher necklace}} / {{plink|Dragonbone necklace}}
+|neck5 = {{plink|Amulet of glory}}
+|cape1 = {{plink|Dizana's quiver}}
+|cape2 = {{plink|Ava's assembler}} /</br>{{plink|Ranging cape(t)}}
+|cape3 = {{plink|Ava's accumulator}}
+|body1 = {{plink|Masori body (f)}} + {{plink|Justiciar chestguard}}
+|body2 = {{plink|Crystal body}}{{efn|name=crystal}} + {{plink|Barrows body|pic=Guthan's platebody}}{{efn|name="guthans"}}
+|body3 = {{plink|Masori body}}
+|body4 = {{plink|Blessed body|pic=Ancient d'hide body}} / {{plink|Karil's leathertop}}
+|body5 = {{plink|Black d'hide body}}
+|legs1 = {{plink|Masori chaps (f)}} + {{plink|Justiciar legguards}}
+|legs2 = {{plink|Crystal legs}}{{efn|name=crystal}} + {{plink|Barrows legs|pic=Guthan's chainskirt}}{{efn|name="guthans"}}
+|legs3 = {{plink|Masori chaps}}
+|legs4 = {{plink|Blessed chaps|pic=Ancient chaps}} / {{plink|Karil's leatherskirt}}
+|legs5 = {{plink|Black d'hide chaps}}
+|weapon1 = {{plink|Twisted bow}} /</br>{{plink|Bow of Faerdhinen}}{{efn|name=crystal}}
+|weapon2 = {{plink|Toxic blowpipe}}
+|weapon3 = {{plink|Crystal bow}}
+|weapon4 = {{plink|Hunters' sunlight crossbow}}
+|weapon5 = {{plink|Rune crossbow}}
+|shield1 = {{plink|Elysian spirit shield}} / {{plink|Twisted buckler}}
+|shield2 = {{plink|Crystal shield}} / {{plink|Odium ward}}
+|shield3 = {{plink|Granite shield}}
+|shield4 = {{plink|Spirit shield}}
+|shield5 = {{plink|Dragon sq shield}} / {{plink|Rune kiteshield}}
+|ammo1 = {{plink|Seeking dragon arrow}} / {{plink|Amethyst arrow}}
+|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} /</br>{{plink|Rada's blessing 3}}/[[Rada's blessing 2|2]]
+|ammo3 = {{plink|Moonlight antler bolts}}
+|ammo4 = {{plink|Diamond bolts (e)}}
+|ammo5 = {{plink|Runite bolts}}
+|hands1 = {{plink|Zaryte vambraces}}
+|hands2 = {{plink|Regen bracelet}}
+|hands3 = {{plink|Barrows gloves}}
+|hands4 = {{plink|Blessed vambraces|pic=Ancient bracers}}
+|hands5 = {{plink|Combat bracelet}}
+|feet1 = {{plink|Avernic treads (max)}}
+|feet2 = {{plink|Pegasian boots}}
+|feet3 = {{plink|Blessed boots|pic=Ancient d'hide boots}}
+|feet4 = {{plink|Boots of Brimstone}}
+|feet5 = {{plink|Bandos boots}}
+|ring1 = {{plink|Venator ring}}
+|ring2 = {{plink|Ring of the gods (i)}}
+|ring3 = {{plink|Brimstone ring}}  / {{plink|Ring of shadows}}
+|ring4 = {{plink|Ring of suffering (i)}} / {{plink|Granite ring (i)}}
+|ring5 = {{plink|Explorer's ring|pic=Explorer's ring 4}}
+|special1 = {{plink|Toxic blowpipe}}
+}}
+{{Notelist}}
+
+</tabber>
+
+==Inventory==
+Your inventory should consist of the following:
+
+<tabber>
+Max Tribrid Setup =
+==Inventory==
+{{Equipment|align = right
+|buttons = No
+|head = Slayer helmet (i)
+|cape = Infernal cape
+|neck = Amulet of rancour
+|ammo = Seeking dragon arrow
+|weapon = Eye of Ayak
+|shield = Elidinis' ward (f)
+|torso = Torva platebody
+|legs = Torva platelegs
+|gloves = Ferocious gloves
+|boots = Avernic treads (max)
+|ring = Lightbearer
+}}
+{{Inventory|align=right
+|1=Twisted bow
+|2=Necklace of rupture
+|3=Masori chaps (f)
+|4=Scythe of Vitur
+|5=Blessed Dizana's quiver
+|6=Masori body (f)
+|7=Confliction gauntlets
+|8=Occult necklace
+|9=Saradomin godsword
+|10=Super combat potion(4)
+|11=Super combat potion(4)
+|12=Saturated heart
+|13=Anglerfish
+|14=Ranging potion(4)
+|15=Ranging potion(4)
+|16=Sanfew serum(4)
+|17=Sanfew serum(4)
+|18=Sanfew serum(4)
+|19=Sanfew serum(4)
+|20=Sanfew serum(4)
+|21=Sanfew serum(4)
+|22=Sanfew serum(4)
+|23=Prayer regeneration potion(4)
+|24=Prayer regeneration potion(4)
+|25=Explorer's ring 4
+|26=Divine rune pouch
+|27=Saradomin brew(4)
+|28=Saradomin brew(4)
+}}
+
+*Switch equipment
+*[[Saradomin godsword]] (for special attacks)
+*Rune pouch filled with runes for [[Death Charge]]
+*[[Saturated heart]] (optional but recommended)
+*[[Araxyte venom sac]]s if not bringing [[sanfew serum]]s or wearing the [[serpentine helm]]
+*2-3 [[super combat]] and [[ranging potion]](s)
+*[[Sanfew serum]]s or [[super restore]]s
+*1-2 [[Prayer regeneration potion]]s can lengthen your trip
+*[[Explorer's Ring 4]] (Energy restore for run to lair,  High Level Alchemy for drops) / Stamina Potion(4)
+*[[Herb sack]] to collect [[grimy ranarr weed]]
+*1-2 [[Saradomin brew]]s for emergency healing
+*[[Rune thrownaxe]] and [[pet rock]] to get there (can be skipped via a [[Dagannoth kings shortcut|shortcut]] requiring 85 [[Agility]], alternatively 80 [[Agility]] with the boost from [[Summer pie]])
+|-|
+Mid-Level Tribrid Setup =
+==Inventory==
+{{Equipment|align = right
+|buttons = No
+|head = Slayer helmet (i)
+|cape = Fire cape
+|neck = Amulet of torture
+|ammo = Rada's blessing 4
+|weapon = Abyssal tentacle
+|shield = Dragon defender
+|torso = Crystal body
+|legs = Crystal legs
+|gloves = Barrows gloves
+|boots = Dragon boots
+|ring = Berserker ring (i)
+}}
+{{Inventory|align=right
+|Bow of Faerdhinen|Necklace of anguish|Trident of the Swamp|Occult necklace
+|Ranging potion|Ranging potion|Tormented bracelet|Divine rune pouch
+|Super combat potion|Super combat potion|Saradomin brew|Shark
+|Sanfew serum|Sanfew serum|Shark|Shark
+|Super restore|Super restore|Super restore|Super restore
+|Super restore|Super restore|Super restore|Stamina potion
+|Herb sack|Explorer's ring 4|Rune thrownaxe|Pet rock
+}}
+
+*Switch equipment
+*Rune pouch filled with runes for [[Blood spells]] and [[Ice spells]] (optional)
+*[[Araxyte venom sac]]s if not bringing [[sanfew serum]]s or wearing the [[serpentine helm]]
+*2-3 [[super combat]] and [[ranging potion]](s)
+*[[Sanfew serum]]s or [[super restore]]s
+*[[Explorer's Ring 4]] (Energy restore for run to lair,  High Level Alchemy for drops, Teleport) / Stamina Potion(4)
+*[[Herb sack]] to collect [[grimy ranarr weed]]
+*1-2 [[Saradomin brew]]s for emergency healing
+*[[Rune thrownaxe]] and [[pet rock]] to get there (can be skipped via a [[Dagannoth kings shortcut|shortcut]] requiring 85 [[Agility]], alternatively 80 [[Agility]] with the boost from [[Summer pie]])
+|-|
+Rex safespot setup =
+==Rex Safespot inventory==
+{{Equipment|align = right
+|buttons = No
+|head = Guthan's helm
+|cape = Imbued Saradomin cape
+|neck = Occult necklace
+|ammo = Peaceful blessing
+|weapon = Trident of the Swamp
+|shield = Crystal shield
+|torso = Guthan's platebody
+|legs = Guthan's chainskirt
+|gloves = Barrows gloves
+|boots = Bandos boots
+|ring = Explorer's ring 3
+}}
+{{Inventory|align=right
+|1=Guthan's warspear
+|2=Prayer potion
+|3=Stamina potion(4)
+|4=Antidote++(4)
+|5=Prayer potion(4)
+|6=Prayer potion(4)
+|7=Prayer potion(4)
+|8=Antidote++(4)
+|9=Shark
+|10=Prayer potion(4)
+|11=Antidote++(4)
+|12=Antidote++(4)
+|13=Shark
+|14=Shark
+|15=Shark
+|16=Antidote++(4)
+|17=Shark
+|18=Shark
+|19=Shark
+|20=Antidote++(4)
+|21=Shark
+|22=Shark
+|23=Shark
+|24=Teleport to house (tablet)
+|25=Herb sack
+|26=Pet rock
+|27=Rune thrownaxe
+|28=Rune pouch
+}}
+*[[Special]] weapon/switch equipment
+*[[Guthan the Infested's equipment]] (optional)
+*[[Rune thrownaxe]] and [[Pet rock]] (both may be skipped via a [[Dagannoth kings shortcut|shortcut]] requiring 85 [[Agility]], alternatively 80 [[Agility]] with the boost from a [[Summer pie]])
+*[[Stamina potion]] (optional)
+*4-8 [[Prayer potion]]s
+*[[Anti-poison]] protection (not needed if bringing [[Serpentine helm]])
+*Emergency teleport
+*Rune pouch filled with runes for [[Blood spells]], and optionally [[Ice spells]] to freeze [[Rex]]
+*Rest of inventory filled with [[sharks]] or better
+*[[Herb sack]] to collect [[grimy ranarr weed]]
+{{Clear}}
+|-|
+Early Ironman Rex safespot setup =
+==Inventory==
+{{Equipment|align = right
+|buttons = No
+|head = Helm of Neitiznot
+|cape = Ardougne cloak 2
+|neck = Amulet of power
+|ammo = Rada's blessing 2
+|weapon = Iban's staff
+|shield = Rune kiteshield
+|torso = Granite body
+|legs = Rune platelegs
+|gloves = Barrows gloves
+|boots = Mystic boots
+|ring = Explorer's ring 2
+}}
+{{Inventory|align=right
+|1=Superantipoison(4)
+|2=Superantipoison(4)
+|3=Superantipoison(4)
+|4=Rune thrownaxe
+|5=Prayer potion(4)
+|6=Prayer potion(4)
+|7=Prayer potion(4)
+|8=Pet rock
+|9=Super defence(4)
+|10=Ancient mace
+|11=Pineapple pizza
+|12=Pineapple pizza
+|13=Pineapple pizza
+|14=Pineapple pizza
+|15=Pineapple pizza
+|16=Pineapple pizza
+|17=Pineapple pizza
+|18=Pineapple pizza
+|19=Pineapple pizza
+|20=Pineapple pizza
+|21=Pineapple pizza
+|22=Pineapple pizza
+|23=Pineapple pizza
+|24=Teleport to house (tablet)
+|25=Pineapple pizza
+|26=Pineapple pizza
+|27=Pineapple pizza
+|28=Rune pouch
+}}
+*[[Rune thrownaxe]] and [[Pet rock]] (both may be skipped via a [[Dagannoth kings shortcut|shortcut]] requiring 85 [[Agility]], alternatively 80 [[Agility]] with the boost from a [[Summer pie]])
+*2-5 [[Prayer potion]]s
+*2-5 [[Superantipoison]]s or better
+*Emergency teleport
+*Runes for [[spell-casting]] (i.e. spells you plan on using, such as blood spells, Iban blast, High alchemy.)
+*Rest should be high healing food. Since you will be taking damage infrequently and have a long downtime between Rex respawns, multi-heal food is usually preferred as it provides more healing per slot at lower skill requirements.
+** [[Pineapple pizza]]s heal 22 in two bites, requiring {{SCP|Cooking|65}}. [[Plain pizza]]s can be purchased from the [[Warriors' Guild]] to save on preparation time.
+** [[Hunter meat]]s provide a second heal after a delay. [[Cooked pyre fox]] provides a total heal of 19 with a {{SCP|Cooking|59}} requirement, the raw meat obtained at {{SCP|Hunter|59}} or commonly from [[hunters' loot sack]]s.
+** [[Strawberries|Baskets of strawberries]] heal 25 hitpoints in total if the player's [[Hitpoints]] level is at least 67.
+{{Clear}}
+</tabber>
+
+==Tips and tricks==
+
+*The use of the [[dwarf multicannon]] with 1,000–2,000 [[cannonball]]s to kill [[Dagannoth Prime]] can be helpful to smooth out the rotation when fighting all three Kings. Place the cannon on Prime's spawning area, and '''only''' load cannonballs when it spawns; do not keep reloading, as it is less effective on [[Rex]] and [[Supreme]] and will cause them to attack you immediately upon being struck by a cannonball.
+*Attune a [[portal chamber|portal]] in your [[house]] to [[Waterbirth Teleport|Waterbirth]]. This will make travel time significantly easier and will negate the need of having your house in [[Rellekka]] or have [[Scroll of Redirection|redirecting scrolls]] for it.
+*The suggested food is [[Super restore potion]]s and [[Saradomin brew]]s, although for simplicity and cost-effectiveness, [[sharks]] and a few Saradomin brews/Super restores for emergency will suffice. Bringing [[Guthan's set]] and [[Saradomin godsword]] can help reduce the use of food.
+*If bringing Saradomin brews for food, always try to use a super restore before re-boosting your combat potions. If timed correctly, (with when you would normally reboost with a combat potion), this can greatly increase the amount of healing in your inventory with little to no loss of your damage output.
+*Various [[Ancient Magicks]] can prove useful: [[Ice Barrage]] can be used to freeze [[Dagannoth Rex]] and [[Blood spells]] can be used in combination with a [[Trident of the Seas]] or [[Trident of the Swamp|swamp]] to heal.
+*[[Antipoison]]s are '''important''' to bring, as the [[Spinolyp]]s residing in the water around the lair will [[poison]] players. This is not the case if the player wears a [[Serpentine helm]] throughout the trip. [[Sanfew serum]]s are also useful, as they function as both an [[antipoison]] and a [[super restore]], however it is worth noting the resistance to poison given to the player lasts half as long as that of an [[antidote++]].
+*There is a safe spot if you jump over the root slightly east of the Dagannoth Kings' ladder where you can 'peek' to see if there is someone within the arena. This is also a convenient spot to hop worlds looking for a vacant lair.
+*Completion of the [[elite Fremennik Diary]] will cause Dagannoth Kings' [[Dagannoth bones|bones]] to drop in noted form, substantially increasing trip profitability. 
+*Bringing an [[explorer's ring]] in place of a stamina potion for high alchemy will bring a bit more profit.
+*If your melee stats are high enough (80+) and you're on a dagannoth task, consider using a [[Saradomin godsword]] or any other [[godsword]] as your spec weapon ''and'' your melee weapon to kill [[Dagannoth Supreme|Supreme]] with, saving an inventory space.
+*Bringing Divine boost potions along with a [[Menaphite remedy|Menaphite Remedy]] can significantly increase how long your boosts last while saving an inventory slot over bringing 2 Super Combat and 2 ranging potions
+*A shortcut requiring 85 [[Agility]] (or 80 [[Agility]] with the boost from a [[Summer pie]]) will skip the need for a rune throwing axe and pet rock, saving two inventory spaces. It is best to pre-boost prior to arriving at Waterbirth Island to minimise stat decay, especially if the player is not 81 Agility.
+*Bringing a [[Falador shield 4|Falador Shield 4]] helps, as its full prayer recharge twice a day is more than 1 Prayer Potion will restore.
+*One sip of an [[Extended stamina potion|extended stamina]] potion and the use of the level 85 agility shortcut lets you run all the way to the boss room.
+
+{{Dagannoth Kings}}
+[[Category:Strategies]]
+[[Category:Dagannoth]]
+[[Category:Fremennik Province]]

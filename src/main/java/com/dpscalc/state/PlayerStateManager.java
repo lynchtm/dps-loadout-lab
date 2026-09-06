@@ -1,26 +1,25 @@
 package com.dpscalc.state;
 
 import com.dpscalc.equipment.EquipmentPreparationFacade;
-import com.dpscalc.equipment.EquipmentResult;
+
 import net.runelite.api.Client;
 import net.runelite.api.InventoryID;
-import net.runelite.api.Item;
 import net.runelite.api.ItemComposition;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.Skill;
 import net.runelite.api.VarPlayer;
 import net.runelite.api.Varbits;
 import net.runelite.client.game.ItemManager;
-import net.runelite.client.game.ItemEquipmentStats;
-import net.runelite.client.game.ItemStats;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Arrays;
+import java.util.EnumSet;
+import java.util.Set;
+
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import java.util.EnumSet;
-import java.util.Arrays;
-import java.util.Set;
 
 @Singleton
 public class PlayerStateManager {
@@ -28,14 +27,72 @@ public class PlayerStateManager {
 
     private static final int WILDERNESS_VARBIT = 5963;
 
-    @Inject
-    private Client client;
+    /** Small read boundary; all methods are called on the RuneLite client thread. */
+    public interface Source {
+        int realLevel(Skill skill);
+
+        int boostedLevel(Skill skill);
+
+        int varp(int id);
+
+        int varbit(int id);
+
+        boolean prayerActive(net.runelite.api.Prayer prayer);
+
+        int[] equipmentIds();
+
+        String itemName(int id);
+    }
+
+    private final Source source;
+    private final EquipmentPreparationFacade equipmentPreparation;
 
     @Inject
-    private ItemManager itemManager;
+    public PlayerStateManager(
+            Client client, ItemManager items, EquipmentPreparationFacade equipment) {
+        this(
+                new Source() {
+                    public int realLevel(Skill skill) {
+                        return client.getRealSkillLevel(skill);
+                    }
 
-    @Inject
-    private EquipmentPreparationFacade equipmentPreparation;
+                    public int boostedLevel(Skill skill) {
+                        return client.getBoostedSkillLevel(skill);
+                    }
+
+                    public int varp(int id) {
+                        return client.getVarpValue(id);
+                    }
+
+                    public int varbit(int id) {
+                        return client.getVarbitValue(id);
+                    }
+
+                    public boolean prayerActive(net.runelite.api.Prayer prayer) {
+                        return client.isPrayerActive(prayer);
+                    }
+
+                    public int[] equipmentIds() {
+                        ItemContainer container = client.getItemContainer(InventoryID.EQUIPMENT);
+                        return container == null
+                                ? new int[0]
+                                : Arrays.stream(container.getItems())
+                                        .mapToInt(item -> item == null ? -1 : item.getId())
+                                        .toArray();
+                    }
+
+                    public String itemName(int id) {
+                        ItemComposition item = items.getItemComposition(id);
+                        return item == null ? null : item.getName();
+                    }
+                },
+                equipment);
+    }
+
+    public PlayerStateManager(Source source, EquipmentPreparationFacade equipment) {
+        this.source = source;
+        this.equipmentPreparation = equipment;
+    }
 
     public PlayerState getPlayerState() {
         PlayerState state = new PlayerState();
@@ -50,97 +107,36 @@ public class PlayerStateManager {
     }
 
     private void readSkillLevels(PlayerState state) {
-        state.setAttackLevel(client.getRealSkillLevel(Skill.ATTACK));
-        state.setStrengthLevel(client.getRealSkillLevel(Skill.STRENGTH));
-        state.setDefenceLevel(client.getRealSkillLevel(Skill.DEFENCE));
-        state.setRangedLevel(client.getRealSkillLevel(Skill.RANGED));
-        state.setMagicLevel(client.getRealSkillLevel(Skill.MAGIC));
-        state.setPrayerLevel(client.getRealSkillLevel(Skill.PRAYER));
-        state.setHitpointsLevel(client.getRealSkillLevel(Skill.HITPOINTS));
+        state.setAttackLevel(source.realLevel(Skill.ATTACK));
+        state.setStrengthLevel(source.realLevel(Skill.STRENGTH));
+        state.setDefenceLevel(source.realLevel(Skill.DEFENCE));
+        state.setRangedLevel(source.realLevel(Skill.RANGED));
+        state.setMagicLevel(source.realLevel(Skill.MAGIC));
+        state.setPrayerLevel(source.realLevel(Skill.PRAYER));
+        state.setHitpointsLevel(source.realLevel(Skill.HITPOINTS));
 
-        state.setCurrentHitpoints(client.getBoostedSkillLevel(Skill.HITPOINTS));
+        state.setCurrentHitpoints(source.boostedLevel(Skill.HITPOINTS));
 
-        state.setAttackBoost(client.getBoostedSkillLevel(Skill.ATTACK) - state.getAttackLevel());
-        state.setStrengthBoost(client.getBoostedSkillLevel(Skill.STRENGTH) - state.getStrengthLevel());
-        state.setDefenceBoost(client.getBoostedSkillLevel(Skill.DEFENCE) - state.getDefenceLevel());
-        state.setRangedBoost(client.getBoostedSkillLevel(Skill.RANGED) - state.getRangedLevel());
-        state.setMagicBoost(client.getBoostedSkillLevel(Skill.MAGIC) - state.getMagicLevel());
+        state.setAttackBoost(source.boostedLevel(Skill.ATTACK) - state.getAttackLevel());
+        state.setStrengthBoost(source.boostedLevel(Skill.STRENGTH) - state.getStrengthLevel());
+        state.setDefenceBoost(source.boostedLevel(Skill.DEFENCE) - state.getDefenceLevel());
+        state.setRangedBoost(source.boostedLevel(Skill.RANGED) - state.getRangedLevel());
+        state.setMagicBoost(source.boostedLevel(Skill.MAGIC) - state.getMagicLevel());
     }
 
     private void readEquipment(PlayerState state) {
-        EquipmentStats stats = new EquipmentStats();
-        int[] itemIds = new int[14];
-        String[] itemNames = new String[14];
-        Arrays.fill(itemIds, -1);
-
-        ItemContainer equipment = client.getItemContainer(InventoryID.EQUIPMENT);
-        if (equipment == null) {
-            state.setEquipmentStats(stats);
-            state.setEquippedItemIds(itemIds);
-            state.setEquippedItemNames(itemNames);
-            state.setRawEquipmentLoadout(equipmentPreparation.loadoutFromIds(itemIds));
-            return;
+        int[] ids = new int[14];
+        Arrays.fill(ids, -1);
+        String[] names = new String[14];
+        int[] captured = source.equipmentIds();
+        for (int slot = 0; slot < Math.min(ids.length, captured.length); slot++) {
+            ids[slot] = captured[slot];
+            if (ids[slot] > 0) names[slot] = source.itemName(ids[slot]);
         }
-
-        Item[] items = equipment.getItems();
-        for (int slot = 0; slot < items.length && slot < 14; slot++) {
-            Item item = items[slot];
-            if (item == null || item.getId() == -1) {
-                itemIds[slot] = -1;
-                itemNames[slot] = null;
-                continue;
-            }
-
-            int itemId = item.getId();
-            itemIds[slot] = itemId;
-
-            ItemComposition itemComp = itemManager.getItemComposition(itemId);
-            if (itemComp != null) {
-                itemNames[slot] = itemComp.getName();
-            }
-
-            ItemStats itemStats = itemManager.getItemStats(itemId);
-            if (itemStats != null) {
-                ItemEquipmentStats eq = itemStats.getEquipment();
-                if (eq != null) {
-                    stats.addStabAttack(eq.getAstab());
-                    stats.addSlashAttack(eq.getAslash());
-                    stats.addCrushAttack(eq.getAcrush());
-                    stats.addMagicAttack(eq.getAmagic());
-                    stats.addRangedAttack(eq.getArange());
-
-                    stats.addMeleeStrength(eq.getStr());
-                    stats.addRangedStrength(eq.getRstr());
-                    // Preserve the old RuneLite adapter's integer fallback. Calculation
-                    // preparation replaces these bonuses with the pinned equipment model.
-                    stats.addMagicDamage((int) eq.getMdmg());
-
-                    stats.addStabDefence(eq.getDstab());
-                    stats.addSlashDefence(eq.getDslash());
-                    stats.addCrushDefence(eq.getDcrush());
-                    stats.addMagicDefence(eq.getDmagic());
-                    stats.addRangedDefence(eq.getDrange());
-
-                    stats.addPrayerBonus(eq.getPrayer());
-
-                    if (slot == EquipmentSlot.WEAPON.getIndex()) {
-                        state.setWeaponSpeed(eq.getAspeed());
-                    }
-                }
-            }
-        }
-
-        state.setEquipmentStats(stats);
-        state.setEquippedItemIds(itemIds);
-        state.setEquippedItemNames(itemNames);
-        state.setRawEquipmentLoadout(equipmentPreparation.loadoutFromIds(itemIds));
-    }
-
-    public EquipmentResult prepareEquipment(PlayerState state, int monsterId) {
-        com.dpscalc.equipment.EquipmentLoadout loadout = state.getRawEquipmentLoadout();
-        if (loadout == null) loadout = equipmentPreparation.loadoutFromIds(state.getEquippedItemIds());
-        return equipmentPreparation.prepare(state, loadout, state.getEquippedItemNames(),
-            EquipmentPreparationFacade.context(state, monsterId));
+        state.setEquippedItemIds(ids);
+        state.setEquippedItemNames(names);
+        state.setRawEquipmentLoadout(equipmentPreparation.loadoutFromIds(ids));
+        // Bonuses and weapon speed are derived once by ScenarioCalculator.
     }
 
     private void readPrayers(PlayerState state) {
@@ -148,7 +144,7 @@ public class PlayerStateManager {
 
         for (Prayer prayer : Prayer.values()) {
             net.runelite.api.Prayer rlPrayer = prayer.getRunelitePrayer();
-            if (rlPrayer != null && client.isPrayerActive(rlPrayer)) {
+            if (rlPrayer != null && source.prayerActive(rlPrayer)) {
                 active.add(prayer);
             }
         }
@@ -157,27 +153,29 @@ public class PlayerStateManager {
     }
 
     private void readCombatStyle(PlayerState state) {
-        int attackStyleIndex = client.getVarpValue(VarPlayer.ATTACK_STYLE);
-        int weaponType = client.getVarbitValue(Varbits.EQUIPPED_WEAPON_TYPE);
-        int castingMode = client.getVarbitValue(Varbits.DEFENSIVE_CASTING_MODE);
+        int attackStyleIndex = source.varp(VarPlayer.ATTACK_STYLE);
+        int weaponType = source.varbit(Varbits.EQUIPPED_WEAPON_TYPE);
+        int castingMode = source.varbit(Varbits.DEFENSIVE_CASTING_MODE);
 
         CombatStyle style = determineCombatStyle(weaponType, attackStyleIndex, castingMode);
         state.setCombatStyle(style);
     }
 
     private void readBuffs(PlayerState state) {
-        int book=client.getVarbitValue(net.runelite.api.gameval.VarbitID.SPELLBOOK);
-        String[] books={"standard","ancient","lunar","arceuus"};
-        state.setSpellbook(book>=0&&book<books.length?books[book]:null);
-        state.setKandarinDiary(client.getVarbitValue(net.runelite.api.gameval.VarbitID.KANDARIN_DIARY_HARD_COMPLETE)>0);
-        int wildernessLevel = client.getVarbitValue(WILDERNESS_VARBIT);
+        int book = source.varbit(net.runelite.api.gameval.VarbitID.SPELLBOOK);
+        String[] books = {"standard", "ancient", "lunar", "arceuus"};
+        state.setSpellbook(book >= 0 && book < books.length ? books[book] : null);
+        state.setKandarinDiary(
+                source.varbit(net.runelite.api.gameval.VarbitID.KANDARIN_DIARY_HARD_COMPLETE) > 0);
+        int wildernessLevel = source.varbit(WILDERNESS_VARBIT);
         state.setInWilderness(wildernessLevel > 0);
 
         // Soulreaper axe soul stacks (0-5). The reference models this as the
         // player.buffs.soulreaperStacks input; DpsCalculator already grants the
         // +6% per-stack strength/accuracy exactly like PlayerVsNPCCalc. The setter
         // clamps to 0-5, so the raw varp value is safe to pass through.
-        state.setSoulreaperStacks(client.getVarpValue(net.runelite.api.gameval.VarPlayerID.SOULREAPER_STACKS));
+        state.setSoulreaperStacks(
+                source.varp(net.runelite.api.gameval.VarPlayerID.SOULREAPER_STACKS));
     }
 
     private CombatStyle determineCombatStyle(int weaponType, int attackStyle, int castingMode) {
@@ -247,162 +245,241 @@ public class PlayerStateManager {
 
     private CombatStyle getUnarmedStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.UNARMED_PUNCH;
-            case 1: return new CombatStyle("Kick", AttackType.CRUSH, "Aggressive", 0, 3, 0, 0, 0);
-            case 2: return new CombatStyle("Block", AttackType.CRUSH, "Defensive", 0, 0, 3, 0, 0);
-            default: return CombatStyle.UNARMED_PUNCH;
+            case 0:
+                return CombatStyle.UNARMED_PUNCH;
+            case 1:
+                return new CombatStyle("Kick", AttackType.CRUSH, "Aggressive", 0, 3, 0, 0, 0);
+            case 2:
+                return new CombatStyle("Block", AttackType.CRUSH, "Defensive", 0, 0, 3, 0, 0);
+            default:
+                return CombatStyle.UNARMED_PUNCH;
         }
     }
 
     private CombatStyle getAxeStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_SLASH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_SLASH;
-            default: return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_SLASH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
         }
     }
 
     private CombatStyle getBluntStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_CRUSH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_CRUSH;
-            default: return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_CRUSH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
         }
     }
 
     private CombatStyle getBowStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.RANGED_ACCURATE;
-            case 1: return CombatStyle.RANGED_RAPID;
-            case 2: return CombatStyle.RANGED_LONGRANGE;
-            default: return CombatStyle.RANGED_ACCURATE;
+            case 0:
+                return CombatStyle.RANGED_ACCURATE;
+            case 1:
+                return CombatStyle.RANGED_RAPID;
+            case 2:
+                return CombatStyle.RANGED_LONGRANGE;
+            default:
+                return CombatStyle.RANGED_ACCURATE;
         }
     }
 
     private CombatStyle getClawStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_SLASH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_CONTROLLED_STAB;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_SLASH;
-            default: return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_CONTROLLED_STAB;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_SLASH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
         }
     }
 
     private CombatStyle getCrossbowStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.RANGED_ACCURATE;
-            case 1: return CombatStyle.RANGED_RAPID;
-            case 2: return CombatStyle.RANGED_LONGRANGE;
-            default: return CombatStyle.RANGED_ACCURATE;
+            case 0:
+                return CombatStyle.RANGED_ACCURATE;
+            case 1:
+                return CombatStyle.RANGED_RAPID;
+            case 2:
+                return CombatStyle.RANGED_LONGRANGE;
+            default:
+                return CombatStyle.RANGED_ACCURATE;
         }
     }
 
     private CombatStyle getSalamanderStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 1: return CombatStyle.RANGED_RAPID;
-            case 2: return CombatStyle.MAGIC_AUTOCAST;
-            default: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 1:
+                return CombatStyle.RANGED_RAPID;
+            case 2:
+                return CombatStyle.MAGIC_AUTOCAST;
+            default:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
         }
     }
 
     private CombatStyle getChinchompaStyle(int style) {
         switch (style) {
-            case 0: return new CombatStyle("Short fuse", AttackType.RANGED_STANDARD, "Accurate", 0, 0, 0, 3, 0);
-            case 1: return new CombatStyle("Medium fuse", AttackType.RANGED_STANDARD, "Rapid", 0, 0, 0, 0, 0);
-            case 2: return new CombatStyle("Long fuse", AttackType.RANGED_STANDARD, "Longrange", 0, 0, 3, 0, 0);
-            default: return CombatStyle.RANGED_ACCURATE;
+            case 0:
+                return new CombatStyle(
+                        "Short fuse", AttackType.RANGED_STANDARD, "Accurate", 0, 0, 0, 3, 0);
+            case 1:
+                return new CombatStyle(
+                        "Medium fuse", AttackType.RANGED_STANDARD, "Rapid", 0, 0, 0, 0, 0);
+            case 2:
+                return new CombatStyle(
+                        "Long fuse", AttackType.RANGED_STANDARD, "Longrange", 0, 0, 3, 0, 0);
+            default:
+                return CombatStyle.RANGED_ACCURATE;
         }
     }
 
     private CombatStyle getSlashSwordStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_SLASH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_CONTROLLED_STAB;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_SLASH;
-            default: return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_CONTROLLED_STAB;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_SLASH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
         }
     }
 
     private CombatStyle getTwoHandedSwordStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_SLASH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_SLASH;
-            default: return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_SLASH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
         }
     }
 
     private CombatStyle getPickaxeStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_STAB;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_ACCURATE_STAB;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_STAB;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_ACCURATE_STAB;
         }
     }
 
     private CombatStyle getPolearmStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_CONTROLLED_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_CONTROLLED_STAB;
+            case 0:
+                return CombatStyle.MELEE_CONTROLLED_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_CONTROLLED_STAB;
         }
     }
 
     private CombatStyle getPolestaffStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_CRUSH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_CRUSH;
-            default: return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_CRUSH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
         }
     }
 
     private CombatStyle getScytheStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_SLASH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_SLASH;
-            default: return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_SLASH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
         }
     }
 
     private CombatStyle getSpearStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_CONTROLLED_STAB;
-            case 1: return CombatStyle.MELEE_CONTROLLED_SLASH;
-            case 2: return new CombatStyle("Crush", AttackType.CRUSH, "Controlled", 1, 1, 1, 0, 0);
-            case 3: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_CONTROLLED_STAB;
+            case 0:
+                return CombatStyle.MELEE_CONTROLLED_STAB;
+            case 1:
+                return CombatStyle.MELEE_CONTROLLED_SLASH;
+            case 2:
+                return new CombatStyle("Crush", AttackType.CRUSH, "Controlled", 1, 1, 1, 0, 0);
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_CONTROLLED_STAB;
         }
     }
 
     private CombatStyle getSpikedStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_CRUSH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_CRUSH;
-            default: return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_CRUSH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
         }
     }
 
     private CombatStyle getStabSwordStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_STAB;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_ACCURATE_STAB;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_STAB;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_ACCURATE_STAB;
         }
     }
 
@@ -411,92 +488,131 @@ public class PlayerStateManager {
             return CombatStyle.MAGIC_DEFENSIVE_AUTOCAST;
         }
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_CRUSH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_CRUSH;
-            case 3: return CombatStyle.MAGIC_AUTOCAST;
-            default: return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MAGIC_AUTOCAST;
+            default:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
         }
     }
 
     private CombatStyle getThrownStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.RANGED_ACCURATE;
-            case 1: return CombatStyle.RANGED_RAPID;
-            case 2: return CombatStyle.RANGED_LONGRANGE;
-            default: return CombatStyle.RANGED_ACCURATE;
+            case 0:
+                return CombatStyle.RANGED_ACCURATE;
+            case 1:
+                return CombatStyle.RANGED_RAPID;
+            case 2:
+                return CombatStyle.RANGED_LONGRANGE;
+            default:
+                return CombatStyle.RANGED_ACCURATE;
         }
     }
 
     private CombatStyle getWhipStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_SLASH;
-            case 1: return CombatStyle.MELEE_CONTROLLED_SLASH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_SLASH;
-            default: return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
+            case 1:
+                return CombatStyle.MELEE_CONTROLLED_SLASH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_SLASH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_SLASH;
         }
     }
 
     private CombatStyle getBladeStaffStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_CRUSH;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_CRUSH;
-            default: return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_CRUSH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_CRUSH;
         }
     }
 
     private CombatStyle getPoweredStaffStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MAGIC_ACCURATE;
-            case 1: return CombatStyle.MAGIC_LONGRANGE;
-            default: return CombatStyle.MAGIC_ACCURATE;
+            case 0:
+                return CombatStyle.MAGIC_ACCURATE;
+            case 1:
+                return CombatStyle.MAGIC_LONGRANGE;
+            default:
+                return CombatStyle.MAGIC_ACCURATE;
         }
     }
 
     private CombatStyle getPartisanStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_STAB;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_ACCURATE_STAB;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_STAB;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_ACCURATE_STAB;
         }
     }
 
     private CombatStyle getBannerStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            case 3: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_ACCURATE_STAB;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 3:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_ACCURATE_STAB;
         }
     }
 
     private CombatStyle getBladedStaffStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_SLASH;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_CRUSH;
-            default: return CombatStyle.MELEE_ACCURATE_STAB;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_SLASH;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_CRUSH;
+            default:
+                return CombatStyle.MELEE_ACCURATE_STAB;
         }
     }
 
     private CombatStyle getBludgeonStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
-            default: return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            case 0:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
+            default:
+                return CombatStyle.MELEE_AGGRESSIVE_CRUSH;
         }
     }
 
     private CombatStyle getSaiStyle(int style) {
         switch (style) {
-            case 0: return CombatStyle.MELEE_ACCURATE_STAB;
-            case 1: return CombatStyle.MELEE_AGGRESSIVE_STAB;
-            case 2: return CombatStyle.MELEE_DEFENSIVE_STAB;
-            default: return CombatStyle.MELEE_ACCURATE_STAB;
+            case 0:
+                return CombatStyle.MELEE_ACCURATE_STAB;
+            case 1:
+                return CombatStyle.MELEE_AGGRESSIVE_STAB;
+            case 2:
+                return CombatStyle.MELEE_DEFENSIVE_STAB;
+            default:
+                return CombatStyle.MELEE_ACCURATE_STAB;
         }
     }
-
 }

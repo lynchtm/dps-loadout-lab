@@ -15,7 +15,7 @@ public final class LoadoutLibrary {
 
     public void saveNew(String name, Scenario.Loadout draft) {
         name = validName(name);
-        if (templates.containsKey(name)) throw new IllegalArgumentException("Name already saved. Choose another name or use Replace saved.");
+        if (templates.containsKey(name)) throw new IllegalArgumentException("Name already saved. Choose another name for this copy.");
         if (templates.size() >= 64) throw new IllegalArgumentException("The library holds up to 64 saved templates.");
         templates.put(name, snapshot(name, draft));
     }

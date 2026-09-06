@@ -32,8 +32,14 @@ public final class BankCapture {
         Map<String,Integer> levels=new TreeMap<>();
         for(Skill skill:Skill.values())if(skill!=Skill.OVERALL)levels.put(skill.name().toLowerCase(Locale.ROOT),client.getRealSkillLevel(skill));
         Map<Integer,Integer> bank=bankChanged?normalize(bankItems):snapshot.bank,inventory=normalize(inv.getItems()),equipped=normalize(gear.getItems());
-        if(bankChanged||!bank.equals(snapshot.bank)||!inventory.equals(snapshot.inventory)||!equipped.equals(snapshot.equipped)||!levels.equals(snapshot.levels))
-            snapshot=new OwnedEquipment(profile,snapshot.revision+1,bankChanged?System.currentTimeMillis():snapshot.bankScannedAt,bank,inventory,equipped,levels);
+        if(bankChanged||!bank.equals(snapshot.bank)||!inventory.equals(snapshot.inventory)||!equipped.equals(snapshot.equipped)||!levels.equals(snapshot.levels)) {
+            Map<Integer,String> names=new TreeMap<>();
+            for(Map<Integer,Integer> container:Arrays.asList(bank,inventory,equipped))for(int id:container.keySet()) {
+                ItemComposition definition=client.getItemDefinition(id);
+                if(definition!=null&&definition.getName()!=null)names.put(id,definition.getName());
+            }
+            snapshot=new OwnedEquipment(profile,snapshot.revision+1,bankChanged?System.currentTimeMillis():snapshot.bankScannedAt,bank,inventory,equipped,levels,names);
+        }
         bankChanged=false;
     }
     private Map<Integer,Integer> normalize(Item[] items){

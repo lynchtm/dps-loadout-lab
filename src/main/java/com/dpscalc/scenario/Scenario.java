@@ -27,6 +27,11 @@ public final class Scenario {
         public Set<String> overrides = new LinkedHashSet<>();
         public Map<String, String> sources = new LinkedHashMap<>();
         public int[] inventory = new int[0];
+        public CarryPlan carry = new CarryPlan();
+        public String wikiSource = "";
+        public String wikiRevision = "";
+        public List<String> wikiNotes = new ArrayList<>();
+        public List<int[]> wikiSeeds = new ArrayList<>();
         public boolean manualEquipmentStats;
         public int blowpipeDartId;
         public boolean specialAttack;
@@ -128,6 +133,9 @@ public final class Scenario {
     public static void validate(Loadout l) {
         if (l == null || l.player == null || l.overrides == null || l.sources == null || l.name == null || l.name.length() > 200)
             throw new IllegalArgumentException("Invalid loadout");
+        if(l.carry==null||l.wikiSource==null||l.wikiSource.length()>1000||l.wikiRevision==null||l.wikiRevision.length()>100||l.wikiNotes==null||l.wikiNotes.size()>200||l.wikiSeeds==null||l.wikiSeeds.size()>16)throw new IllegalArgumentException("Invalid Wiki source or inventory plan");
+        l.carry.validate();for(String note:l.wikiNotes)if(note==null||note.length()>4000)throw new IllegalArgumentException("Invalid Wiki note");
+        for(int[] seed:l.wikiSeeds)if(seed==null||seed.length!=14)throw new IllegalArgumentException("Invalid Wiki seed");
         if(l.potions==null || !PotionSelection.OPTIONS.containsAll(l.potions))throw new IllegalArgumentException("Unknown potion selection");
         PlayerState p = l.player;
         if (p.getCombatStyle() == null || p.getCombatStyle().getAttackType() == null || p.getEquipmentStats() == null

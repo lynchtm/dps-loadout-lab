@@ -22,6 +22,7 @@ public final class EquipmentPreparationFacade {
     private final EquipmentDomainCatalog catalog;
     private final EquipmentCalculator calculator;
     public Map<Integer, EquipmentCatalogItem> getItems() { return catalog.getItems(); }
+    public int canonicalId(int id) { return catalog.canonicalize(EquipmentItem.raw(id, Map.of())).getCanonicalId(); }
     public EquipmentCatalogItem getItemFacts(int id) { return id <= 0 ? null : catalog.requireItem(catalog.canonicalize(EquipmentItem.raw(id, Map.of()))); }
 
     @Inject

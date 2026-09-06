@@ -12,13 +12,45 @@ dependencies {
 }
 group = 'com.tommy.wikidps'
 tasks.named('jar') { from('LICENSE'); from('NOTICE.md') }
-// The upstream Mockito integration tests are retained for reference but excluded:
-// this workspace uses only RuneLite-provided libraries and JUnit.
-sourceSets.test.java.exclude '**/PlayerStateManagerTest.java', '**/DpsCalcPluginTest.java', '**/DpsCalcPanelVersionTest.java'
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release.set(11) }
 tasks.register('run', JavaExec) {
     classpath = sourceSets.test.runtimeClasspath
     mainClass = 'com.tommy.wikidps.WikiDpsLauncher'
     jvmArgs '-ea'
     args '--developer-mode', '--debug'
+}
+
+// Candidate snapshots are opt-in and never replace the pinned regression fixtures.
+tasks.register('candidateParity', Test) {
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    filter { includeTestsMatching 'com.dpscalc.FixtureCandidateReplayTest' }
+    outputs.upToDateWhen { false }
+    doFirst {
+        ['file', 'sha', 'digest'].each { key ->
+            def value = project.findProperty("fixtureCandidate.${key}")
+            if (!value) throw new GradleException("Pass -PfixtureCandidate.${key}=...")
+            systemProperty "fixtureCandidate.${key}", value.toString()
+        }
+    }
+}
+
+// Offline corpus audit. Use -PbossWikiAudit.input=<corpus-dir>
+// -PbossWikiAudit.output=<report.json>; an optional -PbossWikiAudit.itemNames=<id-name.json>
+// supplies item names outside the equipment catalog. Positional JavaExec args also work.
+tasks.register('bossWikiAudit', JavaExec) {
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.dpscalc.scenario.BossWikiAudit'
+    jvmArgs '-ea'
+    doFirst {
+        def input = project.findProperty('bossWikiAudit.input')
+        def output = project.findProperty('bossWikiAudit.output')
+        def itemNames = project.findProperty('bossWikiAudit.itemNames')
+        if ((input == null) != (output == null))
+            throw new GradleException('Pass both -PbossWikiAudit.input=<corpus-dir> and -PbossWikiAudit.output=<report.json>')
+        if (input != null) {
+            args input.toString(), output.toString()
+            if (itemNames != null) args '--item-names', itemNames.toString()
+        }
+    }
 }

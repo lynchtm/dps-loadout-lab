@@ -1,138 +1,97 @@
 package com.dpscalc.combat;
 
+import java.util.function.LongSupplier;
+
 import javax.inject.Singleton;
 
+/** All measured statistics use the same activity window, including misses and idle time. */
 @Singleton
 public class CombatTracker {
+    private static final long TIMEOUT_MS = 10_000;
+    private final LongSupplier clock;
+    private long started, lastActivity;
+    private int totalDamage, killCount;
+    private boolean active;
 
-    private int totalDamage;
-    private long combatStartTime;
-    private long lastDamageTime;
-    private int killCount;
-    private boolean inCombat;
-    private double cachedDps;
-    private long cachedDurationMs;
-
-    private static final long COMBAT_TIMEOUT_MS = 10000;
-
-    public void reset() {
-        totalDamage = 0;
-        combatStartTime = 0;
-        lastDamageTime = 0;
-        killCount = 0;
-        inCombat = false;
-        cachedDps = 0;
-        cachedDurationMs = 0;
+    public CombatTracker() {
+        this(() -> System.nanoTime() / 1_000_000);
     }
 
-    public void recordDamage(int damage) {
-        if (damage <= 0) {
-            return;
+    public CombatTracker(LongSupplier clock) {
+        this.clock = clock;
+    }
+
+    public synchronized void reset() {
+        active = false;
+        started = lastActivity = 0;
+        totalDamage = killCount = 0;
+    }
+
+    public synchronized void beginCombat() {
+        long now = clock.getAsLong();
+        if (!active || now - lastActivity > TIMEOUT_MS) {
+            started = now;
+            totalDamage = killCount = 0;
+            active = true;
         }
+        lastActivity = now;
+    }
 
-        long now = System.currentTimeMillis();
-
-        if (!inCombat || (now - lastDamageTime) > COMBAT_TIMEOUT_MS) {
-            combatStartTime = now;
-            totalDamage = 0;
-            inCombat = true;
-        }
-
+    public synchronized void recordDamage(int damage) {
+        if (damage < 0) return;
+        beginCombat();
         totalDamage += damage;
-        lastDamageTime = now;
-
-        cachedDurationMs = now - combatStartTime;
-        if (cachedDurationMs > 0) {
-            cachedDps = (totalDamage * 1000.0) / cachedDurationMs;
-        }
     }
 
-    public void recordKill() {
+    public synchronized void recordKill() {
+        beginCombat();
         killCount++;
     }
 
-    public double getActualDps() {
-        if (!inCombat || totalDamage == 0) {
-            return 0;
-        }
-
-        long now = System.currentTimeMillis();
-        if ((now - lastDamageTime) > COMBAT_TIMEOUT_MS) {
-            inCombat = false;
-            return 0;
-        }
-
-        return cachedDps;
+    public synchronized boolean isInCombat() {
+        return active && clock.getAsLong() - lastActivity <= TIMEOUT_MS;
     }
 
-    public String getFormattedActualDps() {
-        double dps = getActualDps();
-        if (dps <= 0) {
-            return "N/A";
-        }
-        return String.format("%.2f", dps);
+    public synchronized long getCombatDurationMs() {
+        return active
+                ? Math.max(0, Math.min(clock.getAsLong(), lastActivity + TIMEOUT_MS) - started)
+                : 0;
     }
 
-    public int getTotalDamage() {
+    public synchronized double getActualDps() {
+        long elapsed = getCombatDurationMs();
+        return isInCombat() && elapsed > 0 ? totalDamage * 1000.0 / elapsed : 0;
+    }
+
+    public synchronized double getActualKillsPerHour() {
+        long elapsed = getCombatDurationMs();
+        return isInCombat() && elapsed > 0 ? killCount * 3600000.0 / elapsed : 0;
+    }
+
+    public synchronized int getTotalDamage() {
         return totalDamage;
     }
 
-    public long getCombatDurationMs() {
-        if (!inCombat || combatStartTime == 0) {
-            return 0;
-        }
-        return cachedDurationMs;
-    }
-
-    public String getFormattedCombatDuration() {
-        long durationMs = getCombatDurationMs();
-        if (durationMs <= 0) {
-            return "0s";
-        }
-
-        long seconds = durationMs / 1000;
-        if (seconds < 60) {
-            return seconds + "s";
-        }
-
-        long minutes = seconds / 60;
-        seconds = seconds % 60;
-        return String.format("%dm %ds", minutes, seconds);
-    }
-
-    public int getKillCount() {
+    public synchronized int getKillCount() {
         return killCount;
     }
 
-    public boolean isInCombat() {
-        if (!inCombat) {
-            return false;
-        }
-
-        long now = System.currentTimeMillis();
-        if ((now - lastDamageTime) > COMBAT_TIMEOUT_MS) {
-            inCombat = false;
-            return false;
-        }
-        return true;
-    }
-
-    public double getActualKillsPerHour() {
-        if (cachedDurationMs <= 0 || killCount == 0) {
-            return 0;
-        }
-
-        return (killCount * 3600000.0) / cachedDurationMs;
+    public String getFormattedActualDps() {
+        double value = getActualDps();
+        return value > 0 ? String.format("%.2f", value) : "N/A";
     }
 
     public String getFormattedActualKillsPerHour() {
-        double kph = getActualKillsPerHour();
-        if (kph <= 0) {
-            return "N/A";
-        }
-        if (kph >= 1000) {
-            return String.format("%.1fk", kph / 1000);
-        }
-        return String.format("%.0f", kph);
+        double value = getActualKillsPerHour();
+        return value <= 0
+                ? "N/A"
+                : value >= 1000
+                        ? String.format("%.1fk", value / 1000)
+                        : String.format("%.0f", value);
+    }
+
+    public String getFormattedCombatDuration() {
+        long seconds = getCombatDurationMs() / 1000;
+        return seconds < 60 ? seconds + "s" : String.format("%dm %ds", seconds / 60, seconds % 60);
     }
 }

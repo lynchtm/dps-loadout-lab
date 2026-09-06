@@ -1,99 +1,81 @@
 package com.dpscalc;
 
-import com.dpscalc.calc.DpsCalculator;
-import com.dpscalc.calc.DpsResult;
 import com.dpscalc.combat.CombatTracker;
 import com.dpscalc.data.MonsterDataManager;
 import com.dpscalc.data.MonsterStats;
-import com.dpscalc.state.AttackType;
-import com.dpscalc.state.CombatStyle;
-import com.dpscalc.state.GearSnapshot;
+import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.dpscalc.scenario.*;
+import com.dpscalc.scenario.ScenarioPanel;
 import com.dpscalc.state.PlayerState;
 import com.dpscalc.state.PlayerStateManager;
-import com.dpscalc.state.Prayer;
 import com.google.inject.Provides;
+
 import net.runelite.api.Actor;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.api.Hitsplat;
+import net.runelite.api.MenuAction;
 import net.runelite.api.NPC;
 import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.HitsplatApplied;
 import net.runelite.api.events.InteractingChanged;
 import net.runelite.api.events.ItemContainerChanged;
+import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.events.NpcDespawned;
 import net.runelite.api.events.VarbitChanged;
+import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
+import net.runelite.client.events.ConfigChanged;
+import net.runelite.client.events.ProfileChanged;
+import net.runelite.client.events.RuneScapeProfileChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
-import net.runelite.client.ui.overlay.OverlayManager;
-import net.runelite.client.callback.ClientThread;
-
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
+import net.runelite.client.ui.overlay.OverlayManager;
 import net.runelite.client.util.ImageUtil;
-import java.awt.image.BufferedImage;
 
-import javax.inject.Inject;
-import java.util.EnumSet;
-import java.util.Set;
+import java.awt.image.BufferedImage;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
-import com.dpscalc.scenario.Scenario;
-import com.dpscalc.scenario.ScenarioPanel;
-import net.runelite.api.MenuAction;
-import net.runelite.api.events.MenuEntryAdded;
+
+import javax.inject.Inject;
 import javax.swing.SwingUtilities;
 
 @PluginDescriptor(
-    name = "DPS Loadout Lab",
-    description = "Calculates your theoretical DPS against monsters",
-    tags = {"dps", "damage", "calculator", "combat", "pvm"}
-)
+        name = "DPS Loadout Lab",
+        description = "Calculates your theoretical DPS against monsters",
+        tags = {"dps", "damage", "calculator", "combat", "pvm"})
 public class DpsCalcPlugin extends Plugin {
 
-    @Inject
-    private Client client;
+    @Inject private Client client;
 
-    @Inject
-    private ClientThread clientThread;
+    @Inject private ClientThread clientThread;
 
-    @Inject
-    private DpsCalcConfig config;
+    @Inject private DpsCalcConfig config;
 
-    @Inject
-    private OverlayManager overlayManager;
+    @Inject private OverlayManager overlayManager;
 
-    @Inject
-    private PlayerStateManager playerStateManager;
+    @Inject private PlayerStateManager playerStateManager;
 
-    @Inject
-    private MonsterDataManager monsterDataManager;
+    @Inject private MonsterDataManager monsterDataManager;
 
-    @Inject
-    private DpsCalcOverlay overlay;
+    @Inject private DpsCalcOverlay overlay;
 
-    @Inject
-    private ClientToolbar clientToolbar;
+    @Inject private ClientToolbar clientToolbar;
 
-    @Inject
-    private ItemManager itemManager;
+    @Inject private ItemManager itemManager;
 
     private NavigationButton navButton;
 
-    @Inject
-    private CombatTracker combatTracker;
+    @Inject private CombatTracker combatTracker;
 
     private NPC targetNpc;
-
-    private volatile DpsResult currentDpsResult;
-
-    private volatile DpsResult specDpsResult;
 
     private volatile MonsterStats currentMonsterStats;
 
@@ -105,32 +87,108 @@ public class DpsCalcPlugin extends Plugin {
         return itemManager;
     }
 
+    @Inject private com.dpscalc.scenario.SetupItemIndex setupItemIndex;
+    @Inject private com.dpscalc.scenario.WikiSetupService wikiSetupService;
+    @Inject private com.dpscalc.scenario.BankLayoutService bankLayoutService;
+
+    public com.dpscalc.scenario.SetupItemIndex getSetupItemIndex() {
+        return setupItemIndex;
+    }
+
+    public com.dpscalc.scenario.WikiSetupService getWikiSetupService() {
+        return wikiSetupService;
+    }
+
+    public com.dpscalc.scenario.BankLayoutService getBankLayoutService() {
+        return bankLayoutService;
+    }
+
     private ScheduledExecutorService executor;
     private ScheduledFuture<?> targetClearTask;
-    private ScenarioPanel scenarioPanel;
+    private volatile ScenarioPanel scenarioPanel;
+    @Inject private EquipmentPreparationFacade equipment;
+    private volatile OverlaySnapshot liveOverlay, comparisonOverlay;
+    private volatile String requestedLiveKey;
+    private CalculationCoordinator liveCalculations;
+
+    public static final class OverlaySnapshot {
+        public final ScenarioCalculator.Result result;
+        public final MonsterStats target;
+        public final String source;
+
+        public OverlaySnapshot(
+                ScenarioCalculator.Result result, MonsterStats target, String source) {
+            this.result = result;
+            this.target = target == null ? null : target.copy();
+            this.source = source;
+        }
+    }
+
+    public void publishComparison(ScenarioCalculator.Result result, MonsterStats target) {
+        comparisonOverlay = new OverlaySnapshot(result, target, "Comparison: " + result.name);
+    }
+
+    public void clearComparison() {
+        comparisonOverlay = null;
+    }
+
+    public OverlaySnapshot getOverlaySnapshot() {
+        return getConfig().overlaySource() == DpsCalcConfig.OverlaySource.SELECTED_COMPARISON
+                ? comparisonOverlay
+                : liveOverlay;
+    }
+
     private volatile boolean running;
     private volatile long lifecycle;
     private volatile long calculationGeneration;
     private boolean dirty = true;
     private java.util.concurrent.Future<?> analysisTask;
     @Inject private com.dpscalc.scenario.BankCapture bankCapture;
-    public com.dpscalc.scenario.OwnedEquipment getOwnedEquipment(){return bankCapture==null?com.dpscalc.scenario.OwnedEquipment.empty(0):bankCapture.snapshot();}
+
+    public com.dpscalc.scenario.OwnedEquipment getOwnedEquipment() {
+        return bankCapture == null
+                ? com.dpscalc.scenario.OwnedEquipment.empty(0)
+                : bankCapture.snapshot();
+    }
+
     private volatile int[] inventoryIds = new int[0];
     private volatile int[] bankIds = new int[0];
-    public int[] getInventoryIds() { return inventoryIds.clone(); }
-    public int[] getBankIds() { return bankIds.clone(); }
+
+    public int[] getInventoryIds() {
+        return inventoryIds.clone();
+    }
+
+    public int[] getBankIds() {
+        return bankIds.clone();
+    }
 
     @Override
     protected void startUp() {
         log.info("DPS Calculator plugin started");
         running = true;
+        requestedLiveKey = null;
+        liveCalculations = new CalculationCoordinator(new ScenarioCalculator(equipment));
+        setupItemIndex.start();
         final long startupLifecycle = ++lifecycle;
-        executor = Executors.newSingleThreadScheduledExecutor(r -> { Thread t = new Thread(r, "wiki-dps-live"); t.setDaemon(true); return t; });
+        executor =
+                Executors.newSingleThreadScheduledExecutor(
+                        r -> {
+                            Thread t = new Thread(r, "wiki-dps-live");
+                            t.setDaemon(true);
+                            return t;
+                        });
         executor.execute(monsterDataManager::loadMonsters);
         overlayManager.add(overlay);
 
-        SwingUtilities.invokeLater(() -> {
-        if (running && lifecycle == startupLifecycle && config.showPanel()) {
+        SwingUtilities.invokeLater(
+                () -> {
+                    if (running && lifecycle == startupLifecycle) updatePanelVisibility();
+                });
+    }
+
+    private void updatePanelVisibility() {
+        if (!running) return;
+        if (config.showPanel() && navButton == null) {
             BufferedImage icon;
             try {
                 icon = ImageUtil.loadImageResource(getClass(), "icon.png");
@@ -144,26 +202,39 @@ public class DpsCalcPlugin extends Plugin {
                 g.drawString("D", 4, 12);
                 g.dispose();
             }
-            navButton = NavigationButton.builder()
-                .tooltip("DPS Loadout Lab")
-                .icon(icon)
-                .priority(5)
-                .panel(scenarioPanel = injector.getInstance(ScenarioPanel.class))
-                .build();
+            navButton =
+                    NavigationButton.builder()
+                            .tooltip("DPS Loadout Lab")
+                            .icon(icon)
+                            .priority(5)
+                            .panel(scenarioPanel = injector.getInstance(ScenarioPanel.class))
+                            .build();
             clientToolbar.addNavigation(navButton);
+        } else if (!config.showPanel() && navButton != null) {
+            clientToolbar.removeNavigation(navButton);
+            navButton = null;
+            if (scenarioPanel != null) {
+                scenarioPanel.dispose();
+                scenarioPanel = null;
+            }
+            clearComparison();
         }
-
-        });
     }
 
     @Override
     protected void shutDown() {
         log.info("DPS Calculator plugin stopped");
         running = false;
+        setupItemIndex.stop();
         bankCapture.clear();
         lifecycle++;
         calculationGeneration++;
-        SwingUtilities.invokeLater(() -> { if (scenarioPanel != null) { scenarioPanel.dispose(); scenarioPanel = null; } });
+        ScenarioPanel stoppedPanel = scenarioPanel;
+        scenarioPanel = null;
+        SwingUtilities.invokeLater(
+                () -> {
+                    if (stoppedPanel != null) stoppedPanel.dispose();
+                });
         overlayManager.remove(overlay);
 
         if (navButton != null) {
@@ -177,11 +248,13 @@ public class DpsCalcPlugin extends Plugin {
             executor = null;
         }
         targetNpc = null;
-        currentDpsResult = null;
-        specDpsResult = null;
+        requestedLiveKey = null;
+        liveOverlay = null;
         currentMonsterStats = null;
         selectedVersion = null;
         cachedPlayerState = null;
+        liveOverlay = null;
+        comparisonOverlay = null;
         combatTracker.reset();
     }
 
@@ -190,99 +263,85 @@ public class DpsCalcPlugin extends Plugin {
         return configManager.getConfig(DpsCalcConfig.class);
     }
 
-    public DpsResult calculateDps(MonsterStats monster) {
-        return calculateDps(monster, config.useBestOffensivePrayer(), config.assumeMaxBoosts());
+    private void signalPanel() {
+        SwingUtilities.invokeLater(
+                () -> {
+                    if (running && scenarioPanel != null) scenarioPanel.refreshClientState();
+                });
     }
 
-    public DpsResult calculateDps(MonsterStats monster, boolean useBestPrayer, boolean assumeMaxBoosts) {
-        if (monster == null) {
-            return null;
+    @Subscribe
+    public void onProfileChanged(ProfileChanged event) {
+        dirty = true;
+        resetLiveCalculation();
+        clearComparison();
+        SwingUtilities.invokeLater(this::updatePanelVisibility);
+        signalPanel();
+    }
+
+    @Subscribe
+    public void onRuneScapeProfileChanged(RuneScapeProfileChanged event) {
+        dirty = true;
+        resetLiveCalculation();
+        clearComparison();
+        signalPanel();
+    }
+
+    private void resetLiveCalculation() {
+        calculationGeneration++;
+        requestedLiveKey = null;
+        liveOverlay = null;
+        if (liveCalculations != null) liveCalculations.clear();
+    }
+
+    @Subscribe
+    public void onConfigChanged(ConfigChanged event) {
+        if ("dpscalc".equals(event.getGroup())) {
+            dirty = true;
+            SwingUtilities.invokeLater(this::updatePanelVisibility);
         }
-
-        PlayerState playerState = cachedPlayerState;
-        if (playerState == null) {
-            return null;
-        }
-
-        PlayerState calcState = new PlayerState();
-        calcState.setAttackLevel(playerState.getAttackLevel());
-        calcState.setStrengthLevel(playerState.getStrengthLevel());
-        calcState.setDefenceLevel(playerState.getDefenceLevel());
-        calcState.setRangedLevel(playerState.getRangedLevel());
-        calcState.setMagicLevel(playerState.getMagicLevel());
-        calcState.setHitpointsLevel(playerState.getHitpointsLevel());
-        calcState.setAttackBoost(playerState.getAttackBoost());
-        calcState.setStrengthBoost(playerState.getStrengthBoost());
-        calcState.setDefenceBoost(playerState.getDefenceBoost());
-        calcState.setRangedBoost(playerState.getRangedBoost());
-        calcState.setMagicBoost(playerState.getMagicBoost());
-        calcState.setCombatStyle(playerState.getCombatStyle());
-        calcState.setActivePrayers(playerState.getActivePrayers());
-        calcState.setEquipmentStats(playerState.getEquipmentStats());
-        calcState.setEquippedItemIds(playerState.getEquippedItemIds());
-        calcState.setEquippedItemNames(playerState.getEquippedItemNames());
-        calcState.setRawEquipmentLoadout(playerState.getRawEquipmentLoadout());
-        calcState.setSpellName(playerState.getSpellName());
-        calcState.setSpellbook(playerState.getSpellbook());
-        calcState.setSpellElement(playerState.getSpellElement());
-        calcState.setSpellMaxHit(playerState.getSpellMaxHit());
-        calcState.setCurrentHitpoints(playerState.getCurrentHitpoints());
-
-        calcState.setOnSlayerTask(config.onSlayerTask());
-        calcState.setChargeSpellActive(config.chargeSpell());
-
-        // Apply "Use Best Offensive Prayer" setting
-        if (useBestPrayer) {
-            Set<Prayer> enhancedPrayers = EnumSet.copyOf(calcState.getActivePrayers());
-            Prayer bestPrayer = getBestOffensivePrayer(calcState.getCombatStyle());
-            if (bestPrayer != null) {
-                enhancedPrayers.add(bestPrayer);
-            }
-            calcState.setActivePrayers(enhancedPrayers);
-        }
-
-        // Apply "Assume Max Boosts" setting
-        if (assumeMaxBoosts) {
-            applyMaxBoosts(calcState);
-        }
-
-        playerStateManager.prepareEquipment(calcState, monster.getId());
-
-        DpsCalculator calculator = new DpsCalculator(calcState, monster);
-        DpsResult result = calculator.calculate();
-        result.setMonsterHp(monster.getHitpoints());
-
-        return result;
+        if ("dpscalc".equals(event.getGroup()) || "runelite".equals(event.getGroup()))
+            signalPanel();
     }
 
     @Subscribe
     public void onGameStateChanged(GameStateChanged event) {
         if (event.getGameState() != GameState.LOGGED_IN) {
             calculationGeneration++;
+            liveOverlay = null;
+            comparisonOverlay = null;
+            if (event.getGameState() != GameState.LOADING) combatTracker.reset();
             cachedPlayerState = null;
-            inventoryIds = new int[0]; bankIds = new int[0];
-            if(event.getGameState()!=GameState.LOADING)bankCapture.clear();
+            inventoryIds = new int[0];
+            bankIds = new int[0];
+            if (event.getGameState() != GameState.LOADING) bankCapture.clear();
             cancelTargetClearTask();
             targetNpc = null;
-            currentDpsResult = null;
-            specDpsResult = null;
+            requestedLiveKey = null;
             currentMonsterStats = null;
             selectedVersion = null;
         } else if (event.getGameState() == GameState.LOGGED_IN) {
             cachedPlayerState = playerStateManager.getPlayerState();
         }
+        signalPanel();
     }
 
     @Subscribe
     public void onGameTick(GameTick event) {
         bankCapture.tick();
         cachedPlayerState = playerStateManager.getPlayerState();
-        if (config.automaticRefresh() || dirty) { dirty = false; recalculateDps(); }
+        if (config.automaticRefresh() || dirty) {
+            dirty = false;
+            recalculateDps();
+        }
+        signalPanel();
     }
 
     @Subscribe
     public void onInteractingChanged(InteractingChanged event) {
-        if (event.getTarget() == client.getLocalPlayer() && event.getSource() instanceof NPC && targetNpc == null) {
+        if (event.getTarget() == client.getLocalPlayer()
+                && event.getSource() instanceof NPC
+                && targetNpc == null) {
             targetNpc = (NPC) event.getSource();
             dirty = true;
         }
@@ -298,6 +357,7 @@ public class DpsCalcPlugin extends Plugin {
                 selectedVersion = null;
             }
             targetNpc = newTarget;
+            combatTracker.beginCombat();
             dirty = true;
         } else if (target == null && targetNpc != null && !targetNpc.isDead()) {
             scheduleTargetClear();
@@ -315,15 +375,19 @@ public class DpsCalcPlugin extends Plugin {
         cancelTargetClearTask();
         int timeout = config.targetTimeout();
         if (timeout > 0 && executor != null) {
-            targetClearTask = executor.schedule(() -> clientThread.invokeLater(this::clearTarget), timeout, TimeUnit.SECONDS);
+            targetClearTask =
+                    executor.schedule(
+                            () -> clientThread.invokeLater(this::clearTarget),
+                            timeout,
+                            TimeUnit.SECONDS);
         }
     }
 
     private void clearTarget() {
         calculationGeneration++;
         targetNpc = null;
-        currentDpsResult = null;
-        specDpsResult = null;
+        requestedLiveKey = null;
+        liveOverlay = null;
         currentMonsterStats = null;
         selectedVersion = null;
     }
@@ -332,16 +396,25 @@ public class DpsCalcPlugin extends Plugin {
     public void onItemContainerChanged(ItemContainerChanged event) {
         bankCapture.changed(event);
         if (event.getContainerId() == net.runelite.api.InventoryID.INVENTORY.getId())
-            inventoryIds = java.util.Arrays.stream(event.getItemContainer().getItems()).mapToInt(net.runelite.api.Item::getId).toArray();
+            inventoryIds =
+                    java.util.Arrays.stream(event.getItemContainer().getItems())
+                            .mapToInt(net.runelite.api.Item::getId)
+                            .toArray();
         if (event.getContainerId() == net.runelite.api.InventoryID.BANK.getId())
-            bankIds = java.util.Arrays.stream(event.getItemContainer().getItems()).mapToInt(net.runelite.api.Item::getId).toArray();
+            bankIds =
+                    java.util.Arrays.stream(event.getItemContainer().getItems())
+                            .mapToInt(net.runelite.api.Item::getId)
+                            .toArray();
+        signalPanel();
         if (event.getContainerId() == 94) {
             dirty = true;
         }
     }
 
     @Subscribe
-    public void onStatChanged(net.runelite.api.events.StatChanged event) { bankCapture.playerChanged(); }
+    public void onStatChanged(net.runelite.api.events.StatChanged event) {
+        bankCapture.playerChanged();
+    }
 
     @Subscribe
     public void onVarbitChanged(VarbitChanged event) {
@@ -349,55 +422,54 @@ public class DpsCalcPlugin extends Plugin {
     }
 
     private void recalculateDps() {
-        if (client.getGameState() != GameState.LOGGED_IN) {
-            return;
-        }
-        long generation = ++calculationGeneration;
-        if (analysisTask != null) analysisTask.cancel(true);
-        currentDpsResult = null;
-        specDpsResult = null;
-
+        if (client.getGameState() != GameState.LOGGED_IN) return;
         PlayerState playerState = playerStateManager.getPlayerState();
         cachedPlayerState = playerState;
-
         if (targetNpc == null) {
-            currentDpsResult = null;
-            specDpsResult = null;
+            clearTarget();
+            return;
+        }
+        MonsterStats base = monsterDataManager.getMonster(targetNpc.getId(), selectedVersion);
+        if (base == null) {
+            calculationGeneration++;
+            requestedLiveKey = null;
+            liveOverlay = null;
             currentMonsterStats = null;
             return;
         }
-
-        int npcId = targetNpc.getId();
-        MonsterStats baseMonsterStats = monsterDataManager.getMonster(npcId, selectedVersion);
-
-        if (baseMonsterStats == null) {
-            log.debug("No monster data found for NPC ID: {}", npcId);
-            currentDpsResult = null;
-            specDpsResult = null;
-            currentMonsterStats = null;
-            return;
-        }
-
-        currentMonsterStats = new LiveMonsterContextProvider(client, targetNpc).enrich(baseMonsterStats);
-
-        playerState.setOnSlayerTask(config.onSlayerTask());
-        playerState.setChargeSpellActive(config.chargeSpell());
-        MonsterStats targetSnapshot = currentMonsterStats.copy();
+        currentMonsterStats = new LiveMonsterContextProvider(client, targetNpc).enrich(base);
+        Scenario.Loadout input =
+                CalculationInputs.live(
+                        playerState,
+                        config.onSlayerTask(),
+                        config.chargeSpell(),
+                        config.showSpecialAttack());
+        MonsterStats target = currentMonsterStats.copy();
         if (executor == null || executor.isShutdown()) return;
-        analysisTask = executor.submit(() -> {
-            try {
-                PlayerState calculationState = Scenario.copy(playerState);
-                playerStateManager.prepareEquipment(calculationState, targetSnapshot.getId());
-                DpsResult normal = new DpsCalculator(calculationState, targetSnapshot).calculate();
-                normal.setMonsterHp(targetSnapshot.getHitpoints());
-                DpsResult special = new DpsCalculator(calculationState, targetSnapshot, true).calculate();
-                special.setMonsterHp(targetSnapshot.getHitpoints());
-                if (running && generation == calculationGeneration) { currentDpsResult = normal; specDpsResult = special; }
-            } catch (RuntimeException ex) {
-                if (generation == calculationGeneration) { currentDpsResult = null; specDpsResult = null; }
-                log.debug("Live DPS unavailable: {}", ex.getMessage());
-            }
-        });
+        String key = CalculationInputs.key(input, target, new Encounter());
+        if (key.equals(requestedLiveKey)) return;
+        requestedLiveKey = key;
+        long generation = ++calculationGeneration;
+        liveOverlay = null;
+        if (analysisTask != null) analysisTask.cancel(true);
+        CalculationCoordinator calculator = liveCalculations;
+        analysisTask =
+                executor.submit(
+                        () -> {
+                            try {
+                                ScenarioCalculator.Result result =
+                                        calculator.calculate(input, target, new Encounter());
+                                if (running && generation == calculationGeneration)
+                                    liveOverlay =
+                                            new OverlaySnapshot(result, target, "Live player");
+                            } catch (RuntimeException error) {
+                                if (generation == calculationGeneration) {
+                                    liveOverlay = null;
+                                    requestedLiveKey = null;
+                                }
+                                log.debug("Live DPS unavailable: {}", error.getMessage());
+                            }
+                        });
     }
 
     @Subscribe
@@ -441,11 +513,19 @@ public class DpsCalcPlugin extends Plugin {
         if (!config.npcMenu() || !"Attack".equals(event.getOption())) return;
         NPC npc = event.getMenuEntry().getNpc();
         if (npc == null) return;
-        client.createMenuEntry(-1).setOption("Calculate DPS").setTarget(event.getTarget())
-            .setType(MenuAction.RUNELITE).onClick(entry -> {
-                MonsterStats target = monsterDataManager.getMonster(npc.getId());
-                SwingUtilities.invokeLater(() -> { if (scenarioPanel != null) scenarioPanel.acceptTarget(target); });
-            });
+        client.createMenuEntry(-1)
+                .setOption("Calculate DPS")
+                .setTarget(event.getTarget())
+                .setType(MenuAction.RUNELITE)
+                .onClick(
+                        entry -> {
+                            MonsterStats target = monsterDataManager.getMonster(npc.getId());
+                            SwingUtilities.invokeLater(
+                                    () -> {
+                                        if (scenarioPanel != null)
+                                            scenarioPanel.acceptTarget(target);
+                                    });
+                        });
     }
 
     public boolean selectMonsterVersion(int npcId, String version) {
@@ -466,194 +546,30 @@ public class DpsCalcPlugin extends Plugin {
         return monsterDataManager.getMonsterVersions(target.getId());
     }
 
-    public PlayerState snapshotToPlayerState(GearSnapshot snapshot) {
-        return snapshotToPlayerState(snapshot, null);
+    public DpsCalcConfig getConfig() {
+        return config;
     }
 
-    public PlayerState snapshotToPlayerState(GearSnapshot snapshot, MonsterStats monster) {
-        if (cachedPlayerState == null || snapshot == null) {
-            return null;
-        }
-
-        PlayerState state = new PlayerState();
-
-        state.setEquippedItemIds(snapshot.getEquippedItemIds().clone());
-        state.setEquippedItemNames(snapshot.getEquippedItemNames().clone());
-
-        Set<Prayer> prayers = EnumSet.copyOf(snapshot.getActivePrayers());
-
-        AttackType attackType = determineAttackType(snapshot.getCombatStyleName());
-
-        if (snapshot.isUseBestOffensivePrayer()) {
-            Prayer bestPrayer = getBestOffensivePrayer(attackType);
-            if (bestPrayer != null) {
-                prayers.add(bestPrayer);
-            }
-        }
-        state.setActivePrayers(prayers);
-
-        CombatStyle combatStyle = reconstructCombatStyle(snapshot.getCombatStyleName(), snapshot.getCombatStyleStance());
-        state.setCombatStyle(combatStyle);
-
-        state.setAttackLevel(cachedPlayerState.getAttackLevel());
-        state.setStrengthLevel(cachedPlayerState.getStrengthLevel());
-        state.setDefenceLevel(cachedPlayerState.getDefenceLevel());
-        state.setRangedLevel(cachedPlayerState.getRangedLevel());
-        state.setMagicLevel(cachedPlayerState.getMagicLevel());
-        state.setHitpointsLevel(cachedPlayerState.getHitpointsLevel());
-        state.setPrayerLevel(cachedPlayerState.getPrayerLevel());
-        state.setCurrentHitpoints(cachedPlayerState.getCurrentHitpoints());
-        state.setSpellName(cachedPlayerState.getSpellName());
-        state.setSpellbook(cachedPlayerState.getSpellbook());
-        state.setSpellElement(cachedPlayerState.getSpellElement());
-        state.setSpellMaxHit(cachedPlayerState.getSpellMaxHit());
-
-        if (snapshot.isAssumeMaxBoosts()) {
-            applyMaxBoosts(state, attackType);
-        } else {
-            state.setAttackBoost(cachedPlayerState.getAttackBoost());
-            state.setStrengthBoost(cachedPlayerState.getStrengthBoost());
-            state.setDefenceBoost(cachedPlayerState.getDefenceBoost());
-            state.setRangedBoost(cachedPlayerState.getRangedBoost());
-            state.setMagicBoost(cachedPlayerState.getMagicBoost());
-        }
-
-        state.setOnSlayerTask(config.onSlayerTask());
-        state.setChargeSpellActive(config.chargeSpell());
-        state.setInWilderness(cachedPlayerState.isInWilderness());
-        playerStateManager.prepareEquipment(state, monster == null ? -1 : monster.getId());
-
-        return state;
+    public CombatTracker getCombatTracker() {
+        return combatTracker;
     }
 
-    private AttackType determineAttackType(String styleName) {
-        if (styleName == null) {
-            return AttackType.CRUSH;
-        }
-
-        String upper = styleName.toUpperCase();
-
-        if (upper.contains("STAB")) {
-            return AttackType.STAB;
-        }
-        if (upper.contains("SLASH")) {
-            return AttackType.SLASH;
-        }
-        if (upper.contains("CRUSH")) {
-            return AttackType.CRUSH;
-        }
-
-        if (upper.contains("RANGE") || upper.contains("ACCURATE") ||
-            upper.contains("RAPID") || upper.contains("LONGRANGE")) {
-            return AttackType.RANGED_STANDARD;
-        }
-
-        if (upper.contains("MAGIC") || upper.contains("AUTOCAST")) {
-            return AttackType.MAGIC;
-        }
-
-        return AttackType.CRUSH;
+    public NPC getTargetNpc() {
+        return targetNpc;
     }
 
-    private Prayer getBestOffensivePrayer(AttackType attackType) {
-        if (attackType == null) {
-            return null;
-        }
-
-        if (attackType.isMelee()) {
-            return Prayer.PIETY;
-        }
-        if (attackType.isRanged()) {
-            return Prayer.RIGOUR;
-        }
-        if (attackType.isMagic()) {
-            return Prayer.AUGURY;
-        }
-
-        return null;
+    public MonsterStats getCurrentMonsterStats() {
+        return currentMonsterStats;
     }
 
-    private void applyMaxBoosts(PlayerState state, AttackType attackType) {
-        if (attackType == null) {
-            return;
-        }
-
-        if (attackType.isMelee()) {
-            state.setAttackBoost(5);
-            state.setStrengthBoost(5);
-        } else if (attackType.isRanged()) {
-            state.setRangedBoost(5);
-        } else if (attackType.isMagic()) {
-            state.setMagicBoost(5);
-        }
+    public String getSelectedVersion() {
+        return selectedVersion;
     }
 
-    private CombatStyle reconstructCombatStyle(String name, String stance) {
-        if (name == null || stance == null) {
-            return CombatStyle.UNARMED_PUNCH;
-        }
-
-        CombatStyle matchByBoth = null;
-        CombatStyle matchByName = null;
-
-        for (CombatStyle style : CombatStyle.values()) {
-            if (name.equals(style.getName()) && stance.equals(style.getStance())) {
-                matchByBoth = style;
-                break;
-            }
-            if (matchByName == null && name.equals(style.getName())) matchByName = style;
-        }
-        if (matchByBoth != null) {
-            return matchByBoth;
-        }
-        if (matchByName != null) {
-            return matchByName;
-        }
-
-        return CombatStyle.UNARMED_PUNCH;
+    public PlayerState getCachedPlayerState() {
+        return cachedPlayerState;
     }
 
-    private Prayer getBestOffensivePrayer(CombatStyle style) {
-        if (style == null) return null;
-        AttackType attackType = style.getAttackType();
-        if (attackType.isMelee()) {
-            return Prayer.PIETY;
-        } else if (attackType.isRanged()) {
-            return Prayer.RIGOUR;
-        } else if (attackType.isMagic()) {
-            return Prayer.AUGURY;
-        }
-        return null;
-    }
-
-    private void applyMaxBoosts(PlayerState state) {
-        if (state.getCombatStyle() == null) return;
-        AttackType attackType = state.getCombatStyle().getAttackType();
-        if (attackType.isMelee()) {
-            state.setAttackBoost(Math.max(state.getAttackBoost(), 5));
-            state.setStrengthBoost(Math.max(state.getStrengthBoost(), 5));
-        } else if (attackType.isRanged()) {
-            state.setRangedBoost(Math.max(state.getRangedBoost(), 5));
-        } else if (attackType.isMagic()) {
-            state.setMagicBoost(Math.max(state.getMagicBoost(), 5));
-        }
-    }
-
-    public DpsCalcConfig getConfig() { return config; }
-
-    public CombatTracker getCombatTracker() { return combatTracker; }
-
-    public NPC getTargetNpc() { return targetNpc; }
-
-    public DpsResult getCurrentDpsResult() { return currentDpsResult; }
-
-    public DpsResult getSpecDpsResult() { return specDpsResult; }
-
-    public MonsterStats getCurrentMonsterStats() { return currentMonsterStats; }
-
-    public String getSelectedVersion() { return selectedVersion; }
-
-    public PlayerState getCachedPlayerState() { return cachedPlayerState; }
-
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DpsCalcPlugin.class);
+    private static final org.slf4j.Logger log =
+            org.slf4j.LoggerFactory.getLogger(DpsCalcPlugin.class);
 }
