@@ -1,51 +1,21 @@
-# Reference maintenance
+# Independent validation and factual refresh
 
-The committed fixtures and equipment catalog identify their exact reference SHA and domain
-digest. A passing pinned replay establishes agreement for those cases, not agreement with
-an unspecified latest Wiki. COVERAGE.md owns the capability inventory; CoverageWarnings
-attaches known drift to affected results and optimizer eligibility.
+The replacement does not use GPL calculator output fixtures as a test oracle. `gradlew build` runs retained workflow regressions plus independently worked combat examples. `gradlew independentTest` isolates the Java-only probability foundation and exhaustively enumerates small integer contests. RULES.md records the gameplay specification; COVERAGE.md records remaining limits.
 
-## Candidate update workflow
+From the plugin directory, use Python 3 and a new cache for an updated snapshot:
 
-1. Select and record an exact upstream Wiki commit in a separate checkout outside the release
-   repository. Review upstream engine, equipment/NPC data, spells and item normalization as
-   one change. Do not silently relabel the old model with a newer data SHA.
-2. Generate a schema-v3 fixture snapshot from that upstream engine (never from this Java
-   implementation). Include its `webCalcCommit`, `equipmentDomainDigest`, declared counts,
-   raw inputs and expected rolls/distributions. Retain generator source, command and seed
-   with the update evidence. The upstream generator may need adaptation; this project does
-   not pretend that an absent `yarn sync-fuzz-fixtures` command is runnable locally.
-3. Replay the candidate separately, without overwriting pinned test resources:
-
-```powershell
-./gradlew.bat candidateParity `
-  -PfixtureCandidate.file=C:/fixtures/candidate.json `
-  -PfixtureCandidate.sha=<exact-upstream-sha> `
-  -PfixtureCandidate.digest=<equipment-domain-digest>
+```text
+python tools/refresh-independent-data.py --cache build/facts --fetch
+python tools/acquire-wiki-facts.py --cache build/facts
+python tools/refresh-spell-facts.py --cache build/facts
+python tools/acquire-wiki-facts.py --cache build/facts --equipment
+python tools/refresh-requirement-facts.py --cache build/facts
+python tools/refresh-style-facts.py --cache build/facts --fetch
+python tools/audit-independent-release.py
 ```
 
-This task requires all three properties, verifies schema/provenance/counts, and reports
-fixture failures with candidate SHA and case ID. Its report is in
-`build/reports/tests/candidateParity/index.html`. An unrecognized schema or source is an
-error, not a zero-case success. No network access or external generator is needed for replay.
+Acquisition uses public RuneLite item exports and Wiki articles/Bucket facts, not either calculator's source or generated output. Existing cache files are preserved; use a new directory for new revisions. Inspect source metadata and fact diffs before committing. Requirement parsing is conservative but is not a complete quest/unlock verifier. Wiki text/data attribution remains in NOTICE.md.
 
-4. Reproduce each mismatch as a small named case. Cover affected weapons against ordinary,
-   resistant, weak, Slayer, raid-scaled and reduced-defence targets, plus relevant style,
-   spell, ammo, set and special branches. Keep known drift flagged while unresolved.
-5. Update formulas/catalogs, their provenance/digest, fixtures, NOTICE and COVERAGE together.
-   Remove a CoverageWarnings rule only after focused upstream-generated regressions pass.
-   Shared live/comparison and optimizer regressions must also pass.
-6. Run the full build, prepare a clean standalone export, repeat Hub API packaging checks,
-   then perform manual game verification. Preserve both pinned and candidate reports in the
-   release evidence. Do not call exhaustive optimizer search proof of combat-model parity.
+For a built plugin, pass `--jar <path>` to the audit tool. It checks Java 11, required replacement classes/resources, license consistency and absence of legacy packages. It does not certify legal independence or gameplay parity.
 
-The consolidation pass changes orchestration and confidence reporting. It does not port the
-newer Wiki formulas. Its replay task was validated using the already pinned v3 snapshot;
-no new latest-Wiki fixture generation is claimed.
-
-## Source formatting
-
-Changed active Java sources use four-space AOSP formatting from the standalone
-[google-java-format 1.17.0 release](https://github.com/google/google-java-format/releases/tag/v1.17.0):
-`java -jar google-java-format-1.17.0-all-deps.jar --aosp --replace <files>`.
-The formatter is a local development tool, not a plugin or build dependency.
+The retained boss corpus and its separate refresh commands are documented in BOSS-WIKI-AUDIT.md and README.md. UI screenshots are generated under `build/ui`. Client testing must still cover live state, profiles, bank flows and overlays.

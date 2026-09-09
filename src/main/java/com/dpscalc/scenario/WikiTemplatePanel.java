@@ -1,9 +1,9 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.DpsCalcPlugin;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
 import com.dpscalc.wikisetups.wiki.InventoryParser;
 import com.dpscalc.wikisetups.wiki.InventorySetup;
+import com.loadoutlab.DpsLoadoutLabPlugin;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 
 import java.awt.*;
 import java.util.*;
@@ -19,7 +19,7 @@ final class WikiTemplatePanel extends JPanel {
 
     private final Supplier<Scenario> model;
     private final Supplier<String> profile;
-    private final DpsCalcPlugin plugin;
+    private final DpsLoadoutLabPlugin plugin;
     private final EquipmentPreparationFacade equipment;
     private final Consumer<Scenario.Loadout> add;
     private final ThreadPoolExecutor worker =
@@ -61,7 +61,7 @@ final class WikiTemplatePanel extends JPanel {
     WikiTemplatePanel(
             Supplier<Scenario> model,
             Supplier<String> profile,
-            DpsCalcPlugin plugin,
+            DpsLoadoutLabPlugin plugin,
             EquipmentPreparationFacade equipment,
             Consumer<Scenario.Loadout> add) {
         this.model = model;
@@ -198,7 +198,7 @@ final class WikiTemplatePanel extends JPanel {
                                     + " setups. "
                                     + (all.isEmpty()
                                             ? "No importable loadouts on this page. Its guide may"
-                                                  + " describe gear in prose."
+                                                    + " describe gear in prose."
                                             : "Choose a setup to preview."));
                     status.setToolTipText(page.url());
                 });

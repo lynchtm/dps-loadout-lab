@@ -1,6 +1,6 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.data.MonsterStats;
+import com.loadoutlab.model.MonsterStats;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

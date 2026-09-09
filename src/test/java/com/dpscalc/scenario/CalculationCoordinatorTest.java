@@ -2,8 +2,8 @@ package com.dpscalc.scenario;
 
 import static org.junit.Assert.*;
 
-import com.dpscalc.data.MonsterStats;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.MonsterStats;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 
 import org.junit.Test;
 

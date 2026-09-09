@@ -1,0 +1,833 @@
+{
+  "2h sword": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Chop",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Slash",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Smash",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "axe": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Chop",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Hack",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Smash",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "banner": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Lunge",
+      "stance": "Accurate",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Swipe",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Pound",
+      "stance": "Controlled",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Stab"
+    }
+  ],
+  "bladed staff": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Jab",
+      "stance": "Accurate",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Swipe",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Fend",
+      "stance": "Defensive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {},
+      "name": "Spell",
+      "stance": "Defensive Autocast",
+      "type": "Magic"
+    },
+    {
+      "bonuses": {},
+      "name": "Spell",
+      "stance": "Autocast",
+      "type": "Magic"
+    }
+  ],
+  "bludgeon": [
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pound",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pummel",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Smash",
+      "stance": "Aggressive",
+      "type": "Crush"
+    }
+  ],
+  "blunt": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Pound",
+      "stance": "Accurate",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pummel",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Crush"
+    }
+  ],
+  "bow": [
+    {
+      "bonuses": {
+        "ranged": 3
+      },
+      "name": "Accurate",
+      "stance": "Accurate",
+      "type": "Standard"
+    },
+    {
+      "bonuses": {},
+      "name": "Rapid",
+      "stance": "Rapid",
+      "type": "Standard"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Longrange",
+      "stance": "Longrange",
+      "type": "Standard"
+    }
+  ],
+  "bulwark": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Pummel",
+      "stance": "Accurate",
+      "type": "Crush"
+    }
+  ],
+  "chinchompas": [
+    {
+      "bonuses": {
+        "ranged": 3
+      },
+      "name": "Short fuse",
+      "stance": "Short fuse",
+      "type": "Heavy"
+    },
+    {
+      "bonuses": {},
+      "name": "Medium fuse",
+      "stance": "Medium fuse",
+      "type": "Heavy"
+    },
+    {
+      "bonuses": {},
+      "name": "Long fuse",
+      "stance": "Long fuse",
+      "type": "Heavy"
+    }
+  ],
+  "claw": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Chop",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Slash",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Lunge",
+      "stance": "Controlled",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "crossbow": [
+    {
+      "bonuses": {
+        "ranged": 3
+      },
+      "name": "Accurate",
+      "stance": "Accurate",
+      "type": "Heavy"
+    },
+    {
+      "bonuses": {},
+      "name": "Rapid",
+      "stance": "Rapid",
+      "type": "Heavy"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Longrange",
+      "stance": "Longrange",
+      "type": "Heavy"
+    }
+  ],
+  "flail": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Chop",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Slash",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "gun": [
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Kick",
+      "stance": "Aggressive",
+      "type": "Crush"
+    }
+  ],
+  "multi-melee": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Poke",
+      "stance": "Accurate",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Slash",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pound",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "partisan": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Stab",
+      "stance": "Accurate",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Lunge",
+      "stance": "Aggressive",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pound",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Stab"
+    }
+  ],
+  "pickaxe": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Spike",
+      "stance": "Accurate",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Impale",
+      "stance": "Aggressive",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Smash",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Stab"
+    }
+  ],
+  "polearm": [
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Jab",
+      "stance": "Controlled",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Swipe",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Fend",
+      "stance": "Defensive",
+      "type": "Stab"
+    }
+  ],
+  "polestaff": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Bash",
+      "stance": "Accurate",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pound",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Crush"
+    }
+  ],
+  "powered staff": [
+    {
+      "bonuses": {
+        "magic": 3
+      },
+      "name": "Accurate",
+      "stance": "Accurate",
+      "type": "Magic"
+    },
+    {
+      "bonuses": {
+        "magic": 3
+      },
+      "name": "Accurate",
+      "stance": "Accurate",
+      "type": "Magic"
+    },
+    {
+      "bonuses": {
+        "defence": 3,
+        "magic": 1
+      },
+      "name": "Longrange",
+      "stance": "Longrange",
+      "type": "Magic"
+    }
+  ],
+  "salamander": [
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Scorch",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {},
+      "name": "Flare",
+      "stance": "Accurate",
+      "type": "Standard"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Blaze",
+      "stance": "Defensive",
+      "type": "Magic"
+    }
+  ],
+  "scythe": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Reap",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Chop",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Jab",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "slash sword": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Chop",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Slash",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Lunge",
+      "stance": "Controlled",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ],
+  "spear": [
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Lunge",
+      "stance": "Controlled",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Swipe",
+      "stance": "Controlled",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Pound",
+      "stance": "Controlled",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Stab"
+    }
+  ],
+  "spiked": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Pound",
+      "stance": "Accurate",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pummel",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Spike",
+      "stance": "Controlled",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Crush"
+    }
+  ],
+  "stab sword": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Stab",
+      "stance": "Accurate",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Lunge",
+      "stance": "Aggressive",
+      "type": "Stab"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Slash",
+      "stance": "Aggressive",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Stab"
+    }
+  ],
+  "staff": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Bash",
+      "stance": "Accurate",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Pound",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Focus",
+      "stance": "Defensive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {},
+      "name": "Spell",
+      "stance": "Defensive Autocast",
+      "type": "Magic"
+    },
+    {
+      "bonuses": {},
+      "name": "Spell",
+      "stance": "Autocast",
+      "type": "Magic"
+    }
+  ],
+  "thrown": [
+    {
+      "bonuses": {
+        "ranged": 3
+      },
+      "name": "Accurate",
+      "stance": "Accurate",
+      "type": "Light"
+    },
+    {
+      "bonuses": {},
+      "name": "Rapid",
+      "stance": "Rapid",
+      "type": "Light"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Longrange",
+      "stance": "Longrange",
+      "type": "Light"
+    }
+  ],
+  "unarmed": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Punch",
+      "stance": "Accurate",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "strength": 3
+      },
+      "name": "Kick",
+      "stance": "Aggressive",
+      "type": "Crush"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Block",
+      "stance": "Defensive",
+      "type": "Crush"
+    }
+  ],
+  "whip": [
+    {
+      "bonuses": {
+        "attack": 3
+      },
+      "name": "Flick",
+      "stance": "Accurate",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "attack": 1
+      },
+      "name": "Lash",
+      "stance": "Controlled",
+      "type": "Slash"
+    },
+    {
+      "bonuses": {
+        "defence": 3
+      },
+      "name": "Deflect",
+      "stance": "Defensive",
+      "type": "Slash"
+    }
+  ]
+}

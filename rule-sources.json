@@ -1,0 +1,677 @@
+{
+  "acquired": "2026-09-09",
+  "sources": [
+    {
+      "page": "Abyssal whip",
+      "revision": 15326130,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Abyssal_whip?oldid=15326130",
+      "sourceSha256": "ed58c52867c03e50ca713ee3965c54efcd97e17f2dfc8155e67f2d2d44a69011"
+    },
+    {
+      "page": "Accursed sceptre",
+      "revision": 15316849,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Accursed_sceptre?oldid=15316849",
+      "sourceSha256": "e7827b957411b992a4939292d242dc776a68ced09fa5dddf3885b336d6e90634"
+    },
+    {
+      "page": "Ahrim the Blighted's equipment",
+      "revision": 15334236,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ahrim_the_Blighted's_equipment?oldid=15334236",
+      "sourceSha256": "c663c5866e4da24e1844356c733a8bca19e133c4714b9583bd32e22ca5007bcf"
+    },
+    {
+      "page": "Akkha",
+      "revision": 15295314,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Akkha?oldid=15295314",
+      "sourceSha256": "7c18f8cdb8317f5bd0e8dce947f55215c1084f9004ff9433953c0380579329c0"
+    },
+    {
+      "page": "Ancient godsword",
+      "revision": 15318997,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ancient_godsword?oldid=15318997",
+      "sourceSha256": "7cfa868089ca95c9d882b5e4dcf7f8572b8ba58db5feb6d44b0c39b352c96557"
+    },
+    {
+      "page": "Ancient Magicks",
+      "revision": 15299490,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ancient_Magicks?oldid=15299490",
+      "sourceSha256": "42f81c42c5091bd90619ac8b9e815c9279260c211780f2c09178d6ca5caf0766"
+    },
+    {
+      "page": "Arceuus spellbook",
+      "revision": 15322953,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Arceuus_spellbook?oldid=15322953",
+      "sourceSha256": "0ed5f3df4a131729864b4b7174c8779e8b5ebff279ba2da5189561277f4ec44c"
+    },
+    {
+      "page": "Arclight",
+      "revision": 15330641,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Arclight?oldid=15330641",
+      "sourceSha256": "d3cfc6593b2976f59580dede4993360bce697d7bbf58ca84fde3353556960863"
+    },
+    {
+      "page": "Armadyl godsword",
+      "revision": 15329390,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Armadyl_godsword?oldid=15329390",
+      "sourceSha256": "4dcadf41832ca3d1585e9a3e38cf89fde824730471742e1c45c5c74ed4ad19c4"
+    },
+    {
+      "page": "Autocast",
+      "revision": 15316542,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Autocast?oldid=15316542",
+      "sourceSha256": "86a87e0a27af250ab0dd1db9cd221ad535c2061bd1593aa7644d9ff623ef4c87"
+    },
+    {
+      "page": "Ba-Ba",
+      "revision": 15200300,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ba-Ba?oldid=15200300",
+      "sourceSha256": "d3b1d3fd698be5c6e94da2fb9340b1b8ad0490bf3f6a40da1405804cd8a21d1d"
+    },
+    {
+      "page": "Bandos godsword",
+      "revision": 15329391,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Bandos_godsword?oldid=15329391",
+      "sourceSha256": "1c155127f1e638d77a91c18e5ffe3d30376ffef27c0a198d5aa677d53766b66d"
+    },
+    {
+      "page": "Basilisk Knight",
+      "revision": 15283132,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Basilisk_Knight?oldid=15283132",
+      "sourceSha256": "123d5837c1740f638516af3cc6a560eacc08dddd867c26a38c6bdc8df2e36be5"
+    },
+    {
+      "page": "Berserker necklace",
+      "revision": 15182894,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Berserker_necklace?oldid=15182894",
+      "sourceSha256": "4606d4b9bb6c19df71fea7f7fe13abd590aa2b966670ec88be75f96c2c793c29"
+    },
+    {
+      "page": "Black salamander",
+      "revision": 15322435,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Black_salamander?oldid=15322435",
+      "sourceSha256": "4def18c5f5f7108c220cd99a4c772c954a442228567fdabb93b63062387b9d0a"
+    },
+    {
+      "page": "Blisterwood flail",
+      "revision": 15305836,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Blisterwood_flail?oldid=15305836",
+      "sourceSha256": "f8cb843f377f9546b950198e5787098292c33547b0fcf27050e655d96b29b68d"
+    },
+    {
+      "page": "Blood moon armour",
+      "revision": 15233417,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Blood_moon_armour?oldid=15233417",
+      "sourceSha256": "9a06ab0bded6a8d03f8f904ad31ed0cfb2d50854635bc90961736e71d8f9eda2"
+    },
+    {
+      "page": "Blue moon armour",
+      "revision": 15316410,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Blue_moon_armour?oldid=15316410",
+      "sourceSha256": "f757cd7dacfb4c6db28ed1835db47e71980059b00a7d402f66028f75aa2ee823"
+    },
+    {
+      "page": "Bone staff",
+      "revision": 15192241,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Bone_staff?oldid=15192241",
+      "sourceSha256": "5e8dc8b55c6ed65de940deae80e53de35f518ecc2bfef0a1d043af823fca7d94"
+    },
+    {
+      "page": "Brimstone ring",
+      "revision": 15264609,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Brimstone_ring?oldid=15264609",
+      "sourceSha256": "cb17c0403bc202fa48e0404f2423e04dcda9795a47f337a860cde94912d8fd78"
+    },
+    {
+      "page": "Bucket:Infobox spell",
+      "revision": 14966813,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Bucket:Infobox_spell?oldid=14966813",
+      "sourceSha256": "af8ac61b2fb615c679d9637e8c5d55ec0a4424cc0878b7615ea84acc5c1417b7"
+    },
+    {
+      "page": "Burning claws",
+      "revision": 15272854,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Burning_claws?oldid=15272854",
+      "sourceSha256": "718c9b20b26abfcf733bc12650f97b68feccef9e87a104d8e2b0a0d584493b5c"
+    },
+    {
+      "page": "Chambers of Xeric/Challenge Mode",
+      "revision": 15310596,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chambers_of_Xeric/Challenge_Mode?oldid=15310596",
+      "sourceSha256": "06fd2555b1ad368ac87a7338d1d3ee15c949e1448a7a30365a8767ac4fddb31a"
+    },
+    {
+      "page": "Chambers of Xeric",
+      "revision": 15337267,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chambers_of_Xeric?oldid=15337267",
+      "sourceSha256": "ee3a49cf8a879e15e0cd6e0d86800de02179fb5b13e0ef8dd84719cfda48d0ef"
+    },
+    {
+      "page": "Chaos gauntlets",
+      "revision": 15334708,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Chaos_gauntlets?oldid=15334708",
+      "sourceSha256": "8d0388b0a5e1af7e4e7d5fdb9cd4f4207f9a3dedebd89026bb1797b3fdb705bb"
+    },
+    {
+      "page": "Combat Options",
+      "revision": 15274532,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Combat_Options?oldid=15274532",
+      "sourceSha256": "b57d6d5a3fd7d25ad606f51e7e5410d281f0b47a665fc9fb9651ce7b664b1b1a"
+    },
+    {
+      "page": "Corporeal Beast/Strategies",
+      "revision": 15315712,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Corporeal_Beast/Strategies?oldid=15315712",
+      "sourceSha256": "3efda00d31142184850d7cb5f3532dcd9af3a7890ccd34c14cee7e59b8da5271"
+    },
+    {
+      "page": "Corporeal Beast",
+      "revision": 15337400,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Corporeal_Beast?oldid=15337400",
+      "sourceSha256": "7450694f4c0a3354690cb94ff32341c4ee5a871f84438bdbec3ed31b72dffe51"
+    },
+    {
+      "page": "Craw's bow",
+      "revision": 15264470,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Craw's_bow?oldid=15264470",
+      "sourceSha256": "302f81d5aee1989308a798f6f689e7983f25ceda210a3460a969dc1051a64dad"
+    },
+    {
+      "page": "Crystal equipment",
+      "revision": 15325633,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Crystal_equipment?oldid=15325633",
+      "sourceSha256": "1366b95a0040f1b3631b80a5523b83a628864a3f71d9054c84a5cd31315c63ea"
+    },
+    {
+      "page": "Dark bow",
+      "revision": 15331292,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dark_bow?oldid=15331292",
+      "sourceSha256": "111de6fcde03369f1379a1bf3b93a0a1b48668fd74b40fe56f82a28cfe91b092"
+    },
+    {
+      "page": "Dark Demonbane",
+      "revision": 15148996,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dark_Demonbane?oldid=15148996",
+      "sourceSha256": "a34c15f36557a7d0e8609a782b24227a55a6ad0b2e6d20a776fe74c2f4efa9dd"
+    },
+    {
+      "page": "Darklight",
+      "revision": 15335766,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Darklight?oldid=15335766",
+      "sourceSha256": "34e197732ec98efd6045ae2a5975ac6909c862a6e2baf43a5a4c0f58b1d91b5b"
+    },
+    {
+      "page": "Dawnbringer",
+      "revision": 15235020,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dawnbringer?oldid=15235020",
+      "sourceSha256": "7c13ef7078dc8d9da1289cef82cdc4af13c8410812d8095a9e1a4c266d9a37c3"
+    },
+    {
+      "page": "Dharok the Wretched's equipment",
+      "revision": 15236529,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dharok_the_Wretched's_equipment?oldid=15236529",
+      "sourceSha256": "5ff44b96c2365604e6ca6fd7f573fe14d369199421d2487df806d340666d69aa"
+    },
+    {
+      "page": "Diamond bolts (e)",
+      "revision": 15332123,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Diamond_bolts_(e)?oldid=15332123",
+      "sourceSha256": "e75991db332a0ff53cc216c81bf101d0617933a41c81cc9b51965a794ceb4b19"
+    },
+    {
+      "page": "Dragon claws",
+      "revision": 15186802,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_claws?oldid=15186802",
+      "sourceSha256": "ef5bc796671a8705549416c6e255947ed798f4387144fa7601c640957c7c3315"
+    },
+    {
+      "page": "Dragon dagger",
+      "revision": 15182980,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_dagger?oldid=15182980",
+      "sourceSha256": "180aba3958199c759b33cfbaf07f1a3084bab7900b9e54f48dd36a85065d97ce"
+    },
+    {
+      "page": "Dragon halberd",
+      "revision": 15314007,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_halberd?oldid=15314007",
+      "sourceSha256": "49dae6fde204e98e9e15a697f51f422422cea32c053599bdbc1890365623b797"
+    },
+    {
+      "page": "Dragon hunter crossbow",
+      "revision": 15188068,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_crossbow?oldid=15188068",
+      "sourceSha256": "238c5ad2d61be643521c70b181d41a8552e0afabe3de839e87880a24c2a343f4"
+    },
+    {
+      "page": "Dragon hunter lance",
+      "revision": 15264894,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_lance?oldid=15264894",
+      "sourceSha256": "d2c0f9b1bbb4f7ed688d32cc0277de8525b06a16026223f5e1066fe6bda33083"
+    },
+    {
+      "page": "Dragon hunter wand",
+      "revision": 15288834,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_wand?oldid=15288834",
+      "sourceSha256": "39245402ece33591e5f2d549a0249b4c692f7be1c875d20477057638f09d4800"
+    },
+    {
+      "page": "Dragon mace",
+      "revision": 15272260,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_mace?oldid=15272260",
+      "sourceSha256": "2750b52048c7ceecb3d057c9a21a07377b32751ee5f88898e6e561a32fc3f55c"
+    },
+    {
+      "page": "Dragon warhammer",
+      "revision": 15187325,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragon_warhammer?oldid=15187325",
+      "sourceSha256": "0d4a5624d667ac053cf0103bb5138857673b24cf00c2e250c51e2574ad4e17c5"
+    },
+    {
+      "page": "Dragonstone bolts (e)",
+      "revision": 15327824,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Dragonstone_bolts_(e)?oldid=15327824",
+      "sourceSha256": "f8036b3c749ca0408406dbdf72c0fde8132d006aa3bd93c53ca4b5fd4e7168af"
+    },
+    {
+      "page": "Eclipse moon armour",
+      "revision": 15303681,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Eclipse_moon_armour?oldid=15303681",
+      "sourceSha256": "ae119483abeab8a40097f61c05fc22540407834ed6fae55ead48876abc06a52d"
+    },
+    {
+      "page": "Elder maul",
+      "revision": 15240979,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Elder_maul?oldid=15240979",
+      "sourceSha256": "414a912a3672944a9cf5047f0d422acdb4de3a07be0d7954a1fde1db2ecaa6d9"
+    },
+    {
+      "page": "Emberlight",
+      "revision": 15320249,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Emberlight?oldid=15320249",
+      "sourceSha256": "a419e8e769e3678b3d0f7235490e2de23986305fa05f82a315ab7d90c7ccc378"
+    },
+    {
+      "page": "Eye of Ayak",
+      "revision": 15332761,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Eye_of_Ayak?oldid=15332761",
+      "sourceSha256": "b17819d4e8e0c9932ce5d3352f83164961b7c55107b3b31eb679eeeb720e886e"
+    },
+    {
+      "page": "Fire spells",
+      "revision": 15144316,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Fire_spells?oldid=15144316",
+      "sourceSha256": "184ca64b38057984525c2698fa87bd38099627733a0e391e9418775f62449880"
+    },
+    {
+      "page": "Guthan the Infested's equipment",
+      "revision": 15240643,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Guthan_the_Infested's_equipment?oldid=15240643",
+      "sourceSha256": "c8665d95cd7dd3dbdc5ad8d463a47ced266f714e4b60169afd2e89d49a1a12ed"
+    },
+    {
+      "page": "Hitsplat",
+      "revision": 15301562,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Hitsplat?oldid=15301562",
+      "sourceSha256": "af7f7814909ae4b5a37b364755d7d353cd8fcd9cda929755df5c938f3c9b1a54"
+    },
+    {
+      "page": "Ice demon",
+      "revision": 15315354,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ice_demon?oldid=15315354",
+      "sourceSha256": "e5aa1b966c4592b69ce816d898bc3abaef998fcc6b9b42cf3c4085187e120955"
+    },
+    {
+      "page": "Inquisitor's armour",
+      "revision": 15272741,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Inquisitor's_armour?oldid=15272741",
+      "sourceSha256": "9b311bfbb0f911a838979e4feb8b1764b6d57b7ed3ccc40ce4505a8efeaefc3c"
+    },
+    {
+      "page": "Inquisitor's mace",
+      "revision": 15317314,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Inquisitor's_mace?oldid=15317314",
+      "sourceSha256": "e90098578fdeb935adeb15486a575d10cb0ad982f8a0fb8f5b843ac179c00a77"
+    },
+    {
+      "page": "Ivandis flail",
+      "revision": 15305854,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ivandis_flail?oldid=15305854",
+      "sourceSha256": "df281dba65d8ca07e7bf4f8cfc27570984e31bf5ff69f93268a0f82253865bb6"
+    },
+    {
+      "page": "Kalphite Queen/Strategies",
+      "revision": 15337856,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen/Strategies?oldid=15337856",
+      "sourceSha256": "07ba94ad3e7df33ddc63a6d10f1633dbb11d172fe1035f8bb0a7dcb745b62373"
+    },
+    {
+      "page": "Kalphite Queen",
+      "revision": 15337415,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen?oldid=15337415",
+      "sourceSha256": "8d9fb9af28d501d858411ec16c35353e9fe4addcd2b83a31856eec559e6ccbac"
+    },
+    {
+      "page": "Karil the Tainted's equipment",
+      "revision": 15274063,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Karil_the_Tainted's_equipment?oldid=15274063",
+      "sourceSha256": "811d2187b95d168b82c429d0c4abd633a916f9e85e31522ac6f6f43b2fd36896"
+    },
+    {
+      "page": "Kephri",
+      "revision": 15200302,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Kephri?oldid=15200302",
+      "sourceSha256": "711c85463377067d26b21e9ca6fa0bb65a7aa3717ae7a93cc67ea41cf639544c"
+    },
+    {
+      "page": "Keris partisan of breaching",
+      "revision": 15314684,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Keris_partisan_of_breaching?oldid=15314684",
+      "sourceSha256": "ed9d140eab69e2dd1464fa4f2e554be3af5d3653692c24e609ad7a4fafa63445"
+    },
+    {
+      "page": "Keris partisan of the sun",
+      "revision": 15314679,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Keris_partisan_of_the_sun?oldid=15314679",
+      "sourceSha256": "5472cb481527404042d1b276716b84126dc1c5b09770b16e76935595a8539a0d"
+    },
+    {
+      "page": "Keris partisan",
+      "revision": 15254688,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Keris_partisan?oldid=15254688",
+      "sourceSha256": "363b98e6cf294a86d253208222646f71e92ae238d2c51cf0ad4895de500b38ba"
+    },
+    {
+      "page": "Magic shortbow",
+      "revision": 15183117,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Magic_shortbow?oldid=15183117",
+      "sourceSha256": "4996d19af42f18b5f630eb9f52aa8f2e41d609452463b08686d1fd58357218ed"
+    },
+    {
+      "page": "Maximum magic hit",
+      "revision": 15317791,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Maximum_magic_hit?oldid=15317791",
+      "sourceSha256": "30264fd3c89430b57e830634935ce0cc46b472cdcf2765134318b9b4231774f5"
+    },
+    {
+      "page": "Obsidian armour",
+      "revision": 15161777,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Obsidian_armour?oldid=15161777",
+      "sourceSha256": "cd26c3e2d681625f920982d3d69b6af4d73c2979a65e15b7a24517f30a941b25"
+    },
+    {
+      "page": "Onyx bolts (e)",
+      "revision": 15256563,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Onyx_bolts_(e)?oldid=15256563",
+      "sourceSha256": "503577cfb669c2118420a7afda81f78d114c60cb07e93fe0d98926b156f96e99"
+    },
+    {
+      "page": "Opal bolts (e)",
+      "revision": 15182539,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Opal_bolts_(e)?oldid=15182539",
+      "sourceSha256": "7deab89c03b07e4aa12b872d0c1428d73bd4a04036da5d92691b27b02ccbbba3"
+    },
+    {
+      "page": "Osmumten's fang",
+      "revision": 15236139,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Osmumten's_fang?oldid=15236139",
+      "sourceSha256": "ea4c84c27eab5d030478334445c0e14fb8bcbebf0fada8b6156a2633afbcade2"
+    },
+    {
+      "page": "Prayer",
+      "revision": 15337464,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Prayer?oldid=15337464",
+      "sourceSha256": "05d3ff85f6c8e174b5d9f80a6f2f3d5bcf4b0038d087d94ae2afc320cc870090"
+    },
+    {
+      "page": "Ruby bolts (e)",
+      "revision": 15314757,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ruby_bolts_(e)?oldid=15314757",
+      "sourceSha256": "fdec23ccb3209ba705b510cc10f30994f463ea3223dbd7236e57b96d218f2cd3"
+    },
+    {
+      "page": "Salve amulet(ei)",
+      "revision": 15330245,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Salve_amulet(ei)?oldid=15330245",
+      "sourceSha256": "d34381f5add25fa2c73dbf08cda2e9d2639ece8e421777d60c4d9bef05632c38"
+    },
+    {
+      "page": "Salve amulet(i)",
+      "revision": 15242254,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Salve_amulet(i)?oldid=15242254",
+      "sourceSha256": "9b71c4028577bfd8ddd4d77bb43ff4e78f90ec0b81a3963ac17c21550d99996c"
+    },
+    {
+      "page": "Salve amulet",
+      "revision": 15241628,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Salve_amulet?oldid=15241628",
+      "sourceSha256": "8136fc1c2d7b7930aaab53e7d183babac1b2a010b94d6e5ca28ea0aed8624b85"
+    },
+    {
+      "page": "Sanguinesti staff",
+      "revision": 15336446,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Sanguinesti_staff?oldid=15336446",
+      "sourceSha256": "44893e0daa3338156dda36bc45878d429c2f9cd650236c74632a5f363a4ea113"
+    },
+    {
+      "page": "Sarachnis cudgel",
+      "revision": 15197800,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Sarachnis_cudgel?oldid=15197800",
+      "sourceSha256": "597aabcdbfca3d8f0daceb1170bba960e8f9a6dd1c0df1670bae20dbd8a692b5"
+    },
+    {
+      "page": "Saradomin godsword",
+      "revision": 15231951,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Saradomin_godsword?oldid=15231951",
+      "sourceSha256": "464e7d92140b8e769e5638ddec8f80ddabf3ea0b1e5bd818fbc5c7513f802f9b"
+    },
+    {
+      "page": "Scorching bow",
+      "revision": 15317455,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Scorching_bow?oldid=15317455",
+      "sourceSha256": "89f93c5172c11ec4ac6232425e582656941369e9bd7d7ccae0a44b54287bd004"
+    },
+    {
+      "page": "Scythe of Vitur",
+      "revision": 15308013,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Scythe_of_Vitur?oldid=15308013",
+      "sourceSha256": "40b1bdc61d885dbb149bcf3f3f2ac6d3ebabb911b8d7f5763181eb4db69e0bd0"
+    },
+    {
+      "page": "Silverlight",
+      "revision": 15330342,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Silverlight?oldid=15330342",
+      "sourceSha256": "d4daa8944d9a144dd6356b4762ae181ee13156dddb0034fc114dde5375b00606"
+    },
+    {
+      "page": "Slayer helmet",
+      "revision": 15322450,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_helmet?oldid=15322450",
+      "sourceSha256": "99a6f533eff188a0b7f00f02f6d7cd3e0054ab8022ab195b85499d9453dbbdfd"
+    },
+    {
+      "page": "Soulreaper axe",
+      "revision": 15332310,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Soulreaper_axe?oldid=15332310",
+      "sourceSha256": "12e03d2e218b8e0ff7b6dccedd7c0f3ca53afb427a02744be3278f9af77b6c78"
+    },
+    {
+      "page": "Standard spellbook",
+      "revision": 15318342,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Standard_spellbook?oldid=15318342",
+      "sourceSha256": "a07894008139a1168b545117a0f145a07fc904c282e670a96d9450ae9911fa5f"
+    },
+    {
+      "page": "Sunfire rune",
+      "revision": 15324618,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Sunfire_rune?oldid=15324618",
+      "sourceSha256": "578e99ac04b420562813c7ebc519a4ad3c990ffc44310a7f67666cd7bd81952a"
+    },
+    {
+      "page": "Template:Infobox Spell",
+      "revision": 15325908,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Template:Infobox_Spell?oldid=15325908",
+      "sourceSha256": "6d066b0b571cb7336ffb0329657a31e68920e296864dc17471aa214718c619e9"
+    },
+    {
+      "page": "Thammaron's sceptre",
+      "revision": 15316847,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Thammaron's_sceptre?oldid=15316847",
+      "sourceSha256": "5075cf72b25d57f56e007e1f9793050aaf39767bba2dd2734ce44b396a1ac921"
+    },
+    {
+      "page": "Tombs of Amascut/Strategies",
+      "revision": 15319758,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tombs_of_Amascut/Strategies?oldid=15319758",
+      "sourceSha256": "5e03ec70ca8a487d839835835a03719c1247085650b489c122e08a77fe0b08f8"
+    },
+    {
+      "page": "Tombs of Amascut",
+      "revision": 15337274,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tombs_of_Amascut?oldid=15337274",
+      "sourceSha256": "9f396c0d6fb99c6383e5785f7d2ea9ac922a554464bec8fedfdb223e3c627b8a"
+    },
+    {
+      "page": "Tonalztics of Ralos",
+      "revision": 15313076,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tonalztics_of_Ralos?oldid=15313076",
+      "sourceSha256": "7e2bc95b4fbc9d7d1bc803de6fcc76b0c02a3492d687e3c33ae285471d1b26f6"
+    },
+    {
+      "page": "Torag the Corrupted's equipment",
+      "revision": 15316808,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Torag_the_Corrupted's_equipment?oldid=15316808",
+      "sourceSha256": "4b917b157499a1e5a6ffdbb10caa9ce7ae40f093d5f3da0cc5fd1bc0b64644e4"
+    },
+    {
+      "page": "Tormented bracelet",
+      "revision": 15301600,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tormented_bracelet?oldid=15301600",
+      "sourceSha256": "94203119ade5e1f88ff644a58da23c49274fe0a75039fdf47331748f1a33dd4a"
+    },
+    {
+      "page": "Toxic blowpipe",
+      "revision": 15316028,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Toxic_blowpipe?oldid=15316028",
+      "sourceSha256": "9bc61bfb8e53d2c21833d2fdf63b1ade4a3c954f9dc78d7384f71997c4808481"
+    },
+    {
+      "page": "Toxic staff of the dead",
+      "revision": 15299414,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Toxic_staff_of_the_dead?oldid=15299414",
+      "sourceSha256": "db43f8c54e091a16c0ea74cb0729e8a2d3903a7c6358f0e34262e13c45aabb30"
+    },
+    {
+      "page": "Trident of the Seas",
+      "revision": 15317937,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Trident_of_the_Seas?oldid=15317937",
+      "sourceSha256": "8de108e53ec108ec697e492d72424c9364ebea33d89068f52540a10aa97fc77e"
+    },
+    {
+      "page": "Trident of the Swamp",
+      "revision": 15316842,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Trident_of_the_Swamp?oldid=15316842",
+      "sourceSha256": "2cee537d6f002890fe169ff9d548ab5437fe35733b5723e201678973410137dd"
+    },
+    {
+      "page": "Tumeken's shadow",
+      "revision": 15316596,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Tumeken's_shadow?oldid=15316596",
+      "sourceSha256": "0a94db37cc157d84b0fd60d50ec3527b248ca99bf9f8d910fefd4d0a6194a941"
+    },
+    {
+      "page": "Twisted bow",
+      "revision": 15315040,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Twisted_bow?oldid=15315040",
+      "sourceSha256": "a02b1dbb52bc7244d6b28b7563e4cf2a877116dbe752fa7473843c0f35b52433"
+    },
+    {
+      "page": "Ursine chainmace",
+      "revision": 15309757,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Ursine_chainmace?oldid=15309757",
+      "sourceSha256": "39b7db8fb5fe23ec00bb43f16846804cf6578f278d20732588d74d58d4600274"
+    },
+    {
+      "page": "Vardorvis",
+      "revision": 15337251,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Vardorvis?oldid=15337251",
+      "sourceSha256": "d09b73d941eed27b719f6e216dc67835ec5e7f6c44d92f0cf19b6946a1c796a2"
+    },
+    {
+      "page": "Verac the Defiled's equipment",
+      "revision": 15279294,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Verac_the_Defiled's_equipment?oldid=15279294",
+      "sourceSha256": "edbea0dcd9bb86322912a40520e9055f5817240967244d07533045e5846de66d"
+    },
+    {
+      "page": "Verzik Vitur",
+      "revision": 15331053,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Verzik_Vitur?oldid=15331053",
+      "sourceSha256": "60f68c558a833c7b68503b9e3c88dce0ccfe27ad39a445b90d7390f79f5e4505"
+    },
+    {
+      "page": "Viggora's chainmace",
+      "revision": 15264477,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Viggora's_chainmace?oldid=15264477",
+      "sourceSha256": "5ce8c94d19445cbb67411db25bc3a3194dbc004af0f743d83edb24a13d5ba369"
+    },
+    {
+      "page": "Virtus robes",
+      "revision": 15315044,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Virtus_robes?oldid=15315044",
+      "sourceSha256": "010a33fe7c0762ace7a65e20845b0a421a0871ba1cbec08aae70e22e1ad08cdf"
+    },
+    {
+      "page": "Void Knight equipment",
+      "revision": 15298973,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Void_Knight_equipment?oldid=15298973",
+      "sourceSha256": "a96418755872a8307cf5a2679e30da0e59c446b3fc093793b327e4d9cec0e2a0"
+    },
+    {
+      "page": "Vulnerability",
+      "revision": 14968444,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Vulnerability?oldid=14968444",
+      "sourceSha256": "35bd79ae0c94aad325892e728a5bdae0702f2b94f3d45186eec9550300f1b1a8"
+    },
+    {
+      "page": "Warped sceptre",
+      "revision": 15223410,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Warped_sceptre?oldid=15223410",
+      "sourceSha256": "67ac9a66a732acf1ba24e9b9399e1f9e66944222e665d72aa5de7366bede7cb1"
+    },
+    {
+      "page": "Weapons/Categories",
+      "revision": 15314544,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Weapons/Categories?oldid=15314544",
+      "sourceSha256": "b3bc6c703e27d1f9002e279bf06ee124af97916a8e97f933dc047af538e77e5f"
+    },
+    {
+      "page": "Webweaver bow",
+      "revision": 15309891,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Webweaver_bow?oldid=15309891",
+      "sourceSha256": "8a44753728169d0a0b300a477e0606debdaada1773a18fe132d301a895d57d8e"
+    },
+    {
+      "page": "Zamorak godsword",
+      "revision": 15327836,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Zamorak_godsword?oldid=15327836",
+      "sourceSha256": "0039f11d135e5806fde4f610dec9881feeb751d86ceea045240538b908f13ba3"
+    },
+    {
+      "page": "Zaryte crossbow",
+      "revision": 15293439,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Zaryte_crossbow?oldid=15293439",
+      "sourceSha256": "ee739f34959c56e65275b8c4613b37106fbe69b44ff0359c25f4a7c83ad10f68"
+    },
+    {
+      "page": "Zebak",
+      "revision": 15255510,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Zebak?oldid=15255510",
+      "sourceSha256": "9a7defd1d1c9e94954878b16c7c832e1dc69899af0e4e38b1d4487448b903498"
+    },
+    {
+      "page": "Zulrah",
+      "revision": 15337265,
+      "sourceUrl": "https://oldschool.runescape.wiki/w/Zulrah?oldid=15337265",
+      "sourceSha256": "ff2df196d313f5a0a88fdf8f36a637a5f28d97c973c4fe499a2882c3c637b9f7"
+    }
+  ]
+}

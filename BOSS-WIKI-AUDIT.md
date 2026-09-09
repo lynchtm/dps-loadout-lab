@@ -1,6 +1,6 @@
 # Collection Log boss Wiki import audit
 
-Reviewed September 6, 2026. Scope: Wiki guide discovery, equipment/import parsing, inventory and rune-pouch pairing, compatible item resolution, and draft persistence. This is separate from verification of combat formulas, boss mechanics, or in-game interactions.
+Historical import audit reviewed September 6, 2026. The September 9 runtime replacement reruns the pinned corpus regressions; the old total-suite counts below describe the earlier revision, not current combat coverage. Scope: Wiki guide discovery, equipment/import parsing, inventory and rune-pouch pairing, compatible item resolution, and draft persistence. This is separate from verification of combat formulas, boss mechanics, or in-game interactions.
 
 ## Coverage
 

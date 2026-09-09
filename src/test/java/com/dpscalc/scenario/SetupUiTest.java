@@ -2,8 +2,8 @@ package com.dpscalc.scenario;
 
 import static org.junit.Assert.*;
 
-import com.dpscalc.DpsCalcPlugin;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.DpsLoadoutLabPlugin;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 
 import okhttp3.*;
 
@@ -51,12 +51,12 @@ public class SetupUiTest {
                 () ->
                         panel[0] =
                                 new ScenarioPanel(
-                                        new DpsCalcPlugin() {
+                                        new DpsLoadoutLabPlugin() {
                                             public OwnedEquipment getOwnedEquipment() {
                                                 return snapshot.get();
                                             }
                                         },
-                                        new com.dpscalc.data.MonsterDataManager(),
+                                        new com.loadoutlab.data.MonsterDataManager(),
                                         storage,
                                         new EquipmentPreparationFacade()));
         try {
@@ -97,7 +97,7 @@ public class SetupUiTest {
         Scenario scenario = new Scenario();
         AtomicReference<String> profile = new AtomicReference<>("player");
         AtomicReference<Scenario.Loadout> imported = new AtomicReference<>();
-        DpsCalcPlugin plugin = plugin();
+        DpsLoadoutLabPlugin plugin = plugin();
         WikiTemplatePanel[] panel = new WikiTemplatePanel[1];
         SwingUtilities.invokeAndWait(
                 () -> {
@@ -185,11 +185,11 @@ public class SetupUiTest {
                 });
     }
 
-    private static DpsCalcPlugin plugin() {
+    private static DpsLoadoutLabPlugin plugin() {
         return plugin(WIKI, new java.util.concurrent.CopyOnWriteArrayList<>());
     }
 
-    private static DpsCalcPlugin plugin(String wiki, java.util.List<String> searches) {
+    private static DpsLoadoutLabPlugin plugin(String wiki, java.util.List<String> searches) {
         Map<Integer, String> names =
                 new java.util.HashMap<>(
                         Map.of(
@@ -256,7 +256,7 @@ public class SetupUiTest {
                                 })
                         .build();
         WikiSetupService service = new WikiSetupService(http);
-        return new DpsCalcPlugin() {
+        return new DpsLoadoutLabPlugin() {
             public SetupItemIndex getSetupItemIndex() {
                 return index;
             }
@@ -280,9 +280,9 @@ public class SetupUiTest {
             wiki = new String(stream.readAllBytes(), java.nio.charset.StandardCharsets.UTF_8);
         }
         java.util.List<String> searches = new java.util.concurrent.CopyOnWriteArrayList<>();
-        DpsCalcPlugin plugin = plugin(wiki, searches);
+        DpsLoadoutLabPlugin plugin = plugin(wiki, searches);
         Scenario scenario = new Scenario();
-        scenario.target = new com.dpscalc.data.MonsterStats();
+        scenario.target = new com.loadoutlab.model.MonsterStats();
         scenario.target.setId(-1);
         scenario.target.setName("Araxxor");
         scenario.target.setSize(5);
@@ -315,7 +315,7 @@ public class SetupUiTest {
                     panel[0] =
                             new ScenarioPanel(
                                     plugin,
-                                    new com.dpscalc.data.MonsterDataManager(),
+                                    new com.loadoutlab.data.MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
                     browser[0] = find(panel[0], WikiTemplatePanel.class, c -> true);

@@ -1,7 +1,7 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.equipment.EquipmentCatalogItem;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.equipment.EquipmentCatalogItem;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 import com.dpscalc.wikisetups.items.ItemNameIndex;
 import com.dpscalc.wikisetups.wiki.EquipSlot;
 import com.dpscalc.wikisetups.wiki.ExampleSetup;

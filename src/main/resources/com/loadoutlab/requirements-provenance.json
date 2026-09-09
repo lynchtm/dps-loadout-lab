@@ -1,0 +1,7416 @@
+{
+  "acquired": "2026-09-09",
+  "api": "https://oldschool.runescape.wiki/api.php",
+  "method": "Explicit equip sentences only; missing data stays unknown; ammunition equip levels differ from weapon compatibility.",
+  "pages": {
+    "3rd Age amulet": {
+      "requirements": {
+        "defence": 30,
+        "magic": 65
+      },
+      "revision": 15326814
+    },
+    "3rd Age axe": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15326837
+    },
+    "3rd Age bow": {
+      "requirements": {
+        "ranged": 65
+      },
+      "revision": 15326828
+    },
+    "3rd Age cloak": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15326831
+    },
+    "3rd Age druidic cloak": {
+      "requirements": {
+        "prayer": 65
+      },
+      "revision": 15326839
+    },
+    "3rd Age druidic robe bottoms": {
+      "requirements": {
+        "prayer": 65
+      },
+      "revision": 15326840
+    },
+    "3rd Age druidic robe top": {
+      "requirements": {
+        "prayer": 65
+      },
+      "revision": 15326847
+    },
+    "3rd Age druidic staff": {
+      "requirements": {
+        "attack": 65,
+        "prayer": 65
+      },
+      "revision": 15326848
+    },
+    "3rd Age felling axe": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15326849
+    },
+    "3rd Age full helmet": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15326818
+    },
+    "3rd Age kiteshield": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15326820
+    },
+    "3rd Age longsword": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15326834
+    },
+    "3rd Age mage hat": {
+      "requirements": {
+        "defence": 30,
+        "magic": 65
+      },
+      "revision": 15326815
+    },
+    "3rd Age pickaxe": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15326851
+    },
+    "3rd Age platebody": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15326823
+    },
+    "3rd Age platelegs": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15326822
+    },
+    "3rd Age plateskirt": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15315881
+    },
+    "3rd Age range coif": {
+      "requirements": {
+        "defence": 45,
+        "ranged": 65
+      },
+      "revision": 15326824
+    },
+    "3rd Age range legs": {
+      "requirements": {
+        "defence": 45,
+        "ranged": 65
+      },
+      "revision": 15326825
+    },
+    "3rd Age range top": {
+      "requirements": {
+        "defence": 45,
+        "ranged": 65
+      },
+      "revision": 15326826
+    },
+    "3rd Age robe": {
+      "requirements": {
+        "defence": 30,
+        "magic": 65
+      },
+      "revision": 15326816
+    },
+    "3rd Age robe top": {
+      "requirements": {
+        "defence": 30,
+        "magic": 65
+      },
+      "revision": 15326817
+    },
+    "3rd Age vambraces": {
+      "requirements": {
+        "defence": 45,
+        "prayer": 1,
+        "ranged": 65
+      },
+      "revision": 15326827
+    },
+    "3rd Age wand": {
+      "requirements": {
+        "magic": 65
+      },
+      "revision": 15328773
+    },
+    "Abyssal bludgeon": {
+      "requirements": {
+        "attack": 70,
+        "strength": 70
+      },
+      "revision": 15186994
+    },
+    "Abyssal dagger": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15299123
+    },
+    "Abyssal dagger (bh)": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15238868
+    },
+    "Abyssal tentacle": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15322458
+    },
+    "Abyssal whip": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15326130
+    },
+    "Abyssal whip (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15326131
+    },
+    "Accursed sceptre": {
+      "requirements": {
+        "magic": 70
+      },
+      "revision": 15316849
+    },
+    "Accursed sceptre (a)": {
+      "requirements": {
+        "magic": 70
+      },
+      "revision": 15316852
+    },
+    "Adamant 2h sword": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15320166
+    },
+    "Adamant axe": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15242621
+    },
+    "Adamant battleaxe": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15182711
+    },
+    "Adamant boots": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15320167
+    },
+    "Adamant cane": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15324094
+    },
+    "Adamant chainbody": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15182714
+    },
+    "Adamant crossbow": {
+      "requirements": {
+        "ranged": 46
+      },
+      "revision": 15242610
+    },
+    "Adamant dart": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15301656
+    },
+    "Adamant defender": {
+      "requirements": {
+        "attack": 30,
+        "defence": 30
+      },
+      "revision": 15260284
+    },
+    "Adamant felling axe": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15191391
+    },
+    "Adamant full helm (g)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324066
+    },
+    "Adamant full helm (t)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324072
+    },
+    "Adamant gloves": {
+      "requirements": {
+        "defence": 13
+      },
+      "revision": 15213297
+    },
+    "Adamant halberd": {
+      "requirements": {
+        "attack": 30,
+        "strength": 15
+      },
+      "revision": 15320170
+    },
+    "Adamant helm (h1)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324077
+    },
+    "Adamant helm (h2)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324078
+    },
+    "Adamant helm (h3)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324079
+    },
+    "Adamant helm (h4)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324080
+    },
+    "Adamant helm (h5)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324081
+    },
+    "Adamant kiteshield (g)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324070
+    },
+    "Adamant kiteshield (t)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324076
+    },
+    "Adamant knife": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15182731
+    },
+    "Adamant longsword": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15182732
+    },
+    "Adamant mace": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15242605
+    },
+    "Adamant med helm": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15322410
+    },
+    "Adamant pickaxe": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15242617
+    },
+    "Adamant platebody": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15320171
+    },
+    "Adamant platebody (g)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324067
+    },
+    "Adamant platebody (h1)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324087
+    },
+    "Adamant platebody (h2)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324088
+    },
+    "Adamant platebody (h3)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324089
+    },
+    "Adamant platebody (h4)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324090
+    },
+    "Adamant platebody (h5)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324091
+    },
+    "Adamant platebody (t)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324073
+    },
+    "Adamant platelegs": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15320172
+    },
+    "Adamant platelegs (g)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324068
+    },
+    "Adamant platelegs (t)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324074
+    },
+    "Adamant plateskirt": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15320173
+    },
+    "Adamant plateskirt (g)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324069
+    },
+    "Adamant plateskirt (t)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324075
+    },
+    "Adamant scimitar": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15242604
+    },
+    "Adamant shield (h1)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324082
+    },
+    "Adamant shield (h2)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324083
+    },
+    "Adamant shield (h3)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324084
+    },
+    "Adamant shield (h4)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324085
+    },
+    "Adamant shield (h5)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324086
+    },
+    "Adamant spear": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15182745
+    },
+    "Adamant sq shield": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15320174
+    },
+    "Adamant sword": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15320175
+    },
+    "Adamant thrownaxe": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15271376
+    },
+    "Adamant warhammer": {
+      "requirements": {
+        "strength": 30
+      },
+      "revision": 15320176
+    },
+    "Ahrim's hood": {
+      "requirements": {
+        "defence": 70,
+        "magic": 70
+      },
+      "revision": 15182751
+    },
+    "Ahrim's robeskirt": {
+      "requirements": {
+        "defence": 70,
+        "magic": 70
+      },
+      "revision": 15208091
+    },
+    "Ahrim's robeskirt (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208957
+    },
+    "Ahrim's robetop": {
+      "requirements": {
+        "defence": 70,
+        "magic": 70
+      },
+      "revision": 15184391
+    },
+    "Ahrim's robetop (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208959
+    },
+    "Ahrim's staff": {
+      "requirements": {
+        "attack": 70,
+        "magic": 70
+      },
+      "revision": 15238422
+    },
+    "Ahrim's staff (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208960
+    },
+    "Air battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15182754
+    },
+    "Amethyst dart": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15301666
+    },
+    "Amulet of air": {
+      "requirements": {
+        "magic": 59
+      },
+      "revision": 15330287
+    },
+    "Amulet of earth": {
+      "requirements": {
+        "magic": 59
+      },
+      "revision": 15330296
+    },
+    "Amulet of fire": {
+      "requirements": {
+        "magic": 59
+      },
+      "revision": 15330297
+    },
+    "Amulet of glory": {
+      "requirements": {},
+      "revision": 15320178
+    },
+    "Amulet of glory (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208961
+    },
+    "Amulet of water": {
+      "requirements": {
+        "magic": 59
+      },
+      "revision": 15330295
+    },
+    "Ancestral hat": {
+      "requirements": {
+        "defence": 65,
+        "magic": 75
+      },
+      "revision": 15188076
+    },
+    "Ancestral robe bottom": {
+      "requirements": {
+        "defence": 65,
+        "magic": 75
+      },
+      "revision": 15188078
+    },
+    "Ancestral robe top": {
+      "requirements": {
+        "defence": 65,
+        "magic": 75
+      },
+      "revision": 15188077
+    },
+    "Ancient blessing": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15252873
+    },
+    "Ancient bracers": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324769
+    },
+    "Ancient ceremonial boots": {
+      "requirements": {},
+      "revision": 15190620
+    },
+    "Ancient ceremonial gloves": {
+      "requirements": {},
+      "revision": 15190619
+    },
+    "Ancient ceremonial legs": {
+      "requirements": {},
+      "revision": 15190618
+    },
+    "Ancient ceremonial mask": {
+      "requirements": {},
+      "revision": 15190616
+    },
+    "Ancient ceremonial top": {
+      "requirements": {},
+      "revision": 15190617
+    },
+    "Ancient chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324768
+    },
+    "Ancient coif": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324766
+    },
+    "Ancient crozier": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324022
+    },
+    "Ancient d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324767
+    },
+    "Ancient d'hide boots": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324825
+    },
+    "Ancient godsword": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15318997
+    },
+    "Ancient mace": {
+      "requirements": {
+        "attack": 15,
+        "prayer": 25
+      },
+      "revision": 15184174
+    },
+    "Ancient mitre": {
+      "requirements": {
+        "magic": 40,
+        "prayer": 40
+      },
+      "revision": 15324013
+    },
+    "Ancient platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324876
+    },
+    "Ancient robe legs": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324012
+    },
+    "Ancient robe top": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324011
+    },
+    "Ancient staff": {
+      "requirements": {
+        "attack": 50,
+        "magic": 50
+      },
+      "revision": 15301378
+    },
+    "Ancient staff (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208963
+    },
+    "Ancient stole": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324015
+    },
+    "Ancient wyvern shield": {
+      "requirements": {
+        "magic": 70
+      },
+      "revision": 15326688
+    },
+    "Antler guard": {
+      "requirements": {
+        "prayer": 50
+      },
+      "revision": 15285772
+    },
+    "Apprentice wand": {
+      "requirements": {
+        "magic": 50
+      },
+      "revision": 15182775
+    },
+    "Aquanite hopper": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15328521
+    },
+    "Aranea boots": {
+      "requirements": {},
+      "revision": 15192520
+    },
+    "Arcane spirit shield": {
+      "requirements": {
+        "defence": 75,
+        "magic": 65,
+        "prayer": 70
+      },
+      "revision": 15327840
+    },
+    "Arclight": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15330641
+    },
+    "Ardougne knight helm": {
+      "requirements": {},
+      "revision": 15189338
+    },
+    "Ardougne knight platebody": {
+      "requirements": {
+        "defence": 1
+      },
+      "revision": 15189339
+    },
+    "Arkan blade": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15255954
+    },
+    "Armadyl bracers": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324773
+    },
+    "Armadyl chainskirt": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15184496
+    },
+    "Armadyl chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324772
+    },
+    "Armadyl chestplate": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15184495
+    },
+    "Armadyl coif": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324770
+    },
+    "Armadyl crossbow": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15315731
+    },
+    "Armadyl crozier": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324032
+    },
+    "Armadyl d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324771
+    },
+    "Armadyl d'hide boots": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324826
+    },
+    "Armadyl godsword": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15329390
+    },
+    "Armadyl helmet": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15184494
+    },
+    "Armadyl mitre": {
+      "requirements": {
+        "magic": 40,
+        "prayer": 40
+      },
+      "revision": 15324024
+    },
+    "Armadyl platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324883
+    },
+    "Armadyl robe legs": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324026
+    },
+    "Armadyl robe top": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324025
+    },
+    "Armadyl stole": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324031
+    },
+    "Avernic defender": {
+      "requirements": {
+        "attack": 70,
+        "defence": 70
+      },
+      "revision": 15298485
+    },
+    "Avernic treads": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15314043
+    },
+    "Avernic treads (et)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15301080
+    },
+    "Avernic treads (max)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15320239
+    },
+    "Avernic treads (max) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208964
+    },
+    "Avernic treads (pe)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15301078
+    },
+    "Avernic treads (pe)(et)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15301085
+    },
+    "Avernic treads (pr)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15320238
+    },
+    "Avernic treads (pr)(et)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15320236
+    },
+    "Avernic treads (pr)(pe)": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15320237
+    },
+    "Bandos boots": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15322433
+    },
+    "Bandos bracers": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324777
+    },
+    "Bandos chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324776
+    },
+    "Bandos chestplate": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15297834
+    },
+    "Bandos cloak": {
+      "requirements": {
+        "prayer": 40
+      },
+      "revision": 15324037
+    },
+    "Bandos coif": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324774
+    },
+    "Bandos crozier": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324040
+    },
+    "Bandos d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324775
+    },
+    "Bandos d'hide boots": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324827
+    },
+    "Bandos godsword": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15329391
+    },
+    "Bandos kiteshield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324891
+    },
+    "Bandos mitre": {
+      "requirements": {
+        "magic": 40,
+        "prayer": 40
+      },
+      "revision": 15324033
+    },
+    "Bandos platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324888
+    },
+    "Bandos robe legs": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324036
+    },
+    "Bandos robe top": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324035
+    },
+    "Bandos stole": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324039
+    },
+    "Bandos tassets": {
+      "requirements": {
+        "defence": 65
+      },
+      "revision": 15184492
+    },
+    "Barrelchest anchor": {
+      "requirements": {
+        "attack": 60,
+        "strength": 40
+      },
+      "revision": 15295166
+    },
+    "Barrelchest anchor (bh)": {
+      "requirements": {
+        "attack": 50,
+        "strength": 40
+      },
+      "revision": 15297409
+    },
+    "Barronite mace": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15292904
+    },
+    "Barrows gloves (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208965
+    },
+    "Battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15218241
+    },
+    "Bearhead": {
+      "requirements": {},
+      "revision": 15182890
+    },
+    "Beginner wand": {
+      "requirements": {
+        "magic": 45
+      },
+      "revision": 15182892
+    },
+    "Belle's folly": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15275743
+    },
+    "Berserker helm": {
+      "requirements": {
+        "defence": 45
+      },
+      "revision": 15182893
+    },
+    "Berserker helm (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208966
+    },
+    "Berserker ring (i) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15237292
+    },
+    "Black 2h sword": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182622
+    },
+    "Black axe": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15322412
+    },
+    "Black battleaxe": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182623
+    },
+    "Black boater": {
+      "requirements": {},
+      "revision": 15324161
+    },
+    "Black boots": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15182606
+    },
+    "Black cane": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15323923
+    },
+    "Black cavalier": {
+      "requirements": {},
+      "revision": 15324798
+    },
+    "Black chainbody": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15182608
+    },
+    "Black claws": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15184149
+    },
+    "Black d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15327897
+    },
+    "Black d'hide body (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208968
+    },
+    "Black d'hide chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15322403
+    },
+    "Black d'hide chaps (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208969
+    },
+    "Black d'hide shield": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15188746
+    },
+    "Black d'hide vambraces": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15322402
+    },
+    "Black dagger": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182624
+    },
+    "Black dart": {
+      "requirements": {
+        "ranged": 10
+      },
+      "revision": 15183514
+    },
+    "Black defender": {
+      "requirements": {
+        "attack": 10,
+        "defence": 10
+      },
+      "revision": 15260282
+    },
+    "Black felling axe": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15191389
+    },
+    "Black full helm": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15183647
+    },
+    "Black full helm (g)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323869
+    },
+    "Black full helm (t)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323874
+    },
+    "Black halberd": {
+      "requirements": {
+        "attack": 10,
+        "strength": 5
+      },
+      "revision": 15183336
+    },
+    "Black headband": {
+      "requirements": {},
+      "revision": 15324120
+    },
+    "Black helm (h1)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323879
+    },
+    "Black helm (h2)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323880
+    },
+    "Black helm (h3)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323881
+    },
+    "Black helm (h4)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323882
+    },
+    "Black helm (h5)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323883
+    },
+    "Black kiteshield": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15182605
+    },
+    "Black kiteshield (g)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323873
+    },
+    "Black kiteshield (t)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323878
+    },
+    "Black knife": {
+      "requirements": {
+        "ranged": 10
+      },
+      "revision": 15183512
+    },
+    "Black mace": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182627
+    },
+    "Black mask": {
+      "requirements": {
+        "combat": 40,
+        "defence": 10,
+        "strength": 20
+      },
+      "revision": 15290821
+    },
+    "Black mask (i)": {
+      "requirements": {
+        "combat": 40,
+        "defence": 10,
+        "strength": 20
+      },
+      "revision": 15213278
+    },
+    "Black med helm": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15326251
+    },
+    "Black pickaxe": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15324060
+    },
+    "Black platebody": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15322398
+    },
+    "Black platebody (g)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323870
+    },
+    "Black platebody (h1)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323889
+    },
+    "Black platebody (h2)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323890
+    },
+    "Black platebody (h3)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323891
+    },
+    "Black platebody (h4)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323892
+    },
+    "Black platebody (h5)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323893
+    },
+    "Black platebody (t)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323875
+    },
+    "Black platelegs": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15211048
+    },
+    "Black platelegs (g)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323871
+    },
+    "Black platelegs (t)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323876
+    },
+    "Black plateskirt": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15182610
+    },
+    "Black plateskirt (g)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323872
+    },
+    "Black plateskirt (t)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323877
+    },
+    "Black salamander": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15322435
+    },
+    "Black scimitar": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182628
+    },
+    "Black shield (h1)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323884
+    },
+    "Black shield (h2)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323885
+    },
+    "Black shield (h3)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323886
+    },
+    "Black shield (h4)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323887
+    },
+    "Black shield (h5)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15323888
+    },
+    "Black spear": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182626
+    },
+    "Black sq shield": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15184221
+    },
+    "Black sword": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15182621
+    },
+    "Black warhammer": {
+      "requirements": {
+        "strength": 10
+      },
+      "revision": 15182620
+    },
+    "Blade of Saeldor": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15302256
+    },
+    "Blade of Saeldor (c)": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15294682
+    },
+    "Blessed spirit shield": {
+      "requirements": {
+        "defence": 70,
+        "prayer": 60
+      },
+      "revision": 15327944
+    },
+    "Blisterwood flail": {
+      "requirements": {
+        "attack": 50
+      },
+      "revision": 15305836
+    },
+    "Blisterwood sickle": {
+      "requirements": {
+        "attack": 50
+      },
+      "revision": 15254576
+    },
+    "Blood ancient sceptre": {
+      "requirements": {
+        "attack": 50,
+        "magic": 75,
+        "strength": 60
+      },
+      "revision": 15292069
+    },
+    "Blood moon chestplate": {
+      "requirements": {
+        "defence": 50,
+        "strength": 75
+      },
+      "revision": 15211418
+    },
+    "Blood moon helm": {
+      "requirements": {
+        "defence": 50,
+        "strength": 75
+      },
+      "revision": 15211417
+    },
+    "Blood moon tassets": {
+      "requirements": {
+        "defence": 50,
+        "strength": 75
+      },
+      "revision": 15211419
+    },
+    "Blood'n'tar snelm": {
+      "requirements": {},
+      "revision": 15188371
+    },
+    "Bloodbark body": {
+      "requirements": {
+        "defence": 60,
+        "magic": 60
+      },
+      "revision": 15194722
+    },
+    "Bloodbark boots": {
+      "requirements": {
+        "defence": 60,
+        "magic": 60
+      },
+      "revision": 15189997
+    },
+    "Bloodbark gauntlets": {
+      "requirements": {
+        "defence": 60,
+        "magic": 60
+      },
+      "revision": 15189996
+    },
+    "Bloodbark helm": {
+      "requirements": {
+        "defence": 60,
+        "magic": 60
+      },
+      "revision": 15189331
+    },
+    "Bloodbark legs": {
+      "requirements": {
+        "defence": 60,
+        "magic": 60
+      },
+      "revision": 15189329
+    },
+    "Blue boater": {
+      "requirements": {},
+      "revision": 15324162
+    },
+    "Blue d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 50
+      },
+      "revision": 15320263
+    },
+    "Blue d'hide body (g)": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 50
+      },
+      "revision": 15324792
+    },
+    "Blue d'hide body (t)": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 50
+      },
+      "revision": 15324794
+    },
+    "Blue d'hide chaps": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15320264
+    },
+    "Blue d'hide chaps (g)": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15324793
+    },
+    "Blue d'hide chaps (t)": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15324795
+    },
+    "Blue d'hide shield": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 50
+      },
+      "revision": 15188744
+    },
+    "Blue d'hide vambraces": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15322417
+    },
+    "Blue headband": {
+      "requirements": {},
+      "revision": 15324121
+    },
+    "Blue moon chestplate": {
+      "requirements": {
+        "defence": 50,
+        "magic": 75
+      },
+      "revision": 15320252
+    },
+    "Blue moon helm": {
+      "requirements": {
+        "defence": 50,
+        "magic": 75
+      },
+      "revision": 15320253
+    },
+    "Blue moon spear": {
+      "requirements": {
+        "attack": 70,
+        "magic": 75
+      },
+      "revision": 15320250
+    },
+    "Blue moon tassets": {
+      "requirements": {
+        "defence": 50,
+        "magic": 75
+      },
+      "revision": 15320251
+    },
+    "Blurite crossbow": {
+      "requirements": {
+        "ranged": 16
+      },
+      "revision": 15182903
+    },
+    "Blurite sword": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15182904
+    },
+    "Bone bolts": {
+      "requirements": {
+        "ranged": 28
+      },
+      "revision": 15182909
+    },
+    "Bone mace": {
+      "requirements": {
+        "attack": 50
+      },
+      "revision": 15192239
+    },
+    "Bone shortbow": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15192240
+    },
+    "Bone staff": {
+      "requirements": {
+        "magic": 50
+      },
+      "revision": 15192241
+    },
+    "Bonecrusher necklace": {
+      "requirements": {
+        "prayer": 12
+      },
+      "revision": 15286133
+    },
+    "Boots of Brimstone": {
+      "requirements": {
+        "defence": 70,
+        "slayer": 44
+      },
+      "revision": 15313129
+    },
+    "Boots of darkness": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15325248
+    },
+    "Boots of stone": {
+      "requirements": {
+        "slayer": 44
+      },
+      "revision": 15195794
+    },
+    "Bow of Faerdhinen": {
+      "requirements": {
+        "agility": 70,
+        "ranged": 80
+      },
+      "revision": 15320329
+    },
+    "Bow of Faerdhinen (c)": {
+      "requirements": {
+        "agility": 70,
+        "ranged": 80
+      },
+      "revision": 15320341
+    },
+    "Brine sabre": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15320270
+    },
+    "Broad arrows": {
+      "requirements": {
+        "ranged": 50,
+        "slayer": 55
+      },
+      "revision": 15242303
+    },
+    "Broad bolts": {
+      "requirements": {
+        "ranged": 61,
+        "slayer": 55
+      },
+      "revision": 15301644
+    },
+    "Broken bark snelm": {
+      "requirements": {},
+      "revision": 15182921
+    },
+    "Bronze 2h sword": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15320181
+    },
+    "Bronze axe": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15320182
+    },
+    "Bronze battleaxe": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15182785
+    },
+    "Bronze boots": {
+      "requirements": {},
+      "revision": 15182540
+    },
+    "Bronze chainbody": {
+      "requirements": {
+        "defence": 1
+      },
+      "revision": 15320183
+    },
+    "Bronze claws": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15182788
+    },
+    "Bronze crossbow": {
+      "requirements": {
+        "ranged": 1
+      },
+      "revision": 15182536
+    },
+    "Bronze dart": {
+      "requirements": {
+        "ranged": 1
+      },
+      "revision": 15301674
+    },
+    "Bronze felling axe": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15191386
+    },
+    "Bronze full helm": {
+      "requirements": {},
+      "revision": 15320135
+    },
+    "Bronze mace": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15182810
+    },
+    "Bronze platebody": {
+      "requirements": {},
+      "revision": 15182541
+    },
+    "Bronze platelegs": {
+      "requirements": {
+        "defence": 1
+      },
+      "revision": 15320189
+    },
+    "Bronze scimitar": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15320200
+    },
+    "Bronze thrownaxe": {
+      "requirements": {},
+      "revision": 15182544
+    },
+    "Broodoo shield (combat)": {
+      "requirements": {
+        "defence": 25,
+        "magic": 25
+      },
+      "revision": 15188505
+    },
+    "Broodoo shield (disease)": {
+      "requirements": {
+        "defence": 25,
+        "magic": 25
+      },
+      "revision": 15188506
+    },
+    "Broodoo shield (poison)": {
+      "requirements": {
+        "defence": 25,
+        "magic": 25
+      },
+      "revision": 15188507
+    },
+    "Brown headband": {
+      "requirements": {},
+      "revision": 15324123
+    },
+    "Bruise blue snelm": {
+      "requirements": {},
+      "revision": 15188709
+    },
+    "Brutus slippers": {
+      "requirements": {},
+      "revision": 15194328
+    },
+    "Bryophyta's staff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15317782
+    },
+    "Bug lantern": {
+      "requirements": {
+        "slayer": 33
+      },
+      "revision": 15276009
+    },
+    "Burning claws": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15272854
+    },
+    "Cabbage round shield": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15324093
+    },
+    "Calamity breeches": {
+      "requirements": {
+        "strength": 70
+      },
+      "revision": 15333982
+    },
+    "Calamity chest": {
+      "requirements": {
+        "strength": 70
+      },
+      "revision": 15333981
+    },
+    "Camphor blowpipe": {
+      "requirements": {
+        "ranged": 45
+      },
+      "revision": 15271511
+    },
+    "Carnillean armour": {
+      "requirements": {
+        "defence": 1
+      },
+      "revision": 15182934
+    },
+    "Centurion cuirass": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15333979
+    },
+    "Chaos gauntlets": {
+      "requirements": {},
+      "revision": 15334708
+    },
+    "Chinchompa": {
+      "requirements": {
+        "ranged": 45
+      },
+      "revision": 15254611
+    },
+    "Cleaver": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15182941
+    },
+    "Climbing boots (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208979
+    },
+    "Coif": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15320280
+    },
+    "Colossal blade": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15261790
+    },
+    "Comp ogre bow": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15182944
+    },
+    "Corrupted Volatile Nightmare staff": {
+      "requirements": {
+        "hitpoints": 20,
+        "magic": 50
+      },
+      "revision": 15303344
+    },
+    "Corrupted armadyl godsword": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15191593
+    },
+    "Corrupted dark bow": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15192587
+    },
+    "Corrupted dragon claws": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15191592
+    },
+    "Corrupted morrigan's coif (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191305
+    },
+    "Corrupted morrigan's leather body (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191306
+    },
+    "Corrupted morrigan's leather chaps (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191307
+    },
+    "Corrupted scythe of vitur": {
+      "requirements": {
+        "attack": 60,
+        "strength": 70
+      },
+      "revision": 15191596
+    },
+    "Corrupted statius's full helm (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191308
+    },
+    "Corrupted statius's platebody (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191309
+    },
+    "Corrupted statius's platelegs (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191310
+    },
+    "Corrupted tumeken's shadow": {
+      "requirements": {
+        "magic": 75
+      },
+      "revision": 15191600
+    },
+    "Corrupted twisted bow": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15191594
+    },
+    "Corrupted vesta's chainbody (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191311
+    },
+    "Corrupted vesta's plateskirt (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191312
+    },
+    "Corrupted voidwaker": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15191591
+    },
+    "Corrupted zuriel's hood (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191313
+    },
+    "Corrupted zuriel's robe bottom (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191314
+    },
+    "Corrupted zuriel's robe top (bh)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15191315
+    },
+    "Cow slippers": {
+      "requirements": {},
+      "revision": 15194323
+    },
+    "Crab claw": {
+      "requirements": {},
+      "revision": 15320282
+    },
+    "Crab helmet": {
+      "requirements": {},
+      "revision": 15320283
+    },
+    "Craw's bow": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15264470
+    },
+    "Crimson kisten": {
+      "requirements": {
+        "attack": 60,
+        "strength": 85
+      },
+      "revision": 15273935
+    },
+    "Crossbow": {
+      "requirements": {
+        "ranged": 1
+      },
+      "revision": 15265609
+    },
+    "Crystal blessing": {
+      "requirements": {
+        "magic": 20
+      },
+      "revision": 15208804
+    },
+    "Crystal body": {
+      "requirements": {
+        "agility": 50,
+        "defence": 70
+      },
+      "revision": 15322853
+    },
+    "Crystal bow": {
+      "requirements": {
+        "agility": 50,
+        "ranged": 70
+      },
+      "revision": 15320290
+    },
+    "Crystal felling axe": {
+      "requirements": {
+        "agility": 50,
+        "attack": 70
+      },
+      "revision": 15320316
+    },
+    "Crystal halberd": {
+      "requirements": {
+        "agility": 50,
+        "attack": 70,
+        "strength": 35
+      },
+      "revision": 15235978
+    },
+    "Crystal harpoon": {
+      "requirements": {
+        "agility": 50,
+        "attack": 70
+      },
+      "revision": 15316885
+    },
+    "Crystal helm": {
+      "requirements": {
+        "agility": 50,
+        "defence": 70
+      },
+      "revision": 15322852
+    },
+    "Crystal legs": {
+      "requirements": {
+        "agility": 50,
+        "defence": 70
+      },
+      "revision": 15322851
+    },
+    "Crystal shield": {
+      "requirements": {
+        "agility": 50,
+        "defence": 70
+      },
+      "revision": 15291690
+    },
+    "Cursed goblin bow": {
+      "requirements": {},
+      "revision": 15218358
+    },
+    "Cursed goblin staff": {
+      "requirements": {
+        "magic": 64
+      },
+      "revision": 15184249
+    },
+    "Dagon'hai hat": {
+      "requirements": {
+        "defence": 40,
+        "magic": 70
+      },
+      "revision": 15189334
+    },
+    "Dagon'hai robe bottom": {
+      "requirements": {
+        "defence": 40,
+        "magic": 70
+      },
+      "revision": 15189332
+    },
+    "Dagon'hai robe top": {
+      "requirements": {
+        "defence": 40,
+        "magic": 70
+      },
+      "revision": 15189333
+    },
+    "Dark bow": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15331292
+    },
+    "Dark bow (bh)": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15314449
+    },
+    "Dark cavalier": {
+      "requirements": {},
+      "revision": 15324801
+    },
+    "Decorative armour (gold platebody)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15260324
+    },
+    "Decorative armour (gold platelegs)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15260325
+    },
+    "Decorative armour (gold plateskirt)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15260326
+    },
+    "Decorative armour (magic hat)": {
+      "requirements": {
+        "magic": 20
+      },
+      "revision": 15260315
+    },
+    "Decorative armour (magic legs)": {
+      "requirements": {
+        "magic": 20
+      },
+      "revision": 15260318
+    },
+    "Decorative armour (magic top)": {
+      "requirements": {
+        "magic": 20
+      },
+      "revision": 15260316
+    },
+    "Decorative armour (quiver)": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15260314
+    },
+    "Decorative armour (ranged legs)": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15260312
+    },
+    "Decorative armour (ranged top)": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15260311
+    },
+    "Decorative armour (red platebody)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15185127
+    },
+    "Decorative armour (red platelegs)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15185132
+    },
+    "Decorative armour (red plateskirt)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15185135
+    },
+    "Decorative armour (white platebody)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15185126
+    },
+    "Decorative armour (white platelegs)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15185131
+    },
+    "Decorative armour (white plateskirt)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15185134
+    },
+    "Decorative boots (gold)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15234608
+    },
+    "Decorative boots (red)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15189939
+    },
+    "Decorative boots (white)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15234565
+    },
+    "Decorative full helm (gold)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15260323
+    },
+    "Decorative full helm (red)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15189942
+    },
+    "Decorative full helm (white)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15189941
+    },
+    "Decorative helm (gold)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15260321
+    },
+    "Decorative helm (red)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15185124
+    },
+    "Decorative helm (white)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15185129
+    },
+    "Decorative shield (gold)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15260328
+    },
+    "Decorative shield (red)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15185138
+    },
+    "Decorative shield (white)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15185137
+    },
+    "Decorative sword (gold)": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15260330
+    },
+    "Decorative sword (red)": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15185141
+    },
+    "Decorative sword (white)": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15185140
+    },
+    "Devout boots": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15189034
+    },
+    "Dharok's greataxe": {
+      "requirements": {
+        "attack": 70,
+        "strength": 70
+      },
+      "revision": 15248976
+    },
+    "Dharok's helm": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15184389
+    },
+    "Dharok's platebody": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15182964
+    },
+    "Dharok's platelegs": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15183694
+    },
+    "Diamond dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188619
+    },
+    "Dinh's bulwark": {
+      "requirements": {
+        "attack": 75,
+        "defence": 75
+      },
+      "revision": 15322918
+    },
+    "Dizana's quiver": {
+      "requirements": {
+        "ranged": 75
+      },
+      "revision": 15329079
+    },
+    "Dorgeshuun crossbow": {
+      "requirements": {
+        "ranged": 28
+      },
+      "revision": 15210109
+    },
+    "Dragon 2h sword": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15331442
+    },
+    "Dragon axe": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15322371
+    },
+    "Dragon battleaxe": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15320297
+    },
+    "Dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15301675
+    },
+    "Dragon boots": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15322414
+    },
+    "Dragon cane": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15325074
+    },
+    "Dragon chainbody": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15320152
+    },
+    "Dragon claws": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15186802
+    },
+    "Dragon claws (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15237639
+    },
+    "Dragon crossbow": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188164
+    },
+    "Dragon crossbow (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15239569
+    },
+    "Dragon dagger": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15182980
+    },
+    "Dragon dagger (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208977
+    },
+    "Dragon dart": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15301677
+    },
+    "Dragon defender": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15326123
+    },
+    "Dragon defender (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15326126
+    },
+    "Dragon felling axe": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15320317
+    },
+    "Dragon full helm": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15314539
+    },
+    "Dragon halberd": {
+      "requirements": {
+        "attack": 60,
+        "strength": 30
+      },
+      "revision": 15314007
+    },
+    "Dragon harpoon": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15188066
+    },
+    "Dragon hunter crossbow": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15188068
+    },
+    "Dragon hunter wand": {
+      "requirements": {
+        "magic": 65
+      },
+      "revision": 15288834
+    },
+    "Dragon kiteshield": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15183892
+    },
+    "Dragon knife": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15189027
+    },
+    "Dragon longsword": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15183370
+    },
+    "Dragon longsword (bh)": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15191270
+    },
+    "Dragon mace (bh)": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15191271
+    },
+    "Dragon med helm": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15320147
+    },
+    "Dragon pickaxe": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15320342
+    },
+    "Dragon platebody": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15183891
+    },
+    "Dragon platelegs": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15182569
+    },
+    "Dragon plateskirt": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15320153
+    },
+    "Dragon scimitar": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15326243
+    },
+    "Dragon scimitar (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208975
+    },
+    "Dragon scimitar (or)": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15325096
+    },
+    "Dragon spear": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15322382
+    },
+    "Dragon sq shield": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15320148
+    },
+    "Dragon sword": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15188067
+    },
+    "Dragon thrownaxe": {
+      "requirements": {
+        "ranged": 61
+      },
+      "revision": 15271370
+    },
+    "Dragon warhammer": {
+      "requirements": {
+        "strength": 60
+      },
+      "revision": 15187325
+    },
+    "Dragonbone necklace": {
+      "requirements": {
+        "prayer": 70
+      },
+      "revision": 15188633
+    },
+    "Dragonfire ward": {
+      "requirements": {
+        "defence": 75,
+        "ranged": 70
+      },
+      "revision": 15188640
+    },
+    "Dragonstone bolts (e)": {
+      "requirements": {
+        "ranged": 61
+      },
+      "revision": 15327824
+    },
+    "Dragonstone boots": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15189364
+    },
+    "Dragonstone dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188620
+    },
+    "Dragonstone full helm": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15189361
+    },
+    "Dragonstone gauntlets": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15189365
+    },
+    "Dragonstone platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15189362
+    },
+    "Dragonstone platelegs": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15189363
+    },
+    "Dual macuahuitl": {
+      "requirements": {
+        "attack": 70,
+        "strength": 75
+      },
+      "revision": 15330537
+    },
+    "Dual sai": {
+      "requirements": {},
+      "revision": 15324860
+    },
+    "Dust battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15188013
+    },
+    "Dwarven helmet": {
+      "requirements": {
+        "defence": 50
+      },
+      "revision": 15183706
+    },
+    "Earmuffs": {
+      "requirements": {
+        "slayer": 15
+      },
+      "revision": 15322618
+    },
+    "Earth battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15182985
+    },
+    "Earthbound tecpatl": {
+      "requirements": {
+        "attack": 55
+      },
+      "revision": 15193211
+    },
+    "Echo axe": {
+      "requirements": {},
+      "revision": 15239873
+    },
+    "Echo boots": {
+      "requirements": {
+        "defence": 75
+      },
+      "revision": 15320314
+    },
+    "Echo harpoon": {
+      "requirements": {},
+      "revision": 15271463
+    },
+    "Echo pickaxe": {
+      "requirements": {},
+      "revision": 15271464
+    },
+    "Eclipse atlatl": {
+      "requirements": {
+        "attack": 50,
+        "ranged": 75,
+        "strength": 50
+      },
+      "revision": 15307596
+    },
+    "Eclipse moon chestplate": {
+      "requirements": {
+        "defence": 50,
+        "ranged": 75
+      },
+      "revision": 15211424
+    },
+    "Eclipse moon helm": {
+      "requirements": {
+        "defence": 50,
+        "ranged": 75
+      },
+      "revision": 15211423
+    },
+    "Eclipse moon tassets": {
+      "requirements": {
+        "defence": 50,
+        "ranged": 75
+      },
+      "revision": 15211425
+    },
+    "Elder chaos hood": {
+      "requirements": {
+        "magic": 40
+      },
+      "revision": 15187862
+    },
+    "Elder chaos robe": {
+      "requirements": {
+        "magic": 40
+      },
+      "revision": 15187806
+    },
+    "Elder chaos top": {
+      "requirements": {
+        "magic": 40
+      },
+      "revision": 15187805
+    },
+    "Elder maul": {
+      "requirements": {
+        "strength": 75
+      },
+      "revision": 15240979
+    },
+    "Elder maul (or)": {
+      "requirements": {
+        "strength": 75
+      },
+      "revision": 15333764
+    },
+    "Eldritch Nightmare staff": {
+      "requirements": {
+        "hitpoints": 50,
+        "magic": 82
+      },
+      "revision": 15315858
+    },
+    "Elemental amulet": {
+      "requirements": {
+        "magic": 59
+      },
+      "revision": 15331027
+    },
+    "Elemental shield": {
+      "requirements": {
+        "magic": 3
+      },
+      "revision": 15320300
+    },
+    "Elidinis' ward": {
+      "requirements": {
+        "magic": 80
+      },
+      "revision": 15236925
+    },
+    "Elidinis' ward (f)": {
+      "requirements": {
+        "magic": 80
+      },
+      "revision": 15190534
+    },
+    "Elite black full helm": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15237182
+    },
+    "Elite black platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15192543
+    },
+    "Elite black platelegs": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15192544
+    },
+    "Elite calamity breeches": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15333984
+    },
+    "Elite calamity chest": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15333978
+    },
+    "Elite void robe": {
+      "requirements": {
+        "prayer": 3
+      },
+      "revision": 15260481
+    },
+    "Elite void top": {
+      "requirements": {
+        "prayer": 3
+      },
+      "revision": 15260476
+    },
+    "Elysian spirit shield": {
+      "requirements": {
+        "defence": 75,
+        "prayer": 75
+      },
+      "revision": 15186436
+    },
+    "Emberlight": {
+      "requirements": {
+        "attack": 77
+      },
+      "revision": 15320249
+    },
+    "Emerald dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188617
+    },
+    "Enchanted robe": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15324863
+    },
+    "Enchanted top": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15324862
+    },
+    "Eternal boots": {
+      "requirements": {
+        "defence": 75,
+        "magic": 75
+      },
+      "revision": 15186940
+    },
+    "Excalibur": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182999
+    },
+    "Eye of Ayak": {
+      "requirements": {
+        "magic": 83
+      },
+      "revision": 15332761
+    },
+    "Facemask": {
+      "requirements": {
+        "slayer": 10
+      },
+      "revision": 15183974
+    },
+    "Ferocious gloves": {
+      "requirements": {
+        "attack": 80,
+        "defence": 80
+      },
+      "revision": 15301367
+    },
+    "Fighter hat": {
+      "requirements": {
+        "defence": 45
+      },
+      "revision": 15260298
+    },
+    "Fighter torso": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15260485
+    },
+    "Fire battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15320213
+    },
+    "Fixed device": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15184238
+    },
+    "Fremennik blade": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15183020
+    },
+    "Fremennik helm": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15327904
+    },
+    "Fremennik kilt": {
+      "requirements": {},
+      "revision": 15325099
+    },
+    "Fremennik shield": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15315248
+    },
+    "Frog-leather body": {
+      "requirements": {
+        "defence": 25,
+        "ranged": 25
+      },
+      "revision": 15183023
+    },
+    "Frog-leather boots": {
+      "requirements": {
+        "defence": 25,
+        "ranged": 25
+      },
+      "revision": 15183024
+    },
+    "Frog-leather chaps": {
+      "requirements": {
+        "defence": 25,
+        "ranged": 25
+      },
+      "revision": 15183025
+    },
+    "Frying pan": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15183026
+    },
+    "Gadderhammer": {
+      "requirements": {},
+      "revision": 15183027
+    },
+    "Ghostly boots": {
+      "requirements": {},
+      "revision": 15183030
+    },
+    "Ghostly cloak": {
+      "requirements": {},
+      "revision": 15183031
+    },
+    "Ghostly gloves": {
+      "requirements": {},
+      "revision": 15183032
+    },
+    "Ghostly hood": {
+      "requirements": {},
+      "revision": 15183033
+    },
+    "Ghostly hood (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208974
+    },
+    "Ghostly robe (bottom)": {
+      "requirements": {},
+      "revision": 15183034
+    },
+    "Ghostly robe (bottom) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208973
+    },
+    "Ghostly robe (top)": {
+      "requirements": {},
+      "revision": 15183480
+    },
+    "Ghostly robe (top) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208972
+    },
+    "Ghrazi rapier": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15299960
+    },
+    "Gilded 2h sword": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15326852
+    },
+    "Gilded axe": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15326877
+    },
+    "Gilded boots": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15326878
+    },
+    "Gilded chainbody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15326867
+    },
+    "Gilded coif": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15326872
+    },
+    "Gilded d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15326875
+    },
+    "Gilded d'hide vambraces": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15326874
+    },
+    "Gilded full helm": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15326856
+    },
+    "Gilded med helm": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15326869
+    },
+    "Gilded platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15326858
+    },
+    "Gilded scimitar": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15326880
+    },
+    "Gilded spear": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15326870
+    },
+    "Gilded sq shield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15326871
+    },
+    "Glacial temotli": {
+      "requirements": {
+        "attack": 55
+      },
+      "revision": 15192744
+    },
+    "Gloves of darkness": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15325247
+    },
+    "Gloves of silence": {
+      "requirements": {
+        "agility": 50
+      },
+      "revision": 15183039
+    },
+    "Gold headband": {
+      "requirements": {},
+      "revision": 15324124
+    },
+    "Gold helmet": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15315162
+    },
+    "Granite body": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15183054
+    },
+    "Granite boots": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15184787
+    },
+    "Granite gloves": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15188520
+    },
+    "Granite hammer": {
+      "requirements": {
+        "attack": 50,
+        "strength": 50
+      },
+      "revision": 15315757
+    },
+    "Granite helm": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15183055
+    },
+    "Granite legs": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15183056
+    },
+    "Granite longsword": {
+      "requirements": {
+        "attack": 50,
+        "strength": 50
+      },
+      "revision": 15188399
+    },
+    "Granite maul": {
+      "requirements": {
+        "attack": 50,
+        "strength": 50
+      },
+      "revision": 15209524
+    },
+    "Granite ring": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15188521
+    },
+    "Granite ring (i)": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15188529
+    },
+    "Granite shield": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15322326
+    },
+    "Green boater": {
+      "requirements": {},
+      "revision": 15324163
+    },
+    "Green d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15322330
+    },
+    "Green d'hide body (g)": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15324116
+    },
+    "Green d'hide body (t)": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15324118
+    },
+    "Green d'hide chaps": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15322329
+    },
+    "Green d'hide chaps (g)": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15324117
+    },
+    "Green d'hide chaps (t)": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15324119
+    },
+    "Green d'hide shield": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15188743
+    },
+    "Green d'hide vambraces": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15241547
+    },
+    "Green headband": {
+      "requirements": {},
+      "revision": 15324125
+    },
+    "Guthan's chainskirt": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15183063
+    },
+    "Guthan's helm": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15183064
+    },
+    "Guthan's platebody": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15183065
+    },
+    "Guthan's warspear": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15252857
+    },
+    "Guthix bracers": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324781
+    },
+    "Guthix chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324780
+    },
+    "Guthix cloak": {
+      "requirements": {
+        "prayer": 40
+      },
+      "revision": 15324044
+    },
+    "Guthix coif": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324778
+    },
+    "Guthix crozier": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324047
+    },
+    "Guthix d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324779
+    },
+    "Guthix d'hide boots": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324828
+    },
+    "Guthix mitre": {
+      "requirements": {
+        "magic": 40,
+        "prayer": 40
+      },
+      "revision": 15324041
+    },
+    "Guthix mjolnir": {
+      "requirements": {},
+      "revision": 15184597
+    },
+    "Guthix platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324899
+    },
+    "Guthix robe legs": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324043
+    },
+    "Guthix robe top": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324042
+    },
+    "Guthix staff": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15257302
+    },
+    "Guthix stole": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324045
+    },
+    "Hallowed flail": {
+      "requirements": {
+        "attack": 50
+      },
+      "revision": 15286908
+    },
+    "Hallowfell": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15336015
+    },
+    "Hard leather shield": {
+      "requirements": {
+        "defence": 10,
+        "ranged": 20
+      },
+      "revision": 15188741
+    },
+    "Hardleather body": {
+      "requirements": {
+        "defence": 10,
+        "ranged": 1
+      },
+      "revision": 15322419
+    },
+    "Harmonised Nightmare staff": {
+      "requirements": {
+        "hitpoints": 50,
+        "magic": 82
+      },
+      "revision": 15299843
+    },
+    "Harry's cutlass": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15297845
+    },
+    "Healer hat": {
+      "requirements": {
+        "defence": 45
+      },
+      "revision": 15260302
+    },
+    "Heavy ballista": {
+      "requirements": {
+        "ranged": 75
+      },
+      "revision": 15224134
+    },
+    "Helm of Neitiznot": {
+      "requirements": {
+        "defence": 55
+      },
+      "revision": 15320122
+    },
+    "Helm of Neitiznot (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15313244
+    },
+    "Hill giant club": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15188023
+    },
+    "Hitpoints cape": {
+      "requirements": {
+        "hitpoints": 2
+      },
+      "revision": 15182945
+    },
+    "Holy blessing": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15227041
+    },
+    "Holy moleys": {
+      "requirements": {
+        "prayer": 31
+      },
+      "revision": 15276014
+    },
+    "Holy sandals": {
+      "requirements": {
+        "prayer": 31
+      },
+      "revision": 15324133
+    },
+    "Holy wraps": {
+      "requirements": {
+        "prayer": 31
+      },
+      "revision": 15325103
+    },
+    "Honourable blessing": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15252870
+    },
+    "Hood of darkness": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15325244
+    },
+    "Hunter's spear": {
+      "requirements": {
+        "ranged": 55,
+        "strength": 30
+      },
+      "revision": 15264550
+    },
+    "Hunters' crossbow": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15322184
+    },
+    "Iban's staff": {
+      "requirements": {
+        "attack": 50,
+        "magic": 50
+      },
+      "revision": 15322332
+    },
+    "Iban's staff (u)": {
+      "requirements": {
+        "attack": 50,
+        "magic": 50
+      },
+      "revision": 15322510
+    },
+    "Ice ancient sceptre": {
+      "requirements": {
+        "attack": 50,
+        "magic": 75,
+        "strength": 60
+      },
+      "revision": 15292071
+    },
+    "Infernal pickaxe": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15323378
+    },
+    "Infinity boots": {
+      "requirements": {
+        "defence": 25,
+        "magic": 50
+      },
+      "revision": 15184027
+    },
+    "Infinity bottoms": {
+      "requirements": {
+        "defence": 25,
+        "magic": 50
+      },
+      "revision": 15259505
+    },
+    "Infinity gloves": {
+      "requirements": {
+        "defence": 25,
+        "magic": 50
+      },
+      "revision": 15183076
+    },
+    "Infinity hat": {
+      "requirements": {
+        "defence": 25,
+        "magic": 50
+      },
+      "revision": 15326928
+    },
+    "Infinity top": {
+      "requirements": {
+        "defence": 25,
+        "magic": 50
+      },
+      "revision": 15259502
+    },
+    "Initiate cuisse": {
+      "requirements": {
+        "defence": 20,
+        "prayer": 10
+      },
+      "revision": 15227381
+    },
+    "Initiate hauberk": {
+      "requirements": {
+        "defence": 20,
+        "prayer": 10
+      },
+      "revision": 15183080
+    },
+    "Initiate sallet": {
+      "requirements": {
+        "defence": 20,
+        "prayer": 10
+      },
+      "revision": 15227380
+    },
+    "Inquisitor's great helm": {
+      "requirements": {
+        "defence": 30,
+        "strength": 70
+      },
+      "revision": 15272765
+    },
+    "Inquisitor's hauberk": {
+      "requirements": {
+        "defence": 30,
+        "strength": 70
+      },
+      "revision": 15273322
+    },
+    "Inquisitor's mace": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15317314
+    },
+    "Inquisitor's plateskirt": {
+      "requirements": {
+        "defence": 30,
+        "strength": 70
+      },
+      "revision": 15272781
+    },
+    "Insulated boots": {
+      "requirements": {
+        "slayer": 37
+      },
+      "revision": 15183083
+    },
+    "Iron 2h sword": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15320140
+    },
+    "Iron battleaxe": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15322721
+    },
+    "Iron boots": {
+      "requirements": {},
+      "revision": 15182561
+    },
+    "Iron chainbody": {
+      "requirements": {
+        "defence": 1
+      },
+      "revision": 15320142
+    },
+    "Iron claws": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15182794
+    },
+    "Iron crossbow": {
+      "requirements": {
+        "ranged": 26
+      },
+      "revision": 15183515
+    },
+    "Iron dart": {
+      "requirements": {
+        "ranged": 1
+      },
+      "revision": 15301682
+    },
+    "Iron felling axe": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15191387
+    },
+    "Iron full helm": {
+      "requirements": {},
+      "revision": 15320185
+    },
+    "Iron longsword": {
+      "requirements": {
+        "attack": 1
+      },
+      "revision": 15182804
+    },
+    "Iron platebody": {
+      "requirements": {},
+      "revision": 15320146
+    },
+    "Iron platelegs": {
+      "requirements": {},
+      "revision": 15320186
+    },
+    "Iron warhammer": {
+      "requirements": {
+        "strength": 1
+      },
+      "revision": 15320141
+    },
+    "Ironwood blowpipe": {
+      "requirements": {
+        "ranged": 55
+      },
+      "revision": 15271513
+    },
+    "Ivandis flail": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15305854
+    },
+    "Jade dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188613
+    },
+    "Justiciar chestguard": {
+      "requirements": {
+        "defence": 75
+      },
+      "revision": 15188777
+    },
+    "Justiciar faceguard": {
+      "requirements": {
+        "defence": 75
+      },
+      "revision": 15188776
+    },
+    "Justiciar legguards": {
+      "requirements": {
+        "defence": 75
+      },
+      "revision": 15188778
+    },
+    "Karil's coif": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15183091
+    },
+    "Karil's crossbow": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15273488
+    },
+    "Karil's leatherskirt": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15184807
+    },
+    "Karil's leathertop": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15314560
+    },
+    "Karil's leathertop (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208980
+    },
+    "Katana": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15325104
+    },
+    "Keris": {
+      "requirements": {
+        "attack": 50
+      },
+      "revision": 15254686
+    },
+    "Keris partisan": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15254688
+    },
+    "Keris partisan of amascut": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15314676
+    },
+    "Keris partisan of breaching": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15314684
+    },
+    "Keris partisan of corruption": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15315989
+    },
+    "Keris partisan of the sun": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15314679
+    },
+    "Kitchen knife": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15184142
+    },
+    "Kodai wand": {
+      "requirements": {
+        "magic": 80
+      },
+      "revision": 15188070
+    },
+    "Koriff's coif": {
+      "requirements": {
+        "defence": 70,
+        "ranged": 70
+      },
+      "revision": 15333969
+    },
+    "Koriff's cowl": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15333973
+    },
+    "Koriff's headband": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15333958
+    },
+    "Lava battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15322333
+    },
+    "Leaf-bladed battleaxe": {
+      "requirements": {
+        "attack": 65,
+        "slayer": 55
+      },
+      "revision": 15264743
+    },
+    "Leaf-bladed spear": {
+      "requirements": {
+        "attack": 50,
+        "slayer": 55
+      },
+      "revision": 15183703
+    },
+    "Leaf-bladed sword": {
+      "requirements": {
+        "attack": 50,
+        "slayer": 55
+      },
+      "revision": 15185207
+    },
+    "Leather body": {
+      "requirements": {
+        "ranged": 1
+      },
+      "revision": 15241549
+    },
+    "Leather vambraces": {
+      "requirements": {},
+      "revision": 15241554
+    },
+    "Light ballista": {
+      "requirements": {
+        "ranged": 65
+      },
+      "revision": 15224135
+    },
+    "Lightbearer": {
+      "requirements": {},
+      "revision": 15299656
+    },
+    "Lunar boots": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15184843
+    },
+    "Lunar cape": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15184918
+    },
+    "Lunar gloves": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15184842
+    },
+    "Lunar helm": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15183112
+    },
+    "Lunar legs": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15183113
+    },
+    "Lunar staff": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15183957
+    },
+    "Lunar torso": {
+      "requirements": {
+        "defence": 40,
+        "magic": 65
+      },
+      "revision": 15183827
+    },
+    "Machete": {
+      "requirements": {},
+      "revision": 15184065
+    },
+    "Mage's book": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15183115
+    },
+    "Magic comp bow": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15324806
+    },
+    "Magic longbow": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15322392
+    },
+    "Magic shield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15188282
+    },
+    "Magic staff": {
+      "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+      "requirements": {}
+    },
+    "Malediction ward": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15210770
+    },
+    "Maoma's full helm": {
+      "requirements": {
+        "defence": 40,
+        "strength": 70
+      },
+      "revision": 15333972
+    },
+    "Maoma's great helm": {
+      "requirements": {
+        "defence": 70,
+        "strength": 70
+      },
+      "revision": 15333980
+    },
+    "Maoma's med helm": {
+      "requirements": {
+        "strength": 70
+      },
+      "revision": 15333952
+    },
+    "Maple blackjack": {
+      "requirements": {},
+      "revision": 15183717
+    },
+    "Maple blackjack(d)": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15183119
+    },
+    "Maple blackjack(o)": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15183713
+    },
+    "Maple longbow": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15322335
+    },
+    "Maple shield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15188738
+    },
+    "Maple shortbow": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15322337
+    },
+    "Masori body": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 80
+      },
+      "revision": 15190527
+    },
+    "Masori body (f)": {
+      "requirements": {
+        "defence": 80,
+        "prayer": 1,
+        "ranged": 80
+      },
+      "revision": 15190976
+    },
+    "Masori chaps": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 80
+      },
+      "revision": 15190528
+    },
+    "Masori chaps (f)": {
+      "requirements": {
+        "defence": 80,
+        "prayer": 1,
+        "ranged": 80
+      },
+      "revision": 15190977
+    },
+    "Masori mask": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 80
+      },
+      "revision": 15190624
+    },
+    "Masori mask (f)": {
+      "requirements": {
+        "defence": 80,
+        "prayer": 1,
+        "ranged": 80
+      },
+      "revision": 15190975
+    },
+    "Master wand": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15272723
+    },
+    "Mirror shield": {
+      "requirements": {
+        "defence": 20,
+        "slayer": 25
+      },
+      "revision": 15183131
+    },
+    "Mist battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15188014
+    },
+    "Mithril 2h sword": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182813
+    },
+    "Mithril axe": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182615
+    },
+    "Mithril battleaxe": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182816
+    },
+    "Mithril bolts": {
+      "requirements": {
+        "ranged": 36
+      },
+      "revision": 15301684
+    },
+    "Mithril boots": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320193
+    },
+    "Mithril chainbody": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320194
+    },
+    "Mithril claws": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15184151
+    },
+    "Mithril crossbow": {
+      "requirements": {
+        "ranged": 36
+      },
+      "revision": 15183591
+    },
+    "Mithril dagger": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182820
+    },
+    "Mithril dart": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15301685
+    },
+    "Mithril defender": {
+      "requirements": {
+        "attack": 20,
+        "defence": 20
+      },
+      "revision": 15260283
+    },
+    "Mithril felling axe": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15191390
+    },
+    "Mithril full helm": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320197
+    },
+    "Mithril full helm (g)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324148
+    },
+    "Mithril full helm (t)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324154
+    },
+    "Mithril gloves": {
+      "requirements": {
+        "defence": 1
+      },
+      "revision": 15213296
+    },
+    "Mithril gloves (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208981
+    },
+    "Mithril halberd": {
+      "requirements": {
+        "attack": 20,
+        "strength": 10
+      },
+      "revision": 15182823
+    },
+    "Mithril kiteshield (g)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324153
+    },
+    "Mithril kiteshield (t)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324158
+    },
+    "Mithril knife": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15182829
+    },
+    "Mithril longsword": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182830
+    },
+    "Mithril mace": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182831
+    },
+    "Mithril med helm": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320198
+    },
+    "Mithril pickaxe": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15320203
+    },
+    "Mithril platebody": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320204
+    },
+    "Mithril platebody (g)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324149
+    },
+    "Mithril platebody (t)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324155
+    },
+    "Mithril platelegs": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320205
+    },
+    "Mithril platelegs (g)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324150
+    },
+    "Mithril platelegs (t)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324156
+    },
+    "Mithril plateskirt": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15320206
+    },
+    "Mithril plateskirt (g)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324151
+    },
+    "Mithril plateskirt (t)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15324157
+    },
+    "Mithril scimitar": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15322372
+    },
+    "Mithril spear": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182837
+    },
+    "Mithril sq shield": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15182838
+    },
+    "Mithril sword": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15182839
+    },
+    "Mithril thrownaxe": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15182840
+    },
+    "Mithril warhammer": {
+      "requirements": {
+        "strength": 20
+      },
+      "revision": 15182841
+    },
+    "Mixed hide boots": {
+      "requirements": {
+        "defence": 50,
+        "ranged": 60
+      },
+      "revision": 15271151
+    },
+    "Mixed hide cape": {
+      "requirements": {
+        "defence": 50,
+        "ranged": 60
+      },
+      "revision": 15271152
+    },
+    "Mixed hide legs": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15271150
+    },
+    "Mixed hide top": {
+      "requirements": {
+        "defence": 50,
+        "ranged": 60
+      },
+      "revision": 15271149
+    },
+    "Monk's robe": {
+      "requirements": {
+        "prayer": 5
+      },
+      "revision": 15183638
+    },
+    "Monk's robe top": {
+      "requirements": {
+        "prayer": 6
+      },
+      "revision": 15183637
+    },
+    "Mooleta": {
+      "requirements": {},
+      "revision": 15279216
+    },
+    "Morrigan's coif (Deadman Mode)": {
+      "requirements": {
+        "defence": 20,
+        "ranged": 75
+      },
+      "revision": 15188957
+    },
+    "Morrigan's coif (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191340
+    },
+    "Morrigan's javelin (Deadman Mode)": {
+      "requirements": {
+        "ranged": 78
+      },
+      "revision": 15233731
+    },
+    "Morrigan's javelin (bh)": {
+      "requirements": {
+        "ranged": 75
+      },
+      "revision": 15191343
+    },
+    "Morrigan's leather body (Deadman Mode)": {
+      "requirements": {
+        "defence": 20,
+        "ranged": 75
+      },
+      "revision": 15188958
+    },
+    "Morrigan's leather body (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191341
+    },
+    "Morrigan's leather chaps (Deadman Mode)": {
+      "requirements": {
+        "defence": 20,
+        "ranged": 75
+      },
+      "revision": 15188959
+    },
+    "Morrigan's leather chaps (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191342
+    },
+    "Morrigan's throwing axe (Deadman Mode)": {
+      "requirements": {
+        "ranged": 78
+      },
+      "revision": 15188949
+    },
+    "Morrigan's throwing axe (bh)": {
+      "requirements": {
+        "ranged": 75
+      },
+      "revision": 15271389
+    },
+    "Mud battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15318343
+    },
+    "Myre snelm": {
+      "requirements": {},
+      "revision": 15188707
+    },
+    "Mystic air staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15267487
+    },
+    "Mystic boots": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15186321
+    },
+    "Mystic boots (dark)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250416
+    },
+    "Mystic boots (dusk)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15189111
+    },
+    "Mystic boots (light)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250411
+    },
+    "Mystic dust staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15188015
+    },
+    "Mystic earth staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15267489
+    },
+    "Mystic fire staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15322430
+    },
+    "Mystic gloves": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15322511
+    },
+    "Mystic gloves (dark)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250415
+    },
+    "Mystic gloves (dusk)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15189115
+    },
+    "Mystic gloves (light)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250410
+    },
+    "Mystic hat": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15322508
+    },
+    "Mystic hat (dark)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250412
+    },
+    "Mystic hat (dusk)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15189112
+    },
+    "Mystic hat (light)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250407
+    },
+    "Mystic lava staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15184314
+    },
+    "Mystic mist staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15188016
+    },
+    "Mystic mud staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15318348
+    },
+    "Mystic robe bottom": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15322454
+    },
+    "Mystic robe bottom (dark)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15322426
+    },
+    "Mystic robe bottom (dark) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15239544
+    },
+    "Mystic robe bottom (dusk)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15189114
+    },
+    "Mystic robe bottom (light)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250409
+    },
+    "Mystic robe bottom (light) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15239543
+    },
+    "Mystic robe top": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15322464
+    },
+    "Mystic robe top (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208986
+    },
+    "Mystic robe top (dark)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15322453
+    },
+    "Mystic robe top (dark) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15239546
+    },
+    "Mystic robe top (dusk)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15189113
+    },
+    "Mystic robe top (light)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15250408
+    },
+    "Mystic robe top (light) (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15239545
+    },
+    "Mystic smoke staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15211016
+    },
+    "Mystic steam staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15184506
+    },
+    "Mystic water staff": {
+      "requirements": {
+        "attack": 40,
+        "magic": 40
+      },
+      "revision": 15267488
+    },
+    "Navy cavalier": {
+      "requirements": {},
+      "revision": 15324799
+    },
+    "Necklace of anguish": {
+      "requirements": {
+        "hitpoints": 75
+      },
+      "revision": 15301384
+    },
+    "Neitiznot shield": {
+      "requirements": {
+        "defence": 25
+      },
+      "revision": 15326259
+    },
+    "Nightmare staff": {
+      "requirements": {
+        "hitpoints": 50,
+        "magic": 72
+      },
+      "revision": 15324385
+    },
+    "Nose peg": {
+      "requirements": {
+        "slayer": 60
+      },
+      "revision": 15183698
+    },
+    "Noxious halberd": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15304725
+    },
+    "Oak blackjack": {
+      "requirements": {},
+      "revision": 15183711
+    },
+    "Oak blackjack(d)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15183714
+    },
+    "Oak longbow": {
+      "requirements": {
+        "ranged": 5
+      },
+      "revision": 15322339
+    },
+    "Oak shield": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15188736
+    },
+    "Oak shortbow": {
+      "requirements": {
+        "ranged": 5
+      },
+      "revision": 15322390
+    },
+    "Oathplate chest": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15293122
+    },
+    "Oathplate helm": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15193334
+    },
+    "Oathplate legs": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15293282
+    },
+    "Obsidian helmet": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15327957
+    },
+    "Obsidian platebody": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15327955
+    },
+    "Obsidian platelegs": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15327953
+    },
+    "Occult necklace": {
+      "requirements": {
+        "magic": 70
+      },
+      "revision": 15314514
+    },
+    "Ochre snelm": {
+      "requirements": {},
+      "revision": 15188711
+    },
+    "Odium ward": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15195167
+    },
+    "Ogre bow": {
+      "requirements": {
+        "ranged": 30
+      },
+      "revision": 15183145
+    },
+    "Onyx bolts": {
+      "requirements": {
+        "ranged": 61
+      },
+      "revision": 15183985
+    },
+    "Onyx bolts (e)": {
+      "requirements": {
+        "ranged": 61
+      },
+      "revision": 15256563
+    },
+    "Onyx dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188621
+    },
+    "Opal dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188612
+    },
+    "Opal machete": {
+      "requirements": {},
+      "revision": 15209492
+    },
+    "Orange boater": {
+      "requirements": {},
+      "revision": 15324164
+    },
+    "Orange salamander": {
+      "requirements": {
+        "attack": 50,
+        "magic": 50,
+        "ranged": 50
+      },
+      "revision": 15205104
+    },
+    "Osmumten's fang": {
+      "requirements": {
+        "attack": 82
+      },
+      "revision": 15236139
+    },
+    "Peaceful blessing": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15252871
+    },
+    "Pearl dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188614
+    },
+    "Pegasian boots": {
+      "requirements": {
+        "defence": 75,
+        "ranged": 75
+      },
+      "revision": 15272722
+    },
+    "Penance gloves": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15318240
+    },
+    "Penance skirt": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 60
+      },
+      "revision": 15260303
+    },
+    "Pharaoh's sceptre": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15322386
+    },
+    "Phoenix crossbow": {
+      "requirements": {},
+      "revision": 15301710
+    },
+    "Pink boater": {
+      "requirements": {},
+      "revision": 15324165
+    },
+    "Pink headband": {
+      "requirements": {},
+      "revision": 15324129
+    },
+    "Pointed blood'n'tar snelm": {
+      "requirements": {},
+      "revision": 15188372
+    },
+    "Pointed bruise blue snelm": {
+      "requirements": {},
+      "revision": 15237917
+    },
+    "Pointed myre snelm": {
+      "requirements": {},
+      "revision": 15188706
+    },
+    "Pointed ochre snelm": {
+      "requirements": {},
+      "revision": 15188710
+    },
+    "Prayer cape": {
+      "requirements": {
+        "prayer": 99
+      },
+      "revision": 15327015
+    },
+    "Primordial boots": {
+      "requirements": {
+        "defence": 75,
+        "strength": 75
+      },
+      "revision": 15290842
+    },
+    "Proselyte cuisse": {
+      "requirements": {
+        "defence": 30,
+        "prayer": 20
+      },
+      "revision": 15314534
+    },
+    "Proselyte hauberk": {
+      "requirements": {
+        "defence": 30,
+        "prayer": 20
+      },
+      "revision": 15322341
+    },
+    "Proselyte sallet": {
+      "requirements": {
+        "defence": 30,
+        "prayer": 20
+      },
+      "revision": 15183171
+    },
+    "Proselyte tasset": {
+      "requirements": {
+        "defence": 30,
+        "prayer": 20
+      },
+      "revision": 15314535
+    },
+    "Purging staff": {
+      "requirements": {
+        "attack": 50,
+        "magic": 77
+      },
+      "revision": 15192515
+    },
+    "Purple boater": {
+      "requirements": {},
+      "revision": 15324166
+    },
+    "Rain bow": {
+      "requirements": {},
+      "revision": 15323969
+    },
+    "Ram skull helm": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15183173
+    },
+    "Ranger boots": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15324159
+    },
+    "Ranger gloves": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15325124
+    },
+    "Rangers' tights": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15325123
+    },
+    "Rangers' tunic": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15325122
+    },
+    "Rapier": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15295181
+    },
+    "Red boater": {
+      "requirements": {},
+      "revision": 15324167
+    },
+    "Red cavalier": {
+      "requirements": {},
+      "revision": 15324802
+    },
+    "Red chinchompa": {
+      "requirements": {
+        "ranged": 55
+      },
+      "revision": 15183178
+    },
+    "Red d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 60
+      },
+      "revision": 15241560
+    },
+    "Red d'hide body (g)": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 60
+      },
+      "revision": 15324869
+    },
+    "Red d'hide body (t)": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 60
+      },
+      "revision": 15324871
+    },
+    "Red d'hide chaps": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15322404
+    },
+    "Red d'hide chaps (g)": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15324870
+    },
+    "Red d'hide chaps (t)": {
+      "requirements": {
+        "ranged": 60
+      },
+      "revision": 15324872
+    },
+    "Red d'hide shield": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 60
+      },
+      "revision": 15188745
+    },
+    "Red headband": {
+      "requirements": {},
+      "revision": 15324128
+    },
+    "Red salamander": {
+      "requirements": {
+        "attack": 60,
+        "magic": 60,
+        "ranged": 60
+      },
+      "revision": 15205595
+    },
+    "Redwood shield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15188740
+    },
+    "Regen bracelet": {
+      "requirements": {
+        "hitpoints": 2
+      },
+      "revision": 15315689
+    },
+    "Ring of life": {
+      "requirements": {
+        "hitpoints": 15
+      },
+      "revision": 15322408
+    },
+    "Ring of the gods": {
+      "requirements": {
+        "prayer": 4
+      },
+      "revision": 15321597
+    },
+    "Ring of the gods (i)": {
+      "requirements": {
+        "prayer": 4
+      },
+      "revision": 15211084
+    },
+    "Robe bottom of darkness": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15325246
+    },
+    "Robe top of darkness": {
+      "requirements": {
+        "defence": 20,
+        "magic": 40
+      },
+      "revision": 15325245
+    },
+    "Robin hood hat": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15324873
+    },
+    "Rock-shell helm": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15183185
+    },
+    "Rock-shell legs": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15183186
+    },
+    "Rock-shell plate": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15183187
+    },
+    "Rolling pin": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15322429
+    },
+    "Rosewood blowpipe": {
+      "requirements": {
+        "ranged": 65
+      },
+      "revision": 15320240
+    },
+    "Ruby bolts": {
+      "requirements": {
+        "ranged": 46
+      },
+      "revision": 15183190
+    },
+    "Ruby dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188618
+    },
+    "Rune 2h sword": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15182842
+    },
+    "Rune axe": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15322370
+    },
+    "Rune battleaxe": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15182844
+    },
+    "Rune boots": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15320209
+    },
+    "Rune cane": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15324797
+    },
+    "Rune chainbody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15182848
+    },
+    "Rune claws": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15214520
+    },
+    "Rune crossbow": {
+      "requirements": {
+        "ranged": 61
+      },
+      "revision": 15320210
+    },
+    "Rune crossbow (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208989
+    },
+    "Rune dagger": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15183389
+    },
+    "Rune dart": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15317694
+    },
+    "Rune defender": {
+      "requirements": {
+        "attack": 40,
+        "defence": 40
+      },
+      "revision": 15326694
+    },
+    "Rune defender (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208990
+    },
+    "Rune felling axe": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15191392
+    },
+    "Rune full helm (g)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324892
+    },
+    "Rune full helm (t)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324909
+    },
+    "Rune gloves": {
+      "requirements": {
+        "defence": 13
+      },
+      "revision": 15213298
+    },
+    "Rune halberd": {
+      "requirements": {
+        "attack": 40,
+        "strength": 20
+      },
+      "revision": 15320216
+    },
+    "Rune helm (h1)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324920
+    },
+    "Rune helm (h2)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324921
+    },
+    "Rune helm (h3)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324922
+    },
+    "Rune helm (h4)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324923
+    },
+    "Rune helm (h5)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324924
+    },
+    "Rune kiteshield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15320217
+    },
+    "Rune kiteshield (g)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324897
+    },
+    "Rune kiteshield (t)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324913
+    },
+    "Rune knife": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15182861
+    },
+    "Rune longsword": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15320220
+    },
+    "Rune med helm": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15182856
+    },
+    "Rune pickaxe": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15320222
+    },
+    "Rune platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15320225
+    },
+    "Rune platebody (g)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324893
+    },
+    "Rune platebody (h1)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324931
+    },
+    "Rune platebody (h2)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324932
+    },
+    "Rune platebody (h3)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324933
+    },
+    "Rune platebody (h4)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324934
+    },
+    "Rune platebody (h5)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324935
+    },
+    "Rune platebody (t)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324910
+    },
+    "Rune platelegs": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15320226
+    },
+    "Rune platelegs (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208991
+    },
+    "Rune platelegs (g)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324895
+    },
+    "Rune platelegs (t)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324912
+    },
+    "Rune plateskirt": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15320228
+    },
+    "Rune plateskirt (g)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324894
+    },
+    "Rune plateskirt (t)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324911
+    },
+    "Rune scimitar": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15297497
+    },
+    "Rune shield (h1)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324925
+    },
+    "Rune shield (h2)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324926
+    },
+    "Rune shield (h3)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324927
+    },
+    "Rune shield (h4)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324928
+    },
+    "Rune shield (h5)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324930
+    },
+    "Rune spear": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15320229
+    },
+    "Rune sq shield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15183473
+    },
+    "Rune sword": {
+      "requirements": {
+        "attack": 40
+      },
+      "revision": 15182873
+    },
+    "Rune thrownaxe": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15271368
+    },
+    "Rune warhammer": {
+      "requirements": {
+        "strength": 40
+      },
+      "revision": 15322393
+    },
+    "Runite bolts": {
+      "requirements": {
+        "ranged": 61
+      },
+      "revision": 15301687
+    },
+    "Runner boots": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15183195
+    },
+    "Saika's hood": {
+      "requirements": {
+        "magic": 70
+      },
+      "revision": 15333849
+    },
+    "Saika's shroud": {
+      "requirements": {
+        "defence": 70,
+        "magic": 70
+      },
+      "revision": 15333971
+    },
+    "Saika's veil": {
+      "requirements": {
+        "defence": 40,
+        "magic": 70
+      },
+      "revision": 15333970
+    },
+    "Samurai boots": {
+      "requirements": {
+        "defence": 35
+      },
+      "revision": 15325254
+    },
+    "Samurai gloves": {
+      "requirements": {
+        "defence": 35
+      },
+      "revision": 15325253
+    },
+    "Samurai greaves": {
+      "requirements": {
+        "defence": 35
+      },
+      "revision": 15325251
+    },
+    "Samurai kasa": {
+      "requirements": {
+        "defence": 35
+      },
+      "revision": 15325249
+    },
+    "Samurai shirt": {
+      "requirements": {
+        "defence": 35
+      },
+      "revision": 15325250
+    },
+    "Sanguinesti staff": {
+      "requirements": {
+        "magic": 82
+      },
+      "revision": 15336446
+    },
+    "Sapphire dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188616
+    },
+    "Sarachnis cudgel": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15197800
+    },
+    "Saradomin bracers": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324786
+    },
+    "Saradomin chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324785
+    },
+    "Saradomin cloak": {
+      "requirements": {
+        "prayer": 40
+      },
+      "revision": 15324051
+    },
+    "Saradomin coif": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324782
+    },
+    "Saradomin crozier": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324053
+    },
+    "Saradomin d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324784
+    },
+    "Saradomin d'hide boots": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324829
+    },
+    "Saradomin mitre": {
+      "requirements": {
+        "magic": 40,
+        "prayer": 40
+      },
+      "revision": 15324048
+    },
+    "Saradomin mjolnir": {
+      "requirements": {},
+      "revision": 15183207
+    },
+    "Saradomin platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324905
+    },
+    "Saradomin robe legs": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324050
+    },
+    "Saradomin robe top": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324049
+    },
+    "Saradomin staff": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15257301
+    },
+    "Saradomin stole": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324052
+    },
+    "Saradomin sword": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15185552
+    },
+    "Saradomin's blessed sword": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15186426
+    },
+    "Scorching bow": {
+      "requirements": {
+        "ranged": 77
+      },
+      "revision": 15317455
+    },
+    "Scythe of Vitur": {
+      "requirements": {
+        "attack": 80,
+        "strength": 90
+      },
+      "revision": 15308013
+    },
+    "Seercull": {
+      "requirements": {
+        "ranged": 50
+      },
+      "revision": 15322353
+    },
+    "Serpentine helm": {
+      "requirements": {
+        "defence": 75
+      },
+      "revision": 15262696
+    },
+    "Shadow ancient sceptre": {
+      "requirements": {
+        "attack": 50,
+        "magic": 75,
+        "strength": 60
+      },
+      "revision": 15292072
+    },
+    "Shayzien body (5)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187271
+    },
+    "Shayzien boots (1)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187253
+    },
+    "Shayzien boots (2)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187259
+    },
+    "Shayzien boots (3)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187264
+    },
+    "Shayzien boots (4)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187269
+    },
+    "Shayzien boots (5)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187274
+    },
+    "Shayzien gloves (1)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187254
+    },
+    "Shayzien gloves (2)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187258
+    },
+    "Shayzien gloves (3)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187263
+    },
+    "Shayzien gloves (4)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187268
+    },
+    "Shayzien gloves (5)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187273
+    },
+    "Shayzien greaves (1)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187252
+    },
+    "Shayzien greaves (2)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187257
+    },
+    "Shayzien greaves (3)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187262
+    },
+    "Shayzien greaves (4)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187267
+    },
+    "Shayzien greaves (5)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187272
+    },
+    "Shayzien helm (1)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187250
+    },
+    "Shayzien helm (2)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187255
+    },
+    "Shayzien helm (3)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187260
+    },
+    "Shayzien helm (4)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187265
+    },
+    "Shayzien helm (5)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187270
+    },
+    "Shayzien platebody (1)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187251
+    },
+    "Shayzien platebody (2)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187256
+    },
+    "Shayzien platebody (3)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187261
+    },
+    "Shayzien platebody (4)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15187266
+    },
+    "Skeletal bottoms": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15184397
+    },
+    "Skeletal helm": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15184396
+    },
+    "Skeletal top": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15184395
+    },
+    "Skewer": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15183219
+    },
+    "Slayer gloves": {
+      "requirements": {
+        "slayer": 42
+      },
+      "revision": 15326913
+    },
+    "Slayer helmet": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15322450
+    },
+    "Slayer helmet (i)": {
+      "requirements": {
+        "defence": 10
+      },
+      "revision": 15322452
+    },
+    "Slayer's staff": {
+      "requirements": {
+        "magic": 50,
+        "slayer": 55
+      },
+      "revision": 15183502
+    },
+    "Slayer's staff (e)": {
+      "requirements": {
+        "magic": 75,
+        "slayer": 55
+      },
+      "revision": 15322187
+    },
+    "Smoke ancient sceptre": {
+      "requirements": {
+        "attack": 50,
+        "magic": 75,
+        "strength": 60
+      },
+      "revision": 15292070
+    },
+    "Smoke battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15223188
+    },
+    "Snakeskin bandana": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 30
+      },
+      "revision": 15241563
+    },
+    "Snakeskin body": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 30
+      },
+      "revision": 15241564
+    },
+    "Snakeskin boots": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 30
+      },
+      "revision": 15322356
+    },
+    "Snakeskin chaps": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 30
+      },
+      "revision": 15322357
+    },
+    "Snakeskin shield": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 30
+      },
+      "revision": 15188742
+    },
+    "Snakeskin vambraces": {
+      "requirements": {
+        "defence": 30,
+        "ranged": 30
+      },
+      "revision": 15241567
+    },
+    "Soul cape": {
+      "requirements": {
+        "prayer": 70
+      },
+      "revision": 15271711
+    },
+    "Soulflame horn": {
+      "requirements": {
+        "magic": 80
+      },
+      "revision": 15314763
+    },
+    "Soulreaper axe": {
+      "requirements": {
+        "attack": 80,
+        "strength": 80
+      },
+      "revision": 15332310
+    },
+    "Spatula": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15183232
+    },
+    "Spectral spirit shield": {
+      "requirements": {
+        "defence": 75,
+        "magic": 65,
+        "prayer": 70
+      },
+      "revision": 15273992
+    },
+    "Spiked manacles": {
+      "requirements": {},
+      "revision": 15324160
+    },
+    "Spined body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15183233
+    },
+    "Spined chaps": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15322358
+    },
+    "Spined helm": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 40
+      },
+      "revision": 15184394
+    },
+    "Spiny helmet": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15183236
+    },
+    "Spirit shield": {
+      "requirements": {
+        "defence": 45,
+        "prayer": 55
+      },
+      "revision": 15198101
+    },
+    "Spirit shield (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15239457
+    },
+    "Splitbark body": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15322416
+    },
+    "Splitbark boots": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15183237
+    },
+    "Splitbark gauntlets": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15183821
+    },
+    "Splitbark helm": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15183819
+    },
+    "Splitbark legs": {
+      "requirements": {
+        "defence": 40,
+        "magic": 40
+      },
+      "revision": 15322359
+    },
+    "Spork": {
+      "requirements": {
+        "attack": 10
+      },
+      "revision": 15184140
+    },
+    "Staff": {
+      "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+      "requirements": {}
+    },
+    "Staff of Balance": {
+      "requirements": {
+        "attack": 75,
+        "magic": 75
+      },
+      "revision": 15299804
+    },
+    "Staff of Light": {
+      "requirements": {
+        "attack": 75,
+        "magic": 75
+      },
+      "revision": 15322179
+    },
+    "Staff of air": {
+      "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+      "requirements": {}
+    },
+    "Staff of earth": {
+      "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+      "requirements": {}
+    },
+    "Staff of fire": {
+      "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+      "requirements": {}
+    },
+    "Staff of the Dead": {
+      "requirements": {
+        "attack": 75,
+        "magic": 75
+      },
+      "revision": 15293703
+    },
+    "Staff of the Dead (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15299728
+    },
+    "Staff of water": {
+      "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+      "requirements": {}
+    },
+    "Starter bow": {
+      "requirements": {},
+      "revision": 15188786
+    },
+    "Starter cape": {
+      "requirements": {},
+      "revision": 15194309
+    },
+    "Starter staff": {
+      "requirements": {},
+      "revision": 15188787
+    },
+    "Starter sword": {
+      "requirements": {},
+      "revision": 15260147
+    },
+    "Statius's full helm (Deadman Mode)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15188954
+    },
+    "Statius's full helm (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191345
+    },
+    "Statius's platebody (Deadman Mode)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15188955
+    },
+    "Statius's platebody (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191346
+    },
+    "Statius's platelegs (Deadman Mode)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15188956
+    },
+    "Statius's platelegs (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191347
+    },
+    "Statius's warhammer (Deadman Mode)": {
+      "requirements": {
+        "attack": 20,
+        "strength": 78
+      },
+      "revision": 15231401
+    },
+    "Statius's warhammer (bh)": {
+      "requirements": {
+        "strength": 75
+      },
+      "revision": 15191348
+    },
+    "Steam battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15299046
+    },
+    "Steel 2h sword": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182874
+    },
+    "Steel axe": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15330574
+    },
+    "Steel battleaxe": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182575
+    },
+    "Steel boots": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15182583
+    },
+    "Steel chainbody": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15182585
+    },
+    "Steel claws": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182876
+    },
+    "Steel crossbow": {
+      "requirements": {
+        "ranged": 31
+      },
+      "revision": 15182580
+    },
+    "Steel dagger": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15318136
+    },
+    "Steel dart": {
+      "requirements": {
+        "ranged": 5
+      },
+      "revision": 15301693
+    },
+    "Steel defender": {
+      "requirements": {
+        "attack": 5,
+        "defence": 5
+      },
+      "revision": 15260281
+    },
+    "Steel felling axe": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15191388
+    },
+    "Steel full helm": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15320156
+    },
+    "Steel full helm (g)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323973
+    },
+    "Steel full helm (t)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323978
+    },
+    "Steel halberd": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182878
+    },
+    "Steel kiteshield (g)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323977
+    },
+    "Steel kiteshield (t)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323982
+    },
+    "Steel knife": {
+      "requirements": {
+        "ranged": 5
+      },
+      "revision": 15319825
+    },
+    "Steel longsword": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15320158
+    },
+    "Steel mace": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15320154
+    },
+    "Steel med helm": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15322425
+    },
+    "Steel pickaxe": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15320155
+    },
+    "Steel platebody": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15320258
+    },
+    "Steel platebody (g)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323974
+    },
+    "Steel platebody (t)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323979
+    },
+    "Steel platelegs": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15320159
+    },
+    "Steel platelegs (g)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323975
+    },
+    "Steel platelegs (t)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323980
+    },
+    "Steel plateskirt": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15320261
+    },
+    "Steel plateskirt (g)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323976
+    },
+    "Steel plateskirt (t)": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15323981
+    },
+    "Steel ring": {
+      "requirements": {},
+      "revision": 15192292
+    },
+    "Steel scimitar": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182882
+    },
+    "Steel spear": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182586
+    },
+    "Steel sq shield": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15320157
+    },
+    "Steel sword": {
+      "requirements": {
+        "attack": 5
+      },
+      "revision": 15182573
+    },
+    "Steel thrownaxe": {
+      "requirements": {
+        "ranged": 5
+      },
+      "revision": 15182588
+    },
+    "Steel warhammer": {
+      "requirements": {
+        "strength": 5
+      },
+      "revision": 15274466
+    },
+    "Studded body": {
+      "requirements": {
+        "defence": 20,
+        "ranged": 20
+      },
+      "revision": 15322400
+    },
+    "Studded body (g)": {
+      "requirements": {
+        "defence": 20,
+        "ranged": 20
+      },
+      "revision": 15323985
+    },
+    "Studded body (t)": {
+      "requirements": {
+        "defence": 20,
+        "ranged": 20
+      },
+      "revision": 15323983
+    },
+    "Studded chaps": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15322369
+    },
+    "Sulphur blades": {
+      "requirements": {
+        "attack": 55
+      },
+      "revision": 15192275
+    },
+    "Sunfire fanatic chausses": {
+      "requirements": {
+        "defence": 40,
+        "prayer": 60
+      },
+      "revision": 15320311
+    },
+    "Sunfire fanatic cuirass": {
+      "requirements": {
+        "defence": 40,
+        "prayer": 60
+      },
+      "revision": 15320312
+    },
+    "Sunfire fanatic helm": {
+      "requirements": {
+        "defence": 40,
+        "prayer": 60
+      },
+      "revision": 15320313
+    },
+    "Superior calamity breeches": {
+      "requirements": {
+        "defence": 40,
+        "strength": 70
+      },
+      "revision": 15333990
+    },
+    "Superior calamity chest": {
+      "requirements": {
+        "defence": 40,
+        "strength": 70
+      },
+      "revision": 15333983
+    },
+    "Swamp lizard": {
+      "requirements": {
+        "attack": 30
+      },
+      "revision": 15212295
+    },
+    "Swampbark body": {
+      "requirements": {
+        "defence": 50,
+        "magic": 50
+      },
+      "revision": 15189992
+    },
+    "Swampbark boots": {
+      "requirements": {
+        "defence": 50,
+        "magic": 50
+      },
+      "revision": 15189995
+    },
+    "Swampbark gauntlets": {
+      "requirements": {
+        "defence": 50,
+        "magic": 50
+      },
+      "revision": 15189994
+    },
+    "Swampbark helm": {
+      "requirements": {
+        "defence": 50,
+        "magic": 50
+      },
+      "revision": 15189991
+    },
+    "Swampbark legs": {
+      "requirements": {
+        "defence": 50,
+        "magic": 50
+      },
+      "revision": 15189993
+    },
+    "Tan cavalier": {
+      "requirements": {},
+      "revision": 15324800
+    },
+    "Teacher wand": {
+      "requirements": {
+        "magic": 55
+      },
+      "revision": 15184063
+    },
+    "Tecu salamander": {
+      "requirements": {
+        "attack": 80
+      },
+      "revision": 15257986
+    },
+    "Thammaron's sceptre": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15316847
+    },
+    "Thammaron's sceptre (a)": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15316854
+    },
+    "The dogsword (Deadman Mode)": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15194315
+    },
+    "Thunder khopesh (Deadman Mode)": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15262511
+    },
+    "Toktz-ket-xil": {
+      "requirements": {
+        "defence": 60
+      },
+      "revision": 15324339
+    },
+    "Toktz-mej-tal": {
+      "requirements": {
+        "attack": 60,
+        "magic": 60
+      },
+      "revision": 15242597
+    },
+    "Toktz-xil-ak": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15242593
+    },
+    "Toktz-xil-ek": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15183250
+    },
+    "Tome of Earth": {
+      "requirements": {
+        "magic": 50
+      },
+      "revision": 15310850
+    },
+    "Tome of Fire": {
+      "requirements": {
+        "magic": 50
+      },
+      "revision": 15316547
+    },
+    "Tome of Fire (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15317786
+    },
+    "Tome of Water": {
+      "requirements": {
+        "magic": 50
+      },
+      "revision": 15315430
+    },
+    "Tonalztics of Ralos": {
+      "requirements": {
+        "ranged": 75
+      },
+      "revision": 15313076
+    },
+    "Topaz dragon bolts": {
+      "requirements": {
+        "ranged": 64
+      },
+      "revision": 15188615
+    },
+    "Torag's hammers": {
+      "requirements": {
+        "attack": 70,
+        "strength": 70
+      },
+      "revision": 15249313
+    },
+    "Torag's helm": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15183976
+    },
+    "Torag's platebody": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15184099
+    },
+    "Torag's platelegs": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15184100
+    },
+    "Torag's platelegs (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15208994
+    },
+    "Torva full helm": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15190626
+    },
+    "Torva platebody": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15190627
+    },
+    "Torva platelegs": {
+      "requirements": {
+        "defence": 80
+      },
+      "revision": 15190628
+    },
+    "Toxic blowpipe": {
+      "requirements": {
+        "ranged": 75
+      },
+      "revision": 15316028
+    },
+    "Toxic staff of the dead": {
+      "requirements": {
+        "attack": 75,
+        "magic": 75
+      },
+      "revision": 15299414
+    },
+    "Training bow": {
+      "requirements": {
+        "ranged": 1
+      },
+      "revision": 15183557
+    },
+    "Trident of the Seas": {
+      "requirements": {
+        "magic": 75
+      },
+      "revision": 15317937
+    },
+    "Trident of the Seas (e)": {
+      "requirements": {
+        "magic": 75
+      },
+      "revision": 15316738
+    },
+    "Trident of the Swamp": {
+      "requirements": {
+        "magic": 78
+      },
+      "revision": 15316842
+    },
+    "Trident of the Swamp (e)": {
+      "requirements": {
+        "magic": 78
+      },
+      "revision": 15317835
+    },
+    "Tumeken's shadow": {
+      "requirements": {
+        "magic": 85
+      },
+      "revision": 15316596
+    },
+    "Twinflame staff": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15317784
+    },
+    "Twisted bow": {
+      "requirements": {
+        "ranged": 85
+      },
+      "revision": 15315040
+    },
+    "Twisted buckler": {
+      "requirements": {
+        "defence": 75,
+        "ranged": 75
+      },
+      "revision": 15188072
+    },
+    "Tyras helm": {
+      "requirements": {
+        "defence": 5
+      },
+      "revision": 15183255
+    },
+    "Tzhaar-ket-em": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15183437
+    },
+    "Tzhaar-ket-om": {
+      "requirements": {
+        "strength": 60
+      },
+      "revision": 15285154
+    },
+    "Unholy blessing": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15187665
+    },
+    "Unholy book (Last Man Standing)": {
+      "requirements": {},
+      "revision": 15286579
+    },
+    "V's shield": {
+      "requirements": {
+        "defence": 40,
+        "slayer": 60
+      },
+      "revision": 15315268
+    },
+    "Venator bow": {
+      "requirements": {
+        "ranged": 80
+      },
+      "revision": 15328965
+    },
+    "Verac's brassard": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15211388
+    },
+    "Verac's flail": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15252499
+    },
+    "Verac's helm": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15184393
+    },
+    "Verac's plateskirt": {
+      "requirements": {
+        "defence": 70
+      },
+      "revision": 15183840
+    },
+    "Vesta's blighted longsword": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15189713
+    },
+    "Vesta's chainbody (Deadman Mode)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15328542
+    },
+    "Vesta's chainbody (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191349
+    },
+    "Vesta's longsword (Deadman Mode)": {
+      "requirements": {
+        "attack": 78
+      },
+      "revision": 15188946
+    },
+    "Vesta's longsword (bh)": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15287077
+    },
+    "Vesta's plateskirt (Deadman Mode)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15188953
+    },
+    "Vesta's plateskirt (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191351
+    },
+    "Vesta's spear (Deadman Mode)": {
+      "requirements": {
+        "attack": 78
+      },
+      "revision": 15234676
+    },
+    "Vesta's spear (bh)": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15234675
+    },
+    "Viggora's chainmace": {
+      "requirements": {
+        "attack": 60
+      },
+      "revision": 15264477
+    },
+    "Virtus mask": {
+      "requirements": {
+        "defence": 75,
+        "magic": 78
+      },
+      "revision": 15315043
+    },
+    "Virtus robe bottom": {
+      "requirements": {
+        "defence": 75,
+        "magic": 78
+      },
+      "revision": 15315042
+    },
+    "Virtus robe top": {
+      "requirements": {
+        "defence": 75,
+        "magic": 78
+      },
+      "revision": 15315190
+    },
+    "Void knight gloves": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15304461
+    },
+    "Void knight robe": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15260478
+    },
+    "Void knight top": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15260473
+    },
+    "Void mage helm": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15260467
+    },
+    "Void melee helm": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15260466
+    },
+    "Void ranger helm": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15260468
+    },
+    "Void seal": {
+      "requirements": {
+        "attack": 42,
+        "prayer": 22
+      },
+      "revision": 15184504
+    },
+    "Voidwaker": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15327980
+    },
+    "Volatile Nightmare staff": {
+      "requirements": {
+        "hitpoints": 50,
+        "magic": 82
+      },
+      "revision": 15317531
+    },
+    "War blessing": {
+      "requirements": {
+        "prayer": 1
+      },
+      "revision": 15252872
+    },
+    "Warped sceptre": {
+      "requirements": {
+        "magic": 62,
+        "slayer": 56
+      },
+      "revision": 15223410
+    },
+    "Warrior helm": {
+      "requirements": {
+        "defence": 45
+      },
+      "revision": 15183261
+    },
+    "Water battlestaff": {
+      "requirements": {
+        "attack": 30,
+        "magic": 30
+      },
+      "revision": 15184146
+    },
+    "White boater": {
+      "requirements": {},
+      "revision": 15324168
+    },
+    "White cavalier": {
+      "requirements": {},
+      "revision": 15324803
+    },
+    "White headband": {
+      "requirements": {},
+      "revision": 15324130
+    },
+    "Willow blackjack": {
+      "requirements": {},
+      "revision": 15183716
+    },
+    "Willow blackjack(d)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15183715
+    },
+    "Willow blackjack(o)": {
+      "requirements": {
+        "attack": 20
+      },
+      "revision": 15183712
+    },
+    "Willow longbow": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15272114
+    },
+    "Willow shield": {
+      "requirements": {
+        "defence": 30
+      },
+      "revision": 15188737
+    },
+    "Willow shortbow": {
+      "requirements": {
+        "ranged": 20
+      },
+      "revision": 15183273
+    },
+    "Witchwood icon": {
+      "requirements": {
+        "slayer": 35
+      },
+      "revision": 15263717
+    },
+    "Wizard boots": {
+      "requirements": {
+        "magic": 20
+      },
+      "revision": 15324172
+    },
+    "Wristbands of the Arena": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15333834
+    },
+    "Wristbands of the Arena (i)": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15333831
+    },
+    "Xerician hat": {
+      "requirements": {
+        "defence": 10,
+        "magic": 20
+      },
+      "revision": 15187188
+    },
+    "Yak-hide armour (legs)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15275999
+    },
+    "Yak-hide armour (top)": {
+      "requirements": {
+        "defence": 20
+      },
+      "revision": 15276003
+    },
+    "Yew comp bow": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15324097
+    },
+    "Yew longbow": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15272116
+    },
+    "Yew shield": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15188739
+    },
+    "Yew shortbow": {
+      "requirements": {
+        "ranged": 40
+      },
+      "revision": 15183551
+    },
+    "Zamorak bracers": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324791
+    },
+    "Zamorak chaps": {
+      "requirements": {
+        "ranged": 70
+      },
+      "revision": 15324790
+    },
+    "Zamorak cloak": {
+      "requirements": {
+        "prayer": 40
+      },
+      "revision": 15324057
+    },
+    "Zamorak coif": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324787
+    },
+    "Zamorak crozier": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324059
+    },
+    "Zamorak d'hide body": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324789
+    },
+    "Zamorak d'hide boots": {
+      "requirements": {
+        "defence": 40,
+        "ranged": 70
+      },
+      "revision": 15324832
+    },
+    "Zamorak godsword": {
+      "requirements": {
+        "attack": 75
+      },
+      "revision": 15327836
+    },
+    "Zamorak mitre": {
+      "requirements": {
+        "magic": 40,
+        "prayer": 40
+      },
+      "revision": 15324054
+    },
+    "Zamorak mjolnir": {
+      "requirements": {},
+      "revision": 15184598
+    },
+    "Zamorak platebody": {
+      "requirements": {
+        "defence": 40
+      },
+      "revision": 15324915
+    },
+    "Zamorak robe legs": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324056
+    },
+    "Zamorak robe top": {
+      "requirements": {
+        "prayer": 20
+      },
+      "revision": 15324055
+    },
+    "Zamorak staff": {
+      "requirements": {
+        "magic": 60
+      },
+      "revision": 15257303
+    },
+    "Zamorak stole": {
+      "requirements": {
+        "prayer": 60
+      },
+      "revision": 15324058
+    },
+    "Zamorakian spear": {
+      "requirements": {
+        "attack": 70
+      },
+      "revision": 15270691
+    },
+    "Zaryte bow": {
+      "requirements": {
+        "ranged": 80
+      },
+      "revision": 15239573
+    },
+    "Zaryte crossbow": {
+      "requirements": {
+        "ranged": 80
+      },
+      "revision": 15293439
+    },
+    "Zaryte vambraces": {
+      "requirements": {
+        "defence": 45,
+        "ranged": 80
+      },
+      "revision": 15190607
+    },
+    "Zombie axe": {
+      "requirements": {
+        "attack": 65
+      },
+      "revision": 15249310
+    },
+    "Zombie helmet": {
+      "requirements": {
+        "defence": 50,
+        "strength": 50
+      },
+      "revision": 15322551
+    },
+    "Zuriel's hood (Deadman Mode)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 75
+      },
+      "revision": 15188960
+    },
+    "Zuriel's hood (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191353
+    },
+    "Zuriel's robe bottom (Deadman Mode)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 75
+      },
+      "revision": 15188962
+    },
+    "Zuriel's robe bottom (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191354
+    },
+    "Zuriel's robe top (Deadman Mode)": {
+      "requirements": {
+        "defence": 20,
+        "magic": 75
+      },
+      "revision": 15188961
+    },
+    "Zuriel's robe top (bh)": {
+      "requirements": {
+        "defence": 78
+      },
+      "revision": 15191355
+    },
+    "Zuriel's staff (Deadman Mode)": {
+      "requirements": {
+        "attack": 60,
+        "magic": 78
+      },
+      "revision": 15312215
+    },
+    "Zuriel's staff (bh)": {
+      "requirements": {
+        "attack": 30,
+        "magic": 75
+      },
+      "revision": 15312213
+    }
+  }
+}

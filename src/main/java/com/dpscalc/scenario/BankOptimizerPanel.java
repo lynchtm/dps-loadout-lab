@@ -1,6 +1,6 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 
 import net.runelite.client.game.ItemManager;
 

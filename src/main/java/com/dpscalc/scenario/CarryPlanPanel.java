@@ -1,6 +1,6 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.DpsCalcPlugin;
+import com.loadoutlab.DpsLoadoutLabPlugin;
 
 import java.awt.*;
 import java.util.*;
@@ -14,7 +14,7 @@ final class CarryPlanPanel extends JPanel {
     private final Supplier<Scenario> model;
     private final Supplier<String> profile;
     private final Runnable changed;
-    private final DpsCalcPlugin plugin;
+    private final DpsLoadoutLabPlugin plugin;
     private final JButton[] slots = new JButton[28], runes = new JButton[4];
     private final JPanel switches = CalculatorWorkspace.column();
     private final JTextArea audit = CalculatorWorkspace.note("");
@@ -25,7 +25,7 @@ final class CarryPlanPanel extends JPanel {
             Supplier<Scenario> model,
             Supplier<String> profile,
             Runnable changed,
-            DpsCalcPlugin plugin) {
+            DpsLoadoutLabPlugin plugin) {
         this.model = model;
         this.profile = profile;
         this.changed = changed;

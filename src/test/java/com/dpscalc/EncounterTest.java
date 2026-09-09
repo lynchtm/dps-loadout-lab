@@ -1,9 +1,10 @@
 package com.dpscalc;
 
-import com.dpscalc.data.*;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.*;
+import com.loadoutlab.data.*;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 import com.dpscalc.scenario.*;
-import com.dpscalc.state.CombatStyle;
+import com.loadoutlab.model.CombatStyle;
 import java.util.*;
 import org.junit.Test;
 import static org.junit.Assert.*;

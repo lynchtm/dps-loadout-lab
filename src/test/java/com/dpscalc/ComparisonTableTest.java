@@ -2,7 +2,7 @@ package com.dpscalc;
 
 import static org.junit.Assert.*;
 
-import com.dpscalc.calc.DpsResult;
+import com.loadoutlab.calculation.DpsResult;
 import com.dpscalc.scenario.*;
 
 import org.junit.Test;
@@ -15,10 +15,8 @@ public class ComparisonTableTest {
     private ScenarioCalculator.Result result(String name, double dps, int max, double ttk) {
         ScenarioCalculator.Result r = new ScenarioCalculator.Result();
         r.name = name;
-        r.normal = new DpsResult();
-        r.normal.setDps(dps);
-        r.normal.setMaxHit(max);
-        r.normal.setAccuracy(.9);
+        com.loadoutlab.engine.DamagePmf pmf=com.loadoutlab.engine.DamagePmf.singleHit(.9,0,max);
+        r.normal = new DpsResult(pmf,.9,pmf.mean()/dps/0.6,100,100,0,List.of());
         r.ttk = ttk;
         return r;
     }

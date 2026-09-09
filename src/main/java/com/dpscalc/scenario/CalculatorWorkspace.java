@@ -1,14 +1,14 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.DpsCalcPlugin;
-import com.dpscalc.data.MonsterDataManager;
-import com.dpscalc.data.MonsterStats;
-import com.dpscalc.equipment.EquipmentCatalogItem;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
-import com.dpscalc.state.CombatStyle;
-import com.dpscalc.state.PlayerState;
-import com.dpscalc.state.Prayer;
 import com.google.gson.*;
+import com.loadoutlab.DpsLoadoutLabPlugin;
+import com.loadoutlab.data.MonsterDataManager;
+import com.loadoutlab.equipment.EquipmentCatalogItem;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.CombatStyle;
+import com.loadoutlab.model.MonsterStats;
+import com.loadoutlab.model.PlayerState;
+import com.loadoutlab.model.Prayer;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -74,7 +74,7 @@ final class CalculatorWorkspace extends JPanel {
     private final Runnable changed;
     private final Consumer<String> message;
     private final Consumer<MonsterStats> targetChanged;
-    private final DpsCalcPlugin plugin;
+    private final DpsLoadoutLabPlugin plugin;
     private final EquipmentPreparationFacade catalog;
     private final MonsterDataManager monsters;
     private final List<Runnable> bindings = new ArrayList<>();
@@ -114,7 +114,7 @@ final class CalculatorWorkspace extends JPanel {
             Runnable changed,
             Consumer<String> message,
             Consumer<MonsterStats> targetChanged,
-            DpsCalcPlugin plugin,
+            DpsLoadoutLabPlugin plugin,
             EquipmentPreparationFacade catalog,
             MonsterDataManager monsters,
             JComponent plot,
@@ -477,7 +477,7 @@ final class CalculatorWorkspace extends JPanel {
         JComboBox<String> spells = new JComboBox<>();
         spells.addItem("Powered weapon / no spell");
         List<JsonObject> spellData = new ArrayList<>();
-        try (InputStream stream = getClass().getResourceAsStream("/com/dpscalc/spells.json");
+        try (InputStream stream = getClass().getResourceAsStream("/com/loadoutlab/spells.json");
                 Reader reader = new InputStreamReader(stream, StandardCharsets.UTF_8)) {
             for (JsonElement element : new JsonParser().parse(reader).getAsJsonArray()) {
                 JsonObject spell = element.getAsJsonObject();
@@ -584,11 +584,15 @@ final class CalculatorWorkspace extends JPanel {
                     });
             toggle.getAccessibleContext().setAccessibleName(pretty(prayer.name()));
             toggle.setToolTipText(pretty(prayer.name()));
-            toggle.setIcon(
-                    new ImageIcon(
-                            getClass()
-                                    .getResource(
-                                            "/com/dpscalc/prayers/" + prayer.name() + ".png")));
+            toggle.setIcon(com.loadoutlab.UiIcons.icon(prayer.name(), 28));
+            if (plugin.getSpriteManager() != null)
+                plugin.getSpriteManager()
+                        .getSpriteAsync(
+                                prayer.getSpriteId(),
+                                0,
+                                image ->
+                                        SwingUtilities.invokeLater(
+                                                () -> toggle.setIcon(new ImageIcon(image))));
             toggle.setPreferredSize(new Dimension(42, 42));
             toggle.setMargin(new Insets(4, 4, 4, 4));
             toggle.addActionListener(
@@ -653,18 +657,9 @@ final class CalculatorWorkspace extends JPanel {
     }
 
     private static List<Prayer> prayerOrder() {
-        try (Reader reader =
-                new InputStreamReader(
-                        CalculatorWorkspace.class.getResourceAsStream(
-                                "/com/dpscalc/prayer-order.json"),
-                        StandardCharsets.UTF_8)) {
-            List<Prayer> order = new ArrayList<>();
-            for (JsonElement value : new JsonParser().parse(reader).getAsJsonArray())
-                order.add(Prayer.valueOf(value.getAsString()));
-            return order;
-        } catch (IOException ex) {
-            throw new IllegalStateException("Prayer book unavailable", ex);
-        }
+        List<Prayer> order = new ArrayList<>(Arrays.asList(Prayer.values()));
+        order.sort(Comparator.comparingInt(p -> p.getRunelitePrayer().ordinal()));
+        return order;
     }
 
     private JPanel target(Runnable liveTarget, Runnable customTarget) {
@@ -836,7 +831,7 @@ final class CalculatorWorkspace extends JPanel {
             resultNote.setRows(Math.min(8, Math.max(1, (notice.length() + 29) / 30)));
         }
         if (model.get().selected < results.size()) {
-            com.dpscalc.state.EquipmentStats stats =
+            com.loadoutlab.model.EquipmentStats stats =
                     results.get(model.get().selected).equipmentStats;
             JsonObject values =
                     stats == null
@@ -844,7 +839,15 @@ final class CalculatorWorkspace extends JPanel {
                             : Scenario.JSON.toJsonTree(stats).getAsJsonObject();
             bonusValues.forEach(
                     (key, label) ->
-                            label.setText(values.has(key) ? values.get(key).getAsString() : "—"));
+                            label.setText(
+                                    !values.has(key)
+                                            ? "—"
+                                            : key.equals("magicDamage")
+                                                    ? String.format(
+                                                            Locale.ROOT,
+                                                            "%.1f%%",
+                                                            values.get(key).getAsInt() / 10.0)
+                                                    : values.get(key).getAsString()));
         }
         theme(comparisons);
         revalidate();
@@ -1233,36 +1236,7 @@ final class CalculatorWorkspace extends JPanel {
     }
 
     static ImageIcon icon(String path, int size) {
-        java.net.URL resource =
-                CalculatorWorkspace.class.getResource("/com/dpscalc/ui/" + path + ".png");
-        if (resource == null) throw new IllegalStateException("Missing UI icon: " + path);
-        ImageIcon source = new ImageIcon(resource);
-        if (path.startsWith("slots/")) {
-            java.awt.image.BufferedImage outline =
-                    new java.awt.image.BufferedImage(
-                            source.getIconWidth(),
-                            source.getIconHeight(),
-                            java.awt.image.BufferedImage.TYPE_INT_ARGB);
-            Graphics2D g = outline.createGraphics();
-            source.paintIcon(null, g, 0, 0);
-            g.setComposite(AlphaComposite.SrcIn);
-            g.setColor(MUTED);
-            g.fillRect(0, 0, outline.getWidth(), outline.getHeight());
-            g.dispose();
-            source = new ImageIcon(outline);
-        }
-        double scale =
-                Math.min(
-                        1.0,
-                        Math.min(
-                                (double) size / source.getIconWidth(),
-                                (double) size / source.getIconHeight()));
-        return new ImageIcon(
-                source.getImage()
-                        .getScaledInstance(
-                                Math.max(1, (int) (source.getIconWidth() * scale)),
-                                Math.max(1, (int) (source.getIconHeight() * scale)),
-                                Image.SCALE_SMOOTH));
+        return com.loadoutlab.UiIcons.icon(path, size);
     }
 
     private static JLabel statLabel(String name, String image) {
@@ -1407,8 +1381,8 @@ final class CalculatorWorkspace extends JPanel {
                         targetNumber("Magic accuracy", "offensiveMagic", -1000, 100000)));
         targetStats.add(fold("Offensive bonuses", offensive, false));
         JPanel attributes = column();
-        for (com.dpscalc.data.MonsterAttribute attribute :
-                com.dpscalc.data.MonsterAttribute.values()) {
+        for (com.loadoutlab.model.MonsterAttribute attribute :
+                com.loadoutlab.model.MonsterAttribute.values()) {
             JCheckBox box = new JCheckBox(pretty(attribute.name()));
             bindings.add(
                     () -> {
@@ -1420,7 +1394,7 @@ final class CalculatorWorkspace extends JPanel {
             box.addActionListener(
                     e -> {
                         if (binding || model.get().target == null) return;
-                        Set<com.dpscalc.data.MonsterAttribute> attrs =
+                        Set<com.loadoutlab.model.MonsterAttribute> attrs =
                                 new HashSet<>(model.get().target.getAttributes());
                         if (box.isSelected()) attrs.add(attribute);
                         else attrs.remove(attribute);

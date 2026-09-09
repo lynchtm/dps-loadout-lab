@@ -1,0 +1,60 @@
+{
+  "acquired": "2026-09-09",
+  "sources": {
+    "stats": "https://static.runelite.net/item/stats.ids.min.json",
+    "names": "https://static.runelite.net/cache/item/names.json"
+  },
+  "wikiApi": "https://oldschool.runescape.wiki/api.php",
+  "fields": {
+    "infobox_monster": [
+      "page_name",
+      "name",
+      "id",
+      "version_anchor",
+      "default_version",
+      "hitpoints",
+      "size",
+      "attack_speed",
+      "attack_level",
+      "strength_level",
+      "defence_level",
+      "ranged_level",
+      "magic_level",
+      "stab_defence_bonus",
+      "slash_defence_bonus",
+      "crush_defence_bonus",
+      "magic_defence_bonus",
+      "light_range_defence_bonus",
+      "standard_range_defence_bonus",
+      "heavy_range_defence_bonus",
+      "range_defence_bonus",
+      "magic_attack_bonus",
+      "attribute",
+      "flat_armour",
+      "elemental_weakness",
+      "elemental_weakness_percent"
+    ],
+    "infobox_bonuses": [
+      "page_name",
+      "combat_style",
+      "equipment_slot",
+      "weapon_attack_speed"
+    ],
+    "infobox_item": [
+      "page_name",
+      "item_name",
+      "item_id",
+      "version_anchor"
+    ]
+  },
+  "contentLicense": "Wiki factual inputs: separate attribution under the applicable Wiki content policy; game names/assets owned by Jagex. See NOTICE.md.",
+  "rawSha256": {
+    "stats": "cde911dcd0b694b8cfc1d5f79174205c08c3f63f60c704e78b7f6b5f05ab0c8a",
+    "names": "1bc10fe96f46c7d4d906765e8c3968aa6ae12806907bf1ca87b37a0a0d770124",
+    "infobox_monster": "0e7eec2baeb808f94d948d4b8f75deda8d1c1feae9d83232c83e5ad1c8c697f5",
+    "infobox_bonuses": "980356eca267f768030719fb22ac9c028d4ea56cac59e50beac0942874afa368",
+    "infobox_item": "621c209fb0beb57dcc5ada88abb7f64ab211608b8e2cb7ac6f6df7b559231c16"
+  },
+  "equipmentCount": 5697,
+  "targetVariantCount": 4289
+}

@@ -1,10 +1,10 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.*;
-import com.dpscalc.data.*;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
-import com.dpscalc.state.*;
 import com.google.gson.*;
+import com.loadoutlab.DpsLoadoutLabPlugin;
+import com.loadoutlab.data.*;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.*;
 
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.ui.PluginPanel;
@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 public final class ScenarioPanel extends PluginPanel {
     private static final String GROUP = "wikiDpsScenarios", KEY = "workspaceV1";
-    private final DpsCalcPlugin plugin;
+    private final DpsLoadoutLabPlugin plugin;
     private final MonsterDataManager monsters;
     private final ScenarioStorage config;
     private final ScenarioCalculator calculator;
@@ -126,7 +126,7 @@ public final class ScenarioPanel extends PluginPanel {
 
     @Inject
     public ScenarioPanel(
-            DpsCalcPlugin plugin,
+            DpsLoadoutLabPlugin plugin,
             MonsterDataManager monsters,
             ConfigManager config,
             EquipmentPreparationFacade equipment) {
@@ -134,7 +134,7 @@ public final class ScenarioPanel extends PluginPanel {
     }
 
     public ScenarioPanel(
-            DpsCalcPlugin plugin,
+            DpsLoadoutLabPlugin plugin,
             MonsterDataManager monsters,
             ScenarioStorage config,
             EquipmentPreparationFacade equipment) {

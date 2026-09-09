@@ -7,7 +7,7 @@ public class WikiDpsLauncher
 {
     public static void main(String[] args) throws Exception
     {
-        ExternalPluginManager.loadBuiltin(com.dpscalc.DpsCalcPlugin.class);
+        ExternalPluginManager.loadBuiltin(com.loadoutlab.DpsLoadoutLabPlugin.class);
         RuneLite.main(args);
     }
 }

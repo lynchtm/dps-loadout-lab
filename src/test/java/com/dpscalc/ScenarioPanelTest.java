@@ -1,9 +1,11 @@
 package com.dpscalc;
+import com.loadoutlab.DpsLoadoutLabPlugin;
 
 import static org.junit.Assert.*;
 
-import com.dpscalc.data.*;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.*;
+import com.loadoutlab.data.*;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 import com.dpscalc.scenario.*;
 
 import org.junit.Test;
@@ -24,7 +26,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -118,7 +120,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     new MemoryStorage(),
                                     new EquipmentPreparationFacade());
@@ -220,11 +222,11 @@ public class ScenarioPanelTest {
         Scenario.Loadout staff = scenario.loadouts.get(0);
         staff.name = "Powered staff";
         staff.player.getEquippedItemIds()[3] = 11905;
-        staff.player.setCombatStyle(com.dpscalc.state.CombatStyle.MAGIC_ACCURATE);
+        staff.player.setCombatStyle(com.loadoutlab.model.CombatStyle.MAGIC_ACCURATE);
         Scenario.Loadout barrage = new Scenario.Loadout();
         barrage.name = "Ice Barrage";
         barrage.player.getEquippedItemIds()[3] = 4675;
-        barrage.player.setCombatStyle(com.dpscalc.state.CombatStyle.MAGIC_AUTOCAST);
+        barrage.player.setCombatStyle(com.loadoutlab.model.CombatStyle.MAGIC_AUTOCAST);
         barrage.player.setSpellName("Ice Barrage");
         barrage.player.setSpellbook("ancient");
         barrage.player.setSpellMaxHit(30);
@@ -236,7 +238,7 @@ public class ScenarioPanelTest {
                 () -> {
                     panel[0] =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -371,7 +373,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     equipment);
@@ -420,7 +422,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -475,7 +477,7 @@ public class ScenarioPanelTest {
                                                                     .getAccessibleName()))
                             .doClick();
                     assertEquals(
-                            Collections.singleton(com.dpscalc.state.Prayer.RIGOUR),
+                            Collections.singleton(com.loadoutlab.model.Prayer.RIGOUR),
                             saved(storage).loadouts.get(0).player.getActivePrayers());
                     search.setText("Abyssal whip");
                     find(panel, JButton.class, b -> "Equip selected item".equals(b.getText()))
@@ -568,7 +570,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     new MemoryStorage(),
                                     new EquipmentPreparationFacade());
@@ -637,7 +639,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -778,7 +780,7 @@ public class ScenarioPanelTest {
                 () -> {
                     holder[0] =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -861,7 +863,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -919,7 +921,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -1018,13 +1020,13 @@ public class ScenarioPanelTest {
     @Test
     public void comparisonTabsSwitchIndependentLoadoutsAndSaveSelectedTab() throws Exception {
         MemoryStorage storage = new MemoryStorage();
-        com.dpscalc.state.PlayerState player = Scenario.defaults();
+        com.loadoutlab.model.PlayerState player = Scenario.defaults();
         player.getEquippedItemIds()[3] = 4151;
         player.getEquippedItemNames()[3] = "Abyssal whip";
-        DpsCalcPlugin plugin =
-                new DpsCalcPlugin() {
+        DpsLoadoutLabPlugin plugin =
+                new DpsLoadoutLabPlugin() {
                     @Override
-                    public com.dpscalc.state.PlayerState getCachedPlayerState() {
+                    public com.loadoutlab.model.PlayerState getCachedPlayerState() {
                         return player;
                     }
                 };
@@ -1125,13 +1127,13 @@ public class ScenarioPanelTest {
     @Test
     public void explicitLoadCurrentPlayerRestoresClearedWeapon() throws Exception {
         MemoryStorage storage = new MemoryStorage();
-        com.dpscalc.state.PlayerState live = Scenario.defaults();
+        com.loadoutlab.model.PlayerState live = Scenario.defaults();
         live.getEquippedItemIds()[3] = 4151;
         live.getEquippedItemNames()[3] = "Abyssal whip";
-        DpsCalcPlugin plugin =
-                new DpsCalcPlugin() {
+        DpsLoadoutLabPlugin plugin =
+                new DpsLoadoutLabPlugin() {
                     @Override
-                    public com.dpscalc.state.PlayerState getCachedPlayerState() {
+                    public com.loadoutlab.model.PlayerState getCachedPlayerState() {
                         return live;
                     }
                 };
@@ -1196,7 +1198,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -1274,7 +1276,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -1359,7 +1361,7 @@ public class ScenarioPanelTest {
                     }
                     ScenarioPanel reopened =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -1456,7 +1458,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());
@@ -1607,11 +1609,11 @@ public class ScenarioPanelTest {
     @Test
     public void liveSyncBelongsToOneDraftAndStopsAtProfileChange() throws Exception {
         MemoryStorage storage = new MemoryStorage();
-        com.dpscalc.state.PlayerState player = Scenario.defaults();
+        com.loadoutlab.model.PlayerState player = Scenario.defaults();
         player.setAttackLevel(75);
-        DpsCalcPlugin plugin =
-                new DpsCalcPlugin() {
-                    public com.dpscalc.state.PlayerState getCachedPlayerState() {
+        DpsLoadoutLabPlugin plugin =
+                new DpsLoadoutLabPlugin() {
+                    public com.loadoutlab.model.PlayerState getCachedPlayerState() {
                         return player;
                     }
                 };
@@ -1679,7 +1681,7 @@ public class ScenarioPanelTest {
                 () ->
                         panel[0] =
                                 new ScenarioPanel(
-                                        new DpsCalcPlugin() {
+                                        new DpsLoadoutLabPlugin() {
                                             public void publishComparison(
                                                     ScenarioCalculator.Result result,
                                                     MonsterStats target) {
@@ -1777,7 +1779,7 @@ public class ScenarioPanelTest {
                 () -> {
                     ScenarioPanel panel =
                             new ScenarioPanel(
-                                    new DpsCalcPlugin(),
+                                    new DpsLoadoutLabPlugin(),
                                     new MonsterDataManager(),
                                     storage,
                                     new EquipmentPreparationFacade());

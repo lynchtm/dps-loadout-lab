@@ -174,7 +174,7 @@ public final class WikiSetupService {
                                 .header(
                                         "User-Agent",
                                         "DPS-Loadout-Lab/1.0 (RuneLite;"
-                                            + " https://github.com/lynchtm/dps-loadout-lab)")
+                                                + " https://github.com/lynchtm/dps-loadout-lab)")
                                 .build());
         scope.attach(call);
         try (Response response = call.execute()) {

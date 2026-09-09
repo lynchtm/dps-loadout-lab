@@ -1,8 +1,8 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.data.MonsterStats;
-import com.dpscalc.state.PlayerState;
 import com.google.gson.JsonObject;
+import com.loadoutlab.model.MonsterStats;
+import com.loadoutlab.model.PlayerState;
 
 /** Defines which inputs affect calculations, independently of presentation and packing. */
 public final class CalculationInputs {

@@ -1,9 +1,9 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.calc.*;
-import com.dpscalc.data.*;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
-import com.dpscalc.state.*;
+import com.loadoutlab.calculation.*;
+import com.loadoutlab.data.*;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.*;
 
 import java.util.*;
 
@@ -18,7 +18,7 @@ public final class ScenarioCalculator {
         public String name, error, breakdown;
         public DpsResult normal, special;
         public EquipmentStats equipmentStats;
-        public com.dpscalc.equipment.AmmoApplicability ammoApplicability;
+        public com.loadoutlab.equipment.AmmoApplicability ammoApplicability;
         public double[] histogram;
         public Double ttk, ttkVariance, rotationDps, damageTaken, prayerSeconds;
         public Double groupDps;
@@ -83,28 +83,30 @@ public final class ScenarioCalculator {
             PotionSelection.apply(p, loadout);
             MonsterStats m = target == null ? null : MonsterScaling.scale(target);
             if (!loadout.manualEquipmentStats) {
-                com.dpscalc.equipment.EquipmentLoadout raw =
+                com.loadoutlab.equipment.EquipmentLoadout raw =
                         equipment.loadoutFromIds(p.getEquippedItemIds());
                 java.util.Map<
-                                com.dpscalc.equipment.EquipmentSlot,
-                                com.dpscalc.equipment.EquipmentItem>
-                        slots = new java.util.EnumMap<>(com.dpscalc.equipment.EquipmentSlot.class);
+                                com.loadoutlab.equipment.EquipmentSlot,
+                                com.loadoutlab.equipment.EquipmentItem>
+                        slots =
+                                new java.util.EnumMap<>(
+                                        com.loadoutlab.equipment.EquipmentSlot.class);
                 slots.putAll(raw.asMap());
                 if (loadout.blowpipeDartId > 0 && p.getWeaponId() > 0)
                     slots.put(
-                            com.dpscalc.equipment.EquipmentSlot.WEAPON,
-                            com.dpscalc.equipment.EquipmentItem.raw(
+                            com.loadoutlab.equipment.EquipmentSlot.WEAPON,
+                            com.loadoutlab.equipment.EquipmentItem.raw(
                                     p.getWeaponId(),
                                     Map.of(
                                             "blowpipeDartId",
-                                            com.dpscalc.equipment.ItemVariable.ofNumber(
+                                            com.loadoutlab.equipment.ItemVariable.ofNumber(
                                                     loadout.blowpipeDartId))));
                 equipment.prepare(
                         p,
-                        com.dpscalc.equipment.EquipmentLoadout.of(slots),
+                        com.loadoutlab.equipment.EquipmentLoadout.of(slots),
                         null,
                         EquipmentPreparationFacade.context(p, m == null ? 0 : m.getId()));
-                com.dpscalc.equipment.EquipmentCatalogItem weapon =
+                com.loadoutlab.equipment.EquipmentCatalogItem weapon =
                         equipment.getItemFacts(p.getWeaponId());
                 if (weapon != null && weapon.isTwoHanded() && p.getEquippedItemIds()[5] > 0)
                     throw new IllegalArgumentException(
@@ -129,7 +131,7 @@ public final class ScenarioCalculator {
             }
             out.limitations.addAll(CoverageWarnings.forState(p, m));
             if (scoreOnly) {
-                if (p.getAmmoApplicability() == com.dpscalc.equipment.AmmoApplicability.INVALID)
+                if (p.getAmmoApplicability() == com.loadoutlab.equipment.AmmoApplicability.INVALID)
                     throw new IllegalArgumentException("Incompatible ammunition");
                 if (!Double.isFinite(out.normal.getDps()))
                     throw new IllegalArgumentException("Invalid DPS");
@@ -160,45 +162,38 @@ public final class ScenarioCalculator {
                             + " HP-dependent procs, phase changes and variable attack delays need a"
                             + " dynamic model.");
             if (loadout.specialAttack) {
-                out.special = new DpsCalculator(p, m, true).calculate();
-                int maxEnergy =
-                        loadout.specialEnergy
-                                + (loadout.rotationTicks / (p.isWearing("Lightbearer") ? 25 : 50))
-                                        * 10;
-                if (loadout.specials * loadout.specialCost > maxEnergy)
-                    out.warnings.add("Rotation requests more special energy than available.");
-                else {
-                    double ticks = loadout.specials * out.special.getExpectedAttackSpeed();
-                    if (ticks > loadout.rotationTicks)
-                        out.warnings.add("Special attacks exceed the rotation duration.");
-                    else
-                        out.rotationDps =
-                                (loadout.specials * out.special.getExpectedDamage()
-                                                + Math.floor(
-                                                                (loadout.rotationTicks - ticks)
-                                                                        / out.normal
-                                                                                .getExpectedAttackSpeed())
-                                                        * out.normal.getExpectedDamage())
-                                        / (loadout.rotationTicks * 0.6);
-                }
-                out.warnings.add(
-                        "Special model: verify weapon coverage and energy cost. Rotation uses fixed"
-                                + " target stats and average damage; it does not apply sequential"
-                                + " defence drains or enforce energy availability at each attack.");
-                if (p.isWearingAny(
-                        "Dragon claws",
-                        "Burning claws",
-                        "Dark bow",
-                        "Voidwaker",
-                        "Dragon halberd",
-                        "Crystal halberd",
-                        "Dawnbringer")) {
+                try {
+                    out.special = new DpsCalculator(p, m, true).calculate();
+                    int maxEnergy =
+                            loadout.specialEnergy
+                                    + (loadout.rotationTicks
+                                                    / (p.isWearing("Lightbearer") ? 25 : 50))
+                                            * 10;
+                    if (loadout.specials * loadout.specialCost > maxEnergy)
+                        out.warnings.add("Rotation requests more special energy than available.");
+                    else {
+                        double ticks = loadout.specials * out.special.getExpectedAttackSpeed();
+                        if (ticks > loadout.rotationTicks)
+                            out.warnings.add("Special attacks exceed the rotation duration.");
+                        else
+                            out.rotationDps =
+                                    (loadout.specials * out.special.getExpectedDamage()
+                                                    + Math.floor(
+                                                                    (loadout.rotationTicks - ticks)
+                                                                            / out.normal
+                                                                                    .getExpectedAttackSpeed())
+                                                            * out.normal.getExpectedDamage())
+                                            / (loadout.rotationTicks * 0.6);
+                    }
+                    out.warnings.add(
+                            "Special model: verify weapon coverage and energy cost. Rotation uses"
+                                    + " fixed target stats and average damage; it does not apply"
+                                    + " sequential defence drains or enforce energy availability at"
+                                    + " each attack.");
+                } catch (IllegalArgumentException unavailable) {
                     out.special = null;
                     out.rotationDps = null;
-                    out.warnings.add(
-                            "Special result unavailable: this weapon's complete correlated hits or"
-                                    + " minimum-hit distribution is not implemented. Normal attacks"
-                                    + " remain available.");
+                    out.warnings.add("Special result unavailable: " + unavailable.getMessage());
                 }
             }
             if (!"Unavailable".equals(loadout.incomingStyle)) {
@@ -214,8 +209,8 @@ public final class ScenarioCalculator {
                                 * (1 + p.getEquipmentStats().getPrayerBonus() / 30.0)
                                 / loadout.prayerDrainPerMinute;
             out.warnings.add(
-                    "Reference engine/data: Wiki b6bc098d (2026-07-09). Current Wiki parity and"
-                            + " seasonal mechanics are not established.");
+                    "Independent engine; factual data snapshot 2026-09-09. See calculation limits"
+                            + " for unsupported mechanics.");
             if (p.getCombatStyle().getAttackType().isMagic() && p.getSpellName() == null)
                 out.warnings.add(
                         "Live spell detection unavailable: select a spell or confirm powered-staff"
@@ -341,7 +336,8 @@ public final class ScenarioCalculator {
                         ? 3
                         : "Controlled".equals(stance) ? 1 : 0;
         double accuracy =
-                BaseCalc.getNormalAccuracyRoll(l.incomingAttackRoll, (level + 8) * (bonus + 64));
+                com.loadoutlab.engine.RollContest.successProbability(
+                        l.incomingAttackRoll, (level + 8) * (bonus + 64));
         double expected = 0;
         for (int hit = 0; hit <= l.incomingMaxHit; hit++) {
             double damage = hit;
@@ -397,7 +393,8 @@ public final class ScenarioCalculator {
                 + "\n"
                 + "TTK uses E[0]=0; E[h]=(1+sum(p[d]×E[max(0,h-d)]))/(1-p[0]). Includes overkill"
                 + " and misses.\n\n"
-                + "Limits\n"
+                + String.join("\n", d.getDetails())
+                + "\n\nLimits\n"
                 + String.join("\n", r.warnings);
     }
 }

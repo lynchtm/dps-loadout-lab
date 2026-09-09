@@ -2,10 +2,11 @@ package com.dpscalc;
 
 import static org.junit.Assert.*;
 
-import com.dpscalc.data.*;
-import com.dpscalc.equipment.*;
+import com.loadoutlab.model.*;
+import com.loadoutlab.data.*;
+import com.loadoutlab.equipment.*;
 import com.dpscalc.scenario.*;
-import com.dpscalc.state.*;
+import com.loadoutlab.model.*;
 
 import org.junit.Test;
 
@@ -366,7 +367,7 @@ public class BankOptimizerTest {
                         "player",
                         1,
                         1,
-                        Map.of(4212, 1, 892, 100),
+                        Map.of(23983, 1, 892, 100),
                         Map.of(),
                         Map.of(),
                         Map.of("ranged", 99, "agility", 99));
@@ -381,7 +382,7 @@ public class BankOptimizerTest {
                                         true,
                                         "Ranged"),
                                 n -> {});
-        assertEquals(4212, result.alternatives.get(0).player.getWeaponId());
+        assertEquals(23983, result.alternatives.get(0).player.getWeaponId());
         assertEquals(-1, result.alternatives.get(0).player.getEquippedItemIds()[13]);
     }
 

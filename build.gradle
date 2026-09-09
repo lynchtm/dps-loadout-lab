@@ -11,28 +11,74 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
 }
 group = 'com.tommy.wikidps'
-tasks.named('jar') { from('LICENSE'); from('NOTICE.md') }
+
+// The probability foundation stays independently buildable with Java alone.
+sourceSets {
+    independent {
+        java.srcDirs = ['src/main/java']
+        java.include 'com/loadoutlab/engine/**'
+    }
+    independentTest {
+        compileClasspath += sourceSets.independent.output
+        runtimeClasspath += sourceSets.independent.output
+    }
+}
+sourceSets.main.java.exclude 'com/loadoutlab/engine/**'
+sourceSets.main.compileClasspath += sourceSets.independent.output
+sourceSets.main.runtimeClasspath += sourceSets.independent.output
+sourceSets.test.compileClasspath += sourceSets.independent.output
+sourceSets.test.runtimeClasspath += sourceSets.independent.output
+dependencies { independentTestImplementation 'junit:junit:4.13.2' }
+tasks.register('independentTest', Test) {
+    testClassesDirs = sourceSets.independentTest.output.classesDirs
+    classpath = sourceSets.independentTest.runtimeClasspath
+}
+tasks.register('verifyIndependentIsolation') {
+    doLast {
+        if (!configurations.independentCompileClasspath.files.empty ||
+                !configurations.independentRuntimeClasspath.files.empty) {
+            throw new GradleException('Independent foundation must have no external dependencies')
+        }
+        def legacyOutputs = sourceSets.main.output.files + sourceSets.test.output.files
+        def isolatedPaths = sourceSets.independent.compileClasspath.files +
+                sourceSets.independent.runtimeClasspath.files +
+                sourceSets.independentTest.compileClasspath.files +
+                sourceSets.independentTest.runtimeClasspath.files
+        if (isolatedPaths.any { legacyOutputs.contains(it) }) {
+            throw new GradleException('Legacy outputs leaked into independent classpaths')
+        }
+        [sourceSets.independent, sourceSets.independentTest].each { sources ->
+            sources.allJava.each { source ->
+                def text = source.getText('UTF-8')
+                if (!text.contains('SPDX-License-Identifier: BSD-2-Clause') ||
+                        text.contains('com.dpscalc') || text.contains('com/dpscalc') ||
+                        text.contains('getResourceAsStream') || text.contains('getResource(')) {
+                    throw new GradleException("Independent source boundary violation: ${source.name}")
+                }
+            }
+            if (!sources.resources.files.empty) {
+                throw new GradleException('Independent foundation must not load external datasets or fixtures')
+            }
+        }
+    }
+}
+tasks.named('independentTest') { dependsOn tasks.named('verifyIndependentIsolation') }
+tasks.named('check') { dependsOn tasks.named('independentTest') }
+tasks.register('independentJar', Jar) {
+    dependsOn tasks.named('verifyIndependentIsolation')
+    archiveClassifier = 'independent-foundation'
+    from sourceSets.independent.output
+    from('src/independent/LICENSE') { into 'META-INF' }
+    from('src/independent/PROVENANCE.md') { into 'META-INF' }
+    from('src/independent/SPEC.md') { into 'META-INF' }
+}
+tasks.named('jar') { from sourceSets.independent.output; from('LICENSE'); from('NOTICE.md') }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release.set(11) }
 tasks.register('run', JavaExec) {
     classpath = sourceSets.test.runtimeClasspath
     mainClass = 'com.tommy.wikidps.WikiDpsLauncher'
     jvmArgs '-ea'
     args '--developer-mode', '--debug'
-}
-
-// Candidate snapshots are opt-in and never replace the pinned regression fixtures.
-tasks.register('candidateParity', Test) {
-    testClassesDirs = sourceSets.test.output.classesDirs
-    classpath = sourceSets.test.runtimeClasspath
-    filter { includeTestsMatching 'com.dpscalc.FixtureCandidateReplayTest' }
-    outputs.upToDateWhen { false }
-    doFirst {
-        ['file', 'sha', 'digest'].each { key ->
-            def value = project.findProperty("fixtureCandidate.${key}")
-            if (!value) throw new GradleException("Pass -PfixtureCandidate.${key}=...")
-            systemProperty "fixtureCandidate.${key}", value.toString()
-        }
-    }
 }
 
 // Offline corpus audit. Use -PbossWikiAudit.input=<corpus-dir>

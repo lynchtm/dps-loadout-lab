@@ -1,11 +1,12 @@
 package com.dpscalc;
 
 import com.dpscalc.scenario.*;
-import com.dpscalc.state.*;
-import com.dpscalc.data.*;
-import com.dpscalc.calc.*;
-import com.dpscalc.calc.distribution.*;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.*;
+import com.loadoutlab.model.*;
+import com.loadoutlab.data.*;
+import com.loadoutlab.calculation.*;
+import com.loadoutlab.engine.DamagePmf;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 import org.junit.Test;
 import java.util.*;
 import static org.junit.Assert.*;
@@ -31,9 +32,9 @@ public class ScenarioTest {
         assertEquals(1,DistributionAnalysis.moments(new double[]{0,0,1},1)[0],0);
     }
     @Test public void compactMultiHitHistogramPreservesMassAndExpectation(){
-        HitDistribution h=HitDistribution.linear(.75,0,20);AttackDistribution attack=new AttackDistribution(Arrays.asList(h,h,h));
+        DamagePmf h=DamagePmf.singleHit(.75,0,20);DamagePmf attack=h.independentSum(h).independentSum(h);
         double[] histogram=DistributionAnalysis.histogram(attack);assertEquals(1,Arrays.stream(histogram).sum(),1e-10);
-        double mean=0;for(int i=0;i<histogram.length;i++)mean+=i*histogram[i];assertEquals(attack.getExpectedDamage(),mean,1e-9);
+        double mean=0;for(int i=0;i<histogram.length;i++)mean+=i*histogram[i];assertEquals(attack.mean(),mean,1e-9);
     }
     @Test public void killGraphReportsSurvivingTail(){double[] p=DistributionAnalysis.killDistribution(new double[]{.5,.5},1,3);assertArrayEquals(new double[]{.5,.25,.125,.125},p,1e-10);}
     @Test(expected=IllegalArgumentException.class) public void unkillableTargetHasNoMisleadingZeroTime(){DistributionAnalysis.moments(new double[]{1,0},100);}
@@ -52,7 +53,8 @@ public class ScenarioTest {
         ScenarioCalculator.applyBoost(p,"Smelling salts",0,false);assertEquals(26,p.getRangedBoost());
     }
     @Test public void decayAndDivineDoNotMutateBaseLevels(){PlayerState p=Scenario.defaults();ScenarioCalculator.applyBoost(p,"Super combat",120,false);assertEquals(17,p.getAttackBoost());assertEquals(99,p.getAttackLevel());ScenarioCalculator.applyBoost(p,"Super combat",120,true);assertEquals(19,p.getAttackBoost());}
-    @Test public void resultAverageUsesDistribution(){DpsResult r=new DpsResult();AttackDistribution d=AttackDistribution.single(HitDistribution.linear(.75,0,10));r.setAttackDistribution(d);r.setAccuracy(.75);r.setExpectedDirectDamage(d.getExpectedDamage());r.setExpectedAttackSpeed(4);r.setDistributionDamagePerTick(d.getExpectedDamage()/4);r.setMonsterHp(100);assertEquals(d.getExpectedDamage(),r.getAverageDamagePerAttack(),0);assertEquals(d.getExpectedDamage()/4,r.getDamagePerTick(),0);assertTrue(r.getTimeToKill()>0);}
+    @Test public void resultAverageUsesDistribution(){DamagePmf d=DamagePmf.singleHit(.75,0,10);DpsResult r=new DpsResult(d,.75,4,100,100,0,List.of());assertEquals(d.mean(),r.getExpectedDamage(),0);assertEquals(d.mean()/4,r.getExpectedDamage()/r.getExpectedAttackSpeed(),0);}
+
     @Test public void realScenarioCalculationIsFiniteAndDoesNotMutateInput(){Scenario.Loadout l=new Scenario.Loadout();ScenarioCalculator.Result r=new ScenarioCalculator(new EquipmentPreparationFacade()).calculate(l,target());assertNull(r.error);assertTrue(r.normal.getDps()>0);assertNotNull(r.ttk);assertEquals(0,l.player.getEquipmentStats().getMeleeStrength());}
     @Test public void missingItemFailsWithExplanation(){Scenario.Loadout l=new Scenario.Loadout();l.player.getEquippedItemIds()[3]=999999;ScenarioCalculator.Result r=new ScenarioCalculator(new EquipmentPreparationFacade()).calculate(l,target());assertNotNull(r.error);}
     private static MonsterStats target(){MonsterStats m=new MonsterStats();m.setId(-1);m.setName("Target");m.setSize(1);m.setSpeed(4);m.setHitpoints(100);m.setDefenceLevel(1);m.setMagicLevel(1);return m;}

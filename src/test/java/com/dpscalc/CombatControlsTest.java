@@ -1,8 +1,8 @@
 package com.dpscalc;
 
 import com.dpscalc.scenario.*;
-import com.dpscalc.equipment.EquipmentPreparationFacade;
-import com.dpscalc.state.*;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.*;
 import java.util.*;
 import org.junit.Test;
 import static org.junit.Assert.*;

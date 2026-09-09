@@ -1,10 +1,10 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.equipment.*;
 import com.dpscalc.wikisetups.WikiSetupOptions.MissingGearBehavior;
 import com.dpscalc.wikisetups.bank.*;
 import com.dpscalc.wikisetups.items.*;
 import com.dpscalc.wikisetups.wiki.*;
+import com.loadoutlab.equipment.*;
 
 import java.util.*;
 import java.util.function.IntPredicate;
@@ -204,7 +204,7 @@ public final class WikiLoadouts {
                         : label.contains("ranged")
                                 ? "Ranged"
                                 : label.contains("melee") ? "Melee" : "";
-        for (com.dpscalc.state.CombatStyle style :
+        for (com.loadoutlab.model.CombatStyle style :
                 WeaponStyles.available(draft.player, equipment)) {
             String type =
                     style.getAttackType().isMagic()

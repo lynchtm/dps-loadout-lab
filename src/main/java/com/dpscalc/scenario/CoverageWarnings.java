@@ -1,24 +1,59 @@
+// SPDX-License-Identifier: BSD-2-Clause
 package com.dpscalc.scenario;
 
-import com.dpscalc.state.PlayerState;
-import com.dpscalc.data.MonsterStats;
+import com.loadoutlab.model.*;
+
 import java.util.*;
 
-/** Known upstream drift is attached to affected scenarios rather than hidden in release notes. */
+/** Explicit limits travel with results and exclude affected optimizer candidates by default. */
 public final class CoverageWarnings {
-    private CoverageWarnings(){}
-    public static List<String> forState(PlayerState player,MonsterStats monster){
-        List<String> warnings=new ArrayList<>();
-        if(player.isWearingItemContaining("Inquisitor"))warnings.add("Inquisitor armour: the current Wiki changed per-piece weighting and mace interactions; this pinned engine uses the older rules.");
-        if(player.isWearingAny("Sanguinesti staff","Holy sanguinesti staff"))warnings.add("Sanguinesti: current Wiki base damage and additional damage proc differ from this pinned engine.");
-        if(player.isWearing("Dawnbringer"))warnings.add("Dawnbringer: current Wiki damage rules differ; special distribution is not implemented completely.");
-        if(player.isWearing("Soulreaper axe"))warnings.add("Soulreaper: current Wiki special accuracy and minimum-hit rules differ from this pinned engine.");
-        if(player.isWearingAny("Silverlight","Darklight"))warnings.add("Silverlight/Darklight: current Wiki added demonbane accuracy not present in this reference.");
-        if(player.isWearing("Twisted bow"))warnings.add("Twisted bow: current Wiki clamps the scaling multiplier; this pinned engine predates that change.");
-        if(player.isWearingAny("Rosewood blowpipe","Tonalztics of ralos"))warnings.add("Weapon special rules changed since the pinned reference.");
-        String name=Objects.toString(monster.getName(),"").toLowerCase(Locale.ROOT);
-        if(name.contains("maggot")||name.contains("mad angel")||name.contains("ara xyte")||name.contains("araxyte")||Objects.toString(monster.getVersion(),"").contains("Glyphic"))
-            warnings.add("This NPC has newer phase or guaranteed-hit mechanics not represented by the pinned engine.");
+    private CoverageWarnings() {}
+
+    public static List<String> forState(PlayerState p, MonsterStats m) {
+        List<String> warnings = new ArrayList<>();
+        String w = Objects.toString(p.getWeaponName(), "").toLowerCase(Locale.ROOT),
+                name = Objects.toString(m.getName(), "").toLowerCase(Locale.ROOT);
+        if (m.hasAttribute(MonsterAttribute.XERICIAN))
+            warnings.add(
+                    "Chambers of Xeric: party/Challenge Mode scaling and encounter-specific damage"
+                        + " rules are not fully modelled. Enter observed target stats; use results"
+                        + " as estimates.");
+        if (m.isToaMonster())
+            warnings.add(
+                    "Tombs of Amascut: base invocation scaling is applied; phase-specific damage,"
+                            + " core damage and raid mechanics need verification.");
+        if (name.contains("araxyte") || name.contains("maggot") || name.contains("mad angel"))
+            warnings.add(
+                    "This target has special guaranteed-hit or damage rules that are not yet"
+                            + " modelled.");
+        if (name.contains("verzik")
+                || name.contains("vardorvis")
+                || name.contains("vorkath")
+                || name.contains("kalphite queen")
+                || name.contains("nightmare")
+                || name.contains("tormented demon"))
+            warnings.add(
+                    "Encounter-specific phases, protection and changing defence are not simulated."
+                            + " Results use the selected static target stats.");
+        if (w.contains("dual macuahuitl")
+                || w.contains("torag")
+                || w.contains("sulphur blades")
+                || w.contains("tonalztics")
+                || w.contains("eclipse atlatl")
+                || w.contains("dawnbringer")
+                || w.contains("salamander")
+                || w.contains("dinh"))
+            warnings.add(
+                    "This weapon's special normal-attack mechanics are not yet independently"
+                            + " verified; displayed DPS is incomplete.");
+        if (p.isWearingItemContaining("Blue moon")
+                || p.isWearingItemContaining("Blood moon")
+                || p.isWearingItemContaining("Eclipse moon"))
+            warnings.add("Moon armour: set proc timing and delayed damage are not modelled.");
+        if (w.contains("ahrim") || w.contains("karil"))
+            warnings.add(
+                    "Barrows set proc distributions are estimates pending independent multi-hit"
+                            + " validation.");
         return warnings;
     }
 }

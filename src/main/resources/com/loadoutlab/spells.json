@@ -1,0 +1,386 @@
+[
+  {
+    "name": "Wind Strike",
+    "spellbook": "standard",
+    "element": "air",
+    "level": 1,
+    "max_hit": 2,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Water Strike",
+    "spellbook": "standard",
+    "element": "water",
+    "level": 5,
+    "max_hit": 4,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Earth Strike",
+    "spellbook": "standard",
+    "element": "earth",
+    "level": 9,
+    "max_hit": 6,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Fire Strike",
+    "spellbook": "standard",
+    "element": "fire",
+    "level": 13,
+    "max_hit": 8,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Wind Bolt",
+    "spellbook": "standard",
+    "element": "air",
+    "level": 17,
+    "max_hit": 9,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Water Bolt",
+    "spellbook": "standard",
+    "element": "water",
+    "level": 23,
+    "max_hit": 10,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Earth Bolt",
+    "spellbook": "standard",
+    "element": "earth",
+    "level": 29,
+    "max_hit": 11,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Fire Bolt",
+    "spellbook": "standard",
+    "element": "fire",
+    "level": 35,
+    "max_hit": 12,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Ghostly Grasp",
+    "spellbook": "arceuus",
+    "element": null,
+    "level": 35,
+    "max_hit": 12,
+    "sourcePage": "Arceuus spellbook"
+  },
+  {
+    "name": "Crumble Undead",
+    "spellbook": "standard",
+    "element": null,
+    "level": 39,
+    "max_hit": 15,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Wind Blast",
+    "spellbook": "standard",
+    "element": "air",
+    "level": 41,
+    "max_hit": 13,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Inferior Demonbane",
+    "spellbook": "arceuus",
+    "element": null,
+    "level": 44,
+    "max_hit": 16,
+    "sourcePage": "Arceuus spellbook"
+  },
+  {
+    "name": "Water Blast",
+    "spellbook": "standard",
+    "element": "water",
+    "level": 47,
+    "max_hit": 14,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Iban Blast",
+    "spellbook": "standard",
+    "element": null,
+    "level": 50,
+    "max_hit": 25,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Magic Dart",
+    "spellbook": "standard",
+    "element": null,
+    "level": 50,
+    "max_hit": 15,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Smoke Rush",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 50,
+    "max_hit": 13,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Shadow Rush",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 52,
+    "max_hit": 14,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Earth Blast",
+    "spellbook": "standard",
+    "element": "earth",
+    "level": 53,
+    "max_hit": 15,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Blood Rush",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 56,
+    "max_hit": 15,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Skeletal Grasp",
+    "spellbook": "arceuus",
+    "element": null,
+    "level": 56,
+    "max_hit": 17,
+    "sourcePage": "Arceuus spellbook"
+  },
+  {
+    "name": "Ice Rush",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 58,
+    "max_hit": 16,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Fire Blast",
+    "spellbook": "standard",
+    "element": "fire",
+    "level": 59,
+    "max_hit": 16,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Claws of Guthix",
+    "spellbook": "standard",
+    "element": null,
+    "level": 60,
+    "max_hit": 20,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Flames of Zamorak",
+    "spellbook": "standard",
+    "element": null,
+    "level": 60,
+    "max_hit": 20,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Saradomin Strike",
+    "spellbook": "standard",
+    "element": null,
+    "level": 60,
+    "max_hit": 20,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Smoke Burst",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 62,
+    "max_hit": 17,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Superior Demonbane",
+    "spellbook": "arceuus",
+    "element": null,
+    "level": 62,
+    "max_hit": 23,
+    "sourcePage": "Arceuus spellbook"
+  },
+  {
+    "name": "Wind Wave",
+    "spellbook": "standard",
+    "element": "air",
+    "level": 62,
+    "max_hit": 17,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Shadow Burst",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 64,
+    "max_hit": 18,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Water Wave",
+    "spellbook": "standard",
+    "element": "water",
+    "level": 65,
+    "max_hit": 18,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Blood Burst",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 68,
+    "max_hit": 21,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Earth Wave",
+    "spellbook": "standard",
+    "element": "earth",
+    "level": 70,
+    "max_hit": 19,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Ice Burst",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 70,
+    "max_hit": 22,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Smoke Blitz",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 74,
+    "max_hit": 23,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Fire Wave",
+    "spellbook": "standard",
+    "element": "fire",
+    "level": 75,
+    "max_hit": 20,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Shadow Blitz",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 76,
+    "max_hit": 24,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Undead Grasp",
+    "spellbook": "arceuus",
+    "element": null,
+    "level": 79,
+    "max_hit": 24,
+    "sourcePage": "Arceuus spellbook"
+  },
+  {
+    "name": "Blood Blitz",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 80,
+    "max_hit": 25,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Wind Surge",
+    "spellbook": "standard",
+    "element": "air",
+    "level": 81,
+    "max_hit": 21,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Dark Demonbane",
+    "spellbook": "arceuus",
+    "element": null,
+    "level": 82,
+    "max_hit": 30,
+    "sourcePage": "Arceuus spellbook"
+  },
+  {
+    "name": "Ice Blitz",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 82,
+    "max_hit": 26,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Water Surge",
+    "spellbook": "standard",
+    "element": "water",
+    "level": 85,
+    "max_hit": 22,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Smoke Barrage",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 86,
+    "max_hit": 27,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Shadow Barrage",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 88,
+    "max_hit": 28,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Earth Surge",
+    "spellbook": "standard",
+    "element": "earth",
+    "level": 90,
+    "max_hit": 23,
+    "sourcePage": "Standard spellbook"
+  },
+  {
+    "name": "Blood Barrage",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 92,
+    "max_hit": 29,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Ice Barrage",
+    "spellbook": "ancient",
+    "element": null,
+    "level": 94,
+    "max_hit": 30,
+    "sourcePage": "Ancient Magicks"
+  },
+  {
+    "name": "Fire Surge",
+    "spellbook": "standard",
+    "element": "fire",
+    "level": 95,
+    "max_hit": 24,
+    "sourcePage": "Standard spellbook"
+  }
+]

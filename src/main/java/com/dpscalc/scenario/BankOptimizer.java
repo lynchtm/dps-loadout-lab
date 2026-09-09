@@ -1,9 +1,9 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.data.MonsterStats;
-import com.dpscalc.equipment.*;
-import com.dpscalc.state.*;
 import com.google.gson.*;
+import com.loadoutlab.equipment.*;
+import com.loadoutlab.model.*;
+import com.loadoutlab.model.MonsterStats;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -52,7 +52,8 @@ public final class BankOptimizer {
         calculator = new ScenarioCalculator(equipment);
         try (Reader reader =
                 new InputStreamReader(
-                        getClass().getResourceAsStream("/com/dpscalc/equipment-requirements.json"),
+                        getClass()
+                                .getResourceAsStream("/com/loadoutlab/equipment-requirements.json"),
                         StandardCharsets.UTF_8)) {
             for (Map.Entry<String, JsonElement> entry :
                     new JsonParser().parse(reader).getAsJsonObject().entrySet()) {

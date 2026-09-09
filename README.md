@@ -1,13 +1,15 @@
 # DPS Loadout Lab
 
 A native Java 11 RuneLite calculator: compare independent loadouts against one target,
-find an owned setup, then prepare a bank layout. Independent community plugin; GPL-3.0.
-See [NOTICE.md](NOTICE.md) for code, data and artwork attribution.
+find an owned setup, then prepare a bank layout. Independent community plugin.
+The Java code is BSD-2-Clause; Wiki content and game assets have separate
+attribution in [NOTICE.md](NOTICE.md).
 
-The calculation engine and equipment/NPC data are pinned to Wiki commit
-`b6bc098dc0d742b2b763375d2e78e1b611a22070` (July 9, 2026).
-Current Wiki parity is not claimed. [COVERAGE.md](COVERAGE.md) is the authoritative
-capability/limitation inventory; [PARITY.md](PARITY.md) describes reference maintenance.
+This revision uses an independently specified calculation engine and freshly
+acquired RuneLite/Wiki facts (September 9, 2026), replacing the previous GPL-derived
+engine and datasets. It is not an official Wiki calculator or a complete parity
+claim. [COVERAGE.md](COVERAGE.md) describes supported rules and visible limits;
+[PROVENANCE.md](PROVENANCE.md) describes the replacement and authoring method.
 
 ## Build and run
 
@@ -74,13 +76,12 @@ stored choices remain unchanged. Confirm the task actually applies to the target
 The optional overlay labels its source: **Live player** or **Selected comparison**, chosen
 in RuneLite configuration. Both use ScenarioCalculator for equipment, scaling, damage and
 TTK. Live values retain actual readable prayers and boosts; selecting a comparison uses
-that draft's assumptions and requires Show sidebar to stay enabled. The old ineffective best-prayer/max-boost configuration keys are
-retained but hidden. **Show sidebar** takes effect immediately.
+that draft's assumptions and requires Show sidebar to stay enabled. Live capture uses actual observed boosts/prayers. **Show sidebar** takes effect immediately.
 
-Measured combat statistics apply only to the live overlay. Damage, kills and elapsed time
-share one activity window, including zero-damage hits. Values decay with elapsed time;
-after 10 seconds without activity they become unavailable. New activity resets both damage
-and kills. These measurements include combat downtime and do not validate the theoretical model.
+Observed damage in the live overlay uses your own hitsplats on the selected NPC,
+including misses, divided by elapsed ticks since the first observed hit. It resets
+when the target changes or the player logs out/hops. It is not a theoretical DPS
+validation or a whole-trip kill-rate estimate.
 
 ## Generate from your bank
 
@@ -163,10 +164,11 @@ are retained for compatibility but are never treated as fresh availability.
 Explicit Wiki requests contain search terms/page titles; no character or bank data is sent.
 Calculation data is bundled, with no executable downloads or additional runtime dependencies.
 
-`build` runs pinned fixtures, calculation/optimizer tests, fake live-state capture tests and
-headless Swing interactions. There are no excluded Mockito classes. The optional candidate
-snapshot test skips unless supplied through `candidateParity`. Rendered UI previews appear
-in `build/ui`. [RELEASE-REVIEW.md](RELEASE-REVIEW.md) records release checks.
+`build` runs independently derived combat examples, probability tests, catalog
+checks, optimizer/import/storage regressions and headless Swing interactions.
+No GPL calculator output fixtures are used. The separate `independentTest` task
+checks the Java-only probability foundation. Rendered UI previews appear in
+`build/ui`. [RELEASE-REVIEW.md](RELEASE-REVIEW.md) records release checks.
 
 Automated tests do not establish in-game verification. Test the exported client for sidebar
 clicks/scrolling, live/draft overlay selection, plugin/sidebar toggles, login/logout, hopping,

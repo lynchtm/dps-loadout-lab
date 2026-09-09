@@ -1,9 +1,9 @@
 package com.dpscalc.scenario;
 
-import com.dpscalc.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
 import com.dpscalc.wikisetups.items.FakeItemNameIndex;
 import com.dpscalc.wikisetups.wiki.*;
-import com.dpscalc.data.MonsterStats;
+import com.loadoutlab.model.MonsterStats;
 import java.util.*;
 import java.io.*;
 import java.nio.charset.StandardCharsets;

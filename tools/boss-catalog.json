@@ -1,0 +1,497 @@
+{
+  "source": {
+    "url": "https://oldschool.runescape.wiki/w/Collection_log",
+    "revision": "15330455",
+    "entries": 57
+  },
+  "pages": [
+    {
+      "key": "abyssal_sire",
+      "logEntry": "Abyssal Sire",
+      "title": "Abyssal Sire/Strategies",
+      "query": "Abyssal Sire",
+      "components": []
+    },
+    {
+      "key": "alchemical_hydra",
+      "logEntry": "Alchemical Hydra",
+      "title": "Alchemical Hydra/Strategies",
+      "query": "Alchemical Hydra",
+      "components": []
+    },
+    {
+      "key": "amoxliatl",
+      "logEntry": "Amoxliatl",
+      "title": "Amoxliatl/Strategies",
+      "query": "Amoxliatl",
+      "components": []
+    },
+    {
+      "key": "araxxor",
+      "logEntry": "Araxxor",
+      "title": "Araxxor/Strategies",
+      "query": "Araxxor",
+      "components": []
+    },
+    {
+      "key": "barrows_chests",
+      "logEntry": "Barrows Chests",
+      "title": "Barrows/Strategies",
+      "query": "Barrows",
+      "components": [
+        "Ahrim the Blighted",
+        "Dharok the Wretched",
+        "Guthan the Infested",
+        "Karil the Tainted",
+        "Torag the Corrupted",
+        "Verac the Defiled"
+      ]
+    },
+    {
+      "key": "brutus",
+      "logEntry": "Brutus",
+      "title": "Brutus/Strategies",
+      "query": "Brutus",
+      "components": [
+        "Brutus",
+        "Demonic Brutus"
+      ]
+    },
+    {
+      "key": "bryophyta",
+      "logEntry": "Bryophyta",
+      "title": "Bryophyta",
+      "query": "Bryophyta",
+      "components": []
+    },
+    {
+      "key": "callisto_and_artio",
+      "logEntry": "Callisto and Artio",
+      "title": "Callisto/Strategies",
+      "query": "Callisto",
+      "components": [
+        "Callisto",
+        "Artio"
+      ]
+    },
+    {
+      "key": "callisto_and_artio_2",
+      "logEntry": "Callisto and Artio",
+      "title": "Artio/Strategies",
+      "query": "Artio",
+      "components": [
+        "Callisto",
+        "Artio"
+      ]
+    },
+    {
+      "key": "cerberus",
+      "logEntry": "Cerberus",
+      "title": "Cerberus/Strategies",
+      "query": "Cerberus",
+      "components": []
+    },
+    {
+      "key": "chaos_elemental",
+      "logEntry": "Chaos Elemental",
+      "title": "Chaos Elemental/Strategies",
+      "query": "Chaos Elemental",
+      "components": []
+    },
+    {
+      "key": "chaos_fanatic",
+      "logEntry": "Chaos Fanatic",
+      "title": "Chaos Fanatic/Strategies",
+      "query": "Chaos Fanatic",
+      "components": []
+    },
+    {
+      "key": "commander_zilyana",
+      "logEntry": "Commander Zilyana",
+      "title": "Commander Zilyana/Strategies",
+      "query": "Commander Zilyana",
+      "components": []
+    },
+    {
+      "key": "corporeal_beast",
+      "logEntry": "Corporeal Beast",
+      "title": "Corporeal Beast/Strategies",
+      "query": "Corporeal Beast",
+      "components": []
+    },
+    {
+      "key": "crazy_archaeologist",
+      "logEntry": "Crazy Archaeologist",
+      "title": "Crazy archaeologist/Strategies",
+      "query": "Crazy archaeologist",
+      "components": []
+    },
+    {
+      "key": "dagannoth_kings",
+      "logEntry": "Dagannoth Kings",
+      "title": "Dagannoth Kings/Strategies",
+      "query": "Dagannoth Kings",
+      "components": [
+        "Dagannoth Prime",
+        "Dagannoth Rex",
+        "Dagannoth Supreme"
+      ]
+    },
+    {
+      "key": "deranged_archaeologist",
+      "logEntry": "Deranged Archaeologist",
+      "title": "Deranged archaeologist/Strategies",
+      "query": "Deranged archaeologist",
+      "components": []
+    },
+    {
+      "key": "doom_of_mokhaiotl",
+      "logEntry": "Doom of Mokhaiotl",
+      "title": "Doom of Mokhaiotl/Strategies",
+      "query": "Doom of Mokhaiotl",
+      "components": []
+    },
+    {
+      "key": "duke_sucellus",
+      "logEntry": "Duke Sucellus",
+      "title": "Duke Sucellus/Strategies",
+      "query": "Duke Sucellus",
+      "components": []
+    },
+    {
+      "key": "the_fight_caves",
+      "logEntry": "The Fight Caves",
+      "title": "TzHaar Fight Cave/Strategies",
+      "query": "TzHaar Fight Cave",
+      "components": [
+        "TzTok-Jad"
+      ]
+    },
+    {
+      "key": "fortis_colosseum",
+      "logEntry": "Fortis Colosseum",
+      "title": "Fortis Colosseum/Strategies",
+      "query": "Fortis Colosseum",
+      "components": [
+        "Sol Heredit"
+      ]
+    },
+    {
+      "key": "the_gauntlet",
+      "logEntry": "The Gauntlet",
+      "title": "The Gauntlet/Strategies",
+      "query": "The Gauntlet",
+      "components": [
+        "Crystalline Hunllef",
+        "Corrupted Hunllef"
+      ]
+    },
+    {
+      "key": "general_graardor",
+      "logEntry": "General Graardor",
+      "title": "General Graardor/Strategies",
+      "query": "General Graardor",
+      "components": []
+    },
+    {
+      "key": "giant_mole",
+      "logEntry": "Giant Mole",
+      "title": "Giant Mole/Strategies",
+      "query": "Giant Mole",
+      "components": []
+    },
+    {
+      "key": "grotesque_guardians",
+      "logEntry": "Grotesque Guardians",
+      "title": "Grotesque Guardians/Strategies",
+      "query": "Grotesque Guardians",
+      "components": [
+        "Dusk",
+        "Dawn"
+      ]
+    },
+    {
+      "key": "hespori",
+      "logEntry": "Hespori",
+      "title": "Hespori/Strategies",
+      "query": "Hespori",
+      "components": []
+    },
+    {
+      "key": "the_hueycoatl",
+      "logEntry": "The Hueycoatl",
+      "title": "The Hueycoatl/Strategies",
+      "query": "The Hueycoatl",
+      "components": []
+    },
+    {
+      "key": "the_inferno",
+      "logEntry": "The Inferno",
+      "title": "Inferno/Strategies",
+      "query": "Inferno",
+      "components": [
+        "TzKal-Zuk"
+      ]
+    },
+    {
+      "key": "kalphite_queen",
+      "logEntry": "Kalphite Queen",
+      "title": "Kalphite Queen/Strategies",
+      "query": "Kalphite Queen",
+      "components": []
+    },
+    {
+      "key": "king_black_dragon",
+      "logEntry": "King Black Dragon",
+      "title": "King Black Dragon/Strategies",
+      "query": "King Black Dragon",
+      "components": []
+    },
+    {
+      "key": "kraken",
+      "logEntry": "Kraken",
+      "title": "Kraken/Strategies",
+      "query": "Kraken",
+      "components": []
+    },
+    {
+      "key": "kree_arra",
+      "logEntry": "Kree'arra",
+      "title": "Kree'arra/Strategies",
+      "query": "Kree'arra",
+      "components": []
+    },
+    {
+      "key": "k_ril_tsutsaroth",
+      "logEntry": "K'ril Tsutsaroth",
+      "title": "K'ril Tsutsaroth/Strategies",
+      "query": "K'ril Tsutsaroth",
+      "components": []
+    },
+    {
+      "key": "the_leviathan",
+      "logEntry": "The Leviathan",
+      "title": "The Leviathan/Strategies",
+      "query": "The Leviathan",
+      "components": []
+    },
+    {
+      "key": "the_mad_angel",
+      "logEntry": "The Mad Angel",
+      "title": "Mad Angel/Strategies",
+      "query": "Mad Angel",
+      "components": [
+        "The Mad Angel"
+      ]
+    },
+    {
+      "key": "maggot_king",
+      "logEntry": "Maggot King",
+      "title": "Maggot King/Strategies",
+      "query": "Maggot King",
+      "components": []
+    },
+    {
+      "key": "moons_of_peril",
+      "logEntry": "Moons of Peril",
+      "title": "Moons of Peril/Strategies",
+      "query": "Moons of Peril",
+      "components": [
+        "Eclipse Moon",
+        "Blood Moon",
+        "Blue Moon"
+      ]
+    },
+    {
+      "key": "nex",
+      "logEntry": "Nex",
+      "title": "Nex/Strategies",
+      "query": "Nex",
+      "components": []
+    },
+    {
+      "key": "the_nightmare",
+      "logEntry": "The Nightmare",
+      "title": "The Nightmare/Strategies",
+      "query": "The Nightmare",
+      "components": [
+        "The Nightmare",
+        "Phosani's Nightmare"
+      ]
+    },
+    {
+      "key": "the_nightmare_2",
+      "logEntry": "The Nightmare",
+      "title": "Phosani's Nightmare/Strategies",
+      "query": "Phosani's Nightmare",
+      "components": [
+        "The Nightmare",
+        "Phosani's Nightmare"
+      ]
+    },
+    {
+      "key": "obor",
+      "logEntry": "Obor",
+      "title": "Obor",
+      "query": "Obor",
+      "components": []
+    },
+    {
+      "key": "phantom_muspah",
+      "logEntry": "Phantom Muspah",
+      "title": "Phantom Muspah/Strategies",
+      "query": "Phantom Muspah",
+      "components": []
+    },
+    {
+      "key": "royal_titans",
+      "logEntry": "Royal Titans",
+      "title": "Royal Titans/Strategies",
+      "query": "Royal Titans",
+      "components": [
+        "Branda the Fire Queen",
+        "Eldric the Ice King"
+      ]
+    },
+    {
+      "key": "sarachnis",
+      "logEntry": "Sarachnis",
+      "title": "Sarachnis/Strategies",
+      "query": "Sarachnis",
+      "components": []
+    },
+    {
+      "key": "scorpia",
+      "logEntry": "Scorpia",
+      "title": "Scorpia/Strategies",
+      "query": "Scorpia",
+      "components": []
+    },
+    {
+      "key": "scurrius",
+      "logEntry": "Scurrius",
+      "title": "Scurrius/Strategies",
+      "query": "Scurrius",
+      "components": []
+    },
+    {
+      "key": "shellbane_gryphon",
+      "logEntry": "Shellbane Gryphon",
+      "title": "Shellbane gryphon/Strategies",
+      "query": "Shellbane gryphon",
+      "components": [
+        "Shellbane gryphon"
+      ]
+    },
+    {
+      "key": "skotizo",
+      "logEntry": "Skotizo",
+      "title": "Skotizo/Strategies",
+      "query": "Skotizo",
+      "components": []
+    },
+    {
+      "key": "tempoross",
+      "logEntry": "Tempoross",
+      "title": "Tempoross/Strategies",
+      "query": "Tempoross",
+      "components": []
+    },
+    {
+      "key": "thermonuclear_smoke_devil",
+      "logEntry": "Thermonuclear Smoke Devil",
+      "title": "Thermonuclear smoke devil/Strategies",
+      "query": "Thermonuclear smoke devil",
+      "components": []
+    },
+    {
+      "key": "vardorvis",
+      "logEntry": "Vardorvis",
+      "title": "Vardorvis/Strategies",
+      "query": "Vardorvis",
+      "components": []
+    },
+    {
+      "key": "venenatis_and_spindel",
+      "logEntry": "Venenatis and Spindel",
+      "title": "Venenatis/Strategies",
+      "query": "Venenatis",
+      "components": [
+        "Venenatis",
+        "Spindel"
+      ]
+    },
+    {
+      "key": "venenatis_and_spindel_2",
+      "logEntry": "Venenatis and Spindel",
+      "title": "Spindel/Strategies",
+      "query": "Spindel",
+      "components": [
+        "Venenatis",
+        "Spindel"
+      ]
+    },
+    {
+      "key": "vetion_and_calvarion",
+      "logEntry": "Vet'ion and Calvar'ion",
+      "title": "Vet'ion/Strategies",
+      "query": "Vet'ion",
+      "components": [
+        "Vet'ion",
+        "Calvar'ion"
+      ]
+    },
+    {
+      "key": "vetion_and_calvarion_2",
+      "logEntry": "Vet'ion and Calvar'ion",
+      "title": "Calvar'ion/Strategies",
+      "query": "Calvar'ion",
+      "components": [
+        "Vet'ion",
+        "Calvar'ion"
+      ]
+    },
+    {
+      "key": "vorkath",
+      "logEntry": "Vorkath",
+      "title": "Vorkath/Strategies",
+      "query": "Vorkath",
+      "components": []
+    },
+    {
+      "key": "the_whisperer",
+      "logEntry": "The Whisperer",
+      "title": "The Whisperer/Strategies",
+      "query": "The Whisperer",
+      "components": []
+    },
+    {
+      "key": "wintertodt",
+      "logEntry": "Wintertodt",
+      "title": "Wintertodt/Strategies",
+      "query": "Wintertodt",
+      "components": []
+    },
+    {
+      "key": "yama",
+      "logEntry": "Yama",
+      "title": "Yama/Strategies",
+      "query": "Yama",
+      "components": []
+    },
+    {
+      "key": "zalcano",
+      "logEntry": "Zalcano",
+      "title": "Zalcano/Strategies",
+      "query": "Zalcano",
+      "components": []
+    },
+    {
+      "key": "zulrah",
+      "logEntry": "Zulrah",
+      "title": "Zulrah/Strategies",
+      "query": "Zulrah",
+      "components": []
+    }
+  ]
+}
