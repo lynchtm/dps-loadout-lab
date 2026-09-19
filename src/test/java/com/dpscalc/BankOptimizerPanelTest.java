@@ -2,9 +2,9 @@ package com.dpscalc;
 
 import static org.junit.Assert.*;
 
-import com.loadoutlab.model.MonsterStats;
-import com.loadoutlab.equipment.EquipmentPreparationFacade;
 import com.dpscalc.scenario.*;
+import com.loadoutlab.equipment.EquipmentPreparationFacade;
+import com.loadoutlab.model.MonsterStats;
 
 import org.junit.Test;
 
@@ -60,6 +60,98 @@ public class BankOptimizerPanelTest {
                 Map.of(),
                 Map.of(),
                 Map.of("attack", 99, "defence", 99));
+    }
+
+    @Test
+    public void advancedOptionsAndRaidFailureCanBeFollowedByAnotherSearch() throws Exception {
+        Scenario scenario = scenario();
+        BankOptimizerPanel[] panel = new BankOptimizerPanel[1];
+        SwingUtilities.invokeAndWait(
+                () -> {
+                    panel[0] =
+                            new BankOptimizerPanel(
+                                    () -> scenario,
+                                    () -> owned(1),
+                                    () -> "player",
+                                    l -> {},
+                                    new Storage(),
+                                    new EquipmentPreparationFacade());
+                    panel[0].open();
+                    button(panel[0], "Generate").doClick();
+                });
+        try {
+            awaitResult(panel[0]);
+            for (String option :
+                    new String[] {
+                        "Include unverified requirements",
+                        "Include known formula limitations",
+                        "Lock Ring"
+                    }) {
+                SwingUtilities.invokeAndWait(
+                        () -> {
+                            find(panel[0], JCheckBox.class, c -> option.equals(c.getText()))
+                                    .doClick();
+                            assertFalse(button(panel[0], "Add to comparison").isEnabled());
+                            button(panel[0], "Generate").doClick();
+                        });
+                awaitResult(panel[0]);
+            }
+            SwingUtilities.invokeAndWait(
+                    () -> {
+                        button(panel[0], "Unlock all slots").doClick();
+                        assertFalse(
+                                find(
+                                                panel[0],
+                                                JCheckBox.class,
+                                                c -> "Lock Ring".equals(c.getText()))
+                                        .isSelected());
+                        find(
+                                        panel[0],
+                                        JCheckBox.class,
+                                        c ->
+                                                "Include known formula limitations"
+                                                        .equals(c.getText()))
+                                .doClick();
+                        scenario.target.setName("Great Olm (Right hand)");
+                        scenario.target
+                                .getAttributes()
+                                .add(com.loadoutlab.model.MonsterAttribute.XERICIAN);
+                        panel[0].refresh();
+                        button(panel[0], "Generate").doClick();
+                    });
+            boolean[] failed = {false};
+            for (int i = 0; i < 150 && !failed[0]; i++) {
+                SwingUtilities.invokeAndWait(
+                        () ->
+                                failed[0] =
+                                        find(
+                                                        panel[0],
+                                                        JTextArea.class,
+                                                        c ->
+                                                                c.getText()
+                                                                        .contains(
+                                                                                "Enable 'Include"
+                                                                                    + " known"
+                                                                                    + " formula"
+                                                                                    + " limitations'"))
+                                                != null);
+                if (!failed[0]) Thread.sleep(20);
+            }
+            assertTrue("Actionable raid limitation should be shown", failed[0]);
+            SwingUtilities.invokeAndWait(
+                    () -> {
+                        assertTrue(button(panel[0], "Generate").isEnabled());
+                        assertFalse(button(panel[0], "Add to comparison").isEnabled());
+                        scenario.target = scenario().target;
+                        panel[0].refresh();
+                        button(panel[0], "Generate").doClick();
+                    });
+            awaitResult(panel[0]);
+            SwingUtilities.invokeAndWait(
+                    () -> assertTrue(button(panel[0], "Add to comparison").isEnabled()));
+        } finally {
+            SwingUtilities.invokeAndWait(panel[0]::dispose);
+        }
     }
 
     @Test

@@ -38,6 +38,12 @@ for title in ['Staff','Magic staff','Staff of air','Staff of water','Staff of ea
  pages[title]={}
  sources.setdefault(title,{'requirements':{},'note':'Entry-level staff; equipping is distinct from spell casting requirements.'})
 requirements={}
+# Reviewed item pages: these rings have no equip-level requirement. Imbuing costs
+# and the unprestiged Group Ironman kill restriction are not skill levels.
+for title,revision in [('Berserker ring',15182895),('Berserker ring (i)',15345632)]:
+ pages[title]={}
+ sources[title]={'revision':revision,'requirements':{},'reviewed':'2026-09-19',
+  'note':'Manually reviewed equip-level requirements; acquisition, imbuing and account restrictions remain user checks.'}
 for ident,item in equipment.items():
  candidates=[pages[t] for t in item['sourcePages'] if t in pages]
  if candidates and all(c==candidates[0] for c in candidates):requirements[ident]=candidates[0]

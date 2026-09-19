@@ -130,9 +130,13 @@ public final class BankOptimizerPanel extends JPanel {
                             locks.isVisible() ? "Advanced options ▾" : "Advanced options ▸");
                     resize();
                 });
+        locks.add(
+                CalculatorWorkspace.note(
+                        "Lock slots to keep the starting draft's items. Locking an empty slot keeps"
+                                + " it empty; leave slots unlocked to search your bank."));
         for (int i = 0; i < BankOptimizer.SLOTS.length; i++) {
             int slot = BankOptimizer.SLOTS[i];
-            JCheckBox box = new JCheckBox(BankOptimizer.SLOT_NAMES[i]);
+            JCheckBox box = new JCheckBox("Lock " + BankOptimizer.SLOT_NAMES[i]);
             box.getAccessibleContext().setAccessibleName("Lock " + BankOptimizer.SLOT_NAMES[i]);
             box.addActionListener(
                     e -> {
@@ -141,6 +145,13 @@ public final class BankOptimizerPanel extends JPanel {
             locks.add(box);
             lockBoxes.put(slot, box);
         }
+        locks.add(
+                CalculatorWorkspace.action(
+                        "Unlock all slots",
+                        () -> {
+                            lockBoxes.values().forEach(box -> box.setSelected(false));
+                            invalidateResult();
+                        }));
         unverified.setToolTipText(
                 "Allow owned items missing level-requirement data. Known unmet requirements stay"
                         + " excluded.");
@@ -238,6 +249,13 @@ public final class BankOptimizerPanel extends JPanel {
     private void start() {
         try {
             cancel();
+            result = null;
+            request = null;
+            preview.setVisible(false);
+            add.setEnabled(false);
+            binding = true;
+            alternatives.removeAllItems();
+            binding = false;
             String key = profile.get();
             OwnedEquipment owned = ownership.get();
             if (!owned.ready(key))
@@ -258,8 +276,6 @@ public final class BankOptimizerPanel extends JPanel {
                             known.isSelected());
             fingerprint = fingerprint();
             long job = ++generation;
-            result = null;
-            preview.setVisible(false);
             generate.setEnabled(false);
             cancel.setEnabled(true);
             setStatus("Searching " + request.combatType.toLowerCase(Locale.ROOT) + " setups…");
@@ -348,6 +364,7 @@ public final class BankOptimizerPanel extends JPanel {
     }
 
     private void invalidateResult() {
+        add.setEnabled(false);
         if (pending != null || result != null) {
             cancel();
             result = null;

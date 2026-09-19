@@ -1121,6 +1121,18 @@
       "requirements": {},
       "revision": 15208966
     },
+    "Berserker ring": {
+      "note": "Manually reviewed equip-level requirements; acquisition, imbuing and account restrictions remain user checks.",
+      "requirements": {},
+      "reviewed": "2026-09-19",
+      "revision": 15182895
+    },
+    "Berserker ring (i)": {
+      "note": "Manually reviewed equip-level requirements; acquisition, imbuing and account restrictions remain user checks.",
+      "requirements": {},
+      "reviewed": "2026-09-19",
+      "revision": 15345632
+    },
     "Berserker ring (i) (Last Man Standing)": {
       "requirements": {},
       "revision": 15237292

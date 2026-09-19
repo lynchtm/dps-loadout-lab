@@ -202,6 +202,13 @@ public final class BankOptimizer {
                     "Use item-based equipment totals before generating gear");
         Scenario.validate(request.base);
         Scenario.validate(request.target);
+        List<String> targetLimits = CoverageWarnings.forTarget(request.target);
+        if (!request.includeKnownLimitations && !targetLimits.isEmpty())
+            throw new IllegalArgumentException(
+                    request.target.getName()
+                            + " has known formula limitations. Enable 'Include known formula"
+                            + " limitations' in Advanced options to generate estimates. "
+                            + String.join(" ", targetLimits));
         Search search = new Search(request, progress, budget, milliseconds);
         return search.run();
     }
@@ -250,6 +257,16 @@ public final class BankOptimizer {
                 // Evaluate every weapon's seeds before refinement, so an early branch
                 // cannot consume the whole search budget before later weapons are seen.
                 List<int[]> seeds = new ArrayList<>();
+                // Start each weapon with only locked equipment. A high-ranked armour
+                // item can make every heuristic seed invalid (for example an unsupported
+                // set effect). Valid minimal seeds let refinement reach usable alternatives.
+                for (int weapon : pools.get(3)) {
+                    int[] minimal = newIds();
+                    minimal[3] = weapon;
+                    for (int slot : request.locked)
+                        if (pools.containsKey(slot)) minimal[slot] = pools.get(slot).get(0);
+                    seeds.add(minimal);
+                }
                 for (int weapon : pools.get(3)) {
                     int[] start = newIds();
                     start[3] = weapon;
