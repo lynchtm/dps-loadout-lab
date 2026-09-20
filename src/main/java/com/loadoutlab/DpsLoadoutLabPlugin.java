@@ -8,6 +8,8 @@ import com.loadoutlab.data.MonsterDataManager;
 import com.loadoutlab.equipment.*;
 import com.loadoutlab.model.MonsterStats;
 import com.loadoutlab.model.PlayerState;
+import com.loadoutlab.observed.EncounterTracker;
+import com.loadoutlab.observed.ObservedDps;
 
 import net.runelite.api.*;
 import net.runelite.api.events.*;
@@ -15,6 +17,7 @@ import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
+import net.runelite.client.events.RuneScapeProfileChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.game.SpriteManager;
 import net.runelite.client.plugins.*;
@@ -47,6 +50,7 @@ public class DpsLoadoutLabPlugin extends Plugin {
     @Inject private WikiSetupService wikiSetupService;
     @Inject private BankLayoutService bankLayoutService;
     @Inject private OverlayManager overlays;
+    @Inject private ObservedDps observedDps;
     private ExecutorService worker;
     private volatile EquipmentPreparationFacade equipment;
     private volatile MonsterDataManager monsters;
@@ -62,7 +66,7 @@ public class DpsLoadoutLabPlugin extends Plugin {
     private NavigationButton navigation;
     private LabOverlay overlay;
     private NPC targetNpc;
-    private int lastTargetTick, firstDamageTick = -1, totalDamage;
+    private int lastTargetTick;
     private Future<?> calculation;
 
     @Provides
@@ -75,8 +79,7 @@ public class DpsLoadoutLabPlugin extends Plugin {
         running = true;
         long token = ++lifecycle;
         generation++;
-        totalDamage = 0;
-        firstDamageTick = -1;
+        observedDps.reset();
         UiIcons.useClientSprites(spriteManager);
         worker =
                 Executors.newSingleThreadExecutor(
@@ -130,6 +133,7 @@ public class DpsLoadoutLabPlugin extends Plugin {
         lifecycle++;
         generation++;
         UiIcons.useClientSprites(null);
+        observedDps.reset();
         if (worker != null) worker.shutdownNow();
         setupItemIndex.stop();
         bankCapture.clear();
@@ -156,6 +160,10 @@ public class DpsLoadoutLabPlugin extends Plugin {
     @Subscribe
     public void onConfigChanged(ConfigChanged event) {
         if (!event.getGroup().equals("dpscalc")) return;
+        if (event.getKey().equals("showActualDps") || event.getKey().equals("observedChatSummary"))
+            clientThread.invokeLater(() -> {
+                if (!observedDps.enabled()) observedDps.reset();
+            });
         SwingUtilities.invokeLater(
                 () -> {
                     if (navigation != null) {
@@ -177,6 +185,7 @@ public class DpsLoadoutLabPlugin extends Plugin {
 
     @Subscribe
     public void onGameStateChanged(GameStateChanged event) {
+        observedDps.onGameState(event.getGameState());
         if (event.getGameState() == GameState.LOGIN_SCREEN
                 || event.getGameState() == GameState.HOPPING) {
             generation++;
@@ -187,8 +196,6 @@ public class DpsLoadoutLabPlugin extends Plugin {
             comparison = null;
             inventory = new int[0];
             bankCapture.clear();
-            totalDamage = 0;
-            firstDamageTick = -1;
             SwingUtilities.invokeLater(
                     () -> {
                         if (panel != null) panel.refreshClientState();
@@ -199,6 +206,7 @@ public class DpsLoadoutLabPlugin extends Plugin {
     @Subscribe
     public void onGameTick(GameTick event) {
         if (!running) return;
+        observedDps.tick();
         bankCapture.tick();
         if (equipment == null || monsters == null) return;
         if (config.automaticRefresh() || player == null) capture();
@@ -336,10 +344,6 @@ public class DpsLoadoutLabPlugin extends Plugin {
         if (monsters == null) return;
         MonsterStats match = monsters.getMonster(npc.getId());
         if (match == null) match = monsters.getMonster(npc.getName());
-        if (targetNpc != npc) {
-            totalDamage = 0;
-            firstDamageTick = -1;
-        }
         targetNpc = npc;
         target = match;
         lastTargetTick = client.getTickCount();
@@ -376,10 +380,26 @@ public class DpsLoadoutLabPlugin extends Plugin {
 
     @Subscribe
     public void onHitsplatApplied(HitsplatApplied event) {
-        if (event.getActor() != targetNpc || !event.getHitsplat().isMine()) return;
-        if (firstDamageTick < 0) firstDamageTick = client.getTickCount();
-        totalDamage += Math.max(0, event.getHitsplat().getAmount());
+        observedDps.onHitsplat(event);
     }
+
+    @Subscribe
+    public void onActorDeath(ActorDeath event) { observedDps.onDeath(event); }
+
+    @Subscribe
+    public void onNpcChanged(NpcChanged event) { observedDps.onChanged(event); }
+
+    @Subscribe
+    public void onNpcDespawned(NpcDespawned event) { observedDps.onDespawned(event); }
+
+    @Subscribe
+    public void onRuneScapeProfileChanged(RuneScapeProfileChanged event) { observedDps.reset(); }
+
+    void toggleObservedChat() {
+        configManager.setConfiguration("dpscalc", "observedChatSummary", !config.observedChatSummary());
+    }
+
+    void resetObservedDps() { clientThread.invokeLater(() -> observedDps.reset()); }
 
     public ItemManager getItemManager() {
         return itemManager;
@@ -449,9 +469,5 @@ public class DpsLoadoutLabPlugin extends Plugin {
         return player != null;
     }
 
-    double actualDps() {
-        return firstDamageTick < 0
-                ? 0
-                : totalDamage / (Math.max(1, client.getTickCount() - firstDamageTick + 1) * 0.6);
-    }
+    EncounterTracker.Result observedResult() { return observedDps.displayed(); }
 }

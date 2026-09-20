@@ -80,10 +80,25 @@ in RuneLite configuration. Both use ScenarioCalculator for equipment, scaling, d
 TTK. Live values retain actual readable prayers and boosts; selecting a comparison uses
 that draft's assumptions and requires Show sidebar to stay enabled. Live capture uses actual observed boosts/prayers. **Show sidebar** takes effect immediately.
 
-Observed damage in the live overlay uses your own hitsplats on the selected NPC,
-including misses, divided by elapsed ticks since the first observed hit. It resets
-when the target changes or the player logs out/hops. It is not a theoretical DPS
-validation or a whole-trip kill-rate estimate.
+**Show observed DPS** measures your damage during the current encounter and freezes
+the result on completion. It works independently of the calculator target and selected
+comparison. Supported bosses retain one result across forms and relevant adds, with
+boss/add damage shown separately. Other NPCs use a single-NPC estimate. **Kill summary
+in chat** adds an optional local message after a confirmed completion; it works with
+the overlay hidden. Both options default off. The overlay's right-click menu also
+offers **Toggle kill summaries** and **Reset observed DPS**.
+
+The timer runs from your first observed hit (including a zero) to the confirmed end.
+It includes missed attacks, eating, movement and phase transitions inside that fight,
+and excludes banking, respawns and breaks between fights. It is not an official kill
+timer or a theoretical DPS validation. The display says **Since first hit** because
+the initial attack windup/projectile travel is not measured, and enabling the tracker
+or joining a fight late cannot recover earlier damage. A kill within that first tick
+shows no numeric DPS. Completed results obey **Target timeout** / **Keep overlay visible**
+without changing their DPS. Interrupted fights do not produce kill messages.
+
+See [Observed DPS](OBSERVED-DPS.md) for supported encounters, damage attribution,
+limitations and a short in-game verification checklist.
 
 ## Generate from your bank
 

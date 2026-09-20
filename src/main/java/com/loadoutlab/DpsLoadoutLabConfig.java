@@ -122,10 +122,19 @@ public interface DpsLoadoutLabConfig extends Config {
 
     @ConfigItem(
             keyName = "showActualDps",
-            name = "Track actual damage",
-            description = "Track your observed hitsplats on the selected NPC",
+            name = "Show observed DPS",
+            description = "Show your damage per encounter, timed from your first hit (including misses)",
             position = 12)
     default boolean showActualDps() {
+        return false;
+    }
+
+    @ConfigItem(
+            keyName = "observedChatSummary",
+            name = "Kill summary in chat",
+            description = "Show a local damage, time and DPS summary after each completed encounter or NPC kill",
+            position = 13)
+    default boolean observedChatSummary() {
         return false;
     }
 }
