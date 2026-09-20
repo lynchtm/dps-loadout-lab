@@ -345,14 +345,18 @@ public class DpsLoadoutLabPlugin extends Plugin {
         lastTargetTick = client.getTickCount();
         generation++;
         MonsterStats selected = match;
-        if (open && selected != null)
+        if (open && selected != null) {
+            capture();
+            PlayerState selectedPlayer = player == null ? null : Scenario.copy(player);
+            int[] selectedInventory = inventory.clone();
             SwingUtilities.invokeLater(
                     () -> {
                         if (panel != null) {
-                            panel.acceptTarget(selected);
+                            panel.compareCurrentPlayer(selected, selectedPlayer, selectedInventory);
                             if (navigation != null) toolbar.openPanel(navigation);
                         }
                     });
+        }
     }
 
     @Subscribe

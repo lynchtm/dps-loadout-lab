@@ -1,4 +1,4 @@
 # Source provenance
 
-Workspace commit: de0d25f29e13653e2cd6d58d6b97c2251b163efa
+Workspace commit: 2ffaf4563d8e6ad0e34d158b9dab7e538d004e11
 Plugin path: plugins/wiki-dps

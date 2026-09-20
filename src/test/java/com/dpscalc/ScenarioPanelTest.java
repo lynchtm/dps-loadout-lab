@@ -19,6 +19,49 @@ import javax.swing.*;
 
 public class ScenarioPanelTest {
     @Test
+    public void npcComparisonCapturesPlayerAndRefreshesWithoutReplacingOtherLoadouts()
+            throws Exception {
+        MemoryStorage storage = new MemoryStorage();
+        SwingUtilities.invokeAndWait(
+                () -> {
+                    ScenarioPanel panel = new ScenarioPanel(new DpsLoadoutLabPlugin(),
+                            new MonsterDataManager(), storage, new EquipmentPreparationFacade());
+                    try {
+                        PlayerState player = Scenario.defaults();
+                        player.setAttackLevel(73);
+                        player.setOnSlayerTask(false);
+                        MonsterStats target = new MonsterStats();
+                        target.setId(123);
+                        target.setName("Menu target");
+                        int[] inventory = {4151};
+                        panel.compareCurrentPlayer(target, player, inventory);
+                        Scenario first = saved(storage);
+                        assertEquals(2, first.loadouts.size());
+                        assertEquals(1, first.selected);
+                        assertEquals("Loadout 1", first.loadouts.get(0).name);
+                        assertEquals("Current player", first.loadouts.get(1).name);
+                        assertEquals(73, first.loadouts.get(1).player.getAttackLevel());
+                        assertFalse(first.loadouts.get(1).player.isOnSlayerTask());
+                        assertArrayEquals(new int[] {4151}, first.loadouts.get(1).inventory);
+                        assertEquals(123, first.target.getId());
+                        player.setAttackLevel(81);
+                        inventory[0] = 11802;
+                        target.setId(456);
+                        panel.compareCurrentPlayer(target, player, inventory);
+                        Scenario second = saved(storage);
+                        assertEquals(2, second.loadouts.size());
+                        assertEquals(1, second.selected);
+                        assertEquals(99, second.loadouts.get(0).player.getAttackLevel());
+                        assertEquals(81, second.loadouts.get(1).player.getAttackLevel());
+                        assertArrayEquals(new int[] {11802}, second.loadouts.get(1).inventory);
+                        assertEquals(456, second.target.getId());
+                    } finally {
+                        panel.dispose();
+                    }
+                });
+    }
+
+    @Test
     public void bankGenerationStartsFromPlusAndClosesWhenAnotherStartingPathIsChosen()
             throws Exception {
         MemoryStorage storage = new MemoryStorage();
