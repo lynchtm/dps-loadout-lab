@@ -1,5 +1,18 @@
 # Replacement release checks — September 9, 2026
 
+## Observed encounter DPS update — September 20, 2026
+
+- Based on the current-player Calculate DPS menu update; its comparison behavior is preserved.
+- Workspace Java 11 build: 431 main tests plus 12 isolated foundation tests passed (443 total).
+- 37 new tests cover encounter phases/adds, frozen results, consecutive kills, first-hit/miss
+  timing, same-tick death/hitsplat ordering, local attribution, interruptions, world-view
+  boundaries, lifecycle resets, chat opt-out/deduplication and rendering without calculator results.
+- The headless observed overlay was rendered and visually inspected. Source/resource/JAR
+  boundary audit passed with 237 checked files and no violations.
+- See OBSERVED-DPS.md for the 16 explicit encounter definitions, single-NPC fallback,
+  first-hit timing limits and the manual verification checklist. Live encounter behavior
+  has not yet been verified by the author for this revision.
+
 This report covers the replacement runtime in this source revision. It supersedes the previous GPL-runtime release report; it is not a record of Plugin Hub approval.
 
 ## Completed automated checks
