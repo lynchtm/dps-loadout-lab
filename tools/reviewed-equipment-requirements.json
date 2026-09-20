@@ -1,0 +1,3764 @@
+{
+  "Abyssal tentacle (or)": {
+    "note": "Cosmetic variant of Abyssal tentacle; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15329233,
+    "supportingSource": {
+      "page": "Abyssal tentacle",
+      "revision": 15322458
+    }
+  },
+  "Abyssal whip (or)": {
+    "note": "Cosmetic variant of Abyssal whip; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15345525,
+    "supportingSource": {
+      "page": "Abyssal whip",
+      "revision": 15326130
+    }
+  },
+  "Accumulator max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15262597,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Adamant full helm (g)": {
+    "note": "Cosmetic variant of Adamant full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324066,
+    "supportingSource": {
+      "page": "Adamant full helm",
+      "revision": 15320169
+    }
+  },
+  "Adamant full helm (t)": {
+    "note": "Cosmetic variant of Adamant full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324072,
+    "supportingSource": {
+      "page": "Adamant full helm",
+      "revision": 15320169
+    }
+  },
+  "Adamant kiteshield (g)": {
+    "note": "Cosmetic variant of Adamant kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324070,
+    "supportingSource": {
+      "page": "Adamant kiteshield",
+      "revision": 15182727
+    }
+  },
+  "Adamant kiteshield (t)": {
+    "note": "Cosmetic variant of Adamant kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324076,
+    "supportingSource": {
+      "page": "Adamant kiteshield",
+      "revision": 15182727
+    }
+  },
+  "Adamant platebody (g)": {
+    "note": "Cosmetic variant of Adamant platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324067,
+    "supportingSource": {
+      "page": "Adamant platebody",
+      "revision": 15320171
+    }
+  },
+  "Adamant platebody (t)": {
+    "note": "Cosmetic variant of Adamant platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324073,
+    "supportingSource": {
+      "page": "Adamant platebody",
+      "revision": 15320171
+    }
+  },
+  "Adamant platelegs (g)": {
+    "note": "Cosmetic variant of Adamant platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324068,
+    "supportingSource": {
+      "page": "Adamant platelegs",
+      "revision": 15320172
+    }
+  },
+  "Adamant platelegs (t)": {
+    "note": "Cosmetic variant of Adamant platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324074,
+    "supportingSource": {
+      "page": "Adamant platelegs",
+      "revision": 15320172
+    }
+  },
+  "Adamant plateskirt (g)": {
+    "note": "Cosmetic variant of Adamant plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324069,
+    "supportingSource": {
+      "page": "Adamant plateskirt",
+      "revision": 15320173
+    }
+  },
+  "Adamant plateskirt (t)": {
+    "note": "Cosmetic variant of Adamant plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324075,
+    "supportingSource": {
+      "page": "Adamant plateskirt",
+      "revision": 15320173
+    }
+  },
+  "Amulet of avarice": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15292109
+  },
+  "Amulet of blood fury": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15318464
+  },
+  "Amulet of eternal glory": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345507
+  },
+  "Amulet of fury": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15317804
+  },
+  "Amulet of fury (or)": {
+    "note": "Cosmetic variant of Amulet of fury; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15186141,
+    "supportingSource": {
+      "page": "Amulet of fury",
+      "revision": 15317804
+    }
+  },
+  "Amulet of glory": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320178
+  },
+  "Amulet of glory (t)": {
+    "note": "Cosmetic variant of Amulet of glory; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15324765,
+    "supportingSource": {
+      "page": "Amulet of glory",
+      "revision": 15320178
+    }
+  },
+  "Amulet of magic": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15328437
+  },
+  "Amulet of magic (t)": {
+    "note": "Cosmetic variant of Amulet of magic; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15329293,
+    "supportingSource": {
+      "page": "Amulet of magic",
+      "revision": 15328437
+    }
+  },
+  "Amulet of power": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320179
+  },
+  "Amulet of power (t)": {
+    "note": "Cosmetic variant of Amulet of power; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323862,
+    "supportingSource": {
+      "page": "Amulet of power",
+      "revision": 15320179
+    }
+  },
+  "Amulet of rancour (s)": {
+    "note": "Cosmetic variant of Amulet of rancour; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "hitpoints": 90
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15318068,
+    "supportingSource": {
+      "page": "Amulet of rancour",
+      "revision": 15343231
+    }
+  },
+  "Amulet of strength": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320180
+  },
+  "Amulet of the Damned": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15322522
+  },
+  "Amulet of torture (or)": {
+    "note": "Cosmetic variant of Amulet of torture; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "hitpoints": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15187783,
+    "supportingSource": {
+      "page": "Amulet of torture",
+      "revision": 15187468
+    }
+  },
+  "Archers ring": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15182777
+  },
+  "Archers ring (i)": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345630
+  },
+  "Ardougne max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15262598,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Armadyl chainskirt (or)": {
+    "note": "Cosmetic variant of Armadyl chainskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 70,
+      "ranged": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333876,
+    "supportingSource": {
+      "page": "Armadyl chainskirt",
+      "revision": 15184496
+    }
+  },
+  "Armadyl chestplate (or)": {
+    "note": "Cosmetic variant of Armadyl chestplate; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 70,
+      "ranged": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333875,
+    "supportingSource": {
+      "page": "Armadyl chestplate",
+      "revision": 15184495
+    }
+  },
+  "Armadyl godsword (or)": {
+    "note": "Cosmetic variant of Armadyl godsword; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15187784,
+    "supportingSource": {
+      "page": "Armadyl godsword",
+      "revision": 15329390
+    }
+  },
+  "Armadyl helmet (or)": {
+    "note": "Cosmetic variant of Armadyl helmet; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 70,
+      "ranged": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333873,
+    "supportingSource": {
+      "page": "Armadyl helmet",
+      "revision": 15184494
+    }
+  },
+  "Assembler max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260274,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Bandos boots (or)": {
+    "note": "Cosmetic variant of Bandos boots; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 65
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333890,
+    "supportingSource": {
+      "page": "Bandos boots",
+      "revision": 15322433
+    }
+  },
+  "Bandos chestplate (or)": {
+    "note": "Cosmetic variant of Bandos chestplate; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 65
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333872,
+    "supportingSource": {
+      "page": "Bandos chestplate",
+      "revision": 15297834
+    }
+  },
+  "Bandos godsword (or)": {
+    "note": "Cosmetic variant of Bandos godsword; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15187785,
+    "supportingSource": {
+      "page": "Bandos godsword",
+      "revision": 15343212
+    }
+  },
+  "Bandos tassets (or)": {
+    "note": "Cosmetic variant of Bandos tassets; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 65
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333878,
+    "supportingSource": {
+      "page": "Bandos tassets",
+      "revision": 15184492
+    }
+  },
+  "Barrows gloves": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15322401
+  },
+  "Bellator ring": {
+    "note": "No equip-level requirement; must have killed the Whisperer. The 90 Magic and 80 Crafting requirements are for creation, not equipping. Boss unlock must be confirmed by the player.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15191289
+  },
+  "Berserker necklace": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15182894
+  },
+  "Berserker necklace (or)": {
+    "note": "Cosmetic variant of Berserker necklace; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15189240,
+    "supportingSource": {
+      "page": "Berserker necklace",
+      "revision": 15182894
+    }
+  },
+  "Berserker ring": {
+    "note": "Manually reviewed equip-level requirements; acquisition, imbuing and account restrictions remain user checks.",
+    "requirements": {},
+    "reviewed": "2026-09-19",
+    "revision": 15182895
+  },
+  "Berserker ring (i)": {
+    "note": "Manually reviewed equip-level requirements; acquisition, imbuing and account restrictions remain user checks.",
+    "requirements": {},
+    "reviewed": "2026-09-19",
+    "revision": 15345632
+  },
+  "Black full helm (g)": {
+    "note": "Cosmetic variant of Black full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323869,
+    "supportingSource": {
+      "page": "Black full helm",
+      "revision": 15183647
+    }
+  },
+  "Black full helm (t)": {
+    "note": "Cosmetic variant of Black full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323874,
+    "supportingSource": {
+      "page": "Black full helm",
+      "revision": 15183647
+    }
+  },
+  "Black kiteshield (g)": {
+    "note": "Cosmetic variant of Black kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323873,
+    "supportingSource": {
+      "page": "Black kiteshield",
+      "revision": 15182605
+    }
+  },
+  "Black kiteshield (t)": {
+    "note": "Cosmetic variant of Black kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323878,
+    "supportingSource": {
+      "page": "Black kiteshield",
+      "revision": 15182605
+    }
+  },
+  "Black platebody (g)": {
+    "note": "Cosmetic variant of Black platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323870,
+    "supportingSource": {
+      "page": "Black platebody",
+      "revision": 15322398
+    }
+  },
+  "Black platebody (t)": {
+    "note": "Cosmetic variant of Black platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323875,
+    "supportingSource": {
+      "page": "Black platebody",
+      "revision": 15322398
+    }
+  },
+  "Black platelegs (g)": {
+    "note": "Cosmetic variant of Black platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323871,
+    "supportingSource": {
+      "page": "Black platelegs",
+      "revision": 15211048
+    }
+  },
+  "Black platelegs (t)": {
+    "note": "Cosmetic variant of Black platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323876,
+    "supportingSource": {
+      "page": "Black platelegs",
+      "revision": 15211048
+    }
+  },
+  "Black plateskirt (g)": {
+    "note": "Cosmetic variant of Black plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323872,
+    "supportingSource": {
+      "page": "Black plateskirt",
+      "revision": 15182610
+    }
+  },
+  "Black plateskirt (t)": {
+    "note": "Cosmetic variant of Black plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 10
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323877,
+    "supportingSource": {
+      "page": "Black plateskirt",
+      "revision": 15182610
+    }
+  },
+  "Blade of Saeldor (c) (Amlodd)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294697,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blade of Saeldor (c) (Cadarn)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294768,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blade of Saeldor (c) (Crwys)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294717,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blade of Saeldor (c) (Iorwerth)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294728,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blade of Saeldor (c) (Ithell)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294740,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blade of Saeldor (c) (Meilyr)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294751,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blade of Saeldor (c) (Trahaearn)": {
+    "note": "Cosmetic variant of Blade of Saeldor (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15294764,
+    "supportingSource": {
+      "page": "Blade of Saeldor (c)",
+      "revision": 15294682
+    }
+  },
+  "Blue d'hide body (g)": {
+    "note": "Cosmetic variant of Blue d'hide body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "ranged": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324792,
+    "supportingSource": {
+      "page": "Blue d'hide body",
+      "revision": 15320263
+    }
+  },
+  "Blue d'hide body (t)": {
+    "note": "Cosmetic variant of Blue d'hide body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "ranged": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324794,
+    "supportingSource": {
+      "page": "Blue d'hide body",
+      "revision": 15320263
+    }
+  },
+  "Blue d'hide chaps (g)": {
+    "note": "Cosmetic variant of Blue d'hide chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324793,
+    "supportingSource": {
+      "page": "Blue d'hide chaps",
+      "revision": 15320264
+    }
+  },
+  "Blue d'hide chaps (t)": {
+    "note": "Cosmetic variant of Blue d'hide chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324795,
+    "supportingSource": {
+      "page": "Blue d'hide chaps",
+      "revision": 15320264
+    }
+  },
+  "Book of Balance": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320127
+  },
+  "Book of Balance (or)": {
+    "note": "Cosmetic variant of Book of Balance; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15294334,
+    "supportingSource": {
+      "page": "Book of Balance",
+      "revision": 15320127
+    }
+  },
+  "Book of Darkness": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320130
+  },
+  "Book of Darkness (or)": {
+    "note": "Cosmetic variant of Book of Darkness; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15296338,
+    "supportingSource": {
+      "page": "Book of Darkness",
+      "revision": 15320130
+    }
+  },
+  "Book of Law": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320129
+  },
+  "Book of Law (or)": {
+    "note": "Cosmetic variant of Book of Law; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15296334,
+    "supportingSource": {
+      "page": "Book of Law",
+      "revision": 15320129
+    }
+  },
+  "Book of War": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320128
+  },
+  "Book of War (or)": {
+    "note": "Cosmetic variant of Book of War; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15296335,
+    "supportingSource": {
+      "page": "Book of War",
+      "revision": 15320128
+    }
+  },
+  "Book of the Dead": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15317141
+  },
+  "Bow of Faerdhinen (c) (Amlodd)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320334,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Bow of Faerdhinen (c) (Cadarn)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320338,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Bow of Faerdhinen (c) (Crwys)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320336,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Bow of Faerdhinen (c) (Iorwerth)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320340,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Bow of Faerdhinen (c) (Ithell)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320332,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Bow of Faerdhinen (c) (Meilyr)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320335,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Bow of Faerdhinen (c) (Trahaearn)": {
+    "note": "Cosmetic variant of Bow of Faerdhinen (c); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 70,
+      "ranged": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320339,
+    "supportingSource": {
+      "page": "Bow of Faerdhinen (c)",
+      "revision": 15320341
+    }
+  },
+  "Brimstone ring": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15264609
+  },
+  "Bronze full helm (g)": {
+    "note": "Cosmetic variant of Bronze full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323911,
+    "supportingSource": {
+      "page": "Bronze full helm",
+      "revision": 15320135
+    }
+  },
+  "Bronze full helm (t)": {
+    "note": "Cosmetic variant of Bronze full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323917,
+    "supportingSource": {
+      "page": "Bronze full helm",
+      "revision": 15320135
+    }
+  },
+  "Bronze kiteshield (g)": {
+    "note": "Cosmetic variant of Bronze kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323916,
+    "supportingSource": {
+      "page": "Bronze kiteshield",
+      "revision": 15182543
+    }
+  },
+  "Bronze kiteshield (t)": {
+    "note": "Cosmetic variant of Bronze kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323922,
+    "supportingSource": {
+      "page": "Bronze kiteshield",
+      "revision": 15182543
+    }
+  },
+  "Bronze platebody (g)": {
+    "note": "Cosmetic variant of Bronze platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323913,
+    "supportingSource": {
+      "page": "Bronze platebody",
+      "revision": 15182541
+    }
+  },
+  "Bronze platebody (t)": {
+    "note": "Cosmetic variant of Bronze platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323919,
+    "supportingSource": {
+      "page": "Bronze platebody",
+      "revision": 15182541
+    }
+  },
+  "Bronze platelegs (g)": {
+    "note": "Cosmetic variant of Bronze platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323914,
+    "supportingSource": {
+      "page": "Bronze platelegs",
+      "revision": 15320189
+    }
+  },
+  "Bronze platelegs (t)": {
+    "note": "Cosmetic variant of Bronze platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323920,
+    "supportingSource": {
+      "page": "Bronze platelegs",
+      "revision": 15320189
+    }
+  },
+  "Climbing boots": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15322377
+  },
+  "Climbing boots (g)": {
+    "note": "Cosmetic variant of Climbing boots; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15324095,
+    "supportingSource": {
+      "page": "Climbing boots",
+      "revision": 15322377
+    }
+  },
+  "Crystal body (Amlodd)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295199,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal body (Cadarn)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295201,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal body (Crwys)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295202,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal body (Hefin)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295203,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal body (Iorwerth)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295204,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal body (Ithell)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295205,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal body (Trahaearn)": {
+    "note": "Cosmetic variant of Crystal body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295206,
+    "supportingSource": {
+      "page": "Crystal body",
+      "revision": 15322853
+    }
+  },
+  "Crystal helm (Amlodd)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295217,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal helm (Cadarn)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295219,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal helm (Crwys)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295221,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal helm (Hefin)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295223,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal helm (Iorwerth)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295225,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal helm (Ithell)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295213,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal helm (Trahaearn)": {
+    "note": "Cosmetic variant of Crystal helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15295228,
+    "supportingSource": {
+      "page": "Crystal helm",
+      "revision": 15322852
+    }
+  },
+  "Crystal legs (Amlodd)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347091,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Crystal legs (Cadarn)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347089,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Crystal legs (Crwys)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347090,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Crystal legs (Hefin)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347085,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Crystal legs (Iorwerth)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347087,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Crystal legs (Ithell)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347086,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Crystal legs (Trahaearn)": {
+    "note": "Cosmetic variant of Crystal legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "agility": 50,
+      "defence": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15347088,
+    "supportingSource": {
+      "page": "Crystal legs",
+      "revision": 15349440
+    }
+  },
+  "Dagon'hai hat (or)": {
+    "note": "Cosmetic variant of Dagon'hai hat; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "magic": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333862,
+    "supportingSource": {
+      "page": "Dagon'hai hat",
+      "revision": 15189334
+    }
+  },
+  "Dagon'hai robe bottom (or)": {
+    "note": "Cosmetic variant of Dagon'hai robe bottom; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "magic": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15334030,
+    "supportingSource": {
+      "page": "Dagon'hai robe bottom",
+      "revision": 15189332
+    }
+  },
+  "Dagon'hai robe top (or)": {
+    "note": "Cosmetic variant of Dagon'hai robe top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "magic": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15334031,
+    "supportingSource": {
+      "page": "Dagon'hai robe top",
+      "revision": 15189333
+    }
+  },
+  "Dark infinity bottoms": {
+    "note": "Cosmetic variant of Infinity bottoms; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 25,
+      "magic": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186169,
+    "supportingSource": {
+      "page": "Infinity bottoms",
+      "revision": 15259505
+    }
+  },
+  "Dark infinity hat": {
+    "note": "Cosmetic variant of Infinity hat; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 25,
+      "magic": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186170,
+    "supportingSource": {
+      "page": "Infinity hat",
+      "revision": 15326928
+    }
+  },
+  "Dark infinity top": {
+    "note": "Cosmetic variant of Infinity top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 25,
+      "magic": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186171,
+    "supportingSource": {
+      "page": "Infinity top",
+      "revision": 15259502
+    }
+  },
+  "Dinh's blazing bulwark": {
+    "note": "Cosmetic variant of Dinh's bulwark; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 75,
+      "defence": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15298646,
+    "supportingSource": {
+      "page": "Dinh's bulwark",
+      "revision": 15322918
+    }
+  },
+  "Dizana's max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15314611,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Dragon axe (or)": {
+    "note": "Cosmetic variant of Dragon axe; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15211404,
+    "supportingSource": {
+      "page": "Dragon axe",
+      "revision": 15345217
+    }
+  },
+  "Dragon boots (g)": {
+    "note": "Cosmetic variant of Dragon boots; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324809,
+    "supportingSource": {
+      "page": "Dragon boots",
+      "revision": 15322414
+    }
+  },
+  "Dragon chainbody (g)": {
+    "note": "Cosmetic variant of Dragon chainbody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325082,
+    "supportingSource": {
+      "page": "Dragon chainbody",
+      "revision": 15320152
+    }
+  },
+  "Dragon claws (or)": {
+    "note": "Cosmetic variant of Dragon claws; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15334001,
+    "supportingSource": {
+      "page": "Dragon claws",
+      "revision": 15186802
+    }
+  },
+  "Dragon defender (t)": {
+    "note": "Cosmetic variant of Dragon defender; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260372,
+    "supportingSource": {
+      "page": "Dragon defender",
+      "revision": 15326123
+    }
+  },
+  "Dragon full helm (g)": {
+    "note": "Cosmetic variant of Dragon full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325079,
+    "supportingSource": {
+      "page": "Dragon full helm",
+      "revision": 15344497
+    }
+  },
+  "Dragon gloves": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15274164
+  },
+  "Dragon harpoon (or)": {
+    "note": "Cosmetic variant of Dragon harpoon; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15211406,
+    "supportingSource": {
+      "page": "Dragon harpoon",
+      "revision": 15188066
+    }
+  },
+  "Dragon hunter crossbow (t)": {
+    "note": "Cosmetic variant of Dragon hunter crossbow; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15190363,
+    "supportingSource": {
+      "page": "Dragon hunter crossbow",
+      "revision": 15188068
+    }
+  },
+  "Dragon kiteshield (g)": {
+    "note": "Cosmetic variant of Dragon kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325085,
+    "supportingSource": {
+      "page": "Dragon kiteshield",
+      "revision": 15346817
+    }
+  },
+  "Dragon pickaxe (or)": {
+    "note": "Cosmetic variant of Dragon pickaxe; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15313222,
+    "supportingSource": {
+      "page": "Dragon pickaxe",
+      "revision": 15343679
+    }
+  },
+  "Dragon platebody (g)": {
+    "note": "Cosmetic variant of Dragon platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325080,
+    "supportingSource": {
+      "page": "Dragon platebody",
+      "revision": 15346808
+    }
+  },
+  "Dragon platelegs (g)": {
+    "note": "Cosmetic variant of Dragon platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325084,
+    "supportingSource": {
+      "page": "Dragon platelegs",
+      "revision": 15346812
+    }
+  },
+  "Dragon plateskirt (g)": {
+    "note": "Cosmetic variant of Dragon plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325083,
+    "supportingSource": {
+      "page": "Dragon plateskirt",
+      "revision": 15320153
+    }
+  },
+  "Dragon scimitar (or)": {
+    "note": "Cosmetic variant of Dragon scimitar; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325096,
+    "supportingSource": {
+      "page": "Dragon scimitar",
+      "revision": 15346820
+    }
+  },
+  "Dragon sq shield (g)": {
+    "note": "Cosmetic variant of Dragon sq shield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15325086,
+    "supportingSource": {
+      "page": "Dragon sq shield",
+      "revision": 15320148
+    }
+  },
+  "Dragon warhammer (or)": {
+    "note": "Cosmetic variant of Dragon warhammer; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "strength": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333861,
+    "supportingSource": {
+      "page": "Dragon warhammer",
+      "revision": 15343202
+    }
+  },
+  "Elder chaos hood (or)": {
+    "note": "Cosmetic variant of Elder chaos hood; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333820,
+    "supportingSource": {
+      "page": "Elder chaos hood",
+      "revision": 15187862
+    }
+  },
+  "Elder chaos robe (or)": {
+    "note": "Cosmetic variant of Elder chaos robe; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333818,
+    "supportingSource": {
+      "page": "Elder chaos robe",
+      "revision": 15187806
+    }
+  },
+  "Elder chaos top (or)": {
+    "note": "Cosmetic variant of Elder chaos top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333819,
+    "supportingSource": {
+      "page": "Elder chaos top",
+      "revision": 15187805
+    }
+  },
+  "Elder maul (or)": {
+    "note": "Cosmetic variant of Elder maul; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "strength": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333764,
+    "supportingSource": {
+      "page": "Elder maul",
+      "revision": 15240979
+    }
+  },
+  "Elemental shield": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320300
+  },
+  "Elidinis' ward (or)": {
+    "note": "Cosmetic variant of Elidinis' ward (f); same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 80,
+      "magic": 80,
+      "prayer": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15191049,
+    "supportingSource": {
+      "page": "Elidinis' ward (f)",
+      "revision": 15190534
+    }
+  },
+  "Elite void robe": {
+    "note": "Elite Void retains all regular Void equip levels. Diary and commendation requirements are acquisition checks.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260481,
+    "supportingSource": {
+      "page": "Elite Void Knight equipment",
+      "revision": 15260639
+    }
+  },
+  "Elite void robe (or)": {
+    "note": "Cosmetic variant of Elite void robe; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260514,
+    "supportingSource": {
+      "page": "Elite void robe",
+      "revision": 15260481
+    }
+  },
+  "Elite void top": {
+    "note": "Elite Void retains all regular Void equip levels. Diary and commendation requirements are acquisition checks.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260476,
+    "supportingSource": {
+      "page": "Elite Void Knight equipment",
+      "revision": 15260639
+    }
+  },
+  "Elite void top (or)": {
+    "note": "Cosmetic variant of Elite void top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260513,
+    "supportingSource": {
+      "page": "Elite void top",
+      "revision": 15260476
+    }
+  },
+  "Fighter torso (or)": {
+    "note": "Cosmetic variant of Fighter torso; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15300651,
+    "supportingSource": {
+      "page": "Fighter torso",
+      "revision": 15260485
+    }
+  },
+  "Fire cape": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320304
+  },
+  "Fire max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15300375,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Frozen abyssal whip": {
+    "note": "Cosmetic variant of Abyssal whip; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15322513,
+    "supportingSource": {
+      "page": "Abyssal whip",
+      "revision": 15326130
+    }
+  },
+  "Green d'hide body": {
+    "note": "Explicit 40 Ranged and Defence equip requirement; Dragon Slayer I remains a separate unlock.",
+    "requirements": {
+      "defence": 40,
+      "ranged": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15322330
+  },
+  "Green d'hide body (g)": {
+    "note": "Cosmetic variant of Green d'hide body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "ranged": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324116,
+    "supportingSource": {
+      "page": "Green d'hide body",
+      "revision": 15322330
+    }
+  },
+  "Green d'hide chaps (g)": {
+    "note": "Cosmetic variant of Green d'hide chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324117,
+    "supportingSource": {
+      "page": "Green d'hide chaps",
+      "revision": 15322329
+    }
+  },
+  "Green d'hide chaps (t)": {
+    "note": "Cosmetic variant of Green d'hide chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324119,
+    "supportingSource": {
+      "page": "Green d'hide chaps",
+      "revision": 15322329
+    }
+  },
+  "Guthix cape": {
+    "note": "God cape equip level; Mage Arena I is a separate unlock.",
+    "requirements": {
+      "magic": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296812,
+    "supportingSource": {
+      "page": "God capes",
+      "revision": 15296608
+    }
+  },
+  "Guthix max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15266980,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Guthix staff": {
+    "note": "The article explicitly connects the 60 Magic acquisition level to wielding.",
+    "requirements": {
+      "magic": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15257302
+  },
+  "Hardleather body": {
+    "note": "Explicit equipped-in-torso sentence.",
+    "requirements": {
+      "defence": 10,
+      "ranged": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15322419
+  },
+  "Heavy ballista (or)": {
+    "note": "Cosmetic variant of Heavy ballista; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15333815,
+    "supportingSource": {
+      "page": "Heavy ballista",
+      "revision": 15224134
+    }
+  },
+  "Helm of Neitiznot (or)": {
+    "note": "Cosmetic variant of Helm of Neitiznot; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 55
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15312832,
+    "supportingSource": {
+      "page": "Helm of Neitiznot",
+      "revision": 15320122
+    }
+  },
+  "Hitpoints cape": {
+    "note": "Skill cape requires 99 in its named skill; regeneration rates are not requirements.",
+    "requirements": {
+      "hitpoints": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15182945
+  },
+  "Holy book": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320125
+  },
+  "Holy book (or)": {
+    "note": "Cosmetic variant of Holy book; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15190725,
+    "supportingSource": {
+      "page": "Holy book",
+      "revision": 15320125
+    }
+  },
+  "Holy ghrazi rapier": {
+    "note": "Cosmetic variant of Ghrazi rapier; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15271944,
+    "supportingSource": {
+      "page": "Ghrazi rapier",
+      "revision": 15299960
+    }
+  },
+  "Holy scythe of vitur": {
+    "note": "Cosmetic variant of Scythe of Vitur; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80,
+      "strength": 90
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15345691,
+    "supportingSource": {
+      "page": "Scythe of Vitur",
+      "revision": 15308013
+    }
+  },
+  "Imbued Guthix cape": {
+    "note": "Imbued god cape equip level verified against the highest-bonuses table; Mage Arena II completion is a separate unlock.",
+    "requirements": {
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296828,
+    "supportingSource": {
+      "page": "Armour/Highest bonuses",
+      "revision": 15344471
+    }
+  },
+  "Imbued Guthix cape (Deadman)": {
+    "note": "Nigel ornament transformation of the imbued god cape; same equip level.",
+    "requirements": {
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296416,
+    "supportingSource": {
+      "page": "Imbued Guthix cape",
+      "revision": 15296828
+    }
+  },
+  "Imbued Guthix max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296508,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Imbued Saradomin cape": {
+    "note": "Imbued god cape equip level verified against the highest-bonuses table; Mage Arena II completion is a separate unlock.",
+    "requirements": {
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296476,
+    "supportingSource": {
+      "page": "Armour/Highest bonuses",
+      "revision": 15344471
+    }
+  },
+  "Imbued Saradomin cape (Deadman)": {
+    "note": "Nigel ornament transformation of the imbued god cape; same equip level.",
+    "requirements": {
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296396,
+    "supportingSource": {
+      "page": "Imbued Saradomin cape",
+      "revision": 15296476
+    }
+  },
+  "Imbued Saradomin max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296576,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Imbued Zamorak cape": {
+    "note": "Imbued god cape equip level verified against the highest-bonuses table; Mage Arena II completion is a separate unlock.",
+    "requirements": {
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296441,
+    "supportingSource": {
+      "page": "Armour/Highest bonuses",
+      "revision": 15344471
+    }
+  },
+  "Imbued Zamorak cape (Deadman)": {
+    "note": "Nigel ornament transformation of the imbued god cape; same equip level.",
+    "requirements": {
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296424,
+    "supportingSource": {
+      "page": "Imbued Zamorak cape",
+      "revision": 15296441
+    }
+  },
+  "Imbued Zamorak max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296542,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Infernal cape": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15326750
+  },
+  "Infernal max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15298601,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Infernal pickaxe (or)": {
+    "note": "Cosmetic variant of Infernal pickaxe; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15239803,
+    "supportingSource": {
+      "page": "Infernal pickaxe",
+      "revision": 15323378
+    }
+  },
+  "Iron full helm (g)": {
+    "note": "Cosmetic variant of Iron full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323947,
+    "supportingSource": {
+      "page": "Iron full helm",
+      "revision": 15320185
+    }
+  },
+  "Iron full helm (t)": {
+    "note": "Cosmetic variant of Iron full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323955,
+    "supportingSource": {
+      "page": "Iron full helm",
+      "revision": 15320185
+    }
+  },
+  "Iron kiteshield (g)": {
+    "note": "Cosmetic variant of Iron kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323952,
+    "supportingSource": {
+      "page": "Iron kiteshield",
+      "revision": 15320145
+    }
+  },
+  "Iron kiteshield (t)": {
+    "note": "Cosmetic variant of Iron kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 1
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323959,
+    "supportingSource": {
+      "page": "Iron kiteshield",
+      "revision": 15320145
+    }
+  },
+  "Iron platebody (g)": {
+    "note": "Cosmetic variant of Iron platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323948,
+    "supportingSource": {
+      "page": "Iron platebody",
+      "revision": 15320146
+    }
+  },
+  "Iron platebody (t)": {
+    "note": "Cosmetic variant of Iron platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323956,
+    "supportingSource": {
+      "page": "Iron platebody",
+      "revision": 15320146
+    }
+  },
+  "Iron platelegs (g)": {
+    "note": "Cosmetic variant of Iron platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323950,
+    "supportingSource": {
+      "page": "Iron platelegs",
+      "revision": 15320186
+    }
+  },
+  "Iron platelegs (t)": {
+    "note": "Cosmetic variant of Iron platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15323957,
+    "supportingSource": {
+      "page": "Iron platelegs",
+      "revision": 15320186
+    }
+  },
+  "Lava battlestaff (or)": {
+    "note": "Cosmetic variant of Lava battlestaff; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 30,
+      "magic": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15188195,
+    "supportingSource": {
+      "page": "Lava battlestaff",
+      "revision": 15322333
+    }
+  },
+  "Light infinity bottoms": {
+    "note": "Cosmetic variant of Infinity bottoms; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 25,
+      "magic": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186168,
+    "supportingSource": {
+      "page": "Infinity bottoms",
+      "revision": 15259505
+    }
+  },
+  "Light infinity hat": {
+    "note": "Cosmetic variant of Infinity hat; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 25,
+      "magic": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186167,
+    "supportingSource": {
+      "page": "Infinity hat",
+      "revision": 15326928
+    }
+  },
+  "Light infinity top": {
+    "note": "Cosmetic variant of Infinity top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 25,
+      "magic": 50
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186152,
+    "supportingSource": {
+      "page": "Infinity top",
+      "revision": 15259502
+    }
+  },
+  "Lightbearer": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15299656
+  },
+  "Magic staff": {
+    "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+    "requirements": {}
+  },
+  "Magma helm": {
+    "note": "Cosmetic variant of Serpentine helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15276020,
+    "supportingSource": {
+      "page": "Serpentine helm",
+      "revision": 15262696
+    }
+  },
+  "Magus ring": {
+    "note": "No equip-level requirement; must have killed Duke Sucellus. The 90 Magic and 80 Crafting requirements are for creation, not equipping. Boss unlock must be confirmed by the player.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15191288
+  },
+  "Malediction ward (or)": {
+    "note": "Cosmetic variant of Malediction ward; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186424,
+    "supportingSource": {
+      "page": "Malediction ward",
+      "revision": 15210770
+    }
+  },
+  "Masori assembler": {
+    "note": "Cosmetic variant of Ava's assembler; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260306,
+    "supportingSource": {
+      "page": "Ava's assembler",
+      "revision": 15270658
+    }
+  },
+  "Masori assembler max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260307,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15320227,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Mithril full helm (g)": {
+    "note": "Cosmetic variant of Mithril full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324148,
+    "supportingSource": {
+      "page": "Mithril full helm",
+      "revision": 15320197
+    }
+  },
+  "Mithril full helm (t)": {
+    "note": "Cosmetic variant of Mithril full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324154,
+    "supportingSource": {
+      "page": "Mithril full helm",
+      "revision": 15320197
+    }
+  },
+  "Mithril kiteshield (g)": {
+    "note": "Cosmetic variant of Mithril kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324153,
+    "supportingSource": {
+      "page": "Mithril kiteshield",
+      "revision": 15182828
+    }
+  },
+  "Mithril kiteshield (t)": {
+    "note": "Cosmetic variant of Mithril kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324158,
+    "supportingSource": {
+      "page": "Mithril kiteshield",
+      "revision": 15182828
+    }
+  },
+  "Mithril platebody (g)": {
+    "note": "Cosmetic variant of Mithril platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324149,
+    "supportingSource": {
+      "page": "Mithril platebody",
+      "revision": 15320204
+    }
+  },
+  "Mithril platebody (t)": {
+    "note": "Cosmetic variant of Mithril platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324155,
+    "supportingSource": {
+      "page": "Mithril platebody",
+      "revision": 15320204
+    }
+  },
+  "Mithril platelegs (g)": {
+    "note": "Cosmetic variant of Mithril platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324150,
+    "supportingSource": {
+      "page": "Mithril platelegs",
+      "revision": 15320205
+    }
+  },
+  "Mithril platelegs (t)": {
+    "note": "Cosmetic variant of Mithril platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324156,
+    "supportingSource": {
+      "page": "Mithril platelegs",
+      "revision": 15320205
+    }
+  },
+  "Mithril plateskirt (g)": {
+    "note": "Cosmetic variant of Mithril plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324151,
+    "supportingSource": {
+      "page": "Mithril plateskirt",
+      "revision": 15320206
+    }
+  },
+  "Mithril plateskirt (t)": {
+    "note": "Cosmetic variant of Mithril plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324157,
+    "supportingSource": {
+      "page": "Mithril plateskirt",
+      "revision": 15320206
+    }
+  },
+  "Mystic boots (or)": {
+    "note": "Cosmetic variant of Mystic boots; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15236312,
+    "supportingSource": {
+      "page": "Mystic boots",
+      "revision": 15186321
+    }
+  },
+  "Mystic gloves (or)": {
+    "note": "Cosmetic variant of Mystic gloves; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15236313,
+    "supportingSource": {
+      "page": "Mystic gloves",
+      "revision": 15322511
+    }
+  },
+  "Mystic hat (or)": {
+    "note": "Cosmetic variant of Mystic hat; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15236314,
+    "supportingSource": {
+      "page": "Mystic hat",
+      "revision": 15322508
+    }
+  },
+  "Mystic lava staff (or)": {
+    "note": "Cosmetic variant of Mystic lava staff; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 40,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15188196,
+    "supportingSource": {
+      "page": "Mystic lava staff",
+      "revision": 15184314
+    }
+  },
+  "Mystic robe bottom (or)": {
+    "note": "Cosmetic variant of Mystic robe bottom; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15236315,
+    "supportingSource": {
+      "page": "Mystic robe bottom",
+      "revision": 15322454
+    }
+  },
+  "Mystic robe top (or)": {
+    "note": "Cosmetic variant of Mystic robe top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15236316,
+    "supportingSource": {
+      "page": "Mystic robe top",
+      "revision": 15322464
+    }
+  },
+  "Mystic steam staff (or)": {
+    "note": "Cosmetic variant of Mystic steam staff; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 40,
+      "magic": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15216015,
+    "supportingSource": {
+      "page": "Mystic steam staff",
+      "revision": 15184506
+    }
+  },
+  "Mythical cape": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15242067
+  },
+  "Mythical max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15262599,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Necklace of anguish (or)": {
+    "note": "Cosmetic variant of Necklace of anguish; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "hitpoints": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15188731,
+    "supportingSource": {
+      "page": "Necklace of anguish",
+      "revision": 15301384
+    }
+  },
+  "Occult necklace (or)": {
+    "note": "Cosmetic variant of Occult necklace; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "magic": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15187781,
+    "supportingSource": {
+      "page": "Occult necklace",
+      "revision": 15314514
+    }
+  },
+  "Odium ward (or)": {
+    "note": "Cosmetic variant of Odium ward; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15275647,
+    "supportingSource": {
+      "page": "Odium ward",
+      "revision": 15195167
+    }
+  },
+  "Osmumten's fang (or)": {
+    "note": "Cosmetic variant of Osmumten's fang; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 82
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15224046,
+    "supportingSource": {
+      "page": "Osmumten's fang",
+      "revision": 15236139
+    }
+  },
+  "Radiant oathplate chest": {
+    "note": "Cosmetic variant of Oathplate chest; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 78
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15193340,
+    "supportingSource": {
+      "page": "Oathplate chest",
+      "revision": 15293122
+    }
+  },
+  "Radiant oathplate helm": {
+    "note": "Cosmetic variant of Oathplate helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 78
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15193341,
+    "supportingSource": {
+      "page": "Oathplate helm",
+      "revision": 15193334
+    }
+  },
+  "Radiant oathplate legs": {
+    "note": "Cosmetic variant of Oathplate legs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 78
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15193342,
+    "supportingSource": {
+      "page": "Oathplate legs",
+      "revision": 15293282
+    }
+  },
+  "Red d'hide body (g)": {
+    "note": "Cosmetic variant of Red d'hide body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "ranged": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324869,
+    "supportingSource": {
+      "page": "Red d'hide body",
+      "revision": 15241560
+    }
+  },
+  "Red d'hide body (t)": {
+    "note": "Cosmetic variant of Red d'hide body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40,
+      "ranged": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324871,
+    "supportingSource": {
+      "page": "Red d'hide body",
+      "revision": 15241560
+    }
+  },
+  "Red d'hide chaps (g)": {
+    "note": "Cosmetic variant of Red d'hide chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324870,
+    "supportingSource": {
+      "page": "Red d'hide chaps",
+      "revision": 15322404
+    }
+  },
+  "Red d'hide chaps (t)": {
+    "note": "Cosmetic variant of Red d'hide chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324872,
+    "supportingSource": {
+      "page": "Red d'hide chaps",
+      "revision": 15322404
+    }
+  },
+  "Ring of life": {
+    "note": "Reviewed jewellery equip-level requirements: none. Enchantment/crafting levels and passive-effect numbers are not equip requirements.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15351837
+  },
+  "Ring of shadows": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15278103
+  },
+  "Ring of suffering (i)": {
+    "note": "Imbuing does not remove the base ring Hitpoints requirement. Covers charged/recoil and all imbuing-source IDs on this page.",
+    "requirements": {
+      "hitpoints": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15345636,
+    "supportingSource": {
+      "page": "Ring of suffering",
+      "revision": 15282446
+    }
+  },
+  "Ring of the gods": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15321597
+  },
+  "Ring of the gods (i)": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345637
+  },
+  "Rolling pin": {
+    "note": "40 Attack to wield; Recipe for Disaster subquests remain a separate unlock.",
+    "requirements": {
+      "attack": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15322429
+  },
+  "Rune crossbow (or)": {
+    "note": "Cosmetic variant of Rune crossbow; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 61
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15190720,
+    "supportingSource": {
+      "page": "Rune crossbow",
+      "revision": 15320210
+    }
+  },
+  "Rune defender (t)": {
+    "note": "Cosmetic variant of Rune defender; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 40,
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260382,
+    "supportingSource": {
+      "page": "Rune defender",
+      "revision": 15326694
+    }
+  },
+  "Rune full helm (g)": {
+    "note": "Cosmetic variant of Rune full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324892,
+    "supportingSource": {
+      "page": "Rune full helm",
+      "revision": 15346892
+    }
+  },
+  "Rune full helm (t)": {
+    "note": "Cosmetic variant of Rune full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324909,
+    "supportingSource": {
+      "page": "Rune full helm",
+      "revision": 15346892
+    }
+  },
+  "Rune kiteshield (g)": {
+    "note": "Cosmetic variant of Rune kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324897,
+    "supportingSource": {
+      "page": "Rune kiteshield",
+      "revision": 15320217
+    }
+  },
+  "Rune kiteshield (t)": {
+    "note": "Cosmetic variant of Rune kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324913,
+    "supportingSource": {
+      "page": "Rune kiteshield",
+      "revision": 15320217
+    }
+  },
+  "Rune platebody (g)": {
+    "note": "Cosmetic variant of Rune platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324893,
+    "supportingSource": {
+      "page": "Rune platebody",
+      "revision": 15346837
+    }
+  },
+  "Rune platebody (t)": {
+    "note": "Cosmetic variant of Rune platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324910,
+    "supportingSource": {
+      "page": "Rune platebody",
+      "revision": 15346837
+    }
+  },
+  "Rune platelegs (g)": {
+    "note": "Cosmetic variant of Rune platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324895,
+    "supportingSource": {
+      "page": "Rune platelegs",
+      "revision": 15346850
+    }
+  },
+  "Rune platelegs (t)": {
+    "note": "Cosmetic variant of Rune platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324912,
+    "supportingSource": {
+      "page": "Rune platelegs",
+      "revision": 15346850
+    }
+  },
+  "Rune plateskirt (g)": {
+    "note": "Cosmetic variant of Rune plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324894,
+    "supportingSource": {
+      "page": "Rune plateskirt",
+      "revision": 15320228
+    }
+  },
+  "Rune plateskirt (t)": {
+    "note": "Cosmetic variant of Rune plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 40
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15324911,
+    "supportingSource": {
+      "page": "Rune plateskirt",
+      "revision": 15320228
+    }
+  },
+  "Sanguine scythe of vitur": {
+    "note": "Cosmetic variant of Scythe of Vitur; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 80,
+      "strength": 90
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15345737,
+    "supportingSource": {
+      "page": "Scythe of Vitur",
+      "revision": 15308013
+    }
+  },
+  "Sanguine torva full helm": {
+    "note": "Cosmetic variant of Torva full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15232194,
+    "supportingSource": {
+      "page": "Torva full helm",
+      "revision": 15190626
+    }
+  },
+  "Sanguine torva platebody": {
+    "note": "Cosmetic variant of Torva platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15191430,
+    "supportingSource": {
+      "page": "Torva platebody",
+      "revision": 15190627
+    }
+  },
+  "Sanguine torva platelegs": {
+    "note": "Cosmetic variant of Torva platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 80
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15191431,
+    "supportingSource": {
+      "page": "Torva platelegs",
+      "revision": 15190628
+    }
+  },
+  "Saradomin cape": {
+    "note": "God cape equip level; Mage Arena I is a separate unlock.",
+    "requirements": {
+      "magic": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296672,
+    "supportingSource": {
+      "page": "God capes",
+      "revision": 15296608
+    }
+  },
+  "Saradomin godsword (or)": {
+    "note": "Cosmetic variant of Saradomin godsword; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15187786,
+    "supportingSource": {
+      "page": "Saradomin godsword",
+      "revision": 15231951
+    }
+  },
+  "Saradomin max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15266977,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Saradomin staff": {
+    "note": "The article explicitly connects the 60 Magic acquisition level to wielding.",
+    "requirements": {
+      "magic": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15257301
+  },
+  "Seers ring": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15183210
+  },
+  "Seers ring (i)": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345650
+  },
+  "Staff": {
+    "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+    "requirements": {}
+  },
+  "Staff of air": {
+    "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+    "requirements": {}
+  },
+  "Staff of earth": {
+    "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+    "requirements": {}
+  },
+  "Staff of fire": {
+    "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+    "requirements": {}
+  },
+  "Staff of water": {
+    "note": "Entry-level staff; equipping is distinct from spell casting requirements.",
+    "requirements": {}
+  },
+  "Steam battlestaff (or)": {
+    "note": "Cosmetic variant of Steam battlestaff; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 30,
+      "magic": 30
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186419,
+    "supportingSource": {
+      "page": "Steam battlestaff",
+      "revision": 15299046
+    }
+  },
+  "Steel full helm (g)": {
+    "note": "Cosmetic variant of Steel full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323973,
+    "supportingSource": {
+      "page": "Steel full helm",
+      "revision": 15320156
+    }
+  },
+  "Steel full helm (t)": {
+    "note": "Cosmetic variant of Steel full helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323978,
+    "supportingSource": {
+      "page": "Steel full helm",
+      "revision": 15320156
+    }
+  },
+  "Steel kiteshield (g)": {
+    "note": "Cosmetic variant of Steel kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323977,
+    "supportingSource": {
+      "page": "Steel kiteshield",
+      "revision": 15320256
+    }
+  },
+  "Steel kiteshield (t)": {
+    "note": "Cosmetic variant of Steel kiteshield; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323982,
+    "supportingSource": {
+      "page": "Steel kiteshield",
+      "revision": 15320256
+    }
+  },
+  "Steel platebody (g)": {
+    "note": "Cosmetic variant of Steel platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323974,
+    "supportingSource": {
+      "page": "Steel platebody",
+      "revision": 15320258
+    }
+  },
+  "Steel platebody (t)": {
+    "note": "Cosmetic variant of Steel platebody; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323979,
+    "supportingSource": {
+      "page": "Steel platebody",
+      "revision": 15320258
+    }
+  },
+  "Steel platelegs (g)": {
+    "note": "Cosmetic variant of Steel platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323975,
+    "supportingSource": {
+      "page": "Steel platelegs",
+      "revision": 15320159
+    }
+  },
+  "Steel platelegs (t)": {
+    "note": "Cosmetic variant of Steel platelegs; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323980,
+    "supportingSource": {
+      "page": "Steel platelegs",
+      "revision": 15320159
+    }
+  },
+  "Steel plateskirt (g)": {
+    "note": "Cosmetic variant of Steel plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323976,
+    "supportingSource": {
+      "page": "Steel plateskirt",
+      "revision": 15320261
+    }
+  },
+  "Steel plateskirt (t)": {
+    "note": "Cosmetic variant of Steel plateskirt; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 5
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323981,
+    "supportingSource": {
+      "page": "Steel plateskirt",
+      "revision": 15320261
+    }
+  },
+  "Studded body (g)": {
+    "note": "Cosmetic variant of Studded body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "ranged": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323985,
+    "supportingSource": {
+      "page": "Studded body",
+      "revision": 15322400
+    }
+  },
+  "Studded body (t)": {
+    "note": "Cosmetic variant of Studded body; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 20,
+      "ranged": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323983,
+    "supportingSource": {
+      "page": "Studded body",
+      "revision": 15322400
+    }
+  },
+  "Studded chaps (g)": {
+    "note": "Cosmetic variant of Studded chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323986,
+    "supportingSource": {
+      "page": "Studded chaps",
+      "revision": 15322369
+    }
+  },
+  "Studded chaps (t)": {
+    "note": "Cosmetic variant of Studded chaps; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "ranged": 20
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15323984,
+    "supportingSource": {
+      "page": "Studded chaps",
+      "revision": 15322369
+    }
+  },
+  "Tanzanite helm": {
+    "note": "Cosmetic variant of Serpentine helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15186816,
+    "supportingSource": {
+      "page": "Serpentine helm",
+      "revision": 15262696
+    }
+  },
+  "Tormented bracelet (or)": {
+    "note": "Cosmetic variant of Tormented bracelet; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "hitpoints": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15189235,
+    "supportingSource": {
+      "page": "Tormented bracelet",
+      "revision": 15301600
+    }
+  },
+  "Treasonous ring": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15186154
+  },
+  "Treasonous ring (i)": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345657
+  },
+  "Twisted ancestral hat": {
+    "note": "Cosmetic variant of Ancestral hat; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 65,
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15189722,
+    "supportingSource": {
+      "page": "Ancestral hat",
+      "revision": 15188076
+    }
+  },
+  "Twisted ancestral robe bottom": {
+    "note": "Cosmetic variant of Ancestral robe bottom; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 65,
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15189724,
+    "supportingSource": {
+      "page": "Ancestral robe bottom",
+      "revision": 15188078
+    }
+  },
+  "Twisted ancestral robe top": {
+    "note": "Cosmetic variant of Ancestral robe top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "defence": 65,
+      "magic": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15189723,
+    "supportingSource": {
+      "page": "Ancestral robe top",
+      "revision": 15188077
+    }
+  },
+  "Tyrannical ring": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15206550
+  },
+  "Tyrannical ring (i)": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345661
+  },
+  "Tzhaar-ket-om (t)": {
+    "note": "Cosmetic variant of Tzhaar-ket-om; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "strength": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15189253,
+    "supportingSource": {
+      "page": "Tzhaar-ket-om",
+      "revision": 15285154
+    }
+  },
+  "Ultor ring": {
+    "note": "No equip-level requirement; must have killed Vardorvis. The 90 Magic and 80 Crafting requirements are for creation, not equipping. Boss unlock must be confirmed by the player.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15191287
+  },
+  "Unholy book": {
+    "note": "Reviewed owned reward: no separate equip-level requirement. Quest/minigame unlocks remain player checks; acquisition XP and blessing/casting levels are not equip levels.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15320126
+  },
+  "Unholy book (or)": {
+    "note": "Cosmetic variant of Unholy book; same equip levels. Both item and base article revisions retained.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15190726,
+    "supportingSource": {
+      "page": "Unholy book",
+      "revision": 15320126
+    }
+  },
+  "Venator ring": {
+    "note": "No equip-level requirement; must have killed the Leviathan. The 90 Magic and 80 Crafting requirements are for creation, not equipping. Boss unlock must be confirmed by the player.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15266325
+  },
+  "Void knight gloves (or)": {
+    "note": "Cosmetic variant of Void knight gloves; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260512,
+    "supportingSource": {
+      "page": "Void knight gloves",
+      "revision": 15304461
+    }
+  },
+  "Void knight robe (or)": {
+    "note": "Cosmetic variant of Void knight robe; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260511,
+    "supportingSource": {
+      "page": "Void knight robe",
+      "revision": 15260478
+    }
+  },
+  "Void knight top (or)": {
+    "note": "Cosmetic variant of Void knight top; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260510,
+    "supportingSource": {
+      "page": "Void knight top",
+      "revision": 15260473
+    }
+  },
+  "Void mage helm (or)": {
+    "note": "Cosmetic variant of Void mage helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260509,
+    "supportingSource": {
+      "page": "Void mage helm",
+      "revision": 15260467
+    }
+  },
+  "Void melee helm (or)": {
+    "note": "Cosmetic variant of Void melee helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260507,
+    "supportingSource": {
+      "page": "Void melee helm",
+      "revision": 15260466
+    }
+  },
+  "Void ranger helm (or)": {
+    "note": "Cosmetic variant of Void ranger helm; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 42,
+      "defence": 42,
+      "hitpoints": 42,
+      "magic": 42,
+      "prayer": 22,
+      "ranged": 42,
+      "strength": 42
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15260508,
+    "supportingSource": {
+      "page": "Void ranger helm",
+      "revision": 15260468
+    }
+  },
+  "Void seal": {
+    "note": "Article explicitly says this seal does not require regular Void levels to buy and wear. Pest Control use is separate.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15184504
+  },
+  "Volcanic abyssal whip": {
+    "note": "Cosmetic variant of Abyssal whip; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15322515,
+    "supportingSource": {
+      "page": "Abyssal whip",
+      "revision": 15326130
+    }
+  },
+  "Warrior ring": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15183262
+  },
+  "Warrior ring (i)": {
+    "note": "Reviewed ring equip-level requirements: none. Imbuing, crafting, quests and account restrictions are separate from skill checks.",
+    "requirements": {},
+    "reviewed": "2026-09-20",
+    "revision": 15345658
+  },
+  "Zamorak cape": {
+    "note": "God cape equip level; Mage Arena I is a separate unlock.",
+    "requirements": {
+      "magic": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15296837,
+    "supportingSource": {
+      "page": "God capes",
+      "revision": 15296608
+    }
+  },
+  "Zamorak godsword (or)": {
+    "note": "Cosmetic variant of Zamorak godsword; same equip levels. Both item and base article revisions retained.",
+    "requirements": {
+      "attack": 75
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15187787,
+    "supportingSource": {
+      "page": "Zamorak godsword",
+      "revision": 15327836
+    }
+  },
+  "Zamorak max cape": {
+    "note": "Max cape and combined cape variants require 99 in every skill, including Sailing; cosmetic combination does not remove the max requirement.",
+    "requirements": {
+      "agility": 99,
+      "attack": 99,
+      "construction": 99,
+      "cooking": 99,
+      "crafting": 99,
+      "defence": 99,
+      "farming": 99,
+      "firemaking": 99,
+      "fishing": 99,
+      "fletching": 99,
+      "herblore": 99,
+      "hitpoints": 99,
+      "hunter": 99,
+      "magic": 99,
+      "mining": 99,
+      "prayer": 99,
+      "ranged": 99,
+      "runecraft": 99,
+      "sailing": 99,
+      "slayer": 99,
+      "smithing": 99,
+      "strength": 99,
+      "thieving": 99,
+      "woodcutting": 99
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15266979,
+    "supportingSource": {
+      "page": "Max cape",
+      "revision": 15320227
+    }
+  },
+  "Zamorak staff": {
+    "note": "The article explicitly connects the 60 Magic acquisition level to wielding.",
+    "requirements": {
+      "magic": 60
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15257303
+  },
+  "Zamorakian hasta": {
+    "note": "Article states 70 Attack requirement separately from the wielding sentence. Barbarian Training remains a player check.",
+    "requirements": {
+      "attack": 70
+    },
+    "reviewed": "2026-09-20",
+    "revision": 15264893
+  }
+}

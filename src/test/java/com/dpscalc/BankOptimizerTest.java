@@ -15,6 +15,35 @@ import java.util.concurrent.CancellationException;
 public class BankOptimizerTest {
     private final EquipmentPreparationFacade equipment = new EquipmentPreparationFacade();
 
+    @Test
+    public void bankedMagicUpgradesWinWithoutUnverifiedOptIn() {
+        for (int ring : new int[] {26767, 28313}) {
+            BankOptimizer.Result result = new BankOptimizer(equipment).search(
+                    new BankOptimizer.Request(new Scenario.Loadout(), target(),
+                            owned(11905, 6111, 7462, 6737, 31106, 21791, ring),
+                            Set.of(), false, "Magic"), n -> {});
+            int[] ids = result.alternatives.get(0).player.getEquippedItemIds();
+            assertEquals(21791, ids[1]);
+            assertEquals(31106, ids[9]);
+            assertEquals(ring, ids[12]);
+            assertTrue(result.exclusions.stream().noneMatch(s -> s.contains("requirements unverified")));
+        }
+    }
+
+    @Test
+    public void verifiedGauntletsStillRequireNinetyHitpoints() {
+        OwnedEquipment bank = owned(11905, 7462, 31106);
+        Map<String, Integer> levels = new HashMap<>(bank.levels);
+        levels.put("hitpoints", 89);
+        bank = new OwnedEquipment(bank.profile, bank.revision, bank.bankScannedAt,
+                bank.bank, bank.inventory, bank.equipped, levels);
+        BankOptimizer.Result result = new BankOptimizer(equipment).search(
+                new BankOptimizer.Request(new Scenario.Loadout(), target(), bank,
+                        Set.of(), true, "Magic"), n -> {});
+        assertEquals(7462, result.alternatives.get(0).player.getEquippedItemIds()[9]);
+        assertTrue(result.exclusions.stream().anyMatch(s -> s.contains("#31106") && s.contains("90 hitpoints")));
+    }
+
     private OwnedEquipment owned(int... ids) {
         Map<Integer, Integer> items = new TreeMap<>();
         for (int id : ids) items.put(id, 1);

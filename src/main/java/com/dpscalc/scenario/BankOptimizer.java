@@ -370,6 +370,9 @@ public final class BankOptimizer {
                                 + " confirmation. Manual casting, Magic Dart and support-spell"
                                 + " rotations are not searched.");
             result.exclusions.add(
+                    "Equipment eligibility checks skill levels only. Quest, boss-kill and account"
+                            + " unlocks must be confirmed separately.");
+            result.exclusions.add(
                     request.includeKnownLimitations
                             ? "Known formula limitations were allowed; flagged suggestions need"
                                     + " review."

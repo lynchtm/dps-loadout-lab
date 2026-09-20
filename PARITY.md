@@ -10,6 +10,7 @@ python tools/acquire-wiki-facts.py --cache build/facts
 python tools/refresh-spell-facts.py --cache build/facts
 python tools/acquire-wiki-facts.py --cache build/facts --equipment
 python tools/refresh-requirement-facts.py --cache build/facts
+python -m unittest discover -s tools -p test_requirement_facts.py
 python tools/refresh-style-facts.py --cache build/facts --fetch
 python tools/audit-independent-release.py
 ```
