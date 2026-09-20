@@ -2,10 +2,9 @@ package com.dpscalc;
 
 import static org.junit.Assert.*;
 
-import com.loadoutlab.model.*;
+import com.dpscalc.scenario.*;
 import com.loadoutlab.data.*;
 import com.loadoutlab.equipment.*;
-import com.dpscalc.scenario.*;
 import com.loadoutlab.model.*;
 
 import org.junit.Test;
@@ -52,6 +51,88 @@ public class BankOptimizerTest {
         m.setHitpoints(100);
         m.setDefenceLevel(150);
         return m;
+    }
+
+    @Test
+    public void berserkerRingsAreEligibleWithoutUnverifiedRequirements() {
+        BankOptimizer optimizer = new BankOptimizer(equipment);
+        for (int ring : new int[] {6737, 11773, 25264, 26770}) {
+            BankOptimizer.Result result =
+                    optimizer.search(
+                            new BankOptimizer.Request(
+                                    new Scenario.Loadout(),
+                                    target(),
+                                    owned(4151, ring),
+                                    Set.of(),
+                                    false),
+                            n -> {});
+            assertEquals(
+                    "Bank ring " + ring,
+                    ring,
+                    result.alternatives.get(0).player.getEquippedItemIds()[12]);
+        }
+    }
+
+    @Test
+    public void boundedSearchRecoversWhenHeuristicArmourHasUnsupportedMechanics() {
+        Scenario.Loadout base = new Scenario.Loadout();
+        base.player.getEquippedItemIds()[0] = 29028;
+        base.player.getEquippedItemIds()[4] = 29022;
+        base.player.getEquippedItemIds()[7] = 29025;
+        BankOptimizer.Result result =
+                new BankOptimizer(equipment)
+                        .search(
+                                new BankOptimizer.Request(
+                                        base,
+                                        target(),
+                                        owned(4151, 29028, 29022, 29025, 1127, 1079, 1163, 11773),
+                                        Set.of(),
+                                        true),
+                                n -> {},
+                                300,
+                                15000);
+        assertFalse(result.exhaustive);
+        assertEquals(4151, result.alternatives.get(0).player.getWeaponId());
+        assertEquals(11773, result.alternatives.get(0).player.getEquippedItemIds()[12]);
+        assertTrue(result.calculations.get(0).limitations.isEmpty());
+    }
+
+    @Test
+    public void raidFailureExplainsOptInAndDoesNotPoisonLaterSearches() {
+        BankOptimizer optimizer = new BankOptimizer(equipment);
+        MonsterStats olm = target();
+        olm.setName("Great Olm (Right hand)");
+        olm.getAttributes().add(MonsterAttribute.XERICIAN);
+        Scenario.Loadout base = new Scenario.Loadout();
+        String before = Scenario.JSON.toJson(base);
+        try {
+            optimizer.search(
+                    new BankOptimizer.Request(base, olm, owned(4151), Set.of(), false), n -> {});
+            fail("Raid estimates require explicit opt-in");
+        } catch (IllegalArgumentException expected) {
+            assertTrue(expected.getMessage().contains("Great Olm"));
+            assertTrue(expected.getMessage().contains("Include known formula limitations"));
+        }
+        BankOptimizer.Result raid =
+                optimizer.search(
+                        new BankOptimizer.Request(
+                                base,
+                                olm,
+                                owned(4151),
+                                Set.of(),
+                                false,
+                                "Melee",
+                                base,
+                                new Encounter(),
+                                true),
+                        n -> {});
+        assertFalse(raid.calculations.get(0).limitations.isEmpty());
+        BankOptimizer.Result ordinary =
+                optimizer.search(
+                        new BankOptimizer.Request(base, target(), owned(4151), Set.of(), false),
+                        n -> {});
+        assertTrue(ordinary.calculations.get(0).limitations.isEmpty());
+        assertEquals(before, Scenario.JSON.toJson(base));
     }
 
     @Test

@@ -10,9 +10,15 @@ public final class CoverageWarnings {
     private CoverageWarnings() {}
 
     public static List<String> forState(PlayerState p, MonsterStats m) {
+        List<String> warnings = forTarget(m);
+        String w = Objects.toString(p.getWeaponName(), "").toLowerCase(Locale.ROOT);
+        addEquipmentWarnings(p, w, warnings);
+        return warnings;
+    }
+
+    public static List<String> forTarget(MonsterStats m) {
         List<String> warnings = new ArrayList<>();
-        String w = Objects.toString(p.getWeaponName(), "").toLowerCase(Locale.ROOT),
-                name = Objects.toString(m.getName(), "").toLowerCase(Locale.ROOT);
+        String name = Objects.toString(m.getName(), "").toLowerCase(Locale.ROOT);
         if (m.hasAttribute(MonsterAttribute.XERICIAN))
             warnings.add(
                     "Chambers of Xeric: party/Challenge Mode scaling and encounter-specific damage"
@@ -35,6 +41,10 @@ public final class CoverageWarnings {
             warnings.add(
                     "Encounter-specific phases, protection and changing defence are not simulated."
                             + " Results use the selected static target stats.");
+        return warnings;
+    }
+
+    private static void addEquipmentWarnings(PlayerState p, String w, List<String> warnings) {
         if (w.contains("dual macuahuitl")
                 || w.contains("torag")
                 || w.contains("sulphur blades")
@@ -54,6 +64,5 @@ public final class CoverageWarnings {
             warnings.add(
                     "Barrows set proc distributions are estimates pending independent multi-hit"
                             + " validation.");
-        return warnings;
     }
 }

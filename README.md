@@ -101,10 +101,15 @@ stacking, movement, respawns, looting or mixed monster stats.
 
 **Advanced options** contains slot locks and two independent opt-ins:
 
+- **Lock Head**, **Lock Ring**, and the other slot locks keep the starting draft's item,
+  including an empty slot. Leave them unchecked to search those bank slots; **Unlock all
+  slots** clears the locks without changing the two opt-ins.
 - **Include unverified requirements** permits missing requirement data; it never bypasses
   known unmet real-level requirements. Currently equipped items have observed eligibility.
 - **Include known formula limitations** permits candidates flagged by COVERAGE.md. They are
   excluded by default; manual comparison still permits them with visible limitations.
+  Targets such as Great Olm explain this requirement before searching. Opting in produces
+  estimates, not a complete raid/phase simulation; changing targets allows a fresh search.
 
 Bank/inventory/equipped quantities are combined per character. Placeholders are ignored;
 noted identities are normalized; charged variants remain distinct. Non-combat weapons and
@@ -112,7 +117,7 @@ inactive variants are excluded. Melee/Magic exclude projectile ammo; ranged reta
 compatible ammo. Owned blessings can break DPS ties. Required monster gear is not inferred
 universally. Blowpipes require an explicit loaded-dart assumption in Settings.
 
-Small eligible pools are enumerated. Large pools use weapon/set/Wiki seeds and slot
+Small eligible pools are enumerated. Large pools use minimal-gear/weapon/set/Wiki seeds and slot
 refinement, bounded by 20,000 scores or about 15 seconds plus finalist analysis. **Best
 found** is not a global maximum. **All eligible combinations checked** applies only to the
 eligible pool and this model. Equal DPS uses defensive/prayer bonuses and stable ordering.
