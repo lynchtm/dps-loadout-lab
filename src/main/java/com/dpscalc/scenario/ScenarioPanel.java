@@ -30,6 +30,7 @@ public final class ScenarioPanel extends PluginPanel {
     private String calculatedKey;
     private String requestedKey;
     private Scenario.Loadout liveOwner;
+    private Scenario.Loadout menuPlayerLoadout;
     private final EquipmentPreparationFacade equipment;
     private final ThreadPoolExecutor worker =
             new ThreadPoolExecutor(
@@ -405,6 +406,7 @@ public final class ScenarioPanel extends PluginPanel {
             calculatedKey = null;
             requestedKey = null;
             liveOwner = null;
+            menuPlayerLoadout = null;
             live.setSelected(false);
             plugin.clearComparison();
             String stored = config.getConfiguration(GROUP, rsProfile, KEY);
@@ -1032,6 +1034,39 @@ public final class ScenarioPanel extends PluginPanel {
         Scenario.mergeLive(selected(), p);
         selected().inventory = plugin.getInventoryIds();
         changed();
+    }
+
+    public void compareCurrentPlayer(MonsterStats target, PlayerState player, int[] inventory) {
+        requireCurrentProfile();
+        if (player == null) {
+            message("Log in to compare your current player.");
+            return;
+        }
+        int index = scenario.loadouts.indexOf(menuPlayerLoadout);
+        if (index < 0 && scenario.loadouts.size() >= 32) {
+            message("Remove a comparison loadout before adding your current player (maximum 32).");
+            return;
+        }
+        Scenario.Loadout draft = new Scenario.Loadout();
+        draft.name = "Current player";
+        Scenario.mergeLive(draft, player);
+        draft.player = Scenario.copy(player);
+        draft.inventory = inventory.clone();
+        if (index < 0) {
+            scenario.loadouts.add(draft);
+            index = scenario.loadouts.size() - 1;
+        } else {
+            scenario.loadouts.set(index, draft);
+            if (liveOwner == menuPlayerLoadout) liveOwner = draft;
+        }
+        menuPlayerLoadout = draft;
+        scenario.selected = index;
+        optimizer.close();
+        wikiTemplates.close();
+        saveTemplatePanel.setVisible(false);
+        templatePicker.setVisible(false);
+        acceptTarget(target);
+        workspace.showLoadout();
     }
 
     public void acceptTarget(MonsterStats target) {

@@ -41,7 +41,9 @@ marks the best result values, including ties.
    per stat. Prayer icons switch off conflicting prayers. Right-click gear to clear a slot.
 4. Choose a target by name/ID, use the current NPC, or create a custom target. Expand
    **Monster stats** to edit its stats, attributes, reductions and conditions. The shared
-   target applies to every comparison. The NPC **Calculate DPS** menu also selects a target.
+   target applies to every comparison. The NPC **Calculate DPS** menu selects a target and
+   adds your current player's loadout to the comparison. Repeated clicks refresh and select
+   that current-player comparison without replacing your other loadouts.
 5. Results update automatically. The default rows are DPS, max hit, accuracy and average
    TTK. Group DPS appears for grouped encounters; special damage appears when available.
    **Show more** reveals secondary metrics; **Expand comparison** opens a wider snapshot.
