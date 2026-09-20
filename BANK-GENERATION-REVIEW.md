@@ -29,11 +29,17 @@ subsequent normal-target generation; the friend's exact bank is unavailable.
   and pass with these fixes.
 - Swing regression covers each advanced opt-in, an empty ring lock, clearing locks,
   an actionable raid error, and successful generation after changing targets.
-- Standalone release build and packaging audit are run before publishing the PR.
+- Standalone release build: the same 405 tests passed. Source/binary packaging
+  audits passed with no problems.
 
 ## In-game checks before a Plugin Hub submission
 
-Not yet performed for this revision. Run the exported development client and:
+On September 20, 2026, the author tested the fixed development client and reported
+that things were working, then authorized publishing the release and opening the
+Plugin Hub update PR. This is author-reported gameplay verification, not automated
+game input. Individual checklist results were not separately recorded.
+
+The requested local test checklist was:
 
 1. Scan the affected bank and generate melee gear with an imbued berserker ring
    available. Confirm its actual variant appears when beneficial.
@@ -44,4 +50,4 @@ Not yet performed for this revision. Run the exported development client and:
 4. Confirm plugin disable/enable, overlay behavior, logout/login and world hopping
    leave the correct character's scan and generation controls usable.
 
-This is a source-review PR; Plugin Hub submission awaits these gameplay checks.
+Plugin Hub submission is authorized following that local test report.
